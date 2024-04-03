@@ -171,6 +171,221 @@ URL Project Report (Github): [https://github.com/Grupo-2-Apps-Web/Project-Report
 
 # Capítulo II Requirements Elicitation & Analysis
 
+## 2.1 Competidores
+
+Para realizar el análisis competitivo hemos tomado en consideración competidores directos e indirectos:
+
+* LogiNext Mile: empresa que ofrece un software de optimización de rutas y planificación de entregas que automatiza y mejora la eficiencia de las operaciones de entrega, garantizando entregas más rápidas y una experiencia superior para el cliente mediante la integración de preferencias del cliente. 
+
+<div align="center">
+  <img src="img/logo_loginext.jpg" alt="Logo de LogiNextMile" width="10%">
+</div>
+
+* Drivin: empresa que busca incrementar la eficiencia de operaciones logísticas como planificación de rutas, sistema de notificaciones y monitoreo a tiempo real.
+
+<div align="center">
+  <img src="img/logo_drivin.jpg" alt="Logo de Driv.in" width="10%">
+</div>
+
+* SimpliRoute: aplicación que utiliza tecnología IA para optimizar rutas de entrega incorporando variables como límite de carga por vehículo, horarios y restricciones territoriales.
+
+<div align="center">
+  <img src="img/logo_simpliroute.png" alt="Logo de SimpliRoute" width="10%">
+</div>
+
+### 2.1.1 Análisis competitivo
+
+<table>
+  <tr>
+    <th colspan="6" valign="top">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="4" valign="top">El objetivo de este análisis es identificar las características de los competidores y encontrar maneras de diferenciarnos.</td>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2" valign="top">Startup y Competidores</td>
+    <td valign="top">CargoWatch</td>
+    <td valign="top">LogiNext Mile</td>
+    <td valign="top">Drivin</td>
+    <td valign="top">SimpliRoute</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="img/logo.png" alt="Logo de CargoWatch" height="100px"></td>
+    <td valign="top"><img src="img/logo_loginext.jpg" alt="Logo de LogiNext Mile" height="100px"></td>
+    <td valign="top"><img src="img/logo_drivin.jpg" alt="Logo de Driv.in" height="100px"></td>
+    <td valign="top"><img src="img/logo_simpliroute.png" alt="Logo de SimpliRoute" height="100px"></td>
+  </tr>
+  <tr>
+    <td rowspan="2" valign="top">Perfil</td>
+    <td valign="top">Overview</td>
+    <td valign="top">Plataforma innovadora que ofrece seguimiento en tiempo real y transparencia en el transporte de carga para empresas</td>
+    <td valign="top">Software integral para optimizar y automatizar operaciones de entrega, incluyendo planificación de rutas y seguimiento en tiempo real</td>
+    <td valign="top">Plataforma para mejorar la eficiencia logística interconectando módulos como planificación de rutas y monitoreo en tiempo real</td>
+    <td valign="top">Aplicación de optimización de rutas de entrega con enfoque en variables como límites de carga y horarios, utilizando tecnología IA</td>
+  </tr>
+  <tr>
+    <td valign="top">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+    <td valign="top">Seguimiento en tiempo real y reportes detallados de gastos como el cálculo de los costos de combustible durante el transporte de carga</td>
+    <td valign="top">Entregas más rápidas, menores costos y una experiencia superior para el cliente</td>
+    <td valign="top">Optimización operativa para entregas rápidas y precisas</td>
+    <td valign="top">Optimización avanzada de rutas mediante IA para reducir costos y tiempos de entrega</td>
+  </tr>
+  <tr>
+    <td rowspan="2" valign="top">Perfil de Marketing</td>
+    <td valign="top">Mercado objetivo</td>
+    <td valign="top">Empresas logísticas de transporte terrestre</td>
+    <td valign="top">Empresas logísticas de transporte terrestre</td>
+    <td valign="top">Empresas logísticas de transporte terrestre</td>
+    <td valign="top">Empresas logísticas de transporte terrestre</td>
+  </tr>
+  <tr>
+    <td valign="top">Estrategias de marketing</td>
+    <td valign="top">Transparencia, seguridad e innovación</td>
+    <td valign="top">Digitalización, optimización y automatización</td>
+    <td valign="top">Empresa joven, dinámica y flexible</td>
+    <td valign="top">Confianza, innovación y simple</td>
+  </tr>
+  <tr>
+    <td rowspan="3" valign="top">Perfil de Producto</td>
+    <td valign="top">Productos & Servicios</td>
+    <td valign="top">Plataforma de seguimiento a tiempo real<br>Reporte detallado de gastos<br>Análisis de datos<br>Comunicación integrada</td>
+    <td valign="top">Automatización de operaciones de entrega<br>Integraciones con terceros</td>
+    <td valign="top">Distintos módulos interconectados como optimizador de ruta, gestión de documentos, disponibilidad de vehículos, etc.</td>
+    <td valign="top">Algoritmo de optimización de rutas<br>Servicio de integración de herramientas de logística</td>
+  </tr>
+  <tr>
+    <td valign="top">Precios & Costos</td>
+    <td valign="top">20$ / mes</td>
+    <td valign="top">50$ / mes</td>
+    <td valign="top">35$ / mes</td>
+    <td valign="top">Lite (40$ / mes)<br>Pro  (Personalizado)<br>Corporate (Personalizado)</td>
+  </tr>
+  <tr>
+    <td valign="top">Canales de distribución (Web y/o Móvil)</td>
+    <td valign="top">Web y/o móvil</td>
+    <td valign="top">Web y/o móvil</td>
+    <td valign="top">Web y/o móvil</td>
+    <td valign="top">Web y/o móvil</td>
+  </tr>
+  <tr>
+    <td rowspan="4" valign="top">Análisis SWOT</td>
+    <td valign="top">Fortalezas</td>
+    <td valign="top">Reportes detallados de gastos, lo que permite a los usuarios analizar y controlar sus costos operativos de manera efectiva</td>
+    <td valign="top">Enfoque en entregas más rápidas, menores costos y una experiencia superior para el cliente</td>
+    <td valign="top">Amplia gama de servicios para mejorar la eficiencia logística</td>
+    <td valign="top">Utilización de tecnología IA para optimizar rutas de entrega</td>
+  </tr>
+  <tr>
+    <td valign="top">Debilidades</td>
+    <td valign="top">Funcionalidades similares a la competencia en el mercado de otras plataformas de seguimiento de carga</td>
+    <td valign="top">Riesgo de dependencia tecnológica y vulnerabilidades a posibles fallas del sistema</td>
+    <td valign="top">Dependencia de la tecnología para la entrega de sus servicios, lo que podría resultar en vulnerabilidades si hay fallas técnicas</td>
+    <td valign="top">Dependencia de la tecnología IA, lo que puede generar preocupaciones sobre la confiabilidad y la precisión de las soluciones</td>
+  </tr>
+  <tr>
+    <td valign="top">Oportunidades</td>
+    <td valign="top">Creciente demanda de transparencia en la cadena de suministro al aumentar la preocupación por la seguridad</td>
+    <td valign="top">Expansión internacional para atender a mercados globales en crecimiento</td>
+    <td valign="top">Posibilidad de expandir sus servicios hacia nuevos segmentos del mercado logístico</td>
+    <td valign="top">Desarrollo de alianzas estratégicas con otras empresas para ofrecer soluciones integradas de logística</td>
+  </tr>
+  <tr>
+    <td valign="top">Amenazas</td>
+    <td valign="top">Creciente amenaza de ataques cibernéticos podría comprometer la seguridad de los datos almacenados en la plataforma</td>
+    <td valign="top">Rápida evolución de la tecnología que requiere una continua inversión en investigación y desarrollo para mantenerse competitivo</td>
+    <td valign="top">Cambios en las regulaciones gubernamentales que podrían afectar la operación de sus servicios de logística</td>
+    <td valign="top">Competidores que desarrollan tecnologías similares de optimización de rutas utilizando IA</td>
+  </tr>
+</table>
+
+### 2.1.2 Estrategias y tácticas frente a competidores
+**Estrategias**
+
+<u>Diferenciación del producto</u>: desarrollaremos características únicas y valor agregado para destacarnos de la competencia en el mercado de seguimiento de carga. Por ejemplo, el reporte de gastos a partir del seguimiento a tiempo real.
+
+<u>Diversificación de servicios</u>: ampliaremos la gama de servicios ofrecidos además del seguimiento a tiempo real como el reporte de gastos y comunicación con los proveedores de servicio.
+
+<u>Personalización de servicios</u>: ofreceremos opciones personalizadas para satisfacer necesidades específicas de los clientes dentro de los planes de pago.
+
+
+**Tácticas**
+
+<u>Implementación de retroalimentación de usuarios</u>: Analizaremos los comentarios de los usuarios para identificar áreas de mejora y priorizar el desarrollo de características que satisfagan las necesidades del mercado.
+
+<u>Monitoreo de la competencia</u>: Realizaremos un seguimiento de las estrategias y tácticas tomadas por los competidores para evaluar oportunidades y estándares en la industria.
+
+<u>Optimización de los motores de búsqueda</u>: Usaremos palabras clave relevantes, metatags adecuadas y contenido de calidad además de campañas de marketing en los motores de búsqueda para posicionarnos mejor y aumentar la visibilidad.
+
+## 2.2 Entrevistas
+
+### 2.2.1 Diseño de entevistas
+
+__Clientes que requieren servicios de transporte__:
+  * ¿Qué tan importante es el servicio de transporte para la empresa donde trabaja?
+
+  * ¿Qué tipos de transporte son necesarios para su empresa?
+
+  * ¿Cuál cree que son los desafíos más grandes para encontrar un buen servicio de transporte para su empresa?
+
+  * ¿Cree que una aplicación de seguimiento en tiempo real sería útil para usted en el proceso de transporte de carga?
+
+  * ¿Considera que una aplicación de seguimiento en tiempo real agregaría valor a su experiencia con el servicio de transporte de carga?
+
+  * ¿Cómo cree que una aplicación de seguimiento en tiempo real podría mejorar la transparencia y la confianza en el proceso de transporte de carga?
+
+  * ¿Estaría dispuesto a probar una aplicación de seguimiento en tiempo real si se ofreciera como parte del servicio de transporte?
+
+  * ¿Qué características adicionales le animaría a utilizar una aplicación de seguimiento en tiempo real para gestionar sus envíos de carga?
+
+  * ¿Cómo cree que una aplicación de seguimiento en tiempo real podría simplificar o mejorar sus operaciones logísticas?
+
+  * ¿Qué expectativas tendría respecto al diseño y la usabilidad de una aplicación de seguimiento en tiempo real para el transporte de carga?
+
+__Empresas de gestión de logística de transporte__:
+
+  * ¿Hace cuánto tiempo que ofrece servicios de transporte?
+
+  * ¿Cuáles son los principales desafíos que enfrentan al proporcionar servicios de transporte de carga?
+
+  * ¿Qué tecnologías o herramientas utilizan actualmente para gestionar y rastrear envíos de carga?
+
+  * ¿Cómo garantizan la transparencia y visibilidad en el proceso de transporte de carga para sus clientes?
+
+  * ¿Qué medidas toman para optimizar la eficiencia operativa y reducir los costos en el transporte de carga?
+
+  * ¿Cuál es su enfoque en términos de sostenibilidad y reducción de emisiones en el transporte de carga?
+
+  * ¿Qué tipo de clientes suelen atender y cuáles son sus requisitos específicos?
+
+### 2.2.2 Registro de entevistas
+
+### 2.2.3 Análisis de entrevistas
+
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+### 2.3.2. User Task Matrix
+
+### 2.3.3. User Journey Mapping
+
+### 2.3.4. Empathy Mapping
+
+### 2.3.5. As-is Scenario Mapping
+
+__Segmento Empresas de gestión logística de transporte__
+
+<img src="img/scenario_as-is_empresa.jpg" alt="As-is Scenario Map Empresas de gestión" width="100%">
+
+__Segmento Clientes que requieren servicios de transporte__
+
+<img src="img/scenario_as-is_cliente.jpg" alt="As-is Scenario Map Clientes" width="100%">
+
+## 2.4. Ubiquitous Language
+
+
+
 # Capítulo III Requirements Specification
 
 # Capítulo IV Product Design
