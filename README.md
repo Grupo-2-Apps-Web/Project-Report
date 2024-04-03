@@ -388,6 +388,22 @@ __Segmento Clientes que requieren servicios de transporte__
 
 # Capítulo III Requirements Specification
 
+## 3.1. To-Be Scenario Mapping
+
+__Segmento Empresas de gestión logística de transporte__
+
+<img src="img/scenario_to-be_empresa.jpg" alt="To-be Scenario Map Empresas de gestión" width="100%">
+
+__Segmento Clientes que requieren servicios de transporte__
+
+<img src="img/scenario_to-be_cliente.jpg" alt="To-be Scenario Map Clientes" width="100%">
+
+## 3.2. User Stories
+
+## 3.3. Impact Mapping
+
+## 3.4. Product Backlog
+
 # Capítulo IV Product Design
 
 # Capítulo V Product Implementation, Validation & Deployment
