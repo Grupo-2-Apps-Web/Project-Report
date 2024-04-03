@@ -168,20 +168,6 @@ URL Project Report (Github): [https://github.com/Grupo-2-Apps-Web/Project-Report
 
 
 # Capítulo I Introducción
-## 1.1 Startup Profile
-
-### 1.1.1 Descripción de la Startup
-
-CargoWatch es una startup dedicada a abordar los desafíos de transparencia y eficiencia en el transporte de carga para empresas. Nuestro producto CargoApp resuelve la falta de visibilidad y transparencia en el proceso logístico al proporcionar seguimiento en tiempo real de la ubicación y estado de la carga durante el transporte.
-
-Misión
-En CargoWatch, nuestra misión es brindar transparencia y confianza a través de nuestra plataforma. Buscamos simplificar y optimizar las operaciones logísticas para nuestros clientes, permitiéndoles gestionar sus envíos de manera eficiente y segura.
-Visión
-Nuestra visión es liderar la innovación tecnológica en seguimiento de transporte de carga, siendo reconocidos por nuestra innovación, confiabilidad y compromiso con la excelencia en el servicio.
-
-<div align="center">
-  <img src="img/charpter1_vehiculo_camion.png" alt="Camion" width="10%">
-</div>
 
 # Capítulo II Requirements Elicitation & Analysis
 
