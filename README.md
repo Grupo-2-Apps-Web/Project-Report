@@ -195,7 +195,7 @@ Nuestra visión es liderar la innovación tecnológica en seguimiento de transpo
     <td valign="top" width="450px">
     <p><strong>Delgado Corrales, Piero Gonzalo (U202210749)</strong><br>Estoy cursando el quinto ciclo de la carrera de Ingeniería de Software. Entre mis habilidades técnicas está la programación en lenguaje C ++, un conocimiento variado de estructuras de datos y sus aplicaciones. Del mismo modo, el último ciclo he aprendido sobre diseño de páginas web mediante el uso de HTML y CSS, y herramientas como Figma. Soy una persona responsable e intento mantener una buena organización para gestionar las entregas de trabajos eficientemente.</p>
     </td>
-    <td>
+    <td height="200px" align="center">
       <img src="img/perfil_piero_delgado.jpg" >
     </td>
   </tr>
@@ -203,7 +203,7 @@ Nuestra visión es liderar la innovación tecnológica en seguimiento de transpo
     <td>
     <p><strong>Salinas Torres, Salvador Antonio (U20221B127)</strong><br>Soy estudiante de quinto ciclo de la carrera de Ingeniería de Software. Poseo conocimientos en programación orientada a objetos en C++ y Python, desarrollo web usando HTML, CSS y JavaScript, y gestión de base de datos en SQL Server. Considero que soy una persona responsable y siempre organizo el tiempo para hacerlos tranquilamente antes de la fecha de entrega.</p>
     </td>
-    <td>
+    <td height="200px" align="center">
       <img src="img/perfil_salvador_salinas.jpg">
     </td>
   </tr>
@@ -211,7 +211,7 @@ Nuestra visión es liderar la innovación tecnológica en seguimiento de transpo
     <td>
     <p><strong>Paredes Puente, Sebastián Roberto (U202217239)</strong><br>Mi nombre es Sebastian Roberto Paredes Puente, soy estudiante de ingeniería de software en la UPC. Dentro de mis habilidades se encuentran el analizar información, programar en lenguaje C++, además, he cursado cursos de programación con el lenguaje de Python, SQL server y HTML. Con respecto a mis habilidades blandas, poseo adaptabilidad, pensamiento creativo, trabajo en equipo, gestión del tiempo y capacidad analítica para la resolución de problemas. Me considero una persona responsable con respecto a diversos trabajos grupales; además, tengo puntualidad a la hora de entregar trabajos y/o proyectos.</p>
     </td>
-    <td>
+    <td height="200px" align="center">
       <img src="img/perfil_sebastian_paredes.png">
     </td>
   </tr>
@@ -219,7 +219,7 @@ Nuestra visión es liderar la innovación tecnológica en seguimiento de transpo
     <td>
       <p><strong>Matos Fernandez, Christian Matos (U202217239)</strong><br>Me llamo Christian Matos, y estoy en mi quinto ciclo de Ingeniería de Software. Poseo experiencia en programación en lenguajes como Python, C++, y JavaScript. Disfruto contribuir con mis habilidades y trabajar en equipo para alcanzar nuestros objetivos comunes.</p>
     </td>
-    <td>
+    <td height="200px" align="center">
       <img src="img/perfil_christian_matos.png">
     </td>
   </tr>
@@ -227,7 +227,7 @@ Nuestra visión es liderar la innovación tecnológica en seguimiento de transpo
     <td>
       <p><strong>Valverde Mozo, Andre Gabriel (U202218899)</strong><br>Mi perfil se basa en ser alguien que busca soluciones creativas a todo problema, todo es posible al fin y al cabo. Considero que tengo una buena capacidad de análisis de problemas y un pensamiento rápido en dichos casos. Me encanta todo lo que es la programación ya que es una forma de arte para mi, solo que lo puedo hacer realidad frente a mis ojos.</p>
     </td>
-    <td>
+    <td height="200px" align="center">
       <img src="img/perfil_andre_valverde.png">
     </td>
   </tr>
