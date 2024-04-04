@@ -185,6 +185,269 @@ Nuestra visión es liderar la innovación tecnológica en seguimiento de transpo
   <img src="img/logo.png" alt="Logo de LogiNextMile" width="30%" style="border-radius: 50%;">
 </div>
 
+### 1.1.2 Perfiles de integrantes del equipo
+
+<table>
+  <tr>
+    <td valign="top" width="450px">
+      <p><strong>Delgado Corrales, Piero Gonzalo (U202210749)</strong><br>Estoy cursando el quinto ciclo de la carrera de Ingeniería de Software. Entre mis habilidades técnicas está la programación en lenguaje C++, un conocimiento variado de estructuras de datos y sus aplicaciones. Del mismo modo, el último ciclo he aprendido sobre diseño de páginas web mediante el uso de HTML y CSS, y herramientas como Figma. Soy una persona responsable e intento mantener una buena organización para gestionar las entregas de trabajos eficientemente.</p>
+    </td>
+    <td height="200px" align="center">
+      <img src="img/perfil_piero_delgado.jpg" alt="Foto de Piero Delgado" width="150px" height="auto">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p><strong>Salinas Torres, Salvador Antonio (U20221B127)</strong><br>Soy estudiante de quinto ciclo de la carrera de Ingeniería de Software. Poseo conocimientos en programación orientada a objetos en C++ y Python, desarrollo web usando HTML, CSS y JavaScript, y gestión de base de datos en SQL Server. Considero que soy una persona responsable y siempre organizo el tiempo para hacerlos tranquilamente antes de la fecha de entrega.</p>
+    </td>
+    <td height="200px" align="center">
+      <img src="img/perfil_salvador_salinas.jpg" alt="Foto de Salvador Torres" width="150px" height="auto">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p><strong>Paredes Puente, Sebastián Roberto (U202217239)</strong><br>Mi nombre es Sebastian Roberto Paredes Puente, soy estudiante de ingeniería de software en la UPC. Dentro de mis habilidades se encuentran el analizar información, programar en lenguaje C++, además, he cursado cursos de programación con el lenguaje de Python, SQL server y HTML. Con respecto a mis habilidades blandas, poseo adaptabilidad, pensamiento creativo, trabajo en equipo, gestión del tiempo y capacidad analítica para la resolución de problemas. Me considero una persona responsable con respecto a diversos trabajos grupales; además, tengo puntualidad a la hora de entregar trabajos y/o proyectos.</p>
+    </td>
+    <td height="200px" align="center">
+      <img src="img/perfil_sebastian_paredes.png" alt="Foto de Sebastian Paredes" width="150px" height="auto">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p><strong>Matos Fernandez, Christian Matos (U202217239)</strong><br>Me llamo Christian Matos, y estoy en mi quinto ciclo de Ingeniería de Software. Poseo experiencia en programación en lenguajes como Python, C++, y JavaScript. Disfruto contribuir con mis habilidades y trabajar en equipo para alcanzar nuestros objetivos comunes.</p>
+    </td>
+    <td height="200px" align="center">
+      <img src="img/perfil_christian_matos.png" alt="Foto de Christian Matos" width="150px" height="auto">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p><strong>Valverde Mozo, Andre Gabriel (U202218899)</strong><br>Mi perfil se basa en ser alguien que busca soluciones creativas a todo problema, todo es posible al fin y al cabo. Considero que tengo una buena capacidad de análisis de problemas y un pensamiento rápido en dichos casos. Me encanta todo lo que es la programación ya que es una forma de arte para mi, solo que lo puedo hacer realidad frente a mis ojos.</p>
+    </td>
+    <td height="200px" align="center">
+      <img src="img/perfil_andre_valverde.png" alt="Foto de Andre Valverde" width="150px" height="auto">
+    </td>
+  </tr>
+</table>
+
+
+## 1.2. Solution Profile
+
+### 1.2.1 Antecedentes y problemática
+
+
+En el ámbito del transporte de carga para empresas, se observa una creciente demanda de incrementar la transparencia y eficiencia en las operaciones logísticas. Sin embargo, los proveedores de servicios de transporte se enfrentan a desafíos considerables al intentar ofrecer evidencia de carga y seguimiento en tiempo real de las unidades de transporte, lo que puede resultar en inquietudes y desconfianza por parte de los clientes.
+
+5 “W”s + 2 "H"'s
+
+**WHAT (QUÉ)**
+- **¿Cual es el problema?**  
+  El problema radica en la falta de transparencia y visibilidad en el proceso de transporte de carga, lo que conduce a malentendidos, desconfianza y preocupaciones por parte de los clientes. Los proveedores de servicios de transporte y sus clientes enfrentan dificultades para obtener información actualizada y precisa sobre la ubicación y el estado de la carga durante el transporte. Esto puede generar una gestión ineficiente de la cadena de suministro, afectar la satisfacción del cliente y obstaculizar la comunicación efectiva entre ambas partes.
+  
+- **¿Cuál es la relación con la persona en cuestión?**  
+  La relación con la persona en cuestión está determinada por su papel en el proceso de transporte de carga. Si actúa como proveedor de servicios de transporte, su relación es directa con la eficiencia y transparencia en la entrega de mercancías. Si es cliente, depende de esa transparencia para asegurar la entrega oportuna y en buenas condiciones de sus productos. La falta de transparencia afecta directamente la relación entre proveedores y clientes, pudiendo generar gestión deficiente de la cadena de suministro e insatisfacción del cliente.
+
+**WHEN (CUÁNDO)**
+- **¿Cuándo sucede el problema?**  
+  El problema de falta de transparencia y visibilidad en el proceso de transporte de carga puede surgir en cualquier momento durante el transporte, desde la carga inicial de la mercancía hasta su entrega final. Este problema puede manifestarse en diferentes etapas del proceso de transporte, lo que incluye la falta de información sobre la ubicación y el estado de la carga en tiempo real, así como la incapacidad para acceder a datos precisos sobre los gastos asociados y los tiempos de entrega estimados.
+  
+- **¿Cuando utiliza el cliente el producto?**  
+  El cliente utiliza el producto, la aplicación de seguimiento de transporte de carga, para monitorear en tiempo real la ubicación y el estado de su carga durante el transporte, así como para revisar los registros de gastos asociados y comunicarse con el proveedor de servicios de transporte.
+
+**WHERE (DÓNDE)**
+- **¿Dónde está el cliente cuando usa el producto?**  
+  El cliente puede usar el producto, la aplicación de seguimiento de transporte de carga, desde cualquier lugar donde tenga acceso a un dispositivo móvil o una computadora con conexión a internet. Esto puede ser en su oficina, en su hogar, o incluso mientras está en movimiento, permitiéndole monitorear el transporte de su carga desde cualquier ubicación conveniente para él.
+  
+- **¿A dónde se dirige?**  
+  El cliente se dirige a la aplicación de seguimiento de transporte de carga para obtener información en tiempo real sobre el progreso y la ubicación de su carga durante el transporte. La aplicación le proporciona la visibilidad necesaria para monitorear el estado de su mercancía y tomar decisiones informadas sobre la gestión de la cadena de suministro, asegurando una entrega oportuna y eficiente.
+  
+- **¿Dónde surge el problema?**  
+  El problema surge en el proceso de interacción entre proveedores de transporte y clientes, donde la comunicación y la visibilidad son clave.
+
+**WHO (QUIÉN)**
+- **¿Quienes están involucrados?**  
+  Los involucrados incluyen a los proveedores de servicios de transporte de carga, que son responsables de la entrega de la mercancía, y a los clientes que envían o reciben las mercancías a través de estos servicios.
+  
+- **¿A quienes les sucede el problema?**  
+  El problema de falta de transparencia y visibilidad en el proceso de transporte de carga afecta tanto a los proveedores de servicios de transporte como a sus clientes.
+  
+- **¿Quién lo utilizará?**  
+  El producto, la aplicación de seguimiento de transporte de carga, será utilizado tanto por proveedores de servicios de transporte como por sus clientes.
+
+**WHY (PORQUÉ)**
+- **¿Cuál es la causa del problema?**  
+  La causa del problema radica en la falta de herramientas efectivas para proporcionar transparencia y visibilidad en el proceso de transporte de carga, lo que dificulta la comunicación y la toma de decisiones informadas tanto para los proveedores de servicios de transporte como para sus clientes.
+**HOW (CÓMO)**
+- **¿Cómo nos conocieron los compradores?**  
+  Los compradores pueden conocer el producto a través de diversos canales, como recomendaciones de otros clientes, publicidad en línea, marketing en redes sociales, búsquedas en internet, participación en eventos de la industria o mediante asociaciones con empresas de transporte de carga.
+  
+- **¿Cómo prefieren los clientes acceder a nuestro contenido?**  
+  Los clientes prefieren acceder al contenido a través de una aplicación móvil intuitiva y fácil de usar, que les permita monitorear en tiempo real el progreso del transporte de carga, revisar los registros de gastos y comunicarse con los proveedores de servicios de transporte de manera conveniente desde sus dispositivos móviles.
+  
+- **¿Que llevó a la persona a llegar a esta situación?**  
+  La falta de transparencia y visibilidad en el transporte de carga puede ser el resultado de herramientas de comunicación y seguimiento inadecuadas entre proveedores y clientes.
+
+**HOW MUCH (CUÁNTO)**
+- **¿Cuánto presupuesto se necesita para realizar el proyecto?**  
+  Determinar el presupuesto exacto requerido para el proyecto de seguimiento de transporte de carga dependerá de varios factores, como el alcance del desarrollo de la aplicación, la complejidad de las características requeridas, los costos de desarrollo de software, integración de tecnologías de seguimiento, mantenimiento continuo y otros gastos asociados. Sería necesario realizar un análisis detallado del proyecto para estimar con precisión el presupuesto necesario.
+
+### 1.2.2 Lean UX Process.
+
+
+#### 1.2.2.1. Lean UX Problem Statements.
+
+
+En el sector de transporte de carga para empresas, existe una necesidad creciente de mejorar la transparencia y eficiencia en las operaciones logísticas. Actualmente, los proveedores de servicios de transporte enfrentan desafíos significativos para proporcionar evidencia de carga y seguimiento en tiempo real de las unidades de transporte, lo que puede generar preocupaciones y desconfianza por parte de los clientes.
+
+
+Los clientes de los proveedores de servicios de transporte carecen de visibilidad sobre el estado y la ubicación de sus envíos durante el proceso de transporte de carga. La falta de información en tiempo real sobre el recorrido de las unidades de transporte y los gastos asociados puede resultar en preocupaciones, incertidumbre y falta de confianza en el servicio proporcionado. Esta falta de transparencia y visibilidad puede conducir a una experiencia del cliente insatisfactoria, aumentar el riesgo de disputas y reclamaciones, y afectar negativamente la reputación de los proveedores de servicios de transporte. Además, la incapacidad para registrar y documentar adecuadamente los gastos asociados con el transporte de carga puede resultar en una gestión ineficiente de costos y una rentabilidad reducida para los proveedores de servicios de transporte.
+
+
+¿Cómo podemos garantizar la entrega de evidencia fotográfica al momento de cargar la mercancía de manera confiable? ¿Cuáles son los principales puntos de dolor para los clientes al no poder rastrear el estado y la ubicación de sus envíos durante el transporte de carga? ¿Qué sistemas o herramientas se utilizan actualmente para mostrar el recorrido de las unidades de transporte a los clientes? ¿Cómo podemos mejorar la eficiencia en la captura y registro de los gastos asociados con el transporte de carga, como gasolina diesel, peajes y viáticos del conductor? ¿Qué información específica esperan los clientes recibir sobre el recorrido de sus envíos para sentirse seguros y confiados con el servicio?
+
+1.2.2.2. Lean UX Assumptions
+
+
+**Business Outcomes:**
+
+
+- **Creemos que nuestros clientes necesitan:**
+
+  Nuestros clientes necesitan una aplicación que les proporcione seguimiento en tiempo real de su carga, evidencia fotográfica al cargar mercancía, registro automático de gastos, visualización detallada del recorrido, comunicación directa y la integración de documentos importantes.
+
+
+- **Estas necesidades se pueden resolver con:**
+
+  Estas necesidades se pueden resolver con una aplicación de seguimiento de carga que incluya tecnología GPS, funciones de carga de imágenes, registro automático de gastos, mapeo del recorrido, comunicación integrada y almacenamiento de documentos.
+
+
+- **Nuestros clientes iniciales son (o serán):**
+  
+  Nuestros clientes iniciales son empresas de transporte de carga, empresas de logística y cualquier entidad que requiera supervisar y gestionar el transporte de mercancías de manera eficiente y transparente.
+
+
+- **El valor #1 que un cliente quiere de nuestro servicio es:**
+
+  El valor número uno que un cliente desea de nuestro servicio es la transparencia en el transporte de su carga, incluyendo la capacidad de rastreo en tiempo real, evidencia fotográfica de la carga, y acceso fácil a información detallada sobre el progreso y el estado de su envío.
+
+
+- **El cliente también puede obtener estos beneficios adicionales:**
+
+  Además de la transparencia en el transporte de carga, el cliente puede obtener beneficios adicionales como mayor eficiencia operativa, reducción de costos, satisfacción del cliente, toma de decisiones estratégicas basadas en datos y cumplimiento normativo.
+
+- **Vamos a adquirir la mayoría de nuestros clientes a través de:**
+
+  Vamos a adquirir la mayoría de nuestros clientes a través de estrategias de marketing digital, asociaciones con empresas de logística y transporte, y mediante la participación en ferias y eventos de la industria logística y de transporte de carga.
+
+
+- **Haremos dinero a través de:**
+
+  A través de tarifas por transacción, donde cobramos una pequeña comisión por cada carga transportada utilizando nuestra plataforma. Esto incentivaría a nuestros clientes a utilizar activamente nuestra aplicación para gestionar sus envíos, y a medida que su volumen de negocios aumenta, también aumentan nuestros ingresos.
+
+
+- **Nuestra competencia principal en el mercado será:**
+
+  Nuestra competencia principal en el mercado será otras plataformas de seguimiento de transporte de carga que ofrecen funcionalidades similares, así como empresas de logística establecidas que puedan proporcionar soluciones internas de seguimiento de carga a sus clientes.
+
+
+- **Los venceremos debido a:**
+
+  Los venceremos debido a nuestra solución integral, personalizable y fácil de usar, junto con un servicio al cliente excepcional y capacidad de adaptación a las necesidades del mercado.
+
+- **Nuestro mayor riesgo de producto es:**
+
+  Nuestro mayor riesgo de producto es la falta de adopción por parte de los clientes debido a la competencia en el mercado y la percepción de falta de valor distintivo en nuestras características.
+
+- **Resolveremos esto a través de:**
+
+  Resolveremos esto a través de mejoras constantes en nuestra oferta, una campaña de marketing sólida y un compromiso firme con la satisfacción del cliente.
+
+
+**User Outcomes:**
+
+
+- **¿Quién será nuestro usuario?**
+
+  Nuestro usuario será cualquier entidad involucrada en el transporte de carga, como empresas de logística y transporte, así como gestores de flotas y operadores logísticos.
+
+- **¿Dónde encaja nuestro producto en su vida?**
+
+  Nuestro producto encaja en la vida de los usuarios al ofrecer una solución integral y eficiente para supervisar y gestionar el transporte de carga, desde la planificación hasta el seguimiento en tiempo real y la gestión de documentos.
+
+- **¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
+
+  Algunos problemas potenciales de nuestro producto podrían incluir dificultades técnicas y desafíos en la adopción por parte de los usuarios. Estos pueden abordarse mediante pruebas exhaustivas, mejoras continuas y una estrategia de marketing efectiva.
+
+- **¿Cómo y cuándo es usado nuestro producto?**
+
+  Nuestro producto es utilizado por nuestros clientes durante todo el proceso de transporte de carga, desde la planificación y coordinación inicial hasta el seguimiento en tiempo real durante el viaje y la gestión de documentos una vez que se completa la entrega. Se utiliza en momentos clave como la programación de envíos, la supervisión del progreso del transporte y la resolución de problemas o incidencias que puedan surgir en cualquier etapa del proceso logístico.
+
+- **¿Qué problemas tiene nuestro producto?**
+
+  Algunos problemas potenciales de nuestro producto pueden incluir dificultades técnicas, resistencia a la adopción por parte de los usuarios y competencia en el mercado.
+
+- **¿Qué características son importantes?**
+
+  Algunas características importantes pueden incluir seguimiento en tiempo real, evidencia fotográfica, registro de gastos, comunicación integrada, integración de documentos y análisis de datos.
+
+#### 1.2.2.3. Lean UX Hypothesis Statements.
+
+
+Creemos que la implementación de sistemas de seguimiento en tiempo real en nuestra cadena de suministro mejorará la visibilidad de la carga. 
+
+
+Sabremos que esto es cierto cuando veamos una reducción significativa en los tiempos de respuesta a consultas de ubicación de la carga por parte de los clientes.
+
+
+Creemos que la capacitación del personal en protocolos de comunicación estandarizados aumentará la transparencia en nuestras operaciones logísticas. 
+
+
+Sabremos que esto es cierto cuando veamos una disminución en los malentendidos y una mejora en la precisión de la información proporcionada a los clientes sobre el estado de sus envíos.
+
+
+Creemos que la adopción de una plataforma de gestión de la cadena de suministro centralizada aumentará la eficiencia operativa y la colaboración entre los diferentes actores.
+ 
+Sabremos que esto es cierto cuando veamos una mejora en la coordinación entre los proveedores de servicios de transporte, almacenes y clientes, reflejada en una reducción en los retrasos y errores en la entrega de la carga.
+
+
+Creemos que la retroalimentación regular de los clientes sobre la visibilidad de la carga nos proporcionará información valiosa para mejorar nuestros procesos. 
+
+
+Sabremos que esto es cierto cuando veamos un aumento en la satisfacción del cliente y una mayor confianza en nuestra capacidad para proporcionar información precisa y oportuna sobre sus envíos.
+
+
+Creemos que la colaboración estrecha con nuestros proveedores de servicios de transporte para implementar tecnologías de seguimiento avanzadas mejorará la trazabilidad de la carga. 
+
+
+Sabremos que esto es cierto cuando veamos una disminución en los casos de pérdida o daño de la carga durante el transporte, así como una mayor precisión en los plazos de entrega estimados proporcionados a los clientes.
+
+#### 1.2.2.4. Lean UX Canvas.
+
+<div align="center">
+  <img src="img/leanux_canvas.png" alt="Lean Ux Canvas" >
+</div>
+
+## 1.3. Segmentos objetivo.
+
+| Segmento objetivo                        | Empresas de gestión de logística de transporte |
+|-----------------------------------------|-------------------------------------------------|
+| Edad                                    | Entre 25 y 50 años                              |
+| Ubicación                               | Lima, Perú                                      |
+| Sexo                                    | Masculino o Femenino                            |
+| Formación educativa                     | Matriculados en instituciones de educación superior |
+| Poder adquisitivo                       | Moderado y Alto                                 |
+| Clase social                            | Media y Alta                                    |
+
+| Segmento objetivo                        | Clientes que requieren servicios de transporte |
+|-----------------------------------------|-------------------------------------------------|
+| Edad                                    | Entre 25 y 50 años                              |
+| Ubicación                               | Lima, Perú                                      |
+| Sexo                                    | Masculino o Femenino                            |
+| Formación educativa                     | Matriculados en instituciones de educación superior |
+| Poder adquisitivo                       | Medio y Alto                                    |
+| Clase social                            | Media y Alta                                    |
+
+
 # Capítulo II Requirements Elicitation & Analysis
 
 ## 2.1 Competidores
