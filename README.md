@@ -405,6 +405,152 @@ __Segmento Clientes que requieren servicios de transporte__
 ## 3.4. Product Backlog
 
 # Capítulo IV Product Design
+# Capítulo IV Product Design
+
+## 4.1. Style Guidelines
+### 4.1.1 General Style Guidelines
+
+Color: 
+Una paleta de colores que inspire confianza, profesionalismo y dinamismo, como tonos de azul oscuro para la confianza y la seguridad, combinados con tonos de verde o naranja para representar la eficiencia y la innovación en el transporte.
+<img src="img/paleta_colores.png" alt="Paleta" height="100%">
+
+Typography: 
+Utilizamos diversas tipografías para lograr un diseño cohesivo y legible. Roboto regular y Roboto light se usan para los titulares, proporcionando una lectura clara y directa. Para párrafos, se ha seleccionado Rubik regular, aportando comodidad en la lectura extendida, mientras que los links llevan Rubik light italic, añadiendo un toque distintivo. Para los campos de entrada, usamos Open Sans regular, que proporciona claridad y profesionalismo, y para botones, Rubik medium, garantizando una llamada a la acción clara y destacada.
+<img src="img/tipografia.png" alt="Tipografia" height="100%">
+
+Branding: 
+El logotipo de CargoApp es una representación simbólica y poderosa de la marca, que comunica eficazmente su compromiso con la excelencia en el transporte de carga y su enfoque integral en satisfacer las necesidades de los clientes en cada etapa del proceso logístico.
+<img src="img/logo.png" alt="Logo de CargoWatch" height="100%">
+
+Spacing:
+El spacing mantiene: 
+* Botones: padding de 16px vertical y 32px horizontal 
+* Margin entre texto 16px 
+* Margin entre elementos 24px 
+* Margin entre secciones 72px
+
+
+### 4.1.2. Web Style Guidelines
+<u>Paleta de colores:</u>
+<img src="img/paleta_colores.png" alt="Paleta" height="100%">
+
+<u>Tipografía:</u>
+<img src="img/tipografia.png" alt="Tipografia" height="100%">
+
+<u>Grid System:</u>
+Ofrece un esquema visual que garantiza la coherencia y la armonización en la disposición y alineación de los elementos de la página en distintos tamaños de pantalla.
+
+<u>Buttons:</u>
+Los botones representan un componente fundamental en la interfaz de usuario de CargoApp, ya que ofrecen una forma clara y visualmente destacada para que los usuarios realicen acciones importantes. Hemos establecido un estilo de botón coherente que refleja la identidad visual de la plataforma y promueve una experiencia de usuario intuitiva y uniforme.
+
+<u>Input System:</u>
+Hemos desarrollado un sistema de ingreso uniforme que asegura una experiencia de usuario intuitiva y uniforme en todos los aspectos de la interfaz.
+
+
+## 4.2. Information Architecture
+### 4.2.1. Organization Systems
+En CargoApp, hemos tomado decisiones específicas sobre cómo organizar la información para garantizar una experiencia de usuario fluida y efectiva. Para lograr esto, hemos optado por una combinación de sistemas de organización y esquemas de categorización de contenido.
+
+
+En cuanto a la organización de la información, hemos decidido utilizar la jerarquía visual para destacar la importancia relativa de diferentes elementos en la interfaz de usuario. Esto nos permite guiar a los usuarios hacia la información más relevante y acciones clave de manera intuitiva.
+
+
+Además, vamos a implementar la organización secuencial en aquellas áreas de la aplicación donde los usuarios realizan tareas específicas en un orden predefinido. Esto les permite avanzar paso a paso de manera clara y sin confusiones.
+
+
+Por otro lado, hemos adoptado un enfoque matricial en secciones donde se presentan datos estructurados y comparativos. Esto facilita a los usuarios la visualización y comprensión de información compleja de manera más eficiente.
+
+
+En cuanto a los esquemas de categorización de contenido, hemos elegido organizar la información de forma alfabética en áreas donde la búsqueda y la referencia rápida son prioritarias. Para la organización cronológica, la empleamos en casos donde la secuencia temporal es fundamental para comprender la información, como registros de eventos o seguimiento de actividades.
+
+
+La organización por tópicos se utiliza para agrupar información relacionada por temas específicos, facilitando a los usuarios encontrar contenido relevante de manera contextualizada. Además, hemos segmentado el contenido según la audiencia, adaptándolo a las necesidades y roles específicos de diferentes grupos de usuarios dentro de la plataforma.
+
+
+### 4.2.2. Labeling Systems
+<table>
+  <tr>
+    <th>Titulo</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>Mis Envíos</td>
+    <td>Este botón te permite acceder y gestionar tus envíos activos y pasados, así como cualquier información relacionada con ellos, como el estado del envío, detalles de seguimiento y documentos asociados.</td>
+  </tr>
+  <tr>
+    <td>Buscar Envío</td>
+    <td>Al seleccionar este botón, puedes ingresar el número de seguimiento de un envío para obtener información detallada sobre su ubicación y estado actual.</td>
+  </tr>
+  <tr>
+    <td>Perfil del Conductor</td>
+    <td>Este botón te lleva al perfil del conductor asignado a tu envío, donde puedes ver su información personal, historial de conducción y valoraciones de otros usuarios.</td>
+  </tr>
+  <tr>
+    <td>Contacto de Emergencia</td>
+    <td>Al hacer clic aquí, puedes acceder rápidamente a los números de contacto de emergencia para comunicarte con el equipo de soporte en caso de problemas durante el transporte.</td>
+  </tr>
+  <tr>
+    <td>Calendario de Entregas</td>
+    <td>Este botón te permite ver un calendario con todas tus entregas programadas, facilitando la planificación y organización de tus actividades diarias de envío.</td>
+  </tr>
+  <tr>
+    <td>Configuración de la Cuenta</td>
+    <td>Al seleccionar este botón, puedes acceder a la configuración de tu cuenta para gestionar tus preferencias de notificación, información de contacto y otros ajustes relacionados con tu cuenta de CargoApp.</td>
+  </tr>
+</table>
+
+### 4.2.3. SEO Tags and Meta Tags
+Aquí detallamos los SEO Tags y Meta Tags que utilizaremos en las principales páginas de nuestra experiencia, tanto en el sitio web estático (Landing Page) como en la Aplicación Web. Los valores asignados incluirán al menos el Title, los Meta Tags Description, Keywords y Author:
+
+
+<u>Landing Page:</u>
+* Title: [Nombre de la Empresa] - Transporte de Carga Eficiente y Transparente
+* Description: Descubra cómo nuestro servicio de transporte de carga mejora la transparencia y eficiencia en sus operaciones logísticas. Ofrecemos seguimiento en tiempo real, evidencia fotográfica y más.
+* Keywords: transporte de carga, logística, transparencia, eficiencia, seguimiento en tiempo real, evidencia fotográfica, servicios de transporte.
+* Author: [Nombre de la Empresa]
+
+
+<u>Aplicación Web:</u>
+* Title: [Nombre de la Empresa] - Inicio
+* Description: Bienvenido a nuestra Aplicación Web para transporte de carga. Gestione sus envíos, acceda al seguimiento en tiempo real, y optimice sus operaciones logísticas con nuestras herramientas integradas.
+* Keywords: aplicación web, transporte de carga, seguimiento en tiempo real, gestión de envíos, operaciones logísticas.
+* Author: [Nombre de la Empresa]
+
+
+
+### 4.2.4. Searching Systems
+En esta sección, detallamos los sistemas de búsqueda que implementaremos en nuestro producto digital para ayudar a los usuarios a encontrar rápidamente la información que necesitan sin sentirse abrumados por el volumen de datos disponible.
+
+
+<u>Opciones de Búsqueda:</u>
+
+
+* Barra de Búsqueda: Implementaremos una barra de búsqueda visible y accesible en todas las páginas del producto digital. Esto permitirá a los usuarios buscar información específica ingresando palabras clave o frases relevantes.
+* Filtros Avanzados: Proporcionaremos filtros avanzados que permitirán a los usuarios refinar sus búsquedas según diferentes criterios, como fecha, categoría, ubicación, etc. Estos filtros ayudarán a los usuarios a encontrar información más relevante y específica.
+* Búsqueda por Categorías: Organizaremos la información en categorías claras y definidas para que los usuarios puedan explorar y buscar información dentro de áreas específicas de interés.
+* Búsqueda por Etiquetas: Utilizaremos etiquetas o palabras clave para etiquetar y organizar el contenido, lo que facilitará a los usuarios encontrar información relacionada con temas específicos.
+
+
+<u>Visualización de Resultados:</u>
+Después de realizar una búsqueda, los resultados se presentarán de manera clara y ordenada, mostrando los elementos más relevantes en la parte superior. Cada resultado incluirá un título, una descripción breve y enlaces directos a la página o sección relevante dentro del producto digital. Además, los resultados podrán ser ordenados según relevancia, fecha u otros criterios, según las preferencias del usuario.
+
+
+
+### 4.2.5 Navigation Systems
+Para ofrecer a nuestros usuarios una experiencia fluida y completa al explorar nuestra landing page, hemos diseñado un sistema de navegación estratégico que garantiza accesibilidad y claridad en todo momento.
+
+
+<u>Barra de Navegación:</u>
+Implementaremos una barra de opciones ubicada estratégicamente en la parte superior de la página. Esta barra servirá como un índice que acompañará al usuario durante todo su recorrido por la landing page. Permitirá a los usuarios navegar fácilmente entre las diferentes secciones, facilitando el retorno a secciones anteriores sin perderse en la navegación.
+
+
+<u>Descripciones Concisas:</u>
+Cada sección de la landing page estará acompañada de descripciones breves y concisas. Evitaremos abrumar al usuario con información excesiva, asegurando que cada mensaje sea claro y fácil de entender. Esto permitirá una experiencia de navegación más ágil y agradable para nuestros usuarios.
+
+
+<u>Punto de Acceso Clave:</u>
+Al finalizar el recorrido en nuestra landing page, hemos establecido el inicio de sesión o registro como puntos de acceso clave a las funcionalidades principales de nuestro servicio. Al iniciar sesión o registrarse, los usuarios desbloquearán características y funcionalidades adicionales, como recomendaciones personalizadas y asistencia especializada. Esta decisión tiene como objetivo proporcionar una experiencia personalizada y efectiva desde el momento en que los usuarios se unen a nuestro servicio.
+
 
 # Capítulo V Product Implementation, Validation & Deployment
 
