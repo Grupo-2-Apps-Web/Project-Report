@@ -330,17 +330,17 @@ __Clientes que requieren servicios de transporte__:
 
   * ¿Cree que una aplicación de seguimiento en tiempo real sería útil para usted en el proceso de transporte de carga?
 
-  * ¿Considera que una aplicación de seguimiento en tiempo real agregaría valor a su experiencia con el servicio de transporte de carga?
+  * ¿Considera que esta aplicación agregaría valor a su experiencia con el servicio de transporte de carga?
 
-  * ¿Cómo cree que una aplicación de seguimiento en tiempo real podría mejorar la transparencia y la confianza en el proceso de transporte de carga?
+  * ¿Cómo cree que esta aplicación podría mejorar la transparencia y la confianza en el proceso de transporte de carga?
 
   * ¿Estaría dispuesto a probar una aplicación de seguimiento en tiempo real si se ofreciera como parte del servicio de transporte?
 
   * ¿Qué características adicionales le animaría a utilizar una aplicación de seguimiento en tiempo real para gestionar sus envíos de carga?
 
-  * ¿Cómo cree que una aplicación de seguimiento en tiempo real podría simplificar o mejorar sus operaciones logísticas?
+  * ¿Cómo cree que esta aplicación podría simplificar o mejorar sus operaciones logísticas?
 
-  * ¿Qué expectativas tendría respecto al diseño y la usabilidad de una aplicación de seguimiento en tiempo real para el transporte de carga?
+  * ¿Qué expectativas tendría respecto al diseño y la usabilidad de la aplicación?
 
 __Empresas de gestión de logística de transporte__:
 
@@ -357,6 +357,11 @@ __Empresas de gestión de logística de transporte__:
   * ¿Cuál es su enfoque en términos de sostenibilidad y reducción de emisiones en el transporte de carga?
 
   * ¿Qué tipo de clientes suelen atender y cuáles son sus requisitos específicos?
+  
+  * ¿Cómo manejan las situaciones de emergencia o imprevistos durante el transporte de carga?
+  
+  * ¿Cuáles son los criterios que utilizan para evaluar y seleccionar socios o proveedores en su cadena de suministro?
+
 
 ### 2.2.2 Registro de entevistas
 
