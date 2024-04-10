@@ -1290,9 +1290,11 @@ En la sección GPS, también hay alertas:
 
 ## 4.5. Web Applications Prototyping
 A partir de los User Flows definidos en el punto anterior, se trabajó el prototipo funcional en Figma, el cual se explica en el siguiente video.
+URL del prototipo en Figma: [Prototipo en Figma](https://www.figma.com/proto/7GsEd72HENCshG6MZEvT6j/App-Web-Figma?type=design&node-id=112-67&t=qvGSt8aScsQekITy-0&scaling=contain&page-id=112%3A67&starting-point-node-id=2152%3A42&show-proto-sidebar=1)
+
 Captura del video:
 <img src="img/appweb-prototyping.png" alt="Captura del video de Prototyping" width="100%">
-URL:
+URL del video:
 [Microsoft Stream Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/EY3jRbbgXclDn6lwH8nDOgEBryone7KkB99JDILQEF-krQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ra0jLc)
 
 ## 4.6. Domain-Driven Software Architecture
