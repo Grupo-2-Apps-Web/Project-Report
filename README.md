@@ -885,6 +885,18 @@ __Segmento Clientes que requieren servicios de transporte__
 
 ## 2.4. Ubiquitous Language
 
+En esta sección, se definirán términos utilizados a lo largo del proyecto para que se pueda comprender para todos los miembros del equipo y agentes interesado:
+
+- **Transport Provider (Proveedor de transporte):** Empresa o entidad encargada de transportar la carga.
+- **Photographic Evidence (Evidencia fotográfica):** Imágenes que muestran la carga al ser cargada, utilizadas para verificar su estado.
+- **Expense Record (Registro de gastos):** Documentación que detalla los costos asociados al transporte de una carga.
+- **Transport Routes (Rutas de transporte):** Caminos o trayectos planificados para el transporte de la carga, con el objetivo de ser eficientes.
+- **Customer Communication (Comunicación con los clientes):** Interacción con los clientes para proporcionar información sobre el estado de la carga y resolver cualquier problema.
+- **Route Planning (Planificación de rutas):** Proceso de establecer las mejores rutas de transporte para optimizar el proceso.
+- **Real-time Tracking (Seguimiento en tiempo real):** Monitorización constante de la ubicación y el estado de la carga durante su transporte.
+- **Transport Coordinator (Coordinador de transporte):** Persona encargada de gestionar y coordinar el transporte de la carga.
+- **Fleet Operator (Operador de flota):** Persona encargada de manejar y supervisar la flota de vehículos utilizados para el transporte de la carga.
+- **Freight Transport (Transporte de carga):** El transporte de bienes o mercancías de un lugar a otro, generalmente a gran escala y a largas distancias.
 
 
 # Capítulo III Requirements Specification
