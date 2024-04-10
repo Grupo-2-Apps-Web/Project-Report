@@ -1165,18 +1165,240 @@ En la sección GPS, también hay alertas:
 <img src="img/empresario-seccion-gps-envio.png" alt="Sección GPS" width="100%">
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+
+**Para cliente**
+
+<img src="img/cliente-wireflow-1.png" alt="Cliente - Wireflow 1" width="100%">
+<img src="img/cliente-wireflow-2.png" alt="Cliente - Wireflow 2" width="100%">
+<img src="img/cliente-wireflow-3.png" alt="Cliente - Wireflow 3" width="100%">
+<img src="img/cliente-wireflow-4.png" alt="Cliente - Wireflow 4" width="100%">
+<img src="img/cliente-wireflow-5.png" alt="Cliente - Wireflow 5" width="100%">
+<img src="img/cliente-wireflow-6.png" alt="Cliente - Wireflow 6" width="100%">
+
+**Para empresarios**
+
+<img src="img/empresario-wireflow-1.png" alt="Empresario - Wireflow 1" width="100%">
+<img src="img/empresario-wireflow-2.png" alt="Empresario - Wireflow 2" width="100%">
+<img src="img/empresario-wireflow-3.png" alt="Empresario - Wireflow 3" width="100%">
+<img src="img/empresario-wireflow-4.png" alt="Empresario - Wireflow 4" width="100%">
+<img src="img/empresario-wireflow-5.png" alt="Empresario - Wireflow 5" width="100%">
+
+
 ### 4.4.2. Web Applications Mock-ups
+A partir de lo trabajado en los Wireframes, se utilizó dicha estructura para cada una de las vistas, pero con el estilo establecido en el Style Guidelines.
+
+**Para cliente**
+
+-Sección de Inicio de sesión:
+<img src="img/inicio_sesion-mockup.png" alt="Inicio de sesión" width="100%">
+Fallo en las credenciales:
+<img src="img/inicio_sesion_fallido-mockup.png" alt="Inicio de sesión fallido" width="100%">
+Fallo repetido:
+<img src="img/inicio_sesion_fallido_1-mockup.png" alt="Inicio de sesión fallo repetido" width="100%">
+Recuperación de contraseña:
+<img src="img/olvido_contraseña-mockup.png" alt="Recuperación de contraseña" width="100%">
+<img src="img/olvido_contraseña_error-mockup.png" alt="Recuperación de contraseña, correo incorrecto" width="100%">
+<img src="img/reestablecer_contraseña-mockup.png" alt="Reestablecer contraseña" width="100%">
+Registro de nueva cuenta:
+<img src="img/crear_cuenta-mockup.png" alt="Creación de cuenta" width="100%">
+
+-Sección de Historial de envíos:
+<img src="img/cliente-historial-mockup.png" alt="Historial de envíos" width="100%">
+<img src="img/cliente-historial_busqueda-mockup.png" alt="Busqueda en Historial de envíos" width="100%">
+<img src="img/cliente-exportar-mockup.png" alt="Exportar Historial de envíos" width="100%">
+<img src="img/cliente-historial_viaje1-mockup.png" alt="Información de un envío" width="100%">
+
+-Sección de Gastos:
+<img src="img/cliente-gastos2-mockup.png" alt="Sección Gastos" width="100%">
+<img src="img/cliente-gastos-mockup.png" alt="Información de gastos de un viaje" width="100%">
+<img src="img/cliente-gastos1-mockup.png" alt="Información de gastos de un viaje con detalles" width="100%">
+
+-Sección GPS:
+<img src="img/cliente-gps-mockup.png" alt="Sección GPS" width="100%">
+<img src="img/cliente-gps-sinviajes-mockup.png/" alt="Sección GPS (sin viajes)" width="100%">
+<img src="img/cliente-gps-envio-mockup.png/" alt="Sección GPS (detalle de envío)" width="100%">
+En la sección GPS, también hay alertas:
+<img src="img/cliente-alertas-mockup.png" alt="Sección GPS con Alertas" width="100%">
+<img src="img/cliente-alertas-envio-mockup.png" alt="Envío con Alertas" width="100%">
+<img src="img/cliente-alertas-detalle-mockup.png" alt="Detalle de las alertas de un envio" width="100%">
+-Sección Estadísticas:
+<img src="img/estadisticas-mes-mockup.png" alt="Estadísticas por mes" width="100%">
+<img src="img/estadisticas-destino-mockup.png" alt="Estadísticas por destino" width="100%">
+
+-Sección Configuración:
+<img src="img/cliente-configuracion-mockup.png" alt="Configuración de cliente" width="100%">
+<img src="img/cliente-suscripciones-mockup.png" alt="Suscripciones" width="100%">
+<img src="img/cliente-metodopago-mockup.png" alt="Metodo de pago" width="100%">
+
+**Para empresa**
+
+-Sección Registro:
+<img src="img/empresario-seccion-registro-mockup.png" alt="Sección Registro" width="100%">
+<img src="img/empresario-registro-viaje-mockup.png" alt="Sección Registro Viaje" width="100%">
+<img src="img/empresario-registro-viaje2-mockup.png" alt="Sección Registro Viaje" width="100%">
+<img src="img/empresario-registro-viaje-confirmar-mockup.png" alt="Sección Registro Viaje" width="100%">
+<img src="img/empresario-registro-viaje-confirmado-mockup.png" alt="Sección Registro Viaje" width="100%">
+<img src="img/empresario-registro-gasto-mockup.png" alt="Sección Registro Gasto" width="100%">
+<img src="img/empresario-registro-gasto-confirmar-mockup.png" alt="Sección Registro Gasto" width="100%">
+<img src="img/empresario-registro-gasto-confirmado-mockup.png" alt="Sección Registro Gasto" width="100%">
+<img src="img/empresario-modificar-gasto-mockup.png" alt="Sección Registro Gasto" width="100%">
+<img src="img/empresario-modificar-gasto-informacion-mockup.png" alt="Sección Registro Gasto" width="100%">
+<img src="img/empresario-modificar-gasto-confirmar-mockup.png" alt="Sección Registro Gasto" width="100%">
+<img src="img/empresario-modificar-gasto-confirmado-mockup.png" alt="Sección Registro Gasto" width="100%">
+-Sección Historial:
+<img src="img/empresario-seccion-historial-mockup.png" alt="Sección Historial" width="100%">
+<img src="img/empresario-historial-busqueda-mockup.png" alt="Sección Historial" width="100%">
+<img src="img/empresario-historial-exportar-mockup.png" alt="Sección Historial" width="100%">
+<img src="img/empresario-historial-viaje-mockup.png" alt="Sección Historial" width="100%">
+
+-Sección GPS:
+<img src="img/empresario-seccion-gps-mockup.png" alt="Sección GPS" width="100%">
+<img src="img/empresario-seccion-gps-vacio-mockup.png" alt="Sección GPS" width="100%">
+<img src="img/empresario-seccion-gps-envio-mockup.png" alt="Sección GPS" width="100%">
+
 ### 4.4.3. Web Applications User Flow Diagrams
+
 ## 4.5. Web Applications Prototyping
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
+
+El diagrama de contexto representa la estructura y las principales interacciones de un sistema de software. Este sistema permite a los usuarios, ya sean las empresas que requieren de servicio de transporte o empresas de gestión logística que se encargan de realizar el proceso de transporte, explorar la plataforma y llevar a cabo el seguimiento de sus envíos de cargas grandes. Además, el sistema establece conexiones con sistemas externos, así como el sistema de servicio de pago para suscripciones, y luego el sistema del transporte de carga que proporciona los datos de ubicación y el estado de los envíos.
+
+<img src="img/c4-context.png" alt="Diagrama de contexto" width="100%">
+
 ### 4.6.2. Software Architecture Container Diagrams
+
+El diagrama de contenedores muestra la arquitectura del sistema de Software de “CargoApp”, la cual usan los clientes para hacer la gestión de envíos. Esta cuenta con varios contenedores así como la aplicación web que muestra la interfaz para los clientes, el servidor que ejecuta y gestiona los servicios como la base de datos, luego el servicio de alertas para notificar sobre eventos y finalmente el API de transporte de carga que interactúa con los sistemas externos.
+
+<img src="img/c4-container.png" alt="Diagrama de contenedores" width="100%">
+
 ### 4.6.3. Software Architecture Components Diagrams
+
+El diagrama de componentes permite visualizar la estructura interna de un sistema de software y sus relaciones, facilitando el diseño modular y la comprensión de cómo interactúan sus diferentes partes. En el sistema representado en el diagrama de componentes, varios servicios y controladores, como Scatistic Service para estadísticas, Recommendation Service para recomendaciones, Subscription Controller para suscripciones, User Controller para gestión de usuarios, Security Service para seguridad, Payment Service para pagos, y Notifications Service para notificaciones, están conectados a una base de datos, un sistema de pago y un núcleo compartido. Esta arquitectura permite una gestión coherente y eficiente de diversas funcionalidades del sistema, garantizando la consistencia en el acceso a datos y funcionalidades compartidas, así como la modularidad en el desarrollo y mantenimiento del software.
+
+<img src="img/c4-components.jpg" alt="Diagrama de componentes" width="100%">
+
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
+
+Se realizó el diagrama de clase, en el cual se especifica las clases a manejar, así como sus atributos y métodos.
+
+<img src="img/class-diagram.png" alt="Diagrama de clases" width="100%">
+
 ### 4.7.2. Class Dictionary
+
+A continuación, se especificara más a detalle sobre cada una de las clases.
+
+
+1. User (Usuario):
+   - Atributos:
+     - id: Identificador único del usuario.
+     - username: Nombre de usuario del usuario.
+     - email: Dirección de correo electrónico del usuario.
+     - password: Contraseña del usuario.
+     - subscription: Tipo de suscripción del usuario.
+   - Métodos:
+     - changePassword(): Permite al usuario cambiar su contraseña.
+     - changeEmail(): Permite al usuario cambiar su dirección de correo electrónico.
+     - suscribe(): Permite al usuario suscribirse a un plan de suscripción.
+
+
+2. Client (Cliente):
+   - Atributos:
+     - id: Identificador único del cliente.
+     - name: Nombre del cliente.
+     - email: Dirección de correo electrónico del cliente.
+     - phone: Número de teléfono del cliente.
+     - shipments: Lista de envíos asociados al cliente.
+     - users: Lista de usuarios asociados al cliente.
+   - Métodos:
+     - createShipment(): Crea un nuevo envío para el cliente.
+     - updateShipment(): Actualiza la información de un envío existente.
+     - cancelShipment(): Cancela un envío existente.
+     - trackShipment(): Permite al cliente rastrear un envío específico.
+     - getShipmentData(): Obtiene los datos de los envíos asociados al cliente.
+     - updateProfile(): Actualiza el perfil del cliente con nueva información.
+
+
+3. Company (Empresa):
+   - Atributos:
+     - id: Identificador único de la empresa.
+     - name: Nombre de la empresa.
+     - address: Dirección de la empresa.
+     - phone: Número de teléfono de la empresa.
+     - email: Dirección de correo electrónico de la empresa.
+     - website: Sitio web de la empresa.
+     - units: Lista de unidades asociadas a la empresa.
+   - Métodos:
+     - addUnit(): Agrega una nueva unidad a la flota de la empresa.
+     - updateUnit(): Actualiza la información de una unidad existente.
+     - removeUnit(): Elimina una unidad de la flota de la empresa.
+
+
+4. Unit (Unidad):
+   - Atributos:
+     - id: Identificador único de la unidad.
+     - name: Nombre de la unidad.
+     - description: Descripción de la unidad.
+     - capacity: Capacidad de carga de la unidad.
+     - weight: Peso de la unidad.
+     - volume: Volumen de la unidad.
+     - status: Estado actual de la unidad.
+   - Métodos:
+     - checkStatus(): Verifica el estado actual de la unidad.
+     - updateStatus(): Actualiza el estado de la unidad.
+
+
+5. Shipment (Envío):
+   - Atributos:
+     - id: Identificador único del envío.
+     - date: Fecha del envío.
+     - status: Estado del envío.
+     - origin: Ubicación de origen del envío.
+     - destination: Ubicación de destino del envío.
+     - weight: Peso del envío.
+     - volume: Volumen del envío.
+     - description: Descripción del envío.
+     - client: Cliente asociado al envío.
+     - company: Empresa asociada al envío.
+     - unit: Unidad asignada al envío.
+     - photographicEvidence: Lista de evidencia fotográfica asociada al envío.
+   - Métodos:
+     - calculateCost(): Calcula el costo de envío del paquete.
+     - updateStatus(): Actualiza el estado del envío.
+     - addPhotographicEvidence(photo: string): Agrega evidencia fotográfica al envío.
+     - removePhotographicEvidence(photo: string): Elimina evidencia fotográfica del envío.
+     - getPhotographicEvidence(): Obtiene la lista de evidencia fotográfica asociada al envío.
+
+
+6. Location (Ubicación):
+   - Atributos:
+     - id: Identificador único de la ubicación.
+     - address: Dirección de la ubicación.
+     - latitude: Coordenada de latitud de la ubicación.
+     - longitude: Coordenada de longitud de la ubicación.
+
+
+7. Configuration (Configuración):
+   - Atributos:
+     - userId: Identificador del usuario asociado a la configuración.
+     - theme: Tema seleccionado por el usuario.
+     - view: Vista preferida por el usuario.
+     - allowDataCollection: Indica si se permite la recopilación de datos.
+     - allowDataSharing: Indica si se permite el intercambio de datos.
+   - Métodos:
+     - updateTheme(): Actualiza el tema seleccionado por el usuario.
+     - updateView(): Actualiza la vista preferida por el usuario.
+     - updateDataCollection(): Actualiza la configuración de recopilación de datos.
+     - updateDataSharing(): Actualiza la configuración de intercambio de datos.
+
+
 ## 4.8. Database Design
 ### 4.8.1. Database Diagram
+
+A continuación, se muestra el diagrama de la base de datos relacional.
+<img src="img/database-diagram.png" alt="Diagrama de base de datos" width="100%">
 
 # Capítulo V Product Implementation, Validation & Deployment
 
