@@ -918,53 +918,6 @@ __Segmento Clientes que requieren servicios de transporte__
 ## 3.4. Product Backlog
 
 # Capítulo IV Product Design
-## 4.1. Style Guidelines.
-### 4.1.1. General Style Guidelines
-### 4.1.2. Web Style Guidelines
-## 4.2. Information Architecture
-### 4.2.1. Organization Systems
-### 4.2.2. Labeling Systems
-### 4.2.3. SEO Tags and Meta Tags
-### 4.2.4. Searching Systems
-### 4.2.5. Navigation Systems
-## 4.3. Landing Page UI Design
-### 4.3.1. Landing Page Wireframe
-### 4.3.2. Landing Page Mock-up
-## 4.4. Web Applications UX/UI Design
-### 4.4.1. Web Applications Wireframes
-El Web Application consiste en cinco secciones para el cliente: Historial, Gastos, GPS, Estadísticas y Configuración. Asimismo, consta de tres secciones para los empresarios de las empresas de gestión logística. Finalmente, ambos segmentos constan del mismo menú de inicio de sesión y registro.
-
--Sección de Inicio de sesión:
-<img src="img/inicio_sesion.png" alt="Inicio de sesión" width="100%">
-Fallo en las credenciales:
-<img src="img/inicio_sesion_fallido.png" alt="Inicio de sesión fallido" width="100%">
-Fallo repetido:
-<img src="img/inicio_sesion_fallido_1.png" alt="Inicio de sesión fallo repetido" width="100%">
-Recuperación de contraseña:
-<img src="img/olvido_contraseña.png" alt="Recuperación de contraseña" width="100%">
-<img src="img/olvido_contraseña_error.png" alt="Recuperación de contraseña, correo incorrecto" width="100%">
-<img src="img/reestablecer_contraseña.png" alt="Reestablecer contraseña" width="100%">
-Registro de nueva cuenta:
-<img src="img/crear_cuenta.png" alt="Creación de cuenta" width="100%">
-
--Sección de Historial de envíos:
-
-
-
-### 4.4.2. Web Applications Wireflow Diagrams
-### 4.4.2. Web Applications Mock-ups
-### 4.4.3. Web Applications User Flow Diagrams
-## 4.5. Web Applications Prototyping
-## 4.6. Domain-Driven Software Architecture
-### 4.6.1. Software Architecture Context Diagram
-### 4.6.2. Software Architecture Container Diagrams
-### 4.6.3. Software Architecture Components Diagrams
-## 4.7. Software Object-Oriented Design
-### 4.7.1. Class Diagrams
-### 4.7.2. Class Dictionary
-## 4.8. Database Design
-### 4.8.1. Database Diagram
-
 ## 4.1. Style Guidelines
 ### 4.1.1 General Style Guidelines
 
@@ -1109,6 +1062,69 @@ Cada sección de la landing page estará acompañada de descripciones breves y c
 <u>Punto de Acceso Clave:</u>
 Al finalizar el recorrido en nuestra landing page, hemos establecido el inicio de sesión o registro como puntos de acceso clave a las funcionalidades principales de nuestro servicio. Al iniciar sesión o registrarse, los usuarios desbloquearán características y funcionalidades adicionales, como recomendaciones personalizadas y asistencia especializada. Esta decisión tiene como objetivo proporcionar una experiencia personalizada y efectiva desde el momento en que los usuarios se unen a nuestro servicio.
 
+## 4.3. Landing Page UI Design
+### 4.3.1. Landing Page Wireframe
+El Landing Page consiste en cinco secciones: Inicio, Acerca de, Sobre Nosotros, Características y Contacto. Con relación al diseño inclusivo, las imágenes contienen textos alternativos y los colores tienen un contraste específico que permite destacar los textos e imágenes. El tamaño de los títulos y la corta cantidad de texto permite un mejor enfoque y menor aburrimiento. Además, se muestra la barra de navegación para ayudar al usuario a navegar fácilmente por la página web y también el pie de página en la parte inferior.
+
+Página de inicio: Muestra la frase que representa el propósito de nuestra startup y de la aplicación.
+<img src="img/wireframe_index.png" alt="Wireframe - Landing page - Index" width="100%">
+Página Acerca de: Contiene información sobre la problemática que abordamos.
+<img src="img/wireframe_about-app.png" alt="Wireframe - Landing page - About App" width="100%">
+Página Sobre Nosotros: Contiene información sobre la startup, nuestra misión y visión.
+<img src="img/wireframe_about-us.png" alt="Wireframe - Landing page - About Us" width="100%">
+Página Características: Contiene información sobre las principales características que ofrecemos a los segmentos objetivo a través de la aplicación web.
+<img src="img/wireframe_features.png" alt="Wireframe - Landing page - Features" width="100%">
+Página Contacto: Contiene el formulario a través del cual los usuarios pueden realizar consultas, quejas o recomendaciones para mejorar nuestra aplicación web.
+<img src="img/wireframe_contact.png" alt="Wireframe - Landing page - Contact" width="100%">
+
+### 4.3.2. Landing Page Mock-up
+A partir de lo trabajado en los Wireframes, utilizamos la misma estructura para cada una de las páginas, pero ahora se trabajó con la paleta de colores establecida, tipografía y los demás recursos a utilizar como imágenes de fondo.
+
+Página de inicio:
+<img src="img/mockup_index.png" alt="Mockup - Landing page - Index" width="100%">
+Página Acerca de:
+<img src="img/mockup_about-app.png" alt="Mockup - Landing page - About App" width="100%">
+Página Sobre Nosotros:
+<img src="img/mockup_about-us.png" alt="Mockup - Landing page - About Us" width="100%">
+Página Características:
+<img src="img/mockup_features.png" alt="Mockup - Landing page - Features" width="100%">
+Página Contacto:
+<img src="img/mockup_contact.png" alt="Mockup - Landing page - Contact" width="100%">
+
+## 4.4. Web Applications UX/UI Design
+### 4.4.1. Web Applications Wireframes
+El Web Application consiste en cinco secciones para el cliente: Historial, Gastos, GPS, Estadísticas y Configuración. Asimismo, consta de tres secciones para los empresarios de las empresas de gestión logística. Finalmente, ambos segmentos constan del mismo menú de inicio de sesión y registro.
+
+-Sección de Inicio de sesión:
+<img src="img/inicio_sesion.png" alt="Inicio de sesión" width="100%">
+Fallo en las credenciales:
+<img src="img/inicio_sesion_fallido.png" alt="Inicio de sesión fallido" width="100%">
+Fallo repetido:
+<img src="img/inicio_sesion_fallido_1.png" alt="Inicio de sesión fallo repetido" width="100%">
+Recuperación de contraseña:
+<img src="img/olvido_contraseña.png" alt="Recuperación de contraseña" width="100%">
+<img src="img/olvido_contraseña_error.png" alt="Recuperación de contraseña, correo incorrecto" width="100%">
+<img src="img/reestablecer_contraseña.png" alt="Reestablecer contraseña" width="100%">
+Registro de nueva cuenta:
+<img src="img/crear_cuenta.png" alt="Creación de cuenta" width="100%">
+
+-Sección de Historial de envíos:
+
+
+
+### 4.4.2. Web Applications Wireflow Diagrams
+### 4.4.2. Web Applications Mock-ups
+### 4.4.3. Web Applications User Flow Diagrams
+## 4.5. Web Applications Prototyping
+## 4.6. Domain-Driven Software Architecture
+### 4.6.1. Software Architecture Context Diagram
+### 4.6.2. Software Architecture Container Diagrams
+### 4.6.3. Software Architecture Components Diagrams
+## 4.7. Software Object-Oriented Design
+### 4.7.1. Class Diagrams
+### 4.7.2. Class Dictionary
+## 4.8. Database Design
+### 4.8.1. Database Diagram
 
 # Capítulo V Product Implementation, Validation & Deployment
 
