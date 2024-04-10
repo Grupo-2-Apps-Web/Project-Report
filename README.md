@@ -1095,6 +1095,8 @@ Página Contacto:
 ### 4.4.1. Web Applications Wireframes
 El Web Application consiste en cinco secciones para el cliente: Historial, Gastos, GPS, Estadísticas y Configuración. Asimismo, consta de tres secciones para los empresarios de las empresas de gestión logística. Finalmente, ambos segmentos constan del mismo menú de inicio de sesión y registro.
 
+**Para cliente**
+
 -Sección de Inicio de sesión:
 <img src="img/inicio_sesion.png" alt="Inicio de sesión" width="100%">
 Fallo en las credenciales:
@@ -1109,8 +1111,58 @@ Registro de nueva cuenta:
 <img src="img/crear_cuenta.png" alt="Creación de cuenta" width="100%">
 
 -Sección de Historial de envíos:
+<img src="img/cliente-historial.png" alt="Historial de envíos" width="100%">
+<img src="img/cliente-historial_busqueda.png" alt="Busqueda en Historial de envíos" width="100%">
+<img src="img/cliente-exportar.png" alt="Exportar Historial de envíos" width="100%">
+<img src="img/cliente-historial_viaje1.png" alt="Información de un envío" width="100%">
 
+-Sección de Gastos:
+<img src="img/cliente-gastos2.png" alt="Sección Gastos" width="100%">
+<img src="img/cliente-gastos.png" alt="Información de gastos de un viaje" width="100%">
+<img src="img/cliente-gastos1.png" alt="Información de gastos de un viaje con detalles" width="100%">
 
+-Sección GPS:
+<img src="img/cliente-gps.png" alt="Sección GPS" width="100%">
+<img src="img/cliente-gps-sinviajes.png/" alt="Sección GPS (sin viajes)" width="100%">
+<img src="img/cliente-gps-envio.png/" alt="Sección GPS (detalle de envío)" width="100%">
+En la sección GPS, también hay alertas:
+<img src="img/cliente-alertas.png" alt="Sección GPS con Alertas" width="100%">
+<img src="img/cliente-alertas-envio.png" alt="Envío con Alertas" width="100%">
+<img src="img/cliente-alertas-detalle.png" alt="Detalle de las alertas de un envio" width="100%">
+-Sección Estadísticas:
+<img src="img/estadisticas-mes.png" alt="Estadísticas por mes" width="100%">
+<img src="img/estadisticas-destino.png" alt="Estadísticas por destino" width="100%">
+
+-Sección Configuración:
+<img src="img/cliente-configuracion.png" alt="Configuración de cliente" width="100%">
+<img src="img/cliente-suscripciones.png" alt="Suscripciones" width="100%">
+<img src="img/cliente-metodopago.png" alt="Metodo de pago" width="100%">
+
+**Para empresa**
+
+-Sección Registro:
+<img src="img/empresario-seccion-registro.png" alt="Sección Registro" width="100%">
+<img src="img/empresario-registro-viaje.png" alt="Sección Registro Viaje" width="100%">
+<img src="img/empresario-registro-viaje2.png" alt="Sección Registro Viaje" width="100%">
+<img src="img/empresario-registro-viaje-confirmar.png" alt="Sección Registro Viaje" width="100%">
+<img src="img/empresario-registro-viaje-confirmado.png" alt="Sección Registro Viaje" width="100%">
+<img src="img/empresario-registro-gasto.png" alt="Sección Registro Gasto" width="100%">
+<img src="img/empresario-registro-gasto-confirmar.png" alt="Sección Registro Gasto" width="100%">
+<img src="img/empresario-registro-gasto-confirmado.png" alt="Sección Registro Gasto" width="100%">
+<img src="img/empresario-modificar-gasto.png" alt="Sección Registro Gasto" width="100%">
+<img src="img/empresario-modificar-gasto-informacion.png" alt="Sección Registro Gasto" width="100%">
+<img src="img/empresario-modificar-gasto-confirmar.png" alt="Sección Registro Gasto" width="100%">
+<img src="img/empresario-modificar-gasto-confirmado.png" alt="Sección Registro Gasto" width="100%">
+-Sección Historial:
+<img src="img/empresario-seccion-historial.png" alt="Sección Historial" width="100%">
+<img src="img/empresario-historial-busqueda.png" alt="Sección Historial" width="100%">
+<img src="img/empresario-historial-exportar.png" alt="Sección Historial" width="100%">
+<img src="img/empresario-historial-viaje.png" alt="Sección Historial" width="100%">
+
+-Sección GPS:
+<img src="img/empresario-seccion-gps.png" alt="Sección GPS" width="100%">
+<img src="img/empresario-seccion-gps-vacio.png" alt="Sección GPS" width="100%">
+<img src="img/empresario-seccion-gps-envio.png" alt="Sección GPS" width="100%">
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.2. Web Applications Mock-ups
