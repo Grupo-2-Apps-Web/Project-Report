@@ -363,7 +363,7 @@ __Empresas de gestión de logística de transporte__:
   * ¿Cuáles son los criterios que utilizan para evaluar y seleccionar socios o proveedores en su cadena de suministro?
 
 
-### 2.2.2 Registro de entevistas
+### 2.2.2 Registro de entrevistas
 
 **Entrevista 1 - Cliente que requiere transporte**
 
@@ -528,12 +528,12 @@ Gracias a las entrevistas realizadas, comprendimos que para las empresas suele s
 
 __Segmento: Empresas de gestión logística de transporte__
 <div align="center">
-  <img src="img/user_persona_1.jpg" alt="Empresa de gestión logística de transporte" width="10%">
+  <img src="img/user_persona_1.jpg" alt="Empresa de gestión logística de transporte" width="100%">
 </div>
 
 __Segmento: Clientes que requieren servicios de transporte__
 <div align="center">
-  <img src="img/user_persona_2.jpg" alt="Cliente que requieren servicios de transporte" width="10%">
+  <img src="img/user_persona_2.jpg" alt="Cliente que requieren servicios de transporte" width="100%">
 </div>
 
 ### 2.3.2. User Task Matrix
