@@ -689,7 +689,47 @@ __Segmento Clientes que requieren servicios de transporte__
 ## 3.4. Product Backlog
 
 # Capítulo IV Product Design
-# Capítulo IV Product Design
+## 4.1. Style Guidelines.
+### 4.1.1. General Style Guidelines
+### 4.1.2. Web Style Guidelines
+## 4.2. Information Architecture
+### 4.2.1. Organization Systems
+### 4.2.2. Labeling Systems
+### 4.2.3. SEO Tags and Meta Tags
+### 4.2.4. Searching Systems
+### 4.2.5. Navigation Systems
+## 4.3. Landing Page UI Design
+### 4.3.1. Landing Page Wireframe
+### 4.3.2. Landing Page Mock-up
+## 4.4. Web Applications UX/UI Design
+### 4.4.1. Web Applications Wireframes
+El Web Application consiste en cinco secciones para el cliente: Historial, Gastos, GPS, Estadísticas y Configuración. Asimismo, consta de tres secciones para los empresarios de las empresas de gestión logística. Finalmente, ambos segmentos constan del mismo menú de inicio de sesión y registro.
+
+Sección de Inicio de sesión:
+<img src="img/inicio_sesion.png" alt="Inicio de sesión" width="100%">
+Fallo en las credenciales:
+<img src="img/inicio_sesion_fallido.png" alt="Inicio de sesión fallido" width="100%">
+Fallo repetido:
+<img src="img/inicio_sesion_fallido_1.png" alt="Inicio de sesión fallo repetido" width="100%">
+Recuperación de contraseña:
+<img src="img/olvido_contraseña.png" alt="Recuperación de contraseña" width="100%">
+<img src="img/olvido_contraseña_error.png" alt="Recuperación de contraseña, correo incorrecto" width="100%">
+<img src="img/reestablecer_contraseña.png" alt="Reestablecer contraseña" width="100%">
+Registro de nueva cuenta:
+<img src="img/crear_cuenta.png" alt="Creación de cuenta" width="100%">
+### 4.4.2. Web Applications Wireflow Diagrams
+### 4.4.2. Web Applications Mock-ups
+### 4.4.3. Web Applications User Flow Diagrams
+## 4.5. Web Applications Prototyping
+## 4.6. Domain-Driven Software Architecture
+### 4.6.1. Software Architecture Context Diagram
+### 4.6.2. Software Architecture Container Diagrams
+### 4.6.3. Software Architecture Components Diagrams
+## 4.7. Software Object-Oriented Design
+### 4.7.1. Class Diagrams
+### 4.7.2. Class Dictionary
+## 4.8. Database Design
+### 4.8.1. Database Diagram
 
 ## 4.1. Style Guidelines
 ### 4.1.1 General Style Guidelines
