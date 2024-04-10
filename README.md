@@ -806,11 +806,13 @@ Gracias a las entrevistas realizadas, comprendimos que para las empresas suele s
 ### 2.3.1. User Personas
 
 __Segmento: Empresas de gestión logística de transporte__
+
 <div align="center">
   <img src="img/user_persona_1.jpg" alt="Empresa de gestión logística de transporte" width="100%">
 </div>
 
 __Segmento: Clientes que requieren servicios de transporte__
+
 <div align="center">
   <img src="img/user_persona_2.jpg" alt="Cliente que requieren servicios de transporte" width="100%">
 </div>
