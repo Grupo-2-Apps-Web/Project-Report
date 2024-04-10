@@ -705,7 +705,7 @@ __Segmento Clientes que requieren servicios de transporte__
 ### 4.4.1. Web Applications Wireframes
 El Web Application consiste en cinco secciones para el cliente: Historial, Gastos, GPS, Estadísticas y Configuración. Asimismo, consta de tres secciones para los empresarios de las empresas de gestión logística. Finalmente, ambos segmentos constan del mismo menú de inicio de sesión y registro.
 
-Sección de Inicio de sesión:
+-Sección de Inicio de sesión:
 <img src="img/inicio_sesion.png" alt="Inicio de sesión" width="100%">
 Fallo en las credenciales:
 <img src="img/inicio_sesion_fallido.png" alt="Inicio de sesión fallido" width="100%">
@@ -717,6 +717,11 @@ Recuperación de contraseña:
 <img src="img/reestablecer_contraseña.png" alt="Reestablecer contraseña" width="100%">
 Registro de nueva cuenta:
 <img src="img/crear_cuenta.png" alt="Creación de cuenta" width="100%">
+
+-Sección de Historial de envíos:
+
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.2. Web Applications Mock-ups
 ### 4.4.3. Web Applications User Flow Diagrams
