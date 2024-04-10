@@ -319,7 +319,7 @@ Para realizar el análisis competitivo hemos tomado en consideración competidor
 
 ## 2.2 Entrevistas
 
-### 2.2.1 Diseño de entevistas
+### 2.2.1 Diseño de entrevistas
 
 __Clientes que requieren servicios de transporte__:
   * ¿Qué tan importante es el servicio de transporte para la empresa donde trabaja?
@@ -365,17 +365,232 @@ __Empresas de gestión de logística de transporte__:
 
 ### 2.2.2 Registro de entevistas
 
+**Entrevista 1 - Cliente que requiere transporte**
+
+**Entrevistador:** Salvador Salinas
+
+**Entrevistado:** Anderson Gonza
+
+**Link de la entrevista:** <https://youtu.be/bfqZ8sSGn7I>
+
+<div align="center">
+  <img src="img/entrevista1.jpg" alt="Entrevista 1" width="100%">
+</div>
+
+**Resumen de la entrevista:** 
+
+Anderson Gonza es trabajador de una empresa que maneja grandes cargas para transportar, por lo que conoce lo difícil que puede llegar a ser encontrar a otra empresa que sea capaz de ofrecer un buen servicio de transporte para sus cargas. Se le comentó sobre la idea de una aplicación para hacer seguimiento a la carga de transporte y le pareció interesante. Comentó que sería muy útil para tener transparencia y confiabilidad al momento de realizar envíos. Además, mencionó que las notificaciones serían de mucha utilidad para conocer sobre los eventos importantes que sucedan en el proceso de transporte de un envío.
+
+**Entrevista 2 - Cliente que requiere transporte**
+
+**Entrevistador:** Piero Delgado
+
+**Entrevistado:** Joaquin Rivadeneyra
+
+**Link de la entrevista: <https://youtu.be/UriDWwVIwxw>**
+
+<div align="center">
+  <img src="img/entrevista2.jpg" alt="Entrevista 2" width="100%">
+</div>
+
+**Resumen de la entrevista:** 
+
+La entrevista fue realizada a Joaquín, un emprendedor que utiliza servicios de transporte de mercancías. Destacó la importancia del transporte terrestre para satisfacer la demanda de los clientes y la necesidad de movilizar la mercancía de manera rápida y segura. Mencionó los desafíos que afronta en el proceso como la confiabilidad en la entrega, la disponibilidad de vehículos adecuados y los costos competitivos. Joaquín consideraría útil una aplicación de seguimiento en tiempo real para mejorar la confiabilidad y el control sobre las entregas. También expresó interés en características como notificaciones de entrega, alertas de retrasos y comunicación directa con el transportista. Él espera que la aplicación simplifique las operaciones logísticas al proporcionar una herramienta centralizada para gestionar todos los envíos, optimizando procesos y reduciendo errores. Además, se destacó la importancia de un diseño intuitivo y fácil de usar para la aplicación.
+
+**Entrevista 3 - Cliente que requiere transporte**
+
+**Entrevistador:** Andre Valverde
+
+**Entrevistado:** Rodrigo Guerra
+
+**Link de la entrevista: <https://youtu.be/CFWmt8VZmZs>** 
+
+<div align="center">
+  <img src="img/entrevista3.jpg" alt="Entrevista 3" width="100%">
+</div>
+
+**Resumen de la entrevista:** 
+
+La entrevista fue con Rodrigo Guerra, un emprendedor que depende de servicios de transporte de mercancías. Destacó la importancia crítica del transporte para su negocio, enfatizando la necesidad de opciones variadas y confiables. Identificó desafíos como la falta de visibilidad y control de costos. Mostró interés en una aplicación de seguimiento en tiempo real para mejorar la transparencia y eficiencia. Expresó disposición a probarla si ayuda a mejorar la logística y destacó la importancia de una interfaz intuitiva y un diseño moderno.
+
+
+**Entrevista 4 - Empresa de gestión logística de transporte**
+
+**Entrevistador:** Christian Matos
+
+**Entrevistado:** Valeria Cardenas
+
+**Link de la entrevista: <https://youtu.be/g3N4MNTBP0A>**
+
+<div align="center">
+  <img src="img/entrevista4.jpg" alt="Entrevista 4" width="100%">
+</div>
+
+**Resumen de la entrevista:** 
+
+Valeria Cardenas, con dos años de experiencia como administradora en el sector de transporte de carga, afronta los retos geográficos e infraestructurales del país. Su enfoque se centra en la transparencia y la sostenibilidad, mediante el uso de GPS para el seguimiento de envíos, la selección de socios de alta calidad y la renovación de flotas a través de programas de capacitación para el transporte de materiales peligrosos. Asimismo, enfrenta estos desafíos gestionando envíos con herramientas como Excel y rastreo satelital, priorizando la eficiencia y la puntualidad. Además, promueve la sostenibilidad mediante la restricción de unidades antiguas y la formación del personal. 
+
+**Entrevista 5 - Empresa de gestión logística de transporte**
+
+**Entrevistador: Sebastian Paredes**
+
+**Entrevistado: Miriam Puente**
+
+**Link de la entrevista: <https://youtu.be/mCPfsJyBJNM>**
+
+<div align="center">
+  <img src="img/entrevista5.jpg" alt="Entrevista 5" width="100%">
+</div>
+
+**Resumen de la entrevista:** 
+
+Miriam Puente, administradora con 6 años de experiencia en transporte de carga, destaca los desafíos geográficos y de infraestructura en el país. Utilizan GPS para rastrear envíos debido a costos. Garantizan transparencia al escoger socios de calidad. Optimizan eficiencia con pruebas mecánicas y documentación en regla. Enfoque en sostenibilidad con renovación de flotas y capacitación para transporte de materiales peligrosos. Atienden clientes mineros e infraestructura con requisitos específicos. Manejan emergencias con unidades de reemplazo y conductores en reserva. Evalúan proveedores en calidad, referencias y tiempo de servicio.
+
+**Entrevista 6 - Empresa de gestión logística de transporte**
+
+**Entrevistador: Sebastian Paredes**
+
+**Entrevistado: Roberto Paredes**
+
+**Link de la entrevista: <https://youtu.be/6dreqpKNg7U>**
+
+<div align="center">
+  <img src="img/entrevista6.jpg" alt="Entrevista 6" width="100%">
+</div>
+
+**Resumen de la entrevista:** 
+
+Roberto Paredes, empresario con 16 años de experiencia en transporte de carga, destaca los desafíos de infraestructura y regulación. Utilizan Excel y rastreo satelital para gestionar envíos. Garantizan transparencia con eficiencia y puntualidad. Optimizan la eficiencia con capacitación y ahorro en costos. Enfoque en sostenibilidad mediante restricción de unidades antiguas. Atienden clientes de construcción con cargas especiales. Manejan emergencias con unidades de respaldo. Seleccionan proveedores serios y formales.
+
+
 ### 2.2.3 Análisis de entrevistas
+
+**Cliente que requiere transporte**
+
+**Segmento demográfico:**
+
+Edad: personas de 25 a 50 años de edad
+
+Sexo: Masculino y Femenino
+
+Ocupación: Administrativo en área de logística
+
+**Segmento Geográfico:**
+
+País: Perú
+
+Idioma: Español
+
+**Segmento Psicográfico:**
+
+Clase social: NSE A, NSE B.
+
+**Segmento Conductual:**
+
+Conocimientos: Conocimiento básico del manejo de una aplicación web.
+
+Actitudes: Personas con interés en tener buen contacto con empresas de gestión logística para hacer seguimiento a los envíos que manejan.
+
+Gracias a las entrevistas realizadas, comprendimos que para los clientes suele ser difícil encontrar una empresa de gestión logística en la cual poder confiar para hacer los envíos que son importantes para ellos. Así, al comentarle sobre nuestra idea de aplicación web para poder hacer seguimiento a los envíos de forma segura, indicaron que les pareció muy buena idea ya que brinda mejor transparencia y confiabilidad.
+
+**Empresa de gestión logística**
+
+**Segmento demográfico:**
+
+Edad: personas de 25 a 50 años de edad
+
+Sexo: Masculino y Femenino
+
+Ocupación: Trabajador en gestión logística
+
+**Segmento Geográfico:**
+
+País: Perú
+
+Idioma: Español
+
+**Segmento Psicográfico:**
+
+Clase social: NSE A, NSE B.
+
+**Segmento Conductual:**
+
+Conocimientos: Conocimiento básico del manejo de una aplicación web.
+
+Actitudes: Personas con interés en tener buen contacto con empresas a las cuales ofrecer el servicio de transporte para sus cargas y brindar seguimiento de los envíos.
+
+Gracias a las entrevistas realizadas, comprendimos que para las empresas suele ser difícil llevar un registro eficiente y detallado. Así, al comentarle sobre nuestra idea de aplicación web para poder hacer seguimiento a los envíos de forma segura, indicaron que les pareció muy buena idea ya que les permite registrar un informe completo y detallado que será útil para ellos y para sus clientes.
+
 
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
+__Segmento: Empresas de gestión logística de transporte__
+<div align="center">
+  <img src="img/user_persona_1.jpg" alt="Empresa de gestión logística de transporte" width="10%">
+</div>
+
+__Segmento: Clientes que requieren servicios de transporte__
+<div align="center">
+  <img src="img/user_persona_2.jpg" alt="Cliente que requieren servicios de transporte" width="10%">
+</div>
+
 ### 2.3.2. User Task Matrix
+
+<table>
+<tr><th rowspan="2" valign="top"><b>User Task</b></th><th colspan="2" valign="top">Empresas de gestión logística de transporte</th></tr>
+<tr><td valign="top"><b>Frecuencia</b></td><td valign="top"><b>Importancia</b></td></tr>
+<tr><td valign="top">Registrar una nueva carga en el sistema</td><td valign="top">Siempre</td><td valign="top">Medio</td></tr>
+<tr><td valign="top">Asignar un proveedor de transporte a una carga</td><td valign="top">Siempre</td><td valign="top">Medio</td></tr>
+<tr><td valign="top">Seguir el estado y la ubicación de una carga en tiempo real</td><td valign="top">A veces</td><td valign="top">Alta</td></tr>
+<tr><td valign="top">Verificar la evidencia fotográfica de la carga al ser cargada</td><td valign="top">Siempre</td><td valign="top">Alta</td></tr>
+<tr><td valign="top">Revisar los registros de gastos asociados al transporte de una carga</td><td valign="top">A veces</td><td valign="top">Alta</td></tr>
+<tr><td valign="top">Facilitar la comunicación con los clientes</td><td valign="top">Siempre</td><td valign="top">Medio</td></tr>
+<tr><td valign="top">Planificar rutas de transporte más eficientes</td><td valign="top">A veces</td><td valign="top">Medio</td></tr>
+</table>
+
+<table>
+<tr><th rowspan="2" valign="top"><b>User Task</b></th><th colspan="2" valign="top">Clientes que requieren servicios de transporte</th></tr>
+<tr><td valign="top"><b>Frecuencia</b></td><td valign="top"><b>Importancia</b></td></tr>
+<tr><td valign="top">Solicitar un servicio de transporte para una carga</td><td valign="top">Siempre</td><td valign="top">Medio</td></tr>
+<tr><td valign="top">Verificar el estado y la ubicación de una carga en tiempo real</td><td valign="top">A veces</td><td valign="top">Alta</td></tr>
+<tr><td valign="top">Recibir notificaciones sobre el progreso de una entrega</td><td valign="top">Siempre</td><td valign="top">Alta</td></tr>
+<tr><td valign="top">Comunicarse con el proveedor de transporte para resolver problemas</td><td valign="top">A veces</td><td valign="top">Medio</td></tr>
+<tr><td valign="top">Verificar la evidencia fotográfica de la carga al ser cargada</td><td valign="top">Siempre</td><td valign="top">Alta</td></tr>
+<tr><td valign="top">Solicitar cotizaciones para servicios de transporte</td><td valign="top">Siempre</td><td valign="top">Medio</td></tr>
+<tr><td valign="top">Revisar los registros de gastos asociados a una entrega</td><td valign="top">A veces</td><td valign="top">Alta</td></tr>
+</table>
+
 
 ### 2.3.3. User Journey Mapping
 
+Usuario **Empresas de gestión logística de transporte**
+
+<div align="center">
+  <img src="img/user_journey_map_1.jpg" alt="User Journey Mapping Empresas de gestión logística de transporte" width="100%">
+</div>
+
+Usuario **Clientes que requieren servicios de transporte**
+
+<div align="center">
+  <img src="img/user_journey_map_2.jpg" alt="User Journey Mapping Clientes que requieren servicios de transporte" width="100%">
+</div>
+
 ### 2.3.4. Empathy Mapping
+
+Usuario **Empresas de gestión logística de transporte**
+
+<div align="center">
+  <img src="img/empathy_map_1.jpg" alt="Empathy Mapping Empresas de gestión logística de transporte" width="100%">
+</div>
+
+Usuario **Clientes que requieren servicios de transporte**
+
+<div align="center">
+  <img src="img/empathy_map_2.jpg" alt="Empathy Mapping Clientes que requieren servicios de transporte" width="100%">
+</div>
+
 
 ### 2.3.5. As-is Scenario Mapping
 
