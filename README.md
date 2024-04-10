@@ -1174,6 +1174,10 @@ En la sección GPS, también hay alertas:
 <img src="img/cliente-wireflow-4.png" alt="Cliente - Wireflow 4" width="100%">
 <img src="img/cliente-wireflow-5.png" alt="Cliente - Wireflow 5" width="100%">
 <img src="img/cliente-wireflow-6.png" alt="Cliente - Wireflow 6" width="100%">
+<img src="img/cliente-wireflow-7.png" alt="Cliente - Wireflow 7" width="100%">
+<img src="img/cliente-wireflow-8.png" alt="Cliente - Wireflow 8" width="100%">
+<img src="img/cliente-wireflow-9.png" alt="Cliente - Wireflow 9" width="100%">
+
 
 **Para empresarios**
 
@@ -1182,6 +1186,9 @@ En la sección GPS, también hay alertas:
 <img src="img/empresario-wireflow-3.png" alt="Empresario - Wireflow 3" width="100%">
 <img src="img/empresario-wireflow-4.png" alt="Empresario - Wireflow 4" width="100%">
 <img src="img/empresario-wireflow-5.png" alt="Empresario - Wireflow 5" width="100%">
+<img src="img/empresario-wireflow-6.png" alt="Empresario - Wireflow 6" width="100%">
+<img src="img/empresario-wireflow-7.png" alt="Empresario - Wireflow 7" width="100%">
+<img src="img/empresario-wireflow-8.png" alt="Empresario - Wireflow 8" width="100%">
 
 
 ### 4.4.2. Web Applications Mock-ups
@@ -1242,7 +1249,6 @@ En la sección GPS, también hay alertas:
 <img src="img/empresario-registro-gasto-confirmar-mockup.png" alt="Sección Registro Gasto" width="100%">
 <img src="img/empresario-registro-gasto-confirmado-mockup.png" alt="Sección Registro Gasto" width="100%">
 <img src="img/empresario-modificar-gasto-mockup.png" alt="Sección Registro Gasto" width="100%">
-<img src="img/empresario-modificar-gasto-informacion-mockup.png" alt="Sección Registro Gasto" width="100%">
 <img src="img/empresario-modificar-gasto-confirmar-mockup.png" alt="Sección Registro Gasto" width="100%">
 <img src="img/empresario-modificar-gasto-confirmado-mockup.png" alt="Sección Registro Gasto" width="100%">
 -Sección Historial:
@@ -1258,7 +1264,36 @@ En la sección GPS, también hay alertas:
 
 ### 4.4.3. Web Applications User Flow Diagrams
 
+**Para cliente**
+
+<img src="img/cliente-userflow-1.png" alt="Cliente - UserFlow 1" width="100%">
+<img src="img/cliente-userflow-2.png" alt="Cliente - UserFlow 2" width="100%">
+<img src="img/cliente-userflow-3.png" alt="Cliente - UserFlow 3" width="100%">
+<img src="img/cliente-userflow-4.png" alt="Cliente - UserFlow 4" width="100%">
+<img src="img/cliente-userflow-5.png" alt="Cliente - UserFlow 5" width="100%">
+<img src="img/cliente-userflow-6.png" alt="Cliente - UserFlow 6" width="100%">
+<img src="img/cliente-userflow-7.png" alt="Cliente - UserFlow 7" width="100%">
+<img src="img/cliente-userflow-8.png" alt="Cliente - UserFlow 8" width="100%">
+<img src="img/cliente-userflow-9.png" alt="Cliente - UserFlow 9" width="100%">
+
+**Para empresario**
+
+<img src="img/empresario-userflow-1.png" alt="Empresario - UserFlow 1" width="100%">
+<img src="img/empresario-userflow-2.png" alt="Empresario - UserFlow 2" width="100%">
+<img src="img/empresario-userflow-3.png" alt="Empresario - UserFlow 3" width="100%">
+<img src="img/empresario-userflow-4.png" alt="Empresario - UserFlow 4" width="100%">
+<img src="img/empresario-userflow-5.png" alt="Empresario - UserFlow 5" width="100%">
+<img src="img/empresario-userflow-6.png" alt="Empresario - UserFlow 6" width="100%">
+<img src="img/empresario-userflow-7.png" alt="Empresario - UserFlow 7" width="100%">
+<img src="img/empresario-userflow-8.png" alt="Empresario - UserFlow 8" width="100%">
+
+
 ## 4.5. Web Applications Prototyping
+A partir de los User Flows definidos en el punto anterior, se trabajó el prototipo funcional en Figma, el cual se explica en el siguiente video.
+Captura del video:
+<img src="img/appweb-prototyping.png" alt="Captura del video de Prototyping" width="100%">
+URL:
+[Microsoft Stream Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/EY3jRbbgXclDn6lwH8nDOgEBryone7KkB99JDILQEF-krQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ra0jLc)
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
