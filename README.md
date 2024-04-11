@@ -35,6 +35,8 @@ Abril 2024
 
 </div>
 
+# Registro de Versiones
+
 <table>
   <thead>
     <tr>
@@ -47,7 +49,7 @@ Abril 2024
   <tbody>
   <tr>
       <td><strong>TB1</strong></td>
-      <td>Miércoles 10 de Abril</td>
+      <td>Jueves 11 de Abril</td>
       <td>
         <ul>
           <li>Delgado Corrales, Piero Gonzalo</li>
@@ -148,7 +150,7 @@ URL Project Report (Github): [https://github.com/Grupo-2-Apps-Web/Project-Report
   - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
       - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-       -[5.2.1.2. Sprint Backlog 1](#5212-sprint-backlog-1)
+      - [5.2.1.2. Sprint Backlog 1](#5212-sprint-backlog-1)
       - [5.2.1.3. Development Evidence for Sprint Review](#5213-development-evidence-for-sprint-review)
       - [5.2.1.4. Testing Suite Evidence for Sprint Review](#5214-testing-suite-evidence-for-sprint-review)
       - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
@@ -165,6 +167,18 @@ URL Project Report (Github): [https://github.com/Grupo-2-Apps-Web/Project-Report
 - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+
+
+# Student Outcome
+
+ABET – EAC - Student Outcome 5
+Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+
+|Criterio específico|Acciones realizadas|Conclusiones|
+| :- | :- | :- |
+|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software. |<p>**Delgado Corrales, Piero Gonzalo**</p><p>**TB1:** He ayudado a organizar las actividades del equipo de tal modo que hemos podido trabajar de manera simultánea para entregar resultados rápidamente.</p><p></p><p>**Matos Fernandez, Christian Andre**</p><p>**TB1:** He contribuido en la coordinación de las tareas del equipo de manera que hemos sido capaces de realizar múltiples actividades de forma concurrente, lo que nos ha permitido alcanzar resultados de manera ágil y eficiente.</p><p></p><p>**Paredes Puente, Sebastián Roberto**</p><p>**TB1:** He coordinado en las reuniones para establecer los trabajos que le tocaba hacer a cada uno para el informe. Adicionalmente, apoyé activamente en las actividades del equipo, asegurando que trabajemos de forma simultánea y eficiente para lograr una entrega rápida y bien hecha..</p><p></p><p>**Salinas Torres, Salvador Antonio**</p><p>**TB1:** Contribuí ágilmente durante el desarrollo de esta entrega, siempre estando pendiente del tiempo para llegar a la fecha límite habiendo terminado todos los puntos requeridos. Asimismo, me aseguré de utilizar el flujo de trabajo GitFlow con el cual ya estaba familiarizado anteriormente y pude enseñar al resto de mi equipo para que lo apliquen correctamente.</p><p></p><p>**Valverde Mozo, Andre Gabriel**</p><p>**TB1:** Participé en las reuniones grupales para establecer las responsabilidades de cada miembro en el informe. Además, contribuí de manera activa en las labores del equipo, asegurando que trabajaramos de forma coordinada y eficiente para alcanzar una entrega rápida y de calidad.</p>|**TB1:** Para esta primera entrega, la comunicación efectiva ha sido esencial ya que la cantidad de contenidos a presentar ha sido grande. Del mismo modo, realizar reuniones de grupo nos sirvió para ser más eficientes a la hora de gestionar los avances para llegar a entregar lo pedido.|
+|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|<p>**Delgado Corrales, Piero Gonzalo**</p><p>**TB1:** Para esta primera entrega, he investigado sobre los principales competidores en el sector de aplicaciones para la gestión de transporte terrestre.</p><p></p><p>**Matos Fernandez, Christian Andre**</p><p>**TB1:** Para esta entrega, me he dedicado a investigar acerca de los competidores principales dentro del sector de aplicaciones destinadas a la gestión del transporte terrestre.</p><p></p><p>**Paredes Puente, Sebastián Roberto**</p><p>**TB1:** Para este proyecto, realicé una investigación exhaustiva en el sector empresarial vinculado al transporte de carga. Durante este proceso, tuve la oportunidad de entrevistar a profesionales con amplia experiencia en el campo, lo que me permitió comprender mejor sus necesidades y obtener una perspectiva renovada para el desarrollo de nuestra aplicación.</p><p></p><p>**Salinas Torres, Salvador Antonio**</p><p>**TB1:** Realicé una investigación sobre la necesidad para el seguimiento de transporte de forma segura y que tan importante puede llegar a ser para las empresas que requieren de un servicio de transporte para cargas grandes. De este modo, investigué en un área que yo no conocía muy bien, e igualmente logré obtener los datos necesarios para realizar un buen trabajo</p><p></p><p>**Valverde Mozo, Andre Gabriel**</p><p>**TB1:** Para esta primera entrega, investigué el diseño de páginas de destino en aplicaciones de gestión de transporte terrestre. Analicé la presentación de productos, elementos visuales, y cómo se guía al usuario hacia la conversión, obteniendo una visión completa de las mejores prácticas en este ámbito.</p>|<p>**TB1:** Para esta entrega, se realizó una investigación a los principales competidores en el sector de aplicaciones para la gestión de transporte terrestre; y, a su vez, a personas que se encuentran involucradas en el rubro, obteniendo una perspectiva valiosa para el desarrollo del proyecto.</p><p></p>|
+
 
 
 # Capítulo I Introducción
@@ -1861,3 +1875,9 @@ BillWagner. (2023). *.NET documentation C# Coding Conventions - C#.* Microsoft L
 *JavaScript Style Guide.* (s.f.). https://www.w3schools.com/js/js_conventions.asp
 
 Mollahosseini, A. (2021). *Make your Gherkin Specifications More Readable.* BDD Framework for NET. https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/
+
+# Anexos
+
+Videos de exposiciones
+
+Exposición TB1: [upc-pre-202401-si730-sw53-cargowatch-tb1](https://upcedupe-my.sharepoint.com/personal/u202210749_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202210749%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202401%2Dsi730%2Dsw53%2Dcargowatch%2Dtb1%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
