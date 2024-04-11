@@ -77,6 +77,13 @@ Abril 2024
 # **Project Report Collaboration Insights**
 URL Project Report (Github): [https://github.com/Grupo-2-Apps-Web/Project-Report](https://github.com/Grupo-2-Apps-Web/Project-Report)
 
+Commits en reporte avance TB1
+<img src="img/project-collaboration-insights-tb1.png">
+<img src="img/report-commit1.png">
+<img src="img/report-commit2.png">
+<img src="img/report-commit3.png">
+<img src="img/report-commit4.png">
+
 # **Tabla de Contenido**
 
 - [Registro de Versiones](#registro-de-versiones)
@@ -107,7 +114,7 @@ URL Project Report (Github): [https://github.com/Grupo-2-Apps-Web/Project-Report
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#23-ubiquitous-language)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#Capítulo-III-Requirements-Specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
@@ -1316,7 +1323,7 @@ En la sección GPS, también hay alertas:
 <img src="img/empresario-wireflow-8.png" alt="Empresario - Wireflow 8" width="100%">
 
 
-### 4.4.2. Web Applications Mock-ups
+### 4.4.3. Web Applications Mock-ups
 A partir de lo trabajado en los Wireframes, se utilizó dicha estructura para cada una de las vistas, pero con el estilo establecido en el Style Guidelines.
 
 **Para cliente**
@@ -1387,7 +1394,7 @@ En la sección GPS, también hay alertas:
 <img src="img/empresario-seccion-gps-vacio-mockup.png" alt="Sección GPS" width="100%">
 <img src="img/empresario-seccion-gps-envio-mockup.png" alt="Sección GPS" width="100%">
 
-### 4.4.3. Web Applications User Flow Diagrams
+### 4.4.4. Web Applications User Flow Diagrams
 
 **Para cliente**
 
@@ -1878,6 +1885,6 @@ Mollahosseini, A. (2021). *Make your Gherkin Specifications More Readable.* BDD 
 
 # Anexos
 
-Videos de exposiciones
+**Videos de exposiciones**
 
 Exposición TB1: [upc-pre-202401-si730-sw53-cargowatch-tb1](https://upcedupe-my.sharepoint.com/personal/u202210749_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202210749%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202401%2Dsi730%2Dsw53%2Dcargowatch%2Dtb1%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
