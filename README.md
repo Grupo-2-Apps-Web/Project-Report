@@ -146,9 +146,9 @@ URL Project Report (Github): [https://github.com/Grupo-2-Apps-Web/Project-Report
     - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint n](#521-sprint-n)
-      - [5.2.1.1. Sprint Planning n](#5211-sprint-planning-n)
-       -[5.2.1.2. Sprint Backlog n](#5212-sprint-backlog-n)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+       -[5.2.1.2. Sprint Backlog 1](#5212-sprint-backlog-1)
       - [5.2.1.3. Development Evidence for Sprint Review](#5213-development-evidence-for-sprint-review)
       - [5.2.1.4. Testing Suite Evidence for Sprint Review](#5214-testing-suite-evidence-for-sprint-review)
       - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
@@ -1613,9 +1613,7 @@ Usuarios de GitHub:
 
 *URL de repositorio de Landing Page:* https://github.com/Grupo-2-Apps-Web/Landing-Page
 
-*URL de repositorio de Web Services:* https://github.com/Grupo-2-Apps-Web/Web-Services
-
-*URL de repositorio de Frontend Web Applications:* https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications
+*URL de repositorio de Acceptance Tests:* https://github.com/Grupo-2-Apps-Web/Acceptance-Tests
 
 
 Para el desarrollo del trabajo se usará GitFlow. Este es un modelo de flujo de trabajo para la gestión de control de versiones Git. Está compuesta por ramas y cada una tiene un uso específico: Main, Feature, Develop. En la rama Main, se trabaja con las versiones finales del sprint y se hace un despliegue de la aplicación web, es por ello que todas las versiones almacenadas en esta rama deben ser funcionales y estables para el usuario. En las ramas Feature se trabaja con versiones sobre las que se desarrolla un feature específico, así como un feature para registro de un usuario. Las ramas Feature se trabajan y controlan por separado para tener un orden sobre el cual trabajar a partir del Product Backlog, y en caso ocurra algún problema al trabajar en un feature, no afecte sobre todo el programa. Finalmente, tenemos la rama Develop, sobre la cual se fusionan todos los features ya trabajados. De esta manera, se puede asegurar que todo esté funcionando como se espera antes de hacer el despliegue oficial para pasarlo a la rama Main.
@@ -1687,3 +1685,179 @@ Por otro lado, tenemos a GitHub, el cual es la plataforma para poder alojar repo
 
 
 Así es como con este, que cada miembro podrá trabajar de forma remota desde su IDE, teniendo una copia del repositorio Git a través del repositorio en línea almacenado en GitHub, así poder hacer commits para empujar los cambios que hayan realizado.
+
+## 5.2. Landing Page, Services & Applications Implementation.
+
+
+### 5.2.1. Sprint 1
+
+
+#### 5.2.1.1. Sprint Planning 1.
+
+
+Se planeó el primer sprint a través de una reunión en Meet. Para ello, se hizo la siguiente tabla para registrar la información que se discutió.
+
+|**Sprint #**|Sprint 1|
+| :- | :- |
+|**Sprint Planning Background**||
+|Date|2024-04-01|
+|Time|07:00 PM|
+|Location|Presencial (En la universidad, luego de la clase)|
+|Prepared by|Delgado Corrales, Piero Gonzalo|
+|Attendees (to planning meeting)|<p>Delgado Corrales, Piero Gonzalo</p><p>Matos Fernandez, Christian Andre</p><p>Paredes Puente, Sebastián Roberto</p><p>Salinas Torres, Salvador Antonio</p><p>Valverde Mozo, Andre Gabriel</p>|
+|Sprint n - 1 Review Summary|No hubo sprint anterior|
+|Sprint n - 1 Retrospective Summary|No hubo sprint anterior|
+|**Sprint Goal & User Stories**||
+|Sprint 1 Goal|Realizar el Landing Page|
+|Sprint 1 Velocity|20|
+|Sum of Story Points|20|
+
+#### 5.2.1.2. Sprint Backlog 1.
+
+El objetivo de este primer sprint es la realización del Landing Page estático. Asimismo, trabajamos en una tabla en Trello: https://trello.com/b/rsvyHlub/sprint-backlog-1
+
+<img src="img/sprint-backlog.png" alt="Sprint Backlog 1 en Trello" width="100%">
+
+
+<table><tr><th valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 1</th></tr>
+<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
+<tr><td valign="top">Id</td><td valign="top">Title</td><td valign="top">Id</td><td valign="top">Title</td><td valign="top">Description</td><td valign="top">Estimation (Hours)</td><td valign="top">Assigned To</td><td valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
+<tr><td rowspan="2" valign="top">US21</td><td rowspan="2" valign="top">NavBar y Footer</td><td valign="top">TS01</td><td valign="top">Implementación de Navbar</td><td valign="top">Se implementa el navbar de forma responsive.</td><td valign="top">2</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS02</td><td valign="top">Implementación de Footer</td><td valign="top">Se implementa el footer de forma responsive.</td><td valign="top">2</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US22</td><td valign="top">Página de inicio</td><td valign="top">TS03</td><td valign="top">Implementación de página de inicio</td><td valign="top">Se implementa la página de inicio de forma responsive y con su archivo css correspondiente.</td><td valign="top">1</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US23</td><td valign="top">Sección “Acerca De”</td><td valign="top">TS04</td><td valign="top">Implementación de sección Acerca De</td><td valign="top">Se implementa la página Acerca De, de forma responsive y con su archivo css correspondiente.</td><td valign="top">1</td><td valign="top">Sebastián Paredes</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US24</td><td valign="top">Sección “Sobre Nosotros”</td><td valign="top">TS05</td><td valign="top">Implementación de sección Sobre Nosotros</td><td valign="top">Se implementa la página Sobre Nosotros, de forma responsive y con su archivo css correspondiente.</td><td valign="top">1</td><td valign="top">Salvador Salinas</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US25</td><td valign="top">Sección “Características”</td><td valign="top">TS06</td><td valign="top">Implementación de sección Características</td><td valign="top">Se implementa la página Características, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Piero Delgado</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US26</td><td valign="top">Sección “Contacto”</td><td valign="top">TS07</td><td valign="top">Implementación de sección Contacto</td><td valign="top">Se implementa la página Contacto, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Christian Matos</td><td valign="top">Done</td></tr>
+</table>
+
+#### 5.2.1.3. Development Evidence for Sprint Review.
+
+Se realizaron los avances con los commits correspondientes en el repositorio de la siguiente forma.
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- |
+|Grupo-2-Apps-Web/Landing-Page|feature/index|eb0fb57|feat: Navbar, footer, Index section added|10/04/2024|
+|Grupo-2-Apps-Web/Landing-Page|develop|edd5a18|Merge pull request #1 from Grupo-2-Apps-Web/feature/index|10/04/2024|
+|Grupo-2-Apps-Web/Landing-Page|feature/about-us|72874d3|feat: about us section added|10/04/2024|
+|Grupo-2-Apps-Web/Landing-Page|develop|b86e73b|Merge pull request #2 from Grupo-2-Apps-Web/feature/about-us|10/04/2024|
+|Grupo-2-Apps-Web/Landing-Page|feature/about-app|af49a19|feat: about app section added|10/04/2024|
+|Grupo-2-Apps-Web/Landing-Page|develop|8737969|<p>Merge pull request #3 from Grupo-2-Apps-Web/feature/about-app</p><p></p>|10/04/2024|
+|Grupo-2-Apps-Web/Landing-Page|feature/about-app|a5dc8e1|fix: solved issue with about app section|10/04/2024|
+|Grupo-2-Apps-Web/Landing-Page|develop|946a945|<p>Merge pull request #4 from Grupo-2-Apps-Web/feature/about-app</p><p></p>|10/04/2024|
+|Grupo-2-Apps-Web/Landing-Page|feature/features|30bab11|feat: features section added|10/04/2024|
+|Grupo-2-Apps-Web/Landing-Page|develop|b290bd0|Merge pull request #6 from Grupo-2-Apps-Web/feature/features|10/04/2024|
+|Grupo-2-Apps-Web/Landing-Page|feature/contact|ff30b46|feat: contact section added|10/04/2024|
+|Grupo-2-Apps-Web/Landing-Page|develop|136a264|Merge pull request #7 from Grupo-2-Apps-Web/feature/contact|10/04/2024|
+|Grupo-2-Apps-Web/Landing-Page|main|f436041|Merge pull request #8 from Grupo-2-Apps-Web/develop|10/04/2024|
+
+#### 5.2.1.4. Testing Suite Evidence for Sprint Review.
+
+Se realizaron los acceptance tests para las historias de usuario trabajadas y se registraron en el repositorio de la siguiente forma.
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- |
+|Grupo-2-Apps-Web/Acceptance-Tests|main|e2424c7|feat: added feature file for US24|10/04/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|bd2fd88|feat: added feature file for US21 and US22|10/04/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|12bfcdb|feat: added feature file for US23|10/04/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|c40bf47|feat: added feature file for us26|10/04/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|9dd74de|feat: added feature file us25 and modify other features|10/04/2024|
+
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+
+Para esta sección se evidenciará lo avanzado en el primer sprint, el cual se basa en la implementación del Landing Page estático. Para ello, se realizó el siguiente video con la explicación y las capturas que evidencia la página web.
+
+URL de video: https://youtu.be/3-oeSZ3IzYo
+
+<img src="img/execution-evidence.png" alt="Captura de pantalla de video" width="100%">
+
+
+Navbar, Footer, página de inicio: se implementaron al inicio ya que son la parte esencial para la navegación de la página. Además, son responsive y se logran adaptar a todos los tamaños.
+
+<img src="img/index1.png">
+<img src="img/index2.png">
+
+Sección About App:
+<img src="img/about-app1.png">
+<img src="img/about-app2.png">
+
+Sección About Us:
+<img src="img/about-us1.png">
+<img src="img/about-us2.png">
+
+Sección Features:
+<img src="img/features1.png">
+<img src="img/features2.png">
+
+Sección Contact:
+<img src="img/contact1.png">
+<img src="img/contact2.png">
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+
+En este primer sprint, no hemos trabajado con servicios web, ya que nos hemos concentrado exclusivamente en la creación del Landing Page estático. Es por ello que en esta ocasión, no se trabajó la documentación relacionada con el uso de servicios web.
+
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+
+Ya habiendo terminado de hacer los commits y hacer el release de este sprint, pasamos a hacer el deployment. En el primer sprint, hicimos el deployment del Landing Page estático, utilizando GitHub Pages. Para ello, entramos a la configuración del repositorio, en la sección Pages.
+
+<img src="img/deploy-page1.png">
+
+En Branch, escogemos la rama, la cual sería la rama main donde hemos hecho el release del sprint. Y le damos a Save.
+
+<img src="img/deploy-page2.png">
+
+Ahora solo quedaría esperar a que GitHub cree la página web y nos brinde el enlace para visualizar el Landing Page estático.
+
+<img src="img/deploy-page3.png">
+
+*URL deployment Landing Page:* https://grupo-2-apps-web.github.io/Landing-Page/
+
+<img src="img/deploy-page4.png">
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+En la implementación del Landing Page, todos los integrantes realizaron commits referentes al branch feature en el cual trabajaron.
+
+<img src="img/team-commits.png">
+
+Nos dividimos de la siguiente forma para trabajar en el Landing Page:
+
+- Andre Valverde: Navbar-Footer, Home
+- Sebastián Paredes: About App
+- Salvador Salinas: About Us
+- Piero Delgado: Features
+- Christian Matos: Contact
+
+<img src="img/commits-list.png">
+
+Siguiendo el flujo de trabajo de Gitflow, usamos las ramas main, develop y feature respectivamente.
+<img src="img/branches.png">
+
+# Conclusiones
+
+## Conclusiones y Recomendaciones
+
+Gracias al proceso Lean UX, hemos logrado identificar los segmentos objetivos, nuestros competidores y las principales necesidades del mercado. Así es como desde que formulamos los Problem Statements hasta la elaboración de todo el Lean UX Canvas, cada paso nos permitió mejorar la eficiencia y la agilidad en el desarrollo de la aplicación.
+
+Asimismo, realizamos una investigación de mercado, incluyendo entrevistas para comprender las necesidades de nuestros segmentos objetivo, y a partir de estas, es que logramos comprender los puntos que debemos agregar a nuestra aplicación para brindar el máximo valor.
+
+Entre otras actividades realizadas, incluimos los User Persona, Empathy Map, As-Is y To-Be Scenario para ponernos en perspectiva de nuestros usuarios principales. Y gracias a esto, pudimos formular las historias de usuario y formar el Product Backlog, el cual es el corazón de nuestro proyecto.
+
+Luego establecimos los estilos a utilizar para nuestro producto, incluyendo la tipografía, paleta de colores, íconos, sistemas de organización, entre otros. Con ello, pudimos hacer un prototipo funcional de nuestra aplicación y tener un modelo de diseño del cual guiarnos durante el desarrollo.
+
+
+# Bibliografía
+
+BillWagner. (2023). *.NET documentation C# Coding Conventions - C#.* Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+
+*Google HTML/CSS Style Guide.* (s.f.). https://google.github.io/styleguide/htmlcssguide.html
+
+*HTML style guide and coding conventions.* (s.f.). https://www.w3schools.com/html/html5_syntax.asp 
+
+*JavaScript Style Guide.* (s.f.). https://www.w3schools.com/js/js_conventions.asp
+
+Mollahosseini, A. (2021). *Make your Gherkin Specifications More Readable.* BDD Framework for NET. https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/
