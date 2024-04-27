@@ -164,6 +164,15 @@ Commits en reporte avance TB1
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Sprint Backlog 2](#5222-sprint-backlog-2)
+      - [5.2.2.3. Development Evidence for Sprint Review](#5223-development-evidence-for-sprint-review)
+      - [5.2.2.4. Testing Suite Evidence for Sprint Review](#5224-testing-suite-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -945,10 +954,11 @@ __Segmento Clientes que requieren servicios de transporte__
 <tr><td rowspan="3" valign="top">E02</td><td rowspan="3" valign="top">Como cliente quiero tener información detallada de mis envíos en tiempo real para tener una visibilidad completa del proceso.</td><td valign="top">US06</td><td valign="top">Seguimiento en tiempo real de envíos</td></tr>
 <tr><td valign="top">US07</td><td valign="top">Notificaciones de eventos relevantes</td></tr>
 <tr><td valign="top">US08</td><td valign="top">Acceso a detalles de entrega</td></tr>
-<tr><td rowspan="4" valign="top">E03</td><td rowspan="4" valign="top">Como cliente quiero acceder a un historial completo de mis envíos anteriores para gestionar mis actividades pasadas</td><td valign="top">US09</td><td valign="top">Historial de envíos</td></tr>
+<tr><td rowspan="5" valign="top">E03</td><td rowspan="5" valign="top">Como cliente quiero acceder a un historial completo de mis envíos anteriores para gestionar mis actividades pasadas</td><td valign="top">US09</td><td valign="top">Historial de envíos</td></tr>
 <tr><td valign="top">US16</td><td valign="top">Búsqueda de envíos</td></tr>
 <tr><td valign="top">US17</td><td valign="top">Estadísticas de envíos</td></tr>
 <tr><td valign="top">US18</td><td valign="top">Exportación del historial de envíos</td></tr>
+<tr><td valign="top">US31</td><td valign="top">Visualización de gastos realizados en el viaje</td></tr>
 <tr><td rowspan="3" valign="top">E04</td><td rowspan="3" valign="top">Como usuario quiero una interfaz de usuario intuitiva y fácil de usar para tener una experiencia agradable</td><td valign="top">US10</td><td valign="top">Interfaz intuitiva y fácil de usar</td></tr>
 <tr><td valign="top">US19</td><td valign="top">Soporte multidispositivo y multiplataforma</td></tr>
 <tr><td valign="top">US20</td><td valign="top">Personalización de visualización</td></tr>
@@ -981,7 +991,7 @@ User Story ID|Título|Descripción|Criterios de Aceptación |Relacionado con (E
 |US06|Seguimiento en Tiempo Real de Envíos|Como cliente de la empresa de transporte de carga, quiero poder ingresar el número de seguimiento de mi envío en una plataforma en línea, para poder obtener actualizaciones en tiempo real sobre la ubicación y el estado de mi mercancía durante el transporte.|<p>**Escenario 1: Registro de Número de Seguimiento**</p><p></p><p>**Dado** **que** el cliente tiene acceso a la plataforma en línea,</p><p>**Cuando** ingresa el número de seguimiento del envío,</p><p>**Entonces** la plataforma procesa la información, </p><p>**Y** muestra actualizaciones en tiempo real sobre la ubicación y estado de la mercancía durante el transporte.</p><p></p><p>**Escenario 2: Acceso a Actualizaciones Continuas**</p><p></p><p>**Dado** **que** el cliente ha registrado el número de seguimiento,</p><p>**Cuando** revisa la sección de seguimiento en la plataforma,</p><p>**Entonces** encuentra actualizaciones continuas sobre la ubicación y estado de su mercancía, incluyendo hitos y estimaciones de entrega.</p><p></p>|E02|
 |US07|Notificaciones de Eventos Relevantes|Como cliente de la empresa de transporte de carga, quiero recibir notificaciones automáticas sobre eventos relevantes relacionados con mi envío, para estar informado sobre el progreso de mi mercancía sin tener que realizar un seguimiento constante.|<p>**Escenario 1: Recepción de Notificación al Inicio del Transporte**</p><p></p><p>**Dado** **que** el cliente registró el envío en la plataforma,</p><p>**Cuando** comienza el transporte,</p><p>**Entonces** recibe automáticamente una notificación con detalles relevantes sobre el envío.</p><p></p><p>**Escenario 2: Notificación de Llegada a Punto de Control Importante**</p><p></p><p>**Dado que** el envío está en tránsito, <br>**Y** se habilitó las notificaciones automáticas,</p><p>**Cuando** la mercancía llega a un punto de control importante,</p><p>**Entonces** se enviará una notificación instantánea que informará sobre este evento relevante</p>|E02|
 |US08|Acceso a Detalles de Entrega|Como cliente de la empresa de transporte de carga, quiero poder acceder a detalles específicos sobre la entrega de mi envío, para tener una comprensión completa del proceso de entrega.|<p>**Escenario 1: Visualización de Fecha y Hora de Entrega Programada**</p><p></p><p>**Dado** **que** el cliente sigue su envío en línea,</p><p>**Cuando** ve los detalles de su envío,</p><p>**Entonces** encuentra fácilmente la fecha y hora programadas de entrega.</p><p></p><p>**Escenario 2: Acceso a Comentarios del Transportista**</p><p></p><p>**Dado** **que** el cliente espera un envío,</p><p>**Cuando** revisa los detalles en la plataforma,</p><p>**Entonces** podrá ver comentarios del transportista.</p><p></p>|E02|
-|US09|<p>Historial de Envíos</p><p></p>|Como cliente de la empresa de transporte de carga, quiero tener acceso a un historial completo de mis envíos anteriores, para poder realizar un seguimiento de las actividades de envío pasadas y planificar futuros envíos de manera más eficiente.|<p>**Escenario 1: Acceso al Historial de Envíos Anteriores**</p><p></p><p>**Dado** **que** el cliente está registrado en la plataforma,</p><p>**Cuando** accede a su cuenta,</p><p>**Entonces** ve su historial de envíos con todos los detalles.</p><p></p><p>**Escenario 2: Búsqueda y Filtrado en el Historial de Envíos**</p><p></p><p>**Dado** **que** el cliente busca un envío en su historial,</p><p>**Cuando** usa la búsqueda en la plataforma,</p><p>**Entonces** ingresa detalles como número de seguimiento o fecha para hallarlo rápido.</p><p></p>|E03|
+|US09|<p>Historial de Envíos</p><p></p>|Como cliente de la empresa de transporte de carga, quiero tener acceso a un historial completo de mis envíos anteriores, para poder realizar un seguimiento de las actividades de envío pasadas y planificar futuros envíos de manera más eficiente.|<p>**Escenario 1: Acceso al Historial de Envíos Anteriores**</p><p></p><p>**Dado** **que** el cliente está registrado en la plataforma,</p><p>**Cuando** accede a su cuenta,</p><p>**Entonces** ve su historial de envíos con todos los detalles.</p><p></p><p></p>|E03|
 |US10|Interfaz Intuitiva y Fácil de Usar|Como usuario, quiero una plataforma de seguimiento fácil e intuitiva, para acceder rápidamente a la información sin complicaciones.|<p>**Escenario 1: Navegación Intuitiva en la Plataforma de Seguimiento**</p><p></p><p>**Dado** **que** el usuario accede a la plataforma de seguimiento, </p><p>**Cuando** inicia sesión, **Entonces** podrá ver una interfaz clara con navegación fácil y etiquetas claras.</p><p></p><p>**Escenario 2: Acceso Rápido a la Información de Envíos**</p><p></p><p>**Dado** **que** el usuario necesita detalles de un envío,</p><p>**Cuando** accede al panel de seguimiento,</p><p>**Entonces** ve de inmediato la ubicación actual del envío y eventos importantes, sin clics o búsquedas adicionales.</p>|E04|
 |US11|Registro de usuario|Como cliente quiero poder registrarme en la aplicación para tener acceso autorizado y personalizado|<p>**Escenario 1: Registro de usuario exitoso**</p><p>**Dado que** el cliente se encuentra en apartado de “Registrarse”</p><p>**Cuando** llene todo el formulario de registro con su información personal</p><p>**Y** los datos sean validados</p><p>**Entonces** la cuenta se creará correctamente</p><p>**Y** recibirá una confirmación en su correo con un enlace para verificar su cuenta.</p><p></p><p>**Escenario 2: Registro de usuario fallido**</p><p>**Dado que** el cliente se encuentra en apartado de “Registrarse”</p><p>**Cuando** llene todo el formulario de registro con información incorrecta</p><p>**Entonces** la cuenta no se creará.</p><p>**Y** se mostrará el mensaje indicando el error.</p>|E05|
 |US12|Inicio de sesión|Como cliente quiero acceder a mi cuenta registrada para acceder a las funciones de la aplicación|<p>**Escenario 1: Inicio de sesión exitoso**</p><p>**Dado que** el cliente se encuentra en el apartado de “Iniciar sesión”</p><p>**Cuando** introduzca sus credenciales</p><p>**Y** los datos sean validados</p><p>**Entonces** recibirá un mensaje de bienvenida</p><p>**Y** tendrá acceso a la vista del usuario</p><p></p><p>**Escenario 2: Inicio de sesión fallido**</p><p>**Dado que** el cliente se encuentra en el apartado de “Iniciar sesión”</p><p>**Cuando** introduzca sus credenciales</p><p>**Y** los datos sean invalidados</p><p>**Entonces** no se le permitirá acceso a su cuenta.</p><p>**Y** se mostrará el mensaje indicando el error.</p>|E05|
@@ -1003,6 +1013,7 @@ User Story ID|Título|Descripción|Criterios de Aceptación |Relacionado con (E
 |US28|Registro de Datos de la Unidad|Como empresario de gestión logística, quiero registrar los datos de la unidad que realizará el servicio para demostrar transparencia y generar confianza en mis clientes.|<p>**Escenario 1: Registrar datos de la unidad**</p><p>**Dado que** el empresario desea demostrar transparencia y confianza en la prestación de servicios de transporte</p><p>**Cuando** accede a la plataforma y selecciona la sección dónde encuentra la opción "Registrar Datos de la Unidad"</p><p>**Y** registra los datos requeridos</p><p>**Y** da click en “Registrar”</p><p>**Entonces** el sistema lo verificará</p><p>**Y** le permitirá registrar información acerca de la unidad correctamente</p><p></p>|E07|
 |US29|Seguimiento en Tiempo Real|Como empresario de gestión logística, quiero poder visualizar el seguimiento en tiempo real de los servicios mediante la plataforma para identificar posibles imprevistos y tomar acciones correctivas de manera oportuna.|<p>**Escenario 1: Visualización de seguimiento en tiempo real**</p><p>**Dado que** el empresario necesita supervisar el progreso de los servicios en tiempo real</p><p>**Cuando** accede a la plataforma para verificar el estado de un servicio en curso</p><p>**Y** selecciona la sección GPS para el "Seguimiento en Tiempo Real"</p><p>**Entonces** se mostrará la ubicación y ruta trazada en un mapa</p>|E07|
 |US30|Historial de Envíos|Como empresario de gestión logística, quiero tener un historial de envíos para llevar un registro detallado de todos los servicios que he realizado y poder acceder a esta información en cualquier momento.|<p>**Escenario 1: Visualización de historial de envíos**</p><p>**Dado que** el empresario necesita mantener un registro de todos los servicios realizados</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Historial para visualizar el "Historial de Envíos"</p><p>**Entonces** se mostrará el listado de los envíos realizados</p><p>**Y** podrá ver los detalles de cada uno</p>|E07|
+|US31|Visualización de gastos realizados en el viaje|Como cliente de empresa logística quiero visualizar los gastos realizados en cada viaje para conocer los motivos del monto total por el servicio.|<p>**Escenario 1: Visualización de gastos en un viaje**</p><p>**Dado que** el cliente desea conocer los gastos realizados por la empresa logísticas en un viaje</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Gastos para visualizar el "Gastos de Envíos"</p><p>**Entonces** se mostrará el listado de los envíos realizados</p><p>**Y** podrá ver los gastos realizados de cada uno</p>|E03|
 
 ## 3.3. Impact Mapping
 
@@ -1024,30 +1035,31 @@ El Product Backlog se gestiona a través de la herramienta Pivotal Tracker, el c
 |4|US24|Sección “Sobre Nosotros”|Como usuario quiero ver una página sobre la startup para conocer el propósito de la startup que está desarrollando la aplicación.|3|
 |5|US25|Sección “Características”|Como usuario quiero ver una página “Características” para conocer las funcionalidades que brinda la aplicación.|3|
 |6|US26|Sección “Contacto”|Como usuario quiero acceder a una página “Contacto” para conocer los medios de contacto con la empresa para realizar preguntas sobre dudas, problemas o sugerencias.|3|
-|7|US06|Seguimiento en Tiempo Real de Envíos|Como cliente de la empresa de transporte de carga, quiero poder ingresar el número de seguimiento de mi envío en una plataforma en línea, para poder obtener actualizaciones en tiempo real sobre la ubicación y el estado de mi mercancía durante el transporte.|8|
-|8|US07|Notificaciones de Eventos Relevantes|Como cliente de la empresa de transporte de carga, quiero recibir notificaciones automáticas sobre eventos relevantes relacionados con mi envío, para estar informado sobre el progreso de mi mercancía sin tener que realizar un seguimiento constante.|5|
-|9|US08|Acceso a Detalles de Entrega|Como cliente de la empresa de transporte de carga, quiero poder acceder a detalles específicos sobre la entrega de mi envío, para tener una comprensión completa del proceso de entrega.|5|
-|10|US01|Alertas de Retraso en Entrega|Como cliente quiero recibir una alerta si hay un retraso en la entrega para minimizar cualquier impacto en mi operación|5|
-|11|US02|Alertas de Cambio de Ruta|Como cliente, quiero ser notificado si hay un cambio en la ruta para asegurarme de que la mercancía esté en un camino seguro|5|
-|12|US03|Alertas de Paradas No Programadas|Como cliente, necesito ser alertado si la unidad de transporte realiza paradas no programadas durante el viaje para investigar la situación y asegurarse de que no haya demoras innecesarias que puedan afectar la entrega o la integridad de la mercancía|5|
-|13|US04|Alertas de Condiciones Climáticas Adversas|Como cliente, quiero ser informado de inmediato si el transporte se ve afectado por condiciones climáticas adversas para tomar precauciones adecuadas y asegurar de que la mercancía esté protegida durante el transporte|5|
-|14|US05|Alertas de Detención No Programada|Como cliente quiero ser alertado si la unidad de transporte se detiene de manera no programada durante el viaje para investigar la situación y asegurarme de que la mercancía esté protegida y en movimiento según lo planeado|5|
-|15|US09|<p>Historial de Envíos</p><p></p>|Como cliente de la empresa de transporte de carga, quiero tener acceso a un historial completo de mis envíos anteriores, para poder realizar un seguimiento de las actividades de envío pasadas y planificar futuros envíos de manera más eficiente.|8|
-|16|US16|Búsqueda de envíos|Como cliente quiero poder filtrar mis envíos anteriores mediante criterios de búsqueda para encontrar la información que necesito|5|
-|17|US17|Estadísticas de envíos|Como cliente quiero tener acceso a estadísticas sobre mis envíos previos para comprender patrones y tomar decisiones informadas|5|
-|18|US18|Exportación del historial de envíos|Como cliente quiero poder exportar mi historial de envíos para realizar un análisis fuera de la plataforma|8|
-|19|US27|Registro de gastos de viaje|Como empresario de gestión logística, quiero poder registrar los gastos realizados durante los viajes para mantener un registro preciso y mantener informados a mis clientes sobre los costos asociados a sus servicios.|8|
-|20|US28|Registro de datos de la unidad|Como empresario de gestión logística, quiero registrar los datos de la unidad que realizará el servicio para demostrar transparencia y generar confianza en mis clientes.|8|
-|21|US29|Seguimiento en tiempo real|Como empresario de gestión logística, quiero poder visualizar el seguimiento en tiempo real de los servicios mediante la plataforma para identificar posibles imprevistos y tomar acciones correctivas de manera oportuna.|5|
-|22|US30|Historial de envíos|Como empresario de gestión logística, quiero tener un historial de envíos para llevar un registro detallado de todos los servicios que he realizado y poder acceder a esta información en cualquier momento.|3|
-|23|US10|Interfaz Intuitiva y Fácil de Usar|Como cliente, quiero una plataforma de seguimiento fácil e intuitiva, para acceder rápidamente a la información sin complicaciones.|5|
-|24|US19|Soporte multidispositivo y multiplataforma|Como cliente quiero acceder a la plataforma desde cualquier dispositivo o sistema operativo para una experiencia consistente|8|
-|25|US20|Personalización de visualización|Como cliente, quiero personalizar la presentación de la información para que se adapte a mis preferencias|8|
-|26|US11|Registro de usuario|Como cliente quiero poder registrarme en la aplicación para tener acceso autorizado y personalizado|3|
-|27|US12|Inicio de sesión|Como cliente quiero acceder a mi cuenta registrada para acceder a las funciones de la aplicación|3|
-|28|US13|Cierre de sesión|Como cliente quiero cerrar sesión de forma segura en cualquier momento para garantizar la seguridad y privacidad de mis datos|2|
-|29|US14|Elegir plan de suscripción|Como cliente quiero elegir un plan de suscripción que se acomode a mis necesidades para acceder a las funcionalidades necesarias para mí.|5|
-|30|US15|Recuperación de cuenta|Como cliente quiero poder recuperar mi cuenta en caso haya tenido algún inconveniente con las credenciales para recuperar el acceso de forma segura.|5|
+|7|US09|Historial de Envíos|Como cliente de la empresa de transporte de carga, quiero tener acceso a un historial completo de mis envíos anteriores, para poder realizar un seguimiento de las actividades de envío pasadas y planificar futuros envíos de manera más eficiente.|8|
+|8|US16|Búsqueda de envíos|Como cliente quiero poder filtrar mis envíos anteriores mediante criterios de búsqueda para encontrar la información que necesito|5|
+|9|US31|Visualización de gastos realizados en el viaje|Como cliente de empresa logística quiero visualizar los gastos realizados en cada viaje para conocer los motivos del monto total por el servicio.|5|
+|10|US06|Seguimiento en Tiempo Real de Envíos|Como cliente de la empresa de transporte de carga, quiero poder ingresar el número de seguimiento de mi envío en una plataforma en línea, para poder obtener actualizaciones en tiempo real sobre la ubicación y el estado de mi mercancía durante el transporte.|8|
+|11|US07|Notificaciones de Eventos Relevantes|Como cliente de la empresa de transporte de carga, quiero recibir notificaciones automáticas sobre eventos relevantes relacionados con mi envío, para estar informado sobre el progreso de mi mercancía sin tener que realizar un seguimiento constante.|5|
+|12|US08|Acceso a Detalles de Entrega|Como cliente de la empresa de transporte de carga, quiero poder acceder a detalles específicos sobre la entrega de mi envío, para tener una comprensión completa del proceso de entrega.|5|
+|13|US01|Alertas de Retraso en Entrega|Como cliente quiero recibir una alerta si hay un retraso en la entrega para minimizar cualquier impacto en mi operación|5|
+|14|US02|Alertas de Cambio de Ruta|Como cliente, quiero ser notificado si hay un cambio en la ruta para asegurarme de que la mercancía esté en un camino seguro|5|
+|15|US03|Alertas de Paradas No Programadas|Como cliente, necesito ser alertado si la unidad de transporte realiza paradas no programadas durante el viaje para investigar la situación y asegurarse de que no haya demoras innecesarias que puedan afectar la entrega o la integridad de la mercancía|5|
+|16|US04|Alertas de Condiciones Climáticas Adversas|Como cliente, quiero ser informado de inmediato si el transporte se ve afectado por condiciones climáticas adversas para tomar precauciones adecuadas y asegurar de que la mercancía esté protegida durante el transporte|5|
+|17|US05|Alertas de Detención No Programada|Como cliente quiero ser alertado si la unidad de transporte se detiene de manera no programada durante el viaje para investigar la situación y asegurarme de que la mercancía esté protegida y en movimiento según lo planeado|5|
+|18|US17|Estadísticas de envíos|Como cliente quiero tener acceso a estadísticas sobre mis envíos previos para comprender patrones y tomar decisiones informadas|5|
+|19|US18|Exportación del historial de envíos|Como cliente quiero poder exportar mi historial de envíos para realizar un análisis fuera de la plataforma|8|
+|20|US27|Registro de gastos de viaje|Como empresario de gestión logística, quiero poder registrar los gastos realizados durante los viajes para mantener un registro preciso y mantener informados a mis clientes sobre los costos asociados a sus servicios.|8|
+|21|US28|Registro de datos de la unidad|Como empresario de gestión logística, quiero registrar los datos de la unidad que realizará el servicio para demostrar transparencia y generar confianza en mis clientes.|8|
+|22|US29|Seguimiento en tiempo real|Como empresario de gestión logística, quiero poder visualizar el seguimiento en tiempo real de los servicios mediante la plataforma para identificar posibles imprevistos y tomar acciones correctivas de manera oportuna.|5|
+|23|US30|Historial de envíos|Como empresario de gestión logística, quiero tener un historial de envíos para llevar un registro detallado de todos los servicios que he realizado y poder acceder a esta información en cualquier momento.|3|
+|24|US10|Interfaz Intuitiva y Fácil de Usar|Como cliente, quiero una plataforma de seguimiento fácil e intuitiva, para acceder rápidamente a la información sin complicaciones.|5|
+|25|US19|Soporte multidispositivo y multiplataforma|Como cliente quiero acceder a la plataforma desde cualquier dispositivo o sistema operativo para una experiencia consistente|8|
+|26|US20|Personalización de visualización|Como cliente, quiero personalizar la presentación de la información para que se adapte a mis preferencias|8|
+|27|US11|Registro de usuario|Como cliente quiero poder registrarme en la aplicación para tener acceso autorizado y personalizado|3|
+|28|US12|Inicio de sesión|Como cliente quiero acceder a mi cuenta registrada para acceder a las funciones de la aplicación|3|
+|29|US13|Cierre de sesión|Como cliente quiero cerrar sesión de forma segura en cualquier momento para garantizar la seguridad y privacidad de mis datos|2|
+|30|US14|Elegir plan de suscripción|Como cliente quiero elegir un plan de suscripción que se acomode a mis necesidades para acceder a las funcionalidades necesarias para mí.|5|
+|31|US15|Recuperación de cuenta|Como cliente quiero poder recuperar mi cuenta en caso haya tenido algún inconveniente con las credenciales para recuperar el acceso de forma segura.|5|
 
 # Capítulo IV Product Design
 ## 4.1. Style Guidelines
@@ -1857,6 +1869,25 @@ Nos dividimos de la siguiente forma para trabajar en el Landing Page:
 
 Siguiendo el flujo de trabajo de Gitflow, usamos las ramas main, develop y feature respectivamente.
 <img src="img/branches.png">
+
+
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2.
+
+#### 5.2.2.2. Sprint Backlog 2.
+
+#### 5.2.2.3. Development Evidence for Sprint Review.
+
+#### 5.2.2.4. Testing Suite Evidence for Sprint Review.
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 # Conclusiones
 
