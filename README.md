@@ -1035,18 +1035,18 @@ El Product Backlog se gestiona a través de la herramienta Pivotal Tracker, el c
 |4|US24|Sección “Sobre Nosotros”|Como usuario quiero ver una página sobre la startup para conocer el propósito de la startup que está desarrollando la aplicación.|3|
 |5|US25|Sección “Características”|Como usuario quiero ver una página “Características” para conocer las funcionalidades que brinda la aplicación.|3|
 |6|US26|Sección “Contacto”|Como usuario quiero acceder a una página “Contacto” para conocer los medios de contacto con la empresa para realizar preguntas sobre dudas, problemas o sugerencias.|3|
-|7|US09|Historial de Envíos|Como cliente de la empresa de transporte de carga, quiero tener acceso a un historial completo de mis envíos anteriores, para poder realizar un seguimiento de las actividades de envío pasadas y planificar futuros envíos de manera más eficiente.|8|
+|7|US09|Historial de Envíos|Como cliente de la empresa de transporte de carga, quiero tener acceso a un historial completo de mis envíos anteriores, para poder realizar un seguimiento de las actividades de envío pasadas y planificar futuros envíos de manera más eficiente.|5|
 |8|US16|Búsqueda de envíos|Como cliente quiero poder filtrar mis envíos anteriores mediante criterios de búsqueda para encontrar la información que necesito|5|
 |9|US31|Visualización de gastos realizados en el viaje|Como cliente de empresa logística quiero visualizar los gastos realizados en cada viaje para conocer los motivos del monto total por el servicio.|5|
 |10|US06|Seguimiento en Tiempo Real de Envíos|Como cliente de la empresa de transporte de carga, quiero poder ingresar el número de seguimiento de mi envío en una plataforma en línea, para poder obtener actualizaciones en tiempo real sobre la ubicación y el estado de mi mercancía durante el transporte.|8|
-|11|US07|Notificaciones de Eventos Relevantes|Como cliente de la empresa de transporte de carga, quiero recibir notificaciones automáticas sobre eventos relevantes relacionados con mi envío, para estar informado sobre el progreso de mi mercancía sin tener que realizar un seguimiento constante.|5|
-|12|US08|Acceso a Detalles de Entrega|Como cliente de la empresa de transporte de carga, quiero poder acceder a detalles específicos sobre la entrega de mi envío, para tener una comprensión completa del proceso de entrega.|5|
-|13|US01|Alertas de Retraso en Entrega|Como cliente quiero recibir una alerta si hay un retraso en la entrega para minimizar cualquier impacto en mi operación|5|
-|14|US02|Alertas de Cambio de Ruta|Como cliente, quiero ser notificado si hay un cambio en la ruta para asegurarme de que la mercancía esté en un camino seguro|5|
-|15|US03|Alertas de Paradas No Programadas|Como cliente, necesito ser alertado si la unidad de transporte realiza paradas no programadas durante el viaje para investigar la situación y asegurarse de que no haya demoras innecesarias que puedan afectar la entrega o la integridad de la mercancía|5|
-|16|US04|Alertas de Condiciones Climáticas Adversas|Como cliente, quiero ser informado de inmediato si el transporte se ve afectado por condiciones climáticas adversas para tomar precauciones adecuadas y asegurar de que la mercancía esté protegida durante el transporte|5|
-|17|US05|Alertas de Detención No Programada|Como cliente quiero ser alertado si la unidad de transporte se detiene de manera no programada durante el viaje para investigar la situación y asegurarme de que la mercancía esté protegida y en movimiento según lo planeado|5|
-|18|US17|Estadísticas de envíos|Como cliente quiero tener acceso a estadísticas sobre mis envíos previos para comprender patrones y tomar decisiones informadas|5|
+|11|US08|Acceso a Detalles de Entrega|Como cliente de la empresa de transporte de carga, quiero poder acceder a detalles específicos sobre la entrega de mi envío, para tener una comprensión completa del proceso de entrega.|5|
+|12|US17|Estadísticas de envíos|Como cliente quiero tener acceso a estadísticas sobre mis envíos previos para comprender patrones y tomar decisiones informadas|5|
+|13|US07|Notificaciones de Eventos Relevantes|Como cliente de la empresa de transporte de carga, quiero recibir notificaciones automáticas sobre eventos relevantes relacionados con mi envío, para estar informado sobre el progreso de mi mercancía sin tener que realizar un seguimiento constante.|5|
+|14|US01|Alertas de Retraso en Entrega|Como cliente quiero recibir una alerta si hay un retraso en la entrega para minimizar cualquier impacto en mi operación|5|
+|15|US02|Alertas de Cambio de Ruta|Como cliente, quiero ser notificado si hay un cambio en la ruta para asegurarme de que la mercancía esté en un camino seguro|5|
+|16|US03|Alertas de Paradas No Programadas|Como cliente, necesito ser alertado si la unidad de transporte realiza paradas no programadas durante el viaje para investigar la situación y asegurarse de que no haya demoras innecesarias que puedan afectar la entrega o la integridad de la mercancía|5|
+|17|US04|Alertas de Condiciones Climáticas Adversas|Como cliente, quiero ser informado de inmediato si el transporte se ve afectado por condiciones climáticas adversas para tomar precauciones adecuadas y asegurar de que la mercancía esté protegida durante el transporte|5|
+|18|US05|Alertas de Detención No Programada|Como cliente quiero ser alertado si la unidad de transporte se detiene de manera no programada durante el viaje para investigar la situación y asegurarme de que la mercancía esté protegida y en movimiento según lo planeado|5|
 |19|US18|Exportación del historial de envíos|Como cliente quiero poder exportar mi historial de envíos para realizar un análisis fuera de la plataforma|8|
 |20|US27|Registro de gastos de viaje|Como empresario de gestión logística, quiero poder registrar los gastos realizados durante los viajes para mantener un registro preciso y mantener informados a mis clientes sobre los costos asociados a sus servicios.|8|
 |21|US28|Registro de datos de la unidad|Como empresario de gestión logística, quiero registrar los datos de la unidad que realizará el servicio para demostrar transparencia y generar confianza en mis clientes.|8|
@@ -1060,6 +1060,8 @@ El Product Backlog se gestiona a través de la herramienta Pivotal Tracker, el c
 |29|US13|Cierre de sesión|Como cliente quiero cerrar sesión de forma segura en cualquier momento para garantizar la seguridad y privacidad de mis datos|2|
 |30|US14|Elegir plan de suscripción|Como cliente quiero elegir un plan de suscripción que se acomode a mis necesidades para acceder a las funcionalidades necesarias para mí.|5|
 |31|US15|Recuperación de cuenta|Como cliente quiero poder recuperar mi cuenta en caso haya tenido algún inconveniente con las credenciales para recuperar el acceso de forma segura.|5|
+
+
 
 # Capítulo IV Product Design
 ## 4.1. Style Guidelines
@@ -1648,6 +1650,8 @@ Usuarios de GitHub:
 
 *URL de repositorio de Acceptance Tests:* https://github.com/Grupo-2-Apps-Web/Acceptance-Tests
 
+*URL de repositorio de Frontend Web Applications:*
+http://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications
 
 Para el desarrollo del trabajo se usará GitFlow. Este es un modelo de flujo de trabajo para la gestión de control de versiones Git. Está compuesta por ramas y cada una tiene un uso específico: Main, Feature, Develop. En la rama Main, se trabaja con las versiones finales del sprint y se hace un despliegue de la aplicación web, es por ello que todas las versiones almacenadas en esta rama deben ser funcionales y estables para el usuario. En las ramas Feature se trabaja con versiones sobre las que se desarrolla un feature específico, así como un feature para registro de un usuario. Las ramas Feature se trabajan y controlan por separado para tener un orden sobre el cual trabajar a partir del Product Backlog, y en caso ocurra algún problema al trabajar en un feature, no afecte sobre todo el programa. Finalmente, tenemos la rama Develop, sobre la cual se fusionan todos los features ya trabajados. De esta manera, se puede asegurar que todo esté funcionando como se espera antes de hacer el despliegue oficial para pasarlo a la rama Main.
 
