@@ -1879,6 +1879,23 @@ Siguiendo el flujo de trabajo de Gitflow, usamos las ramas main, develop y featu
 
 #### 5.2.2.1. Sprint Planning 2.
 
+El segundo sprint se planeó a través de una reunión presencial en la universidad. Para ello, se hizo la siguiente tabla para registrar la información que se discutió.
+
+|**Sprint #**|Sprint 2|
+| :- | :- |
+|**Sprint Planning Background**||
+|Date|2024-04-22|
+|Time|07:00 PM|
+|Location|Presencial (En cubículo de la universidad)|
+|Prepared by|Delgado Corrales, Piero Gonzalo|
+|Attendees (to planning meeting)|<p>Delgado Corrales, Piero Gonzalo</p><p>Matos Fernandez, Christian Andre</p><p>Paredes Puente, Sebastián Roberto</p><p>Salinas Torres, Salvador Antonio</p><p>Valverde Mozo, Andre Gabriel</p>|
+|Sprint 1 Review Summary|En el sprint 1, se realizó la implementación y deployment de la landing page estática.|
+|Sprint 1 Retrospective Summary|Para la anterior entrega hubo unos cuantos percances y atrasos en las fechas determinadas para terminar las tareas asignadas a cada miembro. Por ello, hemos conversado para evitar que suceda nuevamente y cumplir con las fechas determinadas en un inicio.|
+|**Sprint Goal & User Stories**||
+|Sprint 2 Goal|Desarrollar la parte inicial en Frontend de la aplicación web.|
+|Sprint 2 Velocity|33|
+|Sum of Story Points|33|
+
 #### 5.2.2.2. Sprint Backlog 2.
 
 #### 5.2.2.3. Development Evidence for Sprint Review.
