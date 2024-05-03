@@ -1448,19 +1448,30 @@ URL del video:
 
 El diagrama de contexto representa la estructura y las principales interacciones de un sistema de software. Este sistema permite a los usuarios, ya sean las empresas que requieren de servicio de transporte o empresas de gestión logística que se encargan de realizar el proceso de transporte, explorar la plataforma y llevar a cabo el seguimiento de sus envíos de cargas grandes. Además, el sistema establece conexiones con sistemas externos, así como el sistema de servicio de pago para suscripciones, y luego el sistema del transporte de carga que proporciona los datos de ubicación y el estado de los envíos.
 
-<img src="img/c4-context.png" alt="Diagrama de contexto" width="100%">
+<img src="img/structurizr-83137-Contexto.png" alt="Diagrama de contexto" width="100%">
 
 ### 4.6.2. Software Architecture Container Diagrams
 
 El diagrama de contenedores muestra la arquitectura del sistema de Software de “CargoApp”, la cual usan los clientes para hacer la gestión de envíos. Esta cuenta con varios contenedores así como la aplicación web que muestra la interfaz para los clientes, el servidor que ejecuta y gestiona los servicios como la base de datos, luego el servicio de alertas para notificar sobre eventos y finalmente el API de transporte de carga que interactúa con los sistemas externos.
 
-<img src="img/c4-container.png" alt="Diagrama de contenedores" width="100%">
+<img src="img/structurizr-83137-Contenedor (1).png" alt="Diagrama de contenedores" width="100%">
 
 ### 4.6.3. Software Architecture Components Diagrams
 
 El diagrama de componentes permite visualizar la estructura interna de un sistema de software y sus relaciones, facilitando el diseño modular y la comprensión de cómo interactúan sus diferentes partes. En el sistema representado en el diagrama de componentes, varios servicios y controladores, como Scatistic Service para estadísticas, Recommendation Service para recomendaciones, Subscription Controller para suscripciones, User Controller para gestión de usuarios, Security Service para seguridad, Payment Service para pagos, y Notifications Service para notificaciones, están conectados a una base de datos, un sistema de pago y un núcleo compartido. Esta arquitectura permite una gestión coherente y eficiente de diversas funcionalidades del sistema, garantizando la consistencia en el acceso a datos y funcionalidades compartidas, así como la modularidad en el desarrollo y mantenimiento del software.
 
-<img src="img/c4-components.jpg" alt="Diagrama de componentes" width="100%">
+<img src="img/structurizr-83137-API Rest Component Diagram (1).png" alt="Diagrama de componentes" width="100%">
+
+
+*User Bounded Context Component Diagram*
+<img src="img/structurizr-83137-Registration BC Component Diagram.png" alt="User Bounded Context Component Diagram" width="100%">
+
+*Registration Context Component Diagram*
+<img src="img/structurizr-83137-API Rest Component Diagram (1).png" alt="Registration Context Component Diagram" width="100%">
+
+*GPS Bounded Context Component Diagram*
+<img src="img/structurizr-83137-GPS BC Component Diagram.png" alt="GPS Bounded Context Component Diagram" width="100%">
+
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
