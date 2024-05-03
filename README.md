@@ -1467,7 +1467,7 @@ El diagrama de componentes permite visualizar la estructura interna de un sistem
 <img src="img/structurizr-83137-Registration BC Component Diagram.png" alt="User Bounded Context Component Diagram" width="100%">
 
 *Registration Context Component Diagram*
-<img src="img/structurizr-83137-API Rest Component Diagram (1).png" alt="Registration Context Component Diagram" width="100%">
+<img src="img/structurizr-83137-Registration BC Component Diagram.png" alt="Registration Context Component Diagram" width="100%">
 
 *GPS Bounded Context Component Diagram*
 <img src="img/structurizr-83137-GPS BC Component Diagram.png" alt="GPS Bounded Context Component Diagram" width="100%">
