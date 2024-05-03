@@ -1446,31 +1446,31 @@ URL del video:
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
 
-El diagrama de contexto representa la estructura y las principales interacciones de un sistema de software. Este sistema permite a los usuarios, ya sean las empresas que requieren de servicio de transporte o empresas de gestión logística que se encargan de realizar el proceso de transporte, explorar la plataforma y llevar a cabo el seguimiento de sus envíos de cargas grandes. Además, el sistema establece conexiones con sistemas externos, así como el sistema de servicio de pago para suscripciones, y luego el sistema del transporte de carga que proporciona los datos de ubicación y el estado de los envíos.
+El diagrama de contexto describe la estructura y las interacciones principales de nuestro sistema de gestión de transporte de carga a través de una plataforma digital. Este sistema involucra a proveedores de servicios de transporte que utilizan la plataforma para registrar y gestionar envíos, así como a clientes de empresas logísticas que acceden a la plataforma para rastrear y gestionar eventos relacionados con los envíos. La plataforma central, denominada CargoApp (TransportationSystem), permite registrar el proceso de envío y almacenar información relevante. Además, el sistema se integra con un servicio externo de pagos (PaymentSystem) para gestionar transacciones asociadas con los envíos y utiliza Google Maps para obtener información de ubicación en tiempo real. Este diagrama proporciona una visión general de cómo interactúan las entidades dentro del sistema y cómo se conectan con sistemas externos críticos para sus operaciones.
 
 <img src="img/structurizr-83137-Contexto.png" alt="Diagrama de contexto" width="100%">
 
 ### 4.6.2. Software Architecture Container Diagrams
 
-El diagrama de contenedores muestra la arquitectura del sistema de Software de “CargoApp”, la cual usan los clientes para hacer la gestión de envíos. Esta cuenta con varios contenedores así como la aplicación web que muestra la interfaz para los clientes, el servidor que ejecuta y gestiona los servicios como la base de datos, luego el servicio de alertas para notificar sobre eventos y finalmente el API de transporte de carga que interactúa con los sistemas externos.
+El diagrama de contenedores detalla los componentes principales de nuestro sistema de gestión de transporte de carga a través de una plataforma digital. La aplicación web permite a los usuarios ver la ubicación en tiempo real de sus envíos y gestionar datos relacionados, mientras que la página de inicio ofrece funcionalidades de consulta. La API REST actúa como el intermediario entre el frontend y el backend del sistema, facilitando la comunicación a través de solicitudes web. Además, una base de datos almacena los datos del sistema. Las interacciones incluyen consultas de usuarios hacia la aplicación web y la página de inicio, y comunicación entre la API REST, la base de datos y otros sistemas externos como el sistema de pagos y Google Maps. Este diagrama proporciona una visión clara de cómo se estructuran y comunican los diferentes elementos dentro del sistema de transporte de carga digital.
 
-<img src="img/structurizr-83137-Contenedor (1).png" alt="Diagrama de contenedores" width="100%">
+<img src="img/structurizr-83137-Contenedor.png" alt="Diagrama de contenedores" width="100%">
 
 ### 4.6.3. Software Architecture Components Diagrams
 
-El diagrama de componentes permite visualizar la estructura interna de un sistema de software y sus relaciones, facilitando el diseño modular y la comprensión de cómo interactúan sus diferentes partes. En el sistema representado en el diagrama de componentes, varios servicios y controladores, como Scatistic Service para estadísticas, Recommendation Service para recomendaciones, Subscription Controller para suscripciones, User Controller para gestión de usuarios, Security Service para seguridad, Payment Service para pagos, y Notifications Service para notificaciones, están conectados a una base de datos, un sistema de pago y un núcleo compartido. Esta arquitectura permite una gestión coherente y eficiente de diversas funcionalidades del sistema, garantizando la consistencia en el acceso a datos y funcionalidades compartidas, así como la modularidad en el desarrollo y mantenimiento del software.
+El diagrama de componentes de la API REST muestra las partes esenciales de nuestro sistema diseñado para gestionar funcionalidades relacionadas con usuarios, visualización de viajes y gastos, registro de datos y funcionalidades compartidas. Estos componentes, implementados con Vue.js para la interfaz de usuario y Node.js (NestJS) para el kernel compartido, interactúan entre sí y con sistemas externos como una base de datos JDBC, el sistema de pagos y Google Maps. El componente "User" maneja las operaciones de usuario y se conecta al sistema de pagos; "Visualization" se encarga de mostrar viajes y gastos con datos de la base de datos y Google Maps; "Registration" registra datos de viajes y gastos en la base de datos; y "Shared Kernel" proporciona funcionalidades compartidas. Este diagrama ilustra cómo se integran y colaboran estos componentes en la arquitectura de la API REST del sistema.
 
-<img src="img/structurizr-83137-API Rest Component Diagram (1).png" alt="Diagrama de componentes" width="100%">
+<img src="img/structurizr-91455-API Rest Component Diagram.png" alt="Diagrama de componentes" width="100%">
 
 
 *User Bounded Context Component Diagram*
-<img src="img/structurizr-83137-Registration BC Component Diagram.png" alt="User Bounded Context Component Diagram" width="100%">
+<img src="img/structurizr-83137-Users BC Component Diagram.png" alt="User Bounded Context Component Diagram" width="100%">
 
-*Registration Context Component Diagram*
+*Registration Bounded Context Component Diagram*
 <img src="img/structurizr-83137-Registration BC Component Diagram.png" alt="Registration Context Component Diagram" width="100%">
 
-*GPS Bounded Context Component Diagram*
-<img src="img/structurizr-83137-GPS BC Component Diagram.png" alt="GPS Bounded Context Component Diagram" width="100%">
+*Visualization Bounded Context Component Diagram*
+<img src="img/structurizr-83137-Visualization BC Component Diagram.png" alt="GPS Bounded Context Component Diagram" width="100%">
 
 
 ## 4.7. Software Object-Oriented Design
