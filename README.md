@@ -31,7 +31,7 @@ Producto: CargoApp
 |  Salinas Torres, Salvador Antonio   |    U20221B127    |
 |   Valverde Mozo, Andre Gabriel   |    U202218899    |
 
-Abril 2024
+Mayo 2024
 
 </div>
 
@@ -2004,7 +2004,7 @@ En esta sección, se mostrará lo avanzado en el segundo sprint, el cual se basa
 **Evidencia del Frontend-Web-Application:**
 Se implementó todas las historias de usuario en el sprint backlog 2, al completar todas las historias de usuario planificadas para este sprint, se demostró un compromiso excepcional con el éxito del proyecto y la entrega de valor al cliente. Para la demostración de la ejecución, se grabó el siguiente video en el cual se muestran todos los procesos alcanzados:
 
-URL de video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217239_upc_edu_pe/EXRvNjUmCkBDkyyOdZy1yL0BDtwqwr5CIa5uaAv2LaLT-A?e=Mg0lVo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+URL de video: [Video de ejecución del frontend](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217239_upc_edu_pe/EXRvNjUmCkBDkyyOdZy1yL0BDtwqwr5CIa5uaAv2LaLT-A?e=Mg0lVo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <img src="img/execution-evidence-app.png" width="100%">
 
@@ -2083,3 +2083,5 @@ Mollahosseini, A. (2021). *Make your Gherkin Specifications More Readable.* BDD 
 **Videos de exposiciones**
 
 Exposición TB1: [upc-pre-202401-si730-sw53-cargowatch-tb1](https://upcedupe-my.sharepoint.com/personal/u202210749_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202210749%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202401%2Dsi730%2Dsw53%2Dcargowatch%2Dtb1%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
+
+Exposición TP1: [upc-pre-202401-si730-sw53-cargowatch-tp1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/EbxZLzpnOJVAiGzxtUBHOB8B3hI80bMJ8q-0UCbmkMhqaw?e=TvhZJc)
