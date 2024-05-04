@@ -1948,7 +1948,7 @@ Se realizaron los avances con los commits correspondientes en el repositorio de 
 |Grupo-2-Apps-Web/Frontend-Web-Applications|feature/sidebar|1db7fb2|feat: sidebar added|03/05/2024|
 |Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|6b83b13|feat: added visualization for client|03/05/2024|
 |Grupo-2-Apps-Web/Frontend-Web-Applications|feature/user|fdaa485|feat: user change view added|03/05/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/statistic|6563c1e|[feat: added statistic per month and destiny](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/6563c1e2f16cea859522ea77a95c85c72a7dfe12)|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/statistic|6563c1e|feat: added statistic per month and destiny|03/05/2024|
 |Grupo-2-Apps-Web/Frontend-Web-Applications|feature/on-going-trip|7ad8f0a|feat: added section gps|03/05/2024|
 |Grupo-2-Apps-Web/Frontend-Web-Applications|feature/alerts|8bc4c02|feat: added alerts on ongoing trips|03/05/2024|
 |Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|8335d10|feat: added register trip|03/05/2024|
@@ -1966,8 +1966,8 @@ Se realizaron los acceptance tests para las historias de usuario trabajadas y se
 | :- | :- | :- | :- | :- |
 |Grupo-2-Apps-Web/Acceptance-Tests|main|a6626f5|feat: added US31 acceptance test|28/04/2024|
 |Grupo-2-Apps-Web/Acceptance-Tests|main|771b263|feat: added acceptance test for us07, us28, us29|03/05/2024|
-|Grupo-2-Apps-Web/Acceptance-Tests|main|e9657ef|[feat: added feature file for us10](https://github.com/Grupo-2-Apps-Web/Acceptance-Tests/commit/e9657ef3153769e4197ec71d152f63d22dc5f8fa)|03/05/2024|
-|Grupo-2-Apps-Web/Acceptance-Tests|main|329f434|[feat: added feature file for us32](https://github.com/Grupo-2-Apps-Web/Acceptance-Tests/commit/329f43414f4531701d39e4dba55498d65f366012)|03/05/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|e9657ef|feat: added feature file for us10|03/05/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|329f434|feat: added feature file for us32|03/05/2024|
 |Grupo-2-Apps-Web/Acceptance-Tests|main|d8e9a86|feat: added acceptance tests for us06, us04, us30|03/05/2024|
 |Grupo-2-Apps-Web/Acceptance-Tests|main|d2c5058|feat: added acceptance test for us08|03/05/2024|
 |Grupo-2-Apps-Web/Acceptance-Tests|main|9ba43a7|feat: added acceptance test for us27|03/05/2024|
