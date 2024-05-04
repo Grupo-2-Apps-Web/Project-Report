@@ -1937,12 +1937,51 @@ El objetivo de este segundo sprint es la realización del Frontend de la aplicac
 <tr><td valign="top">US01</td><td valign="top">Alertas de eventos importantes durante la entrega</td><td valign="top">TS19</td><td valign="top">Implementación de alertas</td><td valign="top">Se implementa el listado de alertas de viajes desde la página del seguimiento en tiempo real.</td><td valign="top">2</td><td valign="top">Piero Delgado</td><td valign="top">Done</td></tr>
 </table>
 
-
 #### 5.2.2.3. Development Evidence for Sprint Review.
+
+Se realizaron los avances con los commits correspondientes en el repositorio de la siguiente forma.
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- |
+|Grupo-2-Apps-Web/Frontend-Web-Applications|main|f64966c|feat: initial commit creation of proyect|23/04/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/sidebar|1db7fb2|feat: sidebar added|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|6b83b13|feat: added visualization for client|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/user|fdaa485|feat: user change view added|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/statistic|6563c1e|[feat: added statistic per month and destiny](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/6563c1e2f16cea859522ea77a95c85c72a7dfe12)|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/on-going-trip|7ad8f0a|feat: added section gps|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/alerts|8bc4c02|feat: added alerts on ongoing trips|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|8335d10|feat: added register trip|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|0325cad|feat: Added Modify Expenses|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|dca7deb|feat: Added Register Expense|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|c1ffa3e|feat: added modify trip feature|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/user|6edd2cd|feat: added store.js for user and router|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|develop|c71b437|chore: added dependencies and images|03/05/2024|
 
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
 
+Se realizaron los acceptance tests para las historias de usuario trabajadas y se registraron en el repositorio de la siguiente forma.
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- |
+|Grupo-2-Apps-Web/Acceptance-Tests|main|a6626f5|feat: added US31 acceptance test|28/04/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|771b263|feat: added acceptance test for us07, us28, us29|03/05/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|e9657ef|[feat: added feature file for us10](https://github.com/Grupo-2-Apps-Web/Acceptance-Tests/commit/e9657ef3153769e4197ec71d152f63d22dc5f8fa)|03/05/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|329f434|[feat: added feature file for us32](https://github.com/Grupo-2-Apps-Web/Acceptance-Tests/commit/329f43414f4531701d39e4dba55498d65f366012)|03/05/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|d8e9a86|feat: added acceptance tests for us06, us04, us30|03/05/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|d2c5058|feat: added acceptance test for us08|03/05/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|9ba43a7|feat: added acceptance test for us27|03/05/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|1f6e49a|feat: added acceptance test us01 and us09|03/05/2024|
+
 #### 5.2.2.5. Execution Evidence for Sprint Review.
+
+En esta sección, se mostrará lo avanzado en el segundo sprint, el cual se basa en la nueva versión del despliegue del Frontend-Web-Application de CargoApp.
+
+**Evidencia del Frontend-Web-Application:**
+Se implementó todas las historias de usuario en el sprint backlog 2, al completar todas las historias de usuario planificadas para este sprint, se demostró un compromiso excepcional con el éxito del proyecto y la entrega de valor al cliente. Para la demostración de la ejecución, se grabó el siguiente video en el cual se muestran todos los procesos alcanzados:
+
+URL de video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217239_upc_edu_pe/EXRvNjUmCkBDkyyOdZy1yL0BDtwqwr5CIa5uaAv2LaLT-A?e=Mg0lVo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+<img src="img/execution-evidence-app.png" width="100%">
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
