@@ -1983,6 +1983,12 @@ URL de Frontend Web Application deployado: https://cargoapp-demo.web.app/
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
+Para la elaboración del Frontend, nos repartimos las tareas entre cada miembro, y cada uno trabajó en las ramas feature correspondientes, para luego ir realizando los merge con la rama develop. Asimismo, nos reunimos de forma virtual a través de Google Meet para revisar juntos los avances y los merges realizados para verificar que todo funciona acorde a lo esperado.
+
+<img src="img/team_colaboration_insights_1.png" width="100%">
+
+<img src="img/team_colaboration_insights_2.png" width="100%">
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
