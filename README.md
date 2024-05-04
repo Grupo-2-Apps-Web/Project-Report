@@ -192,8 +192,9 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 
 |Criterio específico|Acciones realizadas|Conclusiones|
 | :- | :- | :- |
-|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software. |<p>**Delgado Corrales, Piero Gonzalo**</p><p>**TB1:** He ayudado a organizar las actividades del equipo de tal modo que hemos podido trabajar de manera simultánea para entregar resultados rápidamente.</p><p></p><p>**Matos Fernandez, Christian Andre**</p><p>**TB1:** He contribuido en la coordinación de las tareas del equipo de manera que hemos sido capaces de realizar múltiples actividades de forma concurrente, lo que nos ha permitido alcanzar resultados de manera ágil y eficiente.</p><p></p><p>**Paredes Puente, Sebastián Roberto**</p><p>**TB1:** He coordinado en las reuniones para establecer los trabajos que le tocaba hacer a cada uno para el informe. Adicionalmente, apoyé activamente en las actividades del equipo, asegurando que trabajemos de forma simultánea y eficiente para lograr una entrega rápida y bien hecha..</p><p></p><p>**Salinas Torres, Salvador Antonio**</p><p>**TB1:** Contribuí ágilmente durante el desarrollo de esta entrega, siempre estando pendiente del tiempo para llegar a la fecha límite habiendo terminado todos los puntos requeridos. Asimismo, me aseguré de utilizar el flujo de trabajo GitFlow con el cual ya estaba familiarizado anteriormente y pude enseñar al resto de mi equipo para que lo apliquen correctamente.</p><p></p><p>**Valverde Mozo, Andre Gabriel**</p><p>**TB1:** Participé en las reuniones grupales para establecer las responsabilidades de cada miembro en el informe. Además, contribuí de manera activa en las labores del equipo, asegurando que trabajaramos de forma coordinada y eficiente para alcanzar una entrega rápida y de calidad.</p>|**TB1:** Para esta primera entrega, la comunicación efectiva ha sido esencial ya que la cantidad de contenidos a presentar ha sido grande. Del mismo modo, realizar reuniones de grupo nos sirvió para ser más eficientes a la hora de gestionar los avances para llegar a entregar lo pedido.|
-|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|<p>**Delgado Corrales, Piero Gonzalo**</p><p>**TB1:** Para esta primera entrega, he investigado sobre los principales competidores en el sector de aplicaciones para la gestión de transporte terrestre.</p><p></p><p>**Matos Fernandez, Christian Andre**</p><p>**TB1:** Para esta entrega, me he dedicado a investigar acerca de los competidores principales dentro del sector de aplicaciones destinadas a la gestión del transporte terrestre.</p><p></p><p>**Paredes Puente, Sebastián Roberto**</p><p>**TB1:** Para este proyecto, realicé una investigación exhaustiva en el sector empresarial vinculado al transporte de carga. Durante este proceso, tuve la oportunidad de entrevistar a profesionales con amplia experiencia en el campo, lo que me permitió comprender mejor sus necesidades y obtener una perspectiva renovada para el desarrollo de nuestra aplicación.</p><p></p><p>**Salinas Torres, Salvador Antonio**</p><p>**TB1:** Realicé una investigación sobre la necesidad para el seguimiento de transporte de forma segura y que tan importante puede llegar a ser para las empresas que requieren de un servicio de transporte para cargas grandes. De este modo, investigué en un área que yo no conocía muy bien, e igualmente logré obtener los datos necesarios para realizar un buen trabajo</p><p></p><p>**Valverde Mozo, Andre Gabriel**</p><p>**TB1:** Para esta primera entrega, investigué el diseño de páginas de destino en aplicaciones de gestión de transporte terrestre. Analicé la presentación de productos, elementos visuales, y cómo se guía al usuario hacia la conversión, obteniendo una visión completa de las mejores prácticas en este ámbito.</p>|<p>**TB1:** Para esta entrega, se realizó una investigación a los principales competidores en el sector de aplicaciones para la gestión de transporte terrestre; y, a su vez, a personas que se encuentran involucradas en el rubro, obteniendo una perspectiva valiosa para el desarrollo del proyecto.</p><p></p>|
+|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software. |<p>**Delgado Corrales, Piero Gonzalo**</p><p>**TB1:** He ayudado a organizar las actividades del equipo de tal modo que hemos podido trabajar de manera simultánea para entregar resultados rápidamente.<br> **TP1:** He organizado las actividades del equipo como la división de exposiciones y tareas del sprint 2 para alcanzar los objetivos de este entregable.</p><p></p><p>**Matos Fernandez, Christian Andre**</p><p>**TB1:** He contribuido en la coordinación de las tareas del equipo de manera que hemos sido capaces de realizar múltiples actividades de forma concurrente, lo que nos ha permitido alcanzar resultados de manera ágil y eficiente.<br> **TP1:** He planificado las actividades del equipo, incluyendo la asignación de presentaciones y tareas para la segunda fase del proyecto, con el fin de lograr los objetivos establecidos para este entregable.</p><p></p><p>**Paredes Puente, Sebastián Roberto**</p><p>**TB1:** He coordinado en las reuniones para establecer los trabajos que le tocaba hacer a cada uno para el informe. Adicionalmente, apoyé activamente en las actividades del equipo, asegurando que trabajemos de forma simultánea y eficiente para lograr una entrega rápida y bien hecha.<br> **TP1:** Para esta entrega parcial, la comunicación en el equipo ha sido fundamental. Me comuniqué con mis compañeros para coordinar y asignar tareas de manera ordenada. Gracias a esto, logramos crear las funcionalidades esenciales del frontend de la aplicación web.</p><p></p><p>**Salinas Torres, Salvador Antonio**</p><p>**TB1:** Contribuí ágilmente durante el desarrollo de esta entrega, siempre estando pendiente del tiempo para llegar a la fecha límite habiendo terminado todos los puntos requeridos. Asimismo, me aseguré de utilizar el flujo de trabajo GitFlow con el cual ya estaba familiarizado anteriormente y pude enseñar al resto de mi equipo para que lo apliquen correctamente.<br> **TP1:** Para esta entrega, apoyé en la distribución de tareas y poder lograr el objetivo de este segundo sprint satisfactoriamente. Y logre trabajar en la parte de Frontend de nuestra aplicación, usando el framework Vue y creando una fake api para simulación de datos.</p><p></p><p>**Valverde Mozo, Andre Gabriel**</p><p>**TB1:** Participé en las reuniones grupales para establecer las responsabilidades de cada miembro en el informe. Además, contribuí de manera activa en las labores del equipo, asegurando que trabajaramos de forma coordinada y eficiente para alcanzar una entrega rápida y de calidad.<br> **TP1:** Durante esta fase intermedia de desarrollo, la comunicación dentro del equipo ha demostrado ser un pilar fundamental. Me he mantenido en constante contacto con mis colegas, estableciendo un flujo de comunicación efectivo para coordinar nuestras acciones y asignar tareas de manera organizada y eficiente.</p>|**TB1:** Para esta primera entrega, la comunicación efectiva ha sido esencial ya que la cantidad de contenidos a presentar ha sido grande. Del mismo modo, realizar reuniones de grupo nos sirvió para ser más eficientes a la hora de gestionar los avances para llegar a entregar lo pedido.<br> **TP1:** Para esta entrega parcial, la comunicación en el equipo ha sido importante para alcanzar a crear todas las funcionalidades esenciales del apartado del frontend de la aplicación web.|
+|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|<p>**Delgado Corrales, Piero Gonzalo**</p><p>**TB1:** Para esta primera entrega, he investigado sobre los principales competidores en el sector de aplicaciones para la gestión de transporte terrestre.<br> **TP1:** Para esta entrega del trabajo parcial, he utilizado los conocimientos que obtuve de la entrevista que realicé para crear la vista del frontend de forma más objetiva. </p><p></p><p>**Matos Fernandez, Christian Andre**</p><p>**TB1:** Para esta entrega, me he dedicado a investigar acerca de los competidores principales dentro del sector de aplicaciones destinadas a la gestión del transporte terrestre.<br> **TP1:** En este trabajo parcial, apliquen los aprendizajes obtenidos de la entrevista que llevé a cabo para desarrollar la interfaz del frontend de manera más imparcial y precisa.</p><p></p><p>**Paredes Puente, Sebastián Roberto**</p><p>**TB1:** Para este proyecto, realicé una investigación exhaustiva en el sector empresarial vinculado al transporte de carga. Durante este proceso, tuve la oportunidad de entrevistar a profesionales con amplia experiencia en el campo, lo que me permitió comprender mejor sus necesidades y obtener una perspectiva renovada para el desarrollo de nuestra aplicación. <br> **TP1:** Para esta entrega parcial del trabajo, he utilizado los conocimientos recopilados de artefactos como entrevistas para diseñar la solución de software del frontend.</p><p></p><p>**Salinas Torres, Salvador Antonio**</p><p>**TB1:** Realicé una investigación sobre la necesidad para el seguimiento de transporte de forma segura y que tan importante puede llegar a ser para las empresas que requieren de un servicio de transporte para cargas grandes. De este modo, investigué en un área que yo no conocía muy bien, e igualmente logré obtener los datos necesarios para realizar un buen trabajo <br> **TP1:** Tomando en cuenta toda la investigación de mercado realizada en la entrega anterior, he apoyado en la realización de una interfaz en Frontend que sea de agrado para nuestros segmentos objetivo y lograr con los requisitos planteados.</p><p></p><p>**Valverde Mozo, Andre Gabriel**</p><p>**TB1:** Para esta primera entrega, investigué el diseño de páginas de destino en aplicaciones de gestión de transporte terrestre. Analicé la presentación de productos, elementos visuales, y cómo se guía al usuario hacia la conversión, obteniendo una visión completa de las mejores prácticas en este ámbito.<br> **TP1:** Durante este proceso, he aplicado los conocimientos adquiridos de las entrevistas para desarrollar la interfaz del frontend con mayor imparcialidad y precisión. La información obtenida de las entrevistas ha sido fundamental para entender las necesidades y perspectivas de los usuarios, lo que ha influido directamente en el diseño de la interfaz.</p>|<p>**TB1:** Para esta entrega, se realizó una investigación a los principales competidores en el sector de aplicaciones para la gestión de transporte terrestre; y, a su vez, a personas que se encuentran involucradas en el rubro, obteniendo una perspectiva valiosa para el desarrollo del proyecto.<br> **TP1:** Para esta entrega del trabajo parcial, se han tenido que usar los conocimientos recopilados de los artefactos como entrevistas para diseñar la solución de software del apartado frontend.
+</p><p></p>|
 
 
 
@@ -1446,31 +1447,31 @@ URL del video:
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
 
-El diagrama de contexto representa la estructura y las principales interacciones de un sistema de software. Este sistema permite a los usuarios, ya sean las empresas que requieren de servicio de transporte o empresas de gestión logística que se encargan de realizar el proceso de transporte, explorar la plataforma y llevar a cabo el seguimiento de sus envíos de cargas grandes. Además, el sistema establece conexiones con sistemas externos, así como el sistema de servicio de pago para suscripciones, y luego el sistema del transporte de carga que proporciona los datos de ubicación y el estado de los envíos.
+El diagrama de contexto describe la estructura y las interacciones principales de nuestro sistema de gestión de transporte de carga a través de una plataforma digital. Este sistema involucra a proveedores de servicios de transporte que utilizan la plataforma para registrar y gestionar envíos, así como a clientes de empresas logísticas que acceden a la plataforma para rastrear y gestionar eventos relacionados con los envíos. La plataforma central, denominada CargoApp (TransportationSystem), permite registrar el proceso de envío y almacenar información relevante. Además, el sistema se integra con un servicio externo de pagos (PaymentSystem) para gestionar transacciones asociadas con los envíos y utiliza Google Maps para obtener información de ubicación en tiempo real. Este diagrama proporciona una visión general de cómo interactúan las entidades dentro del sistema y cómo se conectan con sistemas externos críticos para sus operaciones.
 
 <img src="img/structurizr-83137-Contexto.png" alt="Diagrama de contexto" width="100%">
 
 ### 4.6.2. Software Architecture Container Diagrams
 
-El diagrama de contenedores muestra la arquitectura del sistema de Software de “CargoApp”, la cual usan los clientes para hacer la gestión de envíos. Esta cuenta con varios contenedores así como la aplicación web que muestra la interfaz para los clientes, el servidor que ejecuta y gestiona los servicios como la base de datos, luego el servicio de alertas para notificar sobre eventos y finalmente el API de transporte de carga que interactúa con los sistemas externos.
+El diagrama de contenedores detalla los componentes principales de nuestro sistema de gestión de transporte de carga a través de una plataforma digital. La aplicación web permite a los usuarios ver la ubicación en tiempo real de sus envíos y gestionar datos relacionados, mientras que la página de inicio ofrece funcionalidades de consulta. La API REST actúa como el intermediario entre el frontend y el backend del sistema, facilitando la comunicación a través de solicitudes web. Además, una base de datos almacena los datos del sistema. Las interacciones incluyen consultas de usuarios hacia la aplicación web y la página de inicio, y comunicación entre la API REST, la base de datos y otros sistemas externos como el sistema de pagos y Google Maps. Este diagrama proporciona una visión clara de cómo se estructuran y comunican los diferentes elementos dentro del sistema de transporte de carga digital.
 
-<img src="img/structurizr-83137-Contenedor (1).png" alt="Diagrama de contenedores" width="100%">
+<img src="img/structurizr-83137-Contenedor.png" alt="Diagrama de contenedores" width="100%">
 
 ### 4.6.3. Software Architecture Components Diagrams
 
-El diagrama de componentes permite visualizar la estructura interna de un sistema de software y sus relaciones, facilitando el diseño modular y la comprensión de cómo interactúan sus diferentes partes. En el sistema representado en el diagrama de componentes, varios servicios y controladores, como Scatistic Service para estadísticas, Recommendation Service para recomendaciones, Subscription Controller para suscripciones, User Controller para gestión de usuarios, Security Service para seguridad, Payment Service para pagos, y Notifications Service para notificaciones, están conectados a una base de datos, un sistema de pago y un núcleo compartido. Esta arquitectura permite una gestión coherente y eficiente de diversas funcionalidades del sistema, garantizando la consistencia en el acceso a datos y funcionalidades compartidas, así como la modularidad en el desarrollo y mantenimiento del software.
+El diagrama de componentes de la API REST muestra las partes esenciales de nuestro sistema diseñado para gestionar funcionalidades relacionadas con usuarios, visualización de viajes y gastos, registro de datos y funcionalidades compartidas. Estos componentes, implementados con Vue.js para la interfaz de usuario y Node.js (NestJS) para el kernel compartido, interactúan entre sí y con sistemas externos como una base de datos JDBC, el sistema de pagos y Google Maps. El componente "User" maneja las operaciones de usuario y se conecta al sistema de pagos; "Visualization" se encarga de mostrar viajes y gastos con datos de la base de datos y Google Maps; "Registration" registra datos de viajes y gastos en la base de datos; y "Shared Kernel" proporciona funcionalidades compartidas. Este diagrama ilustra cómo se integran y colaboran estos componentes en la arquitectura de la API REST del sistema.
 
-<img src="img/structurizr-83137-API Rest Component Diagram (1).png" alt="Diagrama de componentes" width="100%">
+<img src="img/structurizr-91455-API Rest Component Diagram.png" alt="Diagrama de componentes" width="100%">
 
 
 *User Bounded Context Component Diagram*
-<img src="img/structurizr-83137-Registration BC Component Diagram.png" alt="User Bounded Context Component Diagram" width="100%">
+<img src="img/structurizr-83137-Users BC Component Diagram.png" alt="User Bounded Context Component Diagram" width="100%">
 
-*Registration Context Component Diagram*
+*Registration Bounded Context Component Diagram*
 <img src="img/structurizr-83137-Registration BC Component Diagram.png" alt="Registration Context Component Diagram" width="100%">
 
-*GPS Bounded Context Component Diagram*
-<img src="img/structurizr-83137-GPS BC Component Diagram.png" alt="GPS Bounded Context Component Diagram" width="100%">
+*Visualization Bounded Context Component Diagram*
+<img src="img/structurizr-83137-Visualization BC Component Diagram.png" alt="GPS Bounded Context Component Diagram" width="100%">
 
 
 ## 4.7. Software Object-Oriented Design
@@ -1909,17 +1910,124 @@ El segundo sprint se planeó a través de una reunión presencial en la universi
 
 #### 5.2.2.2. Sprint Backlog 2.
 
+El objetivo de este segundo sprint es la realización del Frontend de la aplicación web. Asimismo, trabajamos en una tabla en Trello: https://trello.com/b/Mz2gCQVf/cargowatch-sprint-backlog-2
+
+<img src="img/sprint-backlog-2.png" width="100%">
+
+<table><tr><th valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 2</th></tr>
+<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
+<tr><td valign="top">Id</td><td valign="top">Title</td><td valign="top">Id</td><td valign="top">Title</td><td valign="top">Description</td><td valign="top">Estimation (Hours)</td><td valign="top">Assigned To</td><td valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
+<tr><td rowspan="3" valign="top">US07</td><td rowspan="3" valign="top">Historial de envíos ordenados</td><td valign="top">TS01</td><td valign="top">Implementación de header y navbar</td><td valign="top">Se implementa el header y navbar para poder navegar dentro de la aplicación web.</td><td valign="top">2</td><td valign="top">Piero Delgado</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS02</td><td valign="top">Implementación de página de historial</td><td valign="top">Se implementa la página principal del historial que muestra el listado de los viajes anteriores.</td><td valign="top">1</td><td valign="top">Salvador Salinas</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS03</td><td valign="top">Implementación de página de detalles de viaje</td><td valign="top">Se implementa la página de detalles de un viaje anterior elegido.</td><td valign="top">2</td><td valign="top">Salvador Salinas</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">US08</td><td rowspan="2" valign="top">Búsqueda de envíos ordenados</td><td valign="top">TS04</td><td valign="top">Implementación de barra de búsqueda</td><td valign="top">Se implementa la barra de búsqueda para buscar un viaje en específico dentro del historial de viajes anteriores.</td><td valign="top">2</td><td valign="top">Sebastián Paredes</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS05</td><td valign="top">Implementación de filtrado</td><td valign="top">Se implementa el filtrado para buscar por nombre, fecha y lugar.</td><td valign="top">2</td><td valign="top">Sebastián Paredes</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">US09</td><td rowspan="2" valign="top">Visualización de gastos realizados en el viaje</td><td valign="top">TS06</td><td valign="top">Implementación de listado de viajes</td><td valign="top">Se implementa la página muestra el listado de los viajes anteriores.</td><td valign="top">1</td><td valign="top">Piero Delgado</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS07</td><td valign="top">Implementación de detalles de gastos del viaje</td><td valign="top">Se implementa la página de detalles de los gastos realizados de un viaje anterior elegido.</td><td valign="top">1</td><td valign="top">Piero Delgado</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US04</td><td valign="top">Seguimiento en tiempo real de envíos para cliente</td><td valign="top">TS08</td><td valign="top">Implementación de mapa</td><td valign="top">Se implementa el mapa con la ubicación actual del transporte.</td><td valign="top">2</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US06</td><td valign="top">Acceso a detalles de entrega</td><td valign="top">TS09</td><td valign="top">Implementación de detalles de entrega</td><td valign="top">Se muestra en la página los detalles del envío como la velocidad, longitud y latitud actual.</td><td valign="top">1</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td rowspan="3" valign="top">US10</td><td rowspan="3" valign="top">Estadísticas de envíos</td><td valign="top">TS10</td><td valign="top">Implementación de página de estadísticas</td><td valign="top">Se implementa la página que mostrará la vista de las estadísticas.</td><td valign="top">1</td><td valign="top">Christian Matos</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS11</td><td valign="top">Implementación de estadísticas por mes</td><td valign="top">Se implementa la gráfica para presentar las estadísticas de los viajes realizados por mes.</td><td valign="top">1</td><td valign="top">Christian Matos</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS12</td><td valign="top">Implementación de estadísticas por destino</td><td valign="top">Se implementa la gráfica para presentar las estadísticas de los viajes realizados por destino.</td><td valign="top">1</td><td valign="top">Christian Matos</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US27</td><td valign="top">Registro de nuevo viaje</td><td valign="top">TS13</td><td valign="top">Implementación de página de registro de viaje</td><td valign="top">Se implementa la página con formulario para registrar el viaje.</td><td valign="top">1</td><td valign="top">Sebastián Paredes</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US28</td><td valign="top">Modificación de datos de un viaje</td><td valign="top">TS14</td><td valign="top">Implementación de página de modificación de viaje</td><td valign="top">Se implementa la página con formulario para modificar un viaje específico.</td><td valign="top">1</td><td valign="top">Salvador Salinas</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US29</td><td valign="top">Registro de gastos de viaje</td><td valign="top">TS15</td><td valign="top">Implementación de página de registro de gastos de un viaje</td><td valign="top">Se implementa la página con formulario para registrar los gastos de un viaje.</td><td valign="top">1</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US30</td><td valign="top">Modificación de gastos de un viaje</td><td valign="top">TS16</td><td valign="top">Implementación de página de modificación de gastos de un viaje</td><td valign="top">Se implementa la página con formulario para modificar los gastos de un viaje específico.</td><td valign="top">1</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US31</td><td valign="top">Seguimiento en tiempo real para empresa</td><td valign="top">TS17</td><td valign="top">Implementación de mapa</td><td valign="top">Se implementa el mapa con la ubicación actual del transporte.</td><td valign="top">2</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US32</td><td valign="top">Historial de envíos realizados</td><td valign="top">TS18</td><td valign="top">Implementación de listado de envíos realizados por empresa</td><td valign="top">Se implementa la página que muestra los viajes realizados anteriormente por la empresa.</td><td valign="top">1</td><td valign="top">Christian Matos</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US01</td><td valign="top">Alertas de eventos importantes durante la entrega</td><td valign="top">TS19</td><td valign="top">Implementación de alertas</td><td valign="top">Se implementa el listado de alertas de viajes desde la página del seguimiento en tiempo real.</td><td valign="top">2</td><td valign="top">Piero Delgado</td><td valign="top">Done</td></tr>
+</table>
+
 #### 5.2.2.3. Development Evidence for Sprint Review.
+
+Se realizaron los avances con los commits correspondientes en el repositorio de la siguiente forma.
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- |
+|Grupo-2-Apps-Web/Frontend-Web-Applications|main|f64966c|feat: initial commit creation of proyect|23/04/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/sidebar|1db7fb2|feat: sidebar added|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|6b83b13|feat: added visualization for client|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/user|fdaa485|feat: user change view added|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/statistic|6563c1e|feat: added statistic per month and destiny|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/on-going-trip|7ad8f0a|feat: added section gps|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/alerts|8bc4c02|feat: added alerts on ongoing trips|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|8335d10|feat: added register trip|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|0325cad|feat: Added Modify Expenses|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|dca7deb|feat: Added Register Expense|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|c1ffa3e|feat: added modify trip feature|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/user|6edd2cd|feat: added store.js for user and router|03/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|develop|c71b437|chore: added dependencies and images|03/05/2024|
 
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
 
+Se realizaron los acceptance tests para las historias de usuario trabajadas y se registraron en el repositorio de la siguiente forma.
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- |
+|Grupo-2-Apps-Web/Acceptance-Tests|main|a6626f5|feat: added US31 acceptance test|28/04/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|771b263|feat: added acceptance test for us07, us28, us29|03/05/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|e9657ef|feat: added feature file for us10|03/05/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|329f434|feat: added feature file for us32|03/05/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|d8e9a86|feat: added acceptance tests for us06, us04, us30|03/05/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|d2c5058|feat: added acceptance test for us08|03/05/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|9ba43a7|feat: added acceptance test for us27|03/05/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|1f6e49a|feat: added acceptance test us01 and us09|03/05/2024|
+
 #### 5.2.2.5. Execution Evidence for Sprint Review.
+
+En esta sección, se mostrará lo avanzado en el segundo sprint, el cual se basa en la nueva versión del despliegue del Frontend-Web-Application de CargoApp.
+
+**Evidencia del Frontend-Web-Application:**
+Se implementó todas las historias de usuario en el sprint backlog 2, al completar todas las historias de usuario planificadas para este sprint, se demostró un compromiso excepcional con el éxito del proyecto y la entrega de valor al cliente. Para la demostración de la ejecución, se grabó el siguiente video en el cual se muestran todos los procesos alcanzados:
+
+URL de video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217239_upc_edu_pe/EXRvNjUmCkBDkyyOdZy1yL0BDtwqwr5CIa5uaAv2LaLT-A?e=Mg0lVo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+<img src="img/execution-evidence-app.png" width="100%">
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
+En este segundo sprint, no hemos trabajado con servicios web, ya que nos hemos concentrado exclusivamente en la creación del Frontend para nuestra aplicación web. Es por ello que en esta ocasión, no se trabajó la documentación relacionada con el uso de servicios web.
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
+Se realizó el deployment del Frontend Web Application, para lo cual creamos una api con my json server typicode. De este modo, en el proyecto ya no se usa localhost:3000, sino el que hemos generado.
+
+URL de api: https://my-json-server.typicode.com/salvadoorssalinas/cargoapp-api
+
+<img src="img/json-server-salvador.png" width="100%">
+
+Ahora, ejecutamos el comando npm run build.
+<img src="img/deployment_1.png" width="100%">
+
+Entramos a la página web de Firebase, iniciamos sesión y creamos el proyecto en el cual se aloja la aplicación.
+<img src="img/deployment_2.png" width="100%">
+<img src="img/deployment_3.png" width="100%">
+<img src="img/deployment_4.png" width="100%">
+
+Ejecutamos el comando **npm install firebase-tools -g.** Luego iniciamos sesión desde la terminal con el comando **firebase login.**
+<img src="img/deployment_5.png" width="100%">
+
+Para iniciar el hosting de la aplicación, usamos el comando **firebase init hosting.**
+<img src="img/deployment_6.png" width="100%">
+
+Elegimos el proyecto que ya habíamos creado en la página de Firebase.
+<img src="img/deployment_7.png" width="100%">
+
+Colocamos que como public directory se usará la carpeta dist.
+<img src="img/deployment_8.png" width="100%">
+
+Finalmente, ejecutamos el comando **firebase deploy --only hosting.**
+<img src="img/deployment_9.png" width="100%">
+
+URL de Frontend Web Application deployado: https://cargoapp-demo.web.app/
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+Para la elaboración del Frontend, nos repartimos las tareas entre cada miembro, y cada uno trabajó en las ramas feature correspondientes, para luego ir realizando los merge con la rama develop. Asimismo, nos reunimos de forma virtual a través de Google Meet para revisar juntos los avances y los merges realizados para verificar que todo funciona acorde a lo esperado.
+
+<img src="img/team_colaboration_insights_1.png" width="100%">
+
+<img src="img/team_colaboration_insights_2.png" width="100%">
 
 # Conclusiones
 
