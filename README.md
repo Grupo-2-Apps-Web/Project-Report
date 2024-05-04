@@ -1946,6 +1946,8 @@ El objetivo de este segundo sprint es la realización del Frontend de la aplicac
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
+En este segundo sprint, no hemos trabajado con servicios web, ya que nos hemos concentrado exclusivamente en la creación del Frontend para nuestra aplicación web. Es por ello que en esta ocasión, no se trabajó la documentación relacionada con el uso de servicios web.
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
 Se realizó el deployment del Frontend Web Application, para lo cual creamos una api con my json server typicode. De este modo, en el proyecto ya no se usa localhost:3000, sino el que hemos generado.
