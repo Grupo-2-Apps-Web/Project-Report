@@ -1948,6 +1948,26 @@ El objetivo de este segundo sprint es la realización del Frontend de la aplicac
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
+Se realizó el deployment del Frontend Web Application, para lo cual creamos una api con my json server typicode. De este modo, en el proyecto ya no se usa localhost:3000, sino el que hemos generado.
+
+URL de api: https://my-json-server.typicode.com/salvadoorssalinas/cargoapp-api
+
+Ahora, ejecutamos el comando npm run build.
+
+Entramos a la página web de Firebase, iniciamos sesión y creamos el proyecto en el cual se aloja la aplicación.
+
+Ejecutamos el comando **npm install firebase-tools -g.** Luego iniciamos sesión desde la terminal con el comando **firebase login.**
+
+Para iniciar el hosting de la aplicación, usamos el comando **firebase init hosting.**
+
+Elegimos el proyecto que ya habíamos creado en la página de Firebase.
+
+Colocamos que como public directory se usará la carpeta dist.
+
+Finalmente, ejecutamos el comando **firebase deploy --only hosting.**
+
+URL de Frontend Web Application deployado: https://cargoapp-demo.web.app/
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 # Conclusiones
