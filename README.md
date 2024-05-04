@@ -1952,19 +1952,30 @@ Se realizó el deployment del Frontend Web Application, para lo cual creamos una
 
 URL de api: https://my-json-server.typicode.com/salvadoorssalinas/cargoapp-api
 
+<img src="img/json-server-salvador.png" width="100%">
+
 Ahora, ejecutamos el comando npm run build.
+<img src="img/deployment_1.png" width="100%">
 
 Entramos a la página web de Firebase, iniciamos sesión y creamos el proyecto en el cual se aloja la aplicación.
+<img src="img/deployment_2.png" width="100%">
+<img src="img/deployment_3.png" width="100%">
+<img src="img/deployment_4.png" width="100%">
 
 Ejecutamos el comando **npm install firebase-tools -g.** Luego iniciamos sesión desde la terminal con el comando **firebase login.**
+<img src="img/deployment_5.png" width="100%">
 
 Para iniciar el hosting de la aplicación, usamos el comando **firebase init hosting.**
+<img src="img/deployment_6.png" width="100%">
 
 Elegimos el proyecto que ya habíamos creado en la página de Firebase.
+<img src="img/deployment_7.png" width="100%">
 
 Colocamos que como public directory se usará la carpeta dist.
+<img src="img/deployment_8.png" width="100%">
 
 Finalmente, ejecutamos el comando **firebase deploy --only hosting.**
+<img src="img/deployment_9.png" width="100%">
 
 URL de Frontend Web Application deployado: https://cargoapp-demo.web.app/
 
