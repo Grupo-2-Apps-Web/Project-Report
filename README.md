@@ -71,18 +71,42 @@ Abril 2024
         </ul>
       </td>
   </tr>
+  <tr>
+  <td><strong>TP1</strong></td>
+      <td>Viernes 3 de Mayo</td>
+      <td>
+        <ul>
+          <li>Delgado Corrales, Piero Gonzalo</li>
+          <li>Matos Fernandez, Christian Andre</li>
+          <li>Paredes Puente, Sebastián Roberto</li>
+          <li>Salinas Torres, Salvador Antonio</li>
+          <li>Valverde Mozo, Andre Gabriel</li>
+        </ul>
+      </td>
+      <td>
+        Se han incluído los siguientes cambios:
+        <ul>
+          <li>Implementación de mejoras</li>
+          <li>Avance hasta el punto 5.2.2.8</li>
+        </ul>
+      </td>
+  </tr>
   </tbody>
 </table>
 
 # **Project Report Collaboration Insights**
 URL Project Report (Github): [https://github.com/Grupo-2-Apps-Web/Project-Report](https://github.com/Grupo-2-Apps-Web/Project-Report)
 
-Commits en reporte avance TB1
+Commits en project report TB1:
 <img src="img/project-collaboration-insights-tb1.png">
 <img src="img/report-commit1.png">
 <img src="img/report-commit2.png">
 <img src="img/report-commit3.png">
 <img src="img/report-commit4.png">
+
+Commits en project report TP1:
+<img src="img/insights-tp1.png">
+<img src="img/commits-tp1.png">
 
 # **Tabla de Contenido**
 
@@ -1912,7 +1936,7 @@ El segundo sprint se planeó a través de una reunión presencial en la universi
 
 El objetivo de este segundo sprint es la realización del Frontend de la aplicación web. Asimismo, trabajamos en una tabla en Trello: https://trello.com/b/Mz2gCQVf/cargowatch-sprint-backlog-2
 
-<img src="img/sprint-backlog-2.png" width="100%">
+<img src="img/trello-sprint2.png" width="100%">
 
 <table><tr><th valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 2</th></tr>
 <tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
