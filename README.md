@@ -1064,14 +1064,14 @@ El Product Backlog se gestiona a través de la herramienta Pivotal Tracker, el c
 |7|US07|Historial de envíos ordenados|Como cliente de empresa logística quiero tener acceso a un historial completo de mis envíos anteriores, para poder realizar un seguimiento de las actividades de envío pasadas y planificar futuros envíos de manera más eficiente.|5|
 |8|US08|Búsqueda de envíos ordenados|Como cliente de empresa logística quiero poder filtrar mis envíos anteriores mediante criterios de búsqueda para encontrar la información que necesito|5|
 |9|US09|Visualización de gastos realizados en el viaje|Como cliente de empresa logística quiero visualizar los gastos realizados en cada viaje para conocer los motivos del monto total por el servicio.|5|
-|10|US04|Seguimiento en tiempo real de envíos para cliente|Como cliente de empresa logística, quiero poder ingresar el número de seguimiento de mi envío en una plataforma en línea, para poder obtener actualizaciones en tiempo real sobre la ubicación y el estado de mi mercancía durante el transporte.|8|
+|10|US04|Seguimiento en tiempo real de envíos para cliente|Como cliente de empresa logística, quiero poder ingresar el número de seguimiento de mi envío en una plataforma en línea, para poder obtener actualizaciones en tiempo real sobre la ubicación y el estado de mi mercancía durante el transporte.|5|
 |11|US06|Acceso a detalles de entrega|Como cliente de empresa logística, quiero poder acceder a detalles específicos sobre la entrega de mi envío, para tener una comprensión completa del proceso de entrega.|5|
 |12|US10|Estadísticas de envíos|Como cliente de empresa logística quiero tener acceso a estadísticas sobre mis envíos previos para comprender patrones y tomar decisiones informadas|5|
 |13|US27|Registro de nuevo viaje|Como empresario de gestión logística, quiero registrar los datos de un nuevo viaje para tener un registro guardado y mostrar transparencia a mis clientes.|5|
 |14|US28|Modificación de datos de un viaje|Como empresario de gestión logística, quiero modificar los datos de un viaje para corregir  datos erróneos que fueron registrados.|3|
 |15|US29|Registro de gastos de viaje|Como empresario de gestión logística, quiero poder registrar los gastos realizados durante los viajes para mantener un registro preciso y mantener informados a mis clientes sobre los costos asociados a sus servicios.|5|
 |16|US30|Modificación de gastos de un viaje|Como empresario de gestión logística, quiero modificar los gastos realizados durante un viaje para corregir datos erróneos ingresados al hacer el registro del gasto.|3|
-|17|US31|Seguimiento en tiempo real para empresa|Como empresario de gestión logística, quiero poder visualizar el seguimiento en tiempo real de los servicios mediante la plataforma para identificar posibles imprevistos y tomar acciones correctivas de manera oportuna.|8|
+|17|US31|Seguimiento en tiempo real para empresa|Como empresario de gestión logística, quiero poder visualizar el seguimiento en tiempo real de los servicios mediante la plataforma para identificar posibles imprevistos y tomar acciones correctivas de manera oportuna.|5|
 |18|US32|Historial de envíos realizados|Como empresario de gestión logística, quiero tener un historial de envíos para llevar un registro detallado de todos los servicios que he realizado y poder acceder a esta información en cualquier momento.|3|
 |19|US01|Alertas de eventos importantes durante la entrega|Como cliente de empresa logística quiero recibir una alerta sobre cualquier evento importante que pueda afectar la entrega para minimizar cualquier impacto en mi operación|5|
 |20|US02|Alertas de condiciones climáticas adversas|Como cliente de empresa logística quiero ser informado de inmediato si el transporte se ve afectado por condiciones climáticas adversas para tomar precauciones adecuadas y asegurar de que la mercancía esté protegida durante el transporte|5|
@@ -1081,12 +1081,12 @@ El Product Backlog se gestiona a través de la herramienta Pivotal Tracker, el c
 |24|US12|Interfaz intuitiva y fácil de usar|Como cliente, quiero una plataforma de seguimiento fácil e intuitiva, para acceder rápidamente a la información sin complicaciones.|3|
 |25|US13|Soporte multidispositivo y multiplataforma|Como cliente quiero acceder a la plataforma desde cualquier dispositivo o sistema operativo para una experiencia consistente|5|
 |26|US14|Personalización de visualización|Como cliente, quiero personalizar la presentación de la información para que se adapte a mis preferencias|5|
-|27|US15|Registro de usuario|Como cliente quiero poder registrarme en la aplicación para tener acceso autorizado y personalizado|8|
-|28|US16|Inicio de sesión|Como cliente quiero acceder a mi cuenta registrada para acceder a las funciones de la aplicación|8|
+|27|US15|Registro de usuario|Como cliente quiero poder registrarme en la aplicación para tener acceso autorizado y personalizado|5|
+|28|US16|Inicio de sesión|Como cliente quiero acceder a mi cuenta registrada para acceder a las funciones de la aplicación|5|
 |29|US17|Cierre de sesión|Como cliente quiero cerrar sesión de forma segura en cualquier momento para garantizar la seguridad y privacidad de mis datos|5|
 |30|US18|Elegir plan de suscripción|Como cliente quiero elegir un plan de suscripción que se acomode a mis necesidades para acceder a las funcionalidades necesarias para mí.|5|
 |31|US19|Recuperación de cuenta|Como cliente quiero poder recuperar mi cuenta en caso haya tenido algún inconveniente con las credenciales para recuperar el acceso de forma segura.|5|
-|32|US20|Gestión de método de pago|Como cliente quiero gestionar mi método de pago para asegurarme de que la facturación se realice de manera correcta y segura en mi cuenta.|8|
+|32|US20|Gestión de método de pago|Como cliente quiero gestionar mi método de pago para asegurarme de que la facturación se realice de manera correcta y segura en mi cuenta.|5|
 
 # Capítulo IV Product Design
 ## 4.1. Style Guidelines
