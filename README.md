@@ -369,7 +369,7 @@ Los clientes de los proveedores de servicios de transporte carecen de visibilida
 
 ¿Cómo podemos garantizar la entrega de evidencia fotográfica al momento de cargar la mercancía de manera confiable? ¿Cuáles son los principales puntos de dolor para los clientes al no poder rastrear el estado y la ubicación de sus envíos durante el transporte de carga? ¿Qué sistemas o herramientas se utilizan actualmente para mostrar el recorrido de las unidades de transporte a los clientes? ¿Cómo podemos mejorar la eficiencia en la captura y registro de los gastos asociados con el transporte de carga, como gasolina diesel, peajes y viáticos del conductor? ¿Qué información específica esperan los clientes recibir sobre el recorrido de sus envíos para sentirse seguros y confiados con el servicio?
 
-1.2.2.2. Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions
 
 
 **Business Outcomes:**
@@ -2081,10 +2081,13 @@ El tercer sprint se planeó a través de una reunión presencial en la universid
 |Sprint 2 Retrospective Summary|Este segundo sprint consistió principalmente en Frontend, aunque faltaron algunas partes a desarrollar y realizar algunas mejoras en el product backlog, así como la estimación de puntos.|
 |**Sprint Goal & User Stories**||
 |Sprint 3 Goal|Desarrollar la parte faltante en Frontend y empezar con el desarrollo de Backend de la aplicación web.|
-|Sprint 3 Velocity|-|
-|Sum of Story Points|-|
+|Sprint 3 Velocity|63|
+|Sum of Story Points|63|
 
 #### 5.2.3.2. Sprint Backlog 3.
+
+El objetivo de este tercer sprint es la realización de la parte faltante de Frontend y empezar con el Backend de la aplicación web. Al igual que anteriores sprints, trabajamos las tareas en una tabla en Trello: <https://trello.com/b/miduy6Jv/cargowatch-sprint-backlog-3>
+
 
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review.
 
