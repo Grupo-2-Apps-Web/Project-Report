@@ -1004,7 +1004,7 @@ __Segmento Clientes que requieren servicios de transporte__
 <tr><td valign="top">US22</td><td valign="top">Sección “Sobre Nosotros”</td></tr>
 <tr><td valign="top">US23</td><td valign="top">Sección “Características”</td></tr>
 <tr><td valign="top">US24</td><td valign="top">Sección “Contacto”</td></tr>
-<tr><td rowspan="12" valign="top">E06</td><td rowspan="12" valign="top"><p>Como empresario de gestión logística quiero que la aplicación me brinde diferentes funcionalidades como seguimiento real, registrar gastos y ver el historial de envíos para poder llevar un registro eficiente</p><p></p></td><td valign="top">US25</td><td valign="top">Registro de un nuevo viaje</td></tr>
+<tr><td rowspan="13" valign="top">E06</td><td rowspan="13" valign="top"><p>Como empresario de gestión logística quiero que la aplicación me brinde diferentes funcionalidades como seguimiento real, registrar gastos y ver el historial de envíos para poder llevar un registro eficiente</p><p></p></td><td valign="top">US25</td><td valign="top">Registro de un nuevo viaje</td></tr>
 <tr><td valign="top">US26</td><td valign="top">Modificación de datos de un viaje</td></tr>
 <tr><td valign="top">US27</td><td valign="top">Registro de gastos de viaje</td></tr>
 <tr><td valign="top">US28</td><td valign="top">Modificación de gastos de un viaje</td></tr>
@@ -1016,6 +1016,7 @@ __Segmento Clientes que requieren servicios de transporte__
 <tr><td valign="top">US34</td><td valign="top">Historial de envíos realizados</td></tr>
 <tr><td valign="top">US35</td><td valign="top">Visualización de datos de conductor</td></tr>
 <tr><td valign="top">US36</td><td valign="top">Visualización de datos de vehículo</td></tr>
+<tr><td valign="top">US37</td><td valign="top">Visualización de datos de cliente</td></tr>
 </table>
 
 **HISTORIAS DE USUARIO**
@@ -1058,6 +1059,7 @@ __Segmento Clientes que requieren servicios de transporte__
 |US34|Historial de envíos realizados|Como empresario de gestión logística, quiero tener un historial de envíos para llevar un registro detallado de todos los servicios que he realizado y poder acceder a esta información en cualquier momento.|<p>**Escenario 1: Visualización de historial de envíos**</p><p>**Dado que** el empresario necesita mantener un registro de todos los servicios realizados</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Historial para visualizar el "Historial de Envíos"</p><p>**Entonces** se mostrará el listado de los envíos realizados</p><p>**Y** podrá ver los detalles de cada uno</p>|E06|
 |US35|Visualización de datos de conductor|Como empresario de gestión logística, quiero ver los datos de los conductores para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de un conductor**</p><p>**Dado que** el empresario desea ver la información de los conductores que ha registrado</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Conductores</p><p>**Entonces** se mostrará el listado de los conductores registrados</p><p>**Y** podrá ver los detalles de cada uno</p>|E06|
 |US36|Visualización de datos de vehículo|Como empresario de gestión logística, quiero ver los datos de los vehículos para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de un vehículo**</p><p>**Dado que** el empresario desea ver la información de los vehículos que ha registrado</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Vehículos</p><p>**Entonces** se mostrará el listado de los vehículos registrados</p><p>**Y** podrá ver los detalles de cada uno</p>|E06|
+|US37|Visualización de datos de cliente|Como empresario de gestión logística, quiero ver los datos de mis clientes para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de clientes**</p><p>**Dado que** el empresario desea ver la información de los clientes con los que ha registrado viajes</p><p>**Cuando** accede a la plataforma</p><p>**Y** selecciona la sección Clientes</p><p>**Entonces** se mostrará el listado de sus clientes registrados</p>|E06|
 
 ## 3.3. Impact Mapping
 
@@ -1092,23 +1094,24 @@ El Product Backlog se gestiona a través de la herramienta Pivotal Tracker, el c
 |17|US33|Seguimiento en tiempo real para empresa|Como empresario de gestión logística, quiero poder visualizar el seguimiento en tiempo real de los servicios mediante la plataforma para identificar posibles imprevistos y tomar acciones correctivas de manera oportuna.|5|
 |18|US34|Historial de envíos realizados|Como empresario de gestión logística, quiero tener un historial de envíos para llevar un registro detallado de todos los servicios que he realizado y poder acceder a esta información en cualquier momento.|3|
 |19|US01|Alertas de eventos importantes durante la entrega|Como cliente de empresa logística quiero recibir una alerta sobre cualquier evento importante que pueda afectar la entrega para minimizar cualquier impacto en mi operación|5|
-|20|US29|Registro de datos de conductor|Como empresario de gestión logística, quiero poder registrar los datos de mis conductores para asignarlos adecuadamente a cada envío.|3|
-|21|US30|Modificación de datos de conductor|Como empresario de gestión logística, quiero modificar los datos de un conductor para corregir datos erróneos ingresados al hacer el registro del conductor.|3|
-|22|US31|Registro de datos de vehículo|Como empresario de gestión logística, quiero poder registrar los datos de mis vehículos para tener registro de los envíos que realizan.|3|
-|23|US32|Modificación de datos de vehículo|Como empresario de gestión logística, quiero modificar los datos de un conductor para corregir datos erróneos ingresados al hacer el registro del vehículo.|3|
-|24|US35|Visualización de datos de conductor|Como empresario de gestión logística, quiero ver los datos de los conductores para visualizar la información de cada uno de ellos de forma ordenada.|2|
-|25|US36|Visualización de datos de vehículo|Como empresario de gestión logística, quiero ver los datos de los vehículos para visualizar la información de cada uno de ellos de forma ordenada.|2|
-|26|US03|Notificaciones de eventos relevantes|Como cliente de empresa logística quiero recibir notificaciones automáticas sobre eventos relevantes relacionados con mi envío, para estar informado sobre el progreso de mi mercancía sin tener que realizar un seguimiento constante.|5|
-|27|US09|Exportación del historial de envíos|Como cliente de empresa logística quiero poder exportar mi historial de envíos para realizar un análisis fuera de la plataforma|5|
-|28|US10|Interfaz intuitiva y fácil de usar|Como cliente, quiero una plataforma de seguimiento fácil e intuitiva, para acceder rápidamente a la información sin complicaciones.|3|
-|29|US11|Soporte multidispositivo y multiplataforma|Como cliente quiero acceder a la plataforma desde cualquier dispositivo o sistema operativo para una experiencia consistente|5|
-|30|US12|Personalización de visualización|Como cliente, quiero personalizar la presentación de la información para que se adapte a mis preferencias|5|
-|31|US13|Registro de usuario|Como cliente quiero poder registrarme en la aplicación para tener acceso autorizado y personalizado|5|
-|32|US14|Inicio de sesión|Como cliente quiero acceder a mi cuenta registrada para acceder a las funciones de la aplicación|5|
-|33|US15|Cierre de sesión|Como cliente quiero cerrar sesión de forma segura en cualquier momento para garantizar la seguridad y privacidad de mis datos|5|
-|34|US16|Elegir plan de suscripción|Como cliente quiero elegir un plan de suscripción que se acomode a mis necesidades para acceder a las funcionalidades necesarias para mí.|5|
-|35|US17|Recuperación de cuenta|Como cliente quiero poder recuperar mi cuenta en caso haya tenido algún inconveniente con las credenciales para recuperar el acceso de forma segura.|5|
-|36|US18|Gestión de método de pago|Como cliente quiero gestionar mi método de pago para asegurarme de que la facturación se realice de manera correcta y segura en mi cuenta.|5|
+|20|US37|Visualización de datos de cliente|Como empresario de gestión logística, quiero ver los datos de mis clientes para visualizar la información de cada uno de ellos de forma ordenada.|3|
+|21|US29|Registro de datos de conductor|Como empresario de gestión logística, quiero poder registrar los datos de mis conductores para asignarlos adecuadamente a cada envío.|3|
+|22|US30|Modificación de datos de conductor|Como empresario de gestión logística, quiero modificar los datos de un conductor para corregir datos erróneos ingresados al hacer el registro del conductor.|3|
+|23|US31|Registro de datos de vehículo|Como empresario de gestión logística, quiero poder registrar los datos de mis vehículos para tener registro de los envíos que realizan.|3|
+|24|US32|Modificación de datos de vehículo|Como empresario de gestión logística, quiero modificar los datos de un conductor para corregir datos erróneos ingresados al hacer el registro del vehículo.|3|
+|25|US35|Visualización de datos de conductor|Como empresario de gestión logística, quiero ver los datos de los conductores para visualizar la información de cada uno de ellos de forma ordenada.|2|
+|26|US36|Visualización de datos de vehículo|Como empresario de gestión logística, quiero ver los datos de los vehículos para visualizar la información de cada uno de ellos de forma ordenada.|2|
+|27|US03|Notificaciones de eventos relevantes|Como cliente de empresa logística quiero recibir notificaciones automáticas sobre eventos relevantes relacionados con mi envío, para estar informado sobre el progreso de mi mercancía sin tener que realizar un seguimiento constante.|5|
+|28|US09|Exportación del historial de envíos|Como cliente de empresa logística quiero poder exportar mi historial de envíos para realizar un análisis fuera de la plataforma|5|
+|29|US10|Interfaz intuitiva y fácil de usar|Como cliente, quiero una plataforma de seguimiento fácil e intuitiva, para acceder rápidamente a la información sin complicaciones.|3|
+|30|US11|Soporte multidispositivo y multiplataforma|Como cliente quiero acceder a la plataforma desde cualquier dispositivo o sistema operativo para una experiencia consistente|5|
+|31|US12|Personalización de visualización|Como cliente, quiero personalizar la presentación de la información para que se adapte a mis preferencias|5|
+|32|US13|Registro de usuario|Como cliente quiero poder registrarme en la aplicación para tener acceso autorizado y personalizado|5|
+|33|US14|Inicio de sesión|Como cliente quiero acceder a mi cuenta registrada para acceder a las funciones de la aplicación|5|
+|34|US15|Cierre de sesión|Como cliente quiero cerrar sesión de forma segura en cualquier momento para garantizar la seguridad y privacidad de mis datos|5|
+|35|US16|Elegir plan de suscripción|Como cliente quiero elegir un plan de suscripción que se acomode a mis necesidades para acceder a las funcionalidades necesarias para mí.|5|
+|36|US17|Recuperación de cuenta|Como cliente quiero poder recuperar mi cuenta en caso haya tenido algún inconveniente con las credenciales para recuperar el acceso de forma segura.|5|
+|37|US18|Gestión de método de pago|Como cliente quiero gestionar mi método de pago para asegurarme de que la facturación se realice de manera correcta y segura en mi cuenta.|5|
 
 # Capítulo IV Product Design
 ## 4.1. Style Guidelines
@@ -2129,8 +2132,8 @@ El tercer sprint se planeó a través de una reunión presencial en la universid
 |Sprint 2 Retrospective Summary|Este segundo sprint consistió principalmente en Frontend, aunque faltaron algunas partes a desarrollar y realizar algunas mejoras en el product backlog, así como la estimación de puntos.|
 |**Sprint Goal & User Stories**||
 |Sprint 3 Goal|Desarrollar la parte faltante en Frontend y empezar con el desarrollo de Backend de la aplicación web.|
-|Sprint 3 Velocity|69|
-|Sum of Story Points|69|
+|Sprint 3 Velocity|70|
+|Sum of Story Points|70|
 
 #### 5.2.3.2. Sprint Backlog 3.
 
