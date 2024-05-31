@@ -91,6 +91,29 @@ Junio 2024
         </ul>
       </td>
   </tr>
+  <tr>
+  <td><strong>TB2</strong></td>
+      <td>Jueves 6 de junio</td>
+      <td>
+        <ul>
+          <li>Delgado Corrales, Piero Gonzalo</li>
+          <li>Matos Fernandez, Christian Andre</li>
+          <li>Paredes Puente, Sebastián Roberto</li>
+          <li>Salinas Torres, Salvador Antonio</li>
+          <li>Valverde Mozo, Andre Gabriel</li>
+        </ul>
+      </td>
+      <td>
+        Se han incluído los siguientes cambios:
+        <ul>
+          <li>Implementación de mejoras</li>
+          <li>5.2.3. Sprint 3</li>
+          <li>5.3. Validation Interviews</li>
+          <li>5.4. Video About the Product</li>
+          <li>Video About the Team</li>
+        </ul>
+      </td>
+  </tr>
   </tbody>
 </table>
 
@@ -213,7 +236,7 @@ Commits en project report TP1:
   - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
+  - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -1017,6 +1040,8 @@ __Segmento Clientes que requieren servicios de transporte__
 <tr><td valign="top">US35</td><td valign="top">Visualización de datos de conductor</td></tr>
 <tr><td valign="top">US36</td><td valign="top">Visualización de datos de vehículo</td></tr>
 <tr><td valign="top">US37</td><td valign="top">Visualización de datos de cliente</td></tr>
+<tr><td rowspan="2" valign="top">E07</td><td rowspan="4" valign="top">Como desarrollador quiero desarrollar mi propia API para gestionar la base de datos de forma adecuada</td><td valign="top">US38</td><td valign="top">Uso de nuestra API para gestionar usuarios</td></tr>
+<tr><td valign="top">US39</td><td valign="top">Uso de nuestra API para gestionar los datos de viajes</td></tr>
 </table>
 
 **HISTORIAS DE USUARIO**
@@ -1060,6 +1085,8 @@ __Segmento Clientes que requieren servicios de transporte__
 |US35|Visualización de datos de conductor|Como empresario de gestión logística, quiero ver los datos de los conductores para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de un conductor**</p><p>**Dado que** el empresario desea ver la información de los conductores que ha registrado</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Conductores</p><p>**Entonces** se mostrará el listado de los conductores registrados</p><p>**Y** podrá ver los detalles de cada uno</p>|E06|
 |US36|Visualización de datos de vehículo|Como empresario de gestión logística, quiero ver los datos de los vehículos para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de un vehículo**</p><p>**Dado que** el empresario desea ver la información de los vehículos que ha registrado</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Vehículos</p><p>**Entonces** se mostrará el listado de los vehículos registrados</p><p>**Y** podrá ver los detalles de cada uno</p>|E06|
 |US37|Visualización de datos de cliente|Como empresario de gestión logística, quiero ver los datos de mis clientes para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de clientes**</p><p>**Dado que** el empresario desea ver la información de los clientes con los que ha registrado viajes</p><p>**Cuando** accede a la plataforma</p><p>**Y** selecciona la sección Clientes</p><p>**Entonces** se mostrará el listado de sus clientes registrados</p>|E06|
+|US38|Uso de nuestra API para gestionar usuarios|Como desarrollador quiero integrar un API para gestionar la información de los usuarios en la base de datos.|<p>**Escenario 1: Agregar datos del usuario en la base de datos**</p><p>**Dado que** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud POST con los datos del usuario a la API</p><p>**Entonces** la API responde con un código de estado 200 y el usuario se agrega correctamente a la base de datos</p><p>**Escenario 2: Obtener la información de un usuario**</p><p>**Dado** que el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud GET a la API para obtener la información de un usuario específico</p><p>**Entonces** la API responde con un código de estado 200 y devuelve los datos del usuario solicitado</p>|E07|
+|US39|Uso de nuestra API para gestionar los datos de viajes|Como desarrollador quiero integrar un API para gestionar la información de los viajes, gastos, conductores y vehículos en la base de datos|<p>**Escenario 1: Agregar datos referente a un viaje en la base de datos**</p><p>**Dado que** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud POST con los datos de un viaje, gasto, conductor o vehículo de una empresa a la API</p><p>**Entonces** la API responde con un código de estado 200 y el elemento se agrega correctamente a la base de datos</p><p>**Escenario 2: Obtener la información de elementos referente a un viaje**</p><p>**Dado que** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud GET a la API para obtener la información de los viajes, gastos, conductores o vehículos de un usuario específico</p><p>**Entonces** la API responde con un código de estado 200 y devuelve todos los elementos del usuario solicitado</p>|E07|
 
 ## 3.3. Impact Mapping
 
@@ -1112,6 +1139,8 @@ El Product Backlog se gestiona a través de la herramienta Pivotal Tracker, el c
 |35|US16|Elegir plan de suscripción|Como cliente quiero elegir un plan de suscripción que se acomode a mis necesidades para acceder a las funcionalidades necesarias para mí.|5|
 |36|US17|Recuperación de cuenta|Como cliente quiero poder recuperar mi cuenta en caso haya tenido algún inconveniente con las credenciales para recuperar el acceso de forma segura.|5|
 |37|US18|Gestión de método de pago|Como cliente quiero gestionar mi método de pago para asegurarme de que la facturación se realice de manera correcta y segura en mi cuenta.|5|
+|38|US38|Uso de nuestra API para gestionar usuarios|Como desarrollador quiero integrar un API para gestionar la información de los usuarios en la base de datos.|5|
+|39|US39|Uso de nuestra API para gestionar los datos de viajes|Como desarrollador quiero integrar un API para gestionar la información de los viajes, gastos, conductores y vehículos en la base de datos.|5|
 
 # Capítulo IV Product Design
 ## 4.1. Style Guidelines
@@ -1215,6 +1244,10 @@ La organización por tópicos se utiliza para agrupar información relacionada p
   <tr>
     <td>Registry / Registro</td>
     <td>Este botón permite registrar y modificar datos como envíos, gastos, conductores y vehículos.</td>
+  </tr>
+    <tr>
+    <td>Clients / Clientes</td>
+    <td>Este botón te permite acceder al listado de los clientes con los que se haya registrado al menos un envío.</td>
   </tr>
   <tr>
     <td>Drivers / Conductores</td>
@@ -1868,6 +1901,8 @@ El objetivo de este primer sprint es la realización del Landing Page estático.
 
 Se realizaron los avances con los commits correspondientes en el repositorio de la siguiente forma.
 
+Repositorio Landing Page: https://github.com/Grupo-2-Apps-Web/Landing-Page
+
 |**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
 | :- | :- | :- | :- | :- |
 |Grupo-2-Apps-Web/Landing-Page|feature/index|eb0fb57|feat: Navbar, footer, Index section added|10/04/2024|
@@ -1887,6 +1922,8 @@ Se realizaron los avances con los commits correspondientes en el repositorio de 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review.
 
 Se realizaron los acceptance tests para las historias de usuario trabajadas y se registraron en el repositorio de la siguiente forma.
+
+Repositorio Acceptance Tests: https://github.com/Grupo-2-Apps-Web/Acceptance-Tests
 
 |**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
 | :- | :- | :- | :- | :- |
@@ -2026,6 +2063,8 @@ El objetivo de este segundo sprint es la realización del Frontend de la aplicac
 
 Se realizaron los avances con los commits correspondientes en el repositorio de la siguiente forma.
 
+Repositorio Frontend: https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications
+
 |**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
 | :- | :- | :- | :- | :- |
 |Grupo-2-Apps-Web/Frontend-Web-Applications|main|f64966c|feat: initial commit creation of proyect|23/04/2024|
@@ -2045,6 +2084,8 @@ Se realizaron los avances con los commits correspondientes en el repositorio de 
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
 
 Se realizaron los acceptance tests para las historias de usuario trabajadas y se registraron en el repositorio de la siguiente forma.
+
+Repositorio Acceptance Tests: https://github.com/Grupo-2-Apps-Web/Acceptance-Tests
 
 |**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
 | :- | :- | :- | :- | :- |
@@ -2132,15 +2173,26 @@ El tercer sprint se planeó a través de una reunión presencial en la universid
 |Sprint 2 Retrospective Summary|Este segundo sprint consistió principalmente en Frontend, aunque faltaron algunas partes a desarrollar y realizar algunas mejoras en el product backlog, así como la estimación de puntos.|
 |**Sprint Goal & User Stories**||
 |Sprint 3 Goal|Desarrollar la parte faltante en Frontend y empezar con el desarrollo de Backend de la aplicación web.|
-|Sprint 3 Velocity|70|
-|Sum of Story Points|70|
+|Sprint 3 Velocity|80|
+|Sum of Story Points|80|
 
 #### 5.2.3.2. Sprint Backlog 3.
 
 El objetivo de este tercer sprint es la realización de la parte faltante de Frontend y empezar con el Backend de la aplicación web. Al igual que anteriores sprints, trabajamos las tareas en una tabla en Trello: <https://trello.com/b/miduy6Jv/cargowatch-sprint-backlog-3>
 
+#### 5.2.3.3. Development Evidence for Sprint Review.
+
+A continuación, se muestran los commits realizados en los repositorios, acorde a lo trabajado en el Sprint Backlog 3.
+
+Repositorio Frontend: https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications
+
+Repositorio Backend: https://github.com/Grupo-2-Apps-Web/Web-Services
 
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review.
+
+Se realizaron los acceptance tests para las historias de usuario trabajadas y se registraron en el repositorio de la siguiente forma.
+
+Repositorio Acceptance Tests: https://github.com/Grupo-2-Apps-Web/Acceptance-Tests
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
@@ -2174,6 +2226,7 @@ Entre otras actividades realizadas, incluimos los User Persona, Empathy Map, As-
 
 Luego establecimos los estilos a utilizar para nuestro producto, incluyendo la tipografía, paleta de colores, íconos, sistemas de organización, entre otros. Con ello, pudimos hacer un prototipo funcional de nuestra aplicación y tener un modelo de diseño del cual guiarnos durante el desarrollo.
 
+## Video About The Team
 
 # Bibliografía
 
