@@ -2197,6 +2197,10 @@ Repositorio Acceptance Tests: https://github.com/Grupo-2-Apps-Web/Acceptance-Tes
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+Para este sprint, hemos implementado una primera versión de la API para nuestro proyecto con la mayoría de endpoints necesarios para su funcionamiento.
+
+Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-Services
+
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
@@ -2205,14 +2209,154 @@ Repositorio Acceptance Tests: https://github.com/Grupo-2-Apps-Web/Acceptance-Tes
 ## 5.3. Validation Interviews.
 
 ### 5.3.1. Diseño de Entrevistas.
+**Enlace a la landing page**: https://grupo-2-apps-web.github.io/Landing-Page/
+**Enlace a la aplicación web**:  https://cargoapp-demo.web.app
+
+
+**Para cliente**: 
+
+<u>Sobre Landing page:</u>
+
+1. ¿Cuál es tu impresión general de la landing page?
+2. ¿Es fácil comprender la naturaleza de nuestro producto al revisar la página?
+3. ¿Los elementos visuales, como imágenes y colores, son atractivos y relevantes?
+4. ¿Consideras que la información proporcionada es clara y concisa, o percibes que hay demasiada o muy poca?
+5. ¿El llamado a la acción es directo y convincente?
+6. ¿La navegación resulta intuitiva y fácil de usar?
+7. ¿Qué opinas sobre la organización y disposición de los elementos en la página?
+8. ¿El contenido te brinda confianza en la calidad del producto ofrecido?
+9. ¿Identificas algún aspecto confuso o que no contribuya al valor de la página?
+10. ¿Qué sugerencias tendrías para mejorar la experiencia de usuario en la Landing Page estática de la aplicación, especialmente en cuanto a la navegación y presentación de información?
+
+<u>Sobre Web application:</u>
+
+1. ¿Qué opinas sobre la disposición y organización de la información en la aplicación para el seguimiento en tiempo real de los envíos?
+2. ¿Encuentras la interfaz de usuario intuitiva y fácil de usar?
+3. ¿Qué opinas de la experiencia de la gestión de alertas durante el transporte?
+4. ¿Cómo describirías la experiencia de navegación al acceder al historial completo de tus envíos en la aplicación?
+5. ¿Encuentras la función de búsqueda de envíos fácil de usar y eficiente en la aplicación?
+6. ¿Consideras que la personalización de la visualización en la aplicación cumple con tus expectativas y necesidades?
+7. ¿Los elementos visuales, como imágenes y colores, son atractivos y relevantes?
+8. ¿Qué sugerencias tendrías para mejorar la experiencia de usuario en la Web Application, especialmente en cuanto a la navegación y presentación de información?
+
+**Para empresario de gestión logística:**
+
+<u>Sobre Landing page:</u>
+
+1. ¿Cuál es tu impresión general de la landing page?
+2. ¿Es fácil comprender la naturaleza de nuestro producto al revisar la página?
+3. ¿Los elementos visuales, como imágenes y colores, son atractivos y relevantes?
+4. ¿Consideras que la información proporcionada es clara y concisa, o percibes que hay demasiada o muy poca?
+5. ¿El llamado a la acción es directo y convincente?
+6. ¿La navegación resulta intuitiva y fácil de usar?
+7. ¿Qué opinas sobre la organización y disposición de los elementos en la página?
+8. ¿El contenido te brinda confianza en la calidad del producto ofrecido?
+9. ¿Identificas algún aspecto confuso o que no contribuya al valor de la página?
+10. ¿Qué sugerencias tendrías para mejorar la experiencia de usuario en la Landing Page estática de la aplicación, especialmente en cuanto a la navegación y presentación de información?
+
+<u>Sobre Web application:</u>
+
+1. ¿Qué opinas sobre la disposición y organización de la información en la aplicación para el seguimiento en tiempo real de los envíos?
+2. ¿Encuentras la interfaz de usuario intuitiva y fácil de usar con la gestión de alertas durante la entrega de tus envíos?
+3. ¿Qué elementos visuales o de diseño crees que podrían mejorar la experiencia de la gestión de alertas durante el transporte?
+4. ¿Cómo describirías la experiencia de registro de envíos en la aplicación?
+5. ¿Encuentras la función de búsqueda de envíos fácil de usar y eficiente en la aplicación?
+6. ¿Consideras que la información mostrada de los clientes en la aplicación es suficiente para cubrir tus necesidades?
+7. ¿Los elementos visuales, como imágenes y colores, son atractivos y relevantes?
+8. ¿Qué sugerencias tendrías para mejorar la experiencia de usuario en la aplicación web, especialmente en cuanto a la navegación y presentación de información?
 
 ### 5.3.2. Registro de Entrevistas.
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
+**Site o App a Evaluar:**
+CargoApp
+**Tareas a evaluar:**
+El alcance de esta evaluación incluye la revisión de usabilidad de las siguientes tareas:
+1. Creación de usuario
+2. Inicio de sesión
+3. Visualización de historial de viajes
+4. Filtros en historial de viajes
+5. Visualización de viajes en progreso
+6. Visualización de información de gastos, vehículos y conductores
+7. Registro de un nuevo viaje
+8. Registro de gastos, vehículos y conductores
+9. Visualización de alertas
+10. Configuración de tipo de vista y tema
+11. Elección de plan de suscripción
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+1. Landing Page
+2. Recuperación de cuenta
+
+**ESCALA DE SEVERIDAD:**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+| Nivel | Descripción |
+|-------| ------------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+**TABLA DE RESUMEN:**
+| #   | Problema | Escala de severidad | Heurística/principio violada(o)|
+|-----|----------|---------------------|-------------------|
+| 1 | Usuario logueado sigue viendo la pantalla de iniciar sesión | 3 | Usability: Usabilidad y control del usuario   |
+| 2 | Incorrecta visualización de información de un viaje en progreso en celulares | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 3 | Incorrecta visualización del botón de gastos en celulares  | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 4 | Incorrecta visualización de la vista de configuración en celulares | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 5 | Incorrecta visualización de la vista de suscripción en celulares | 3 | Inclusive Design: Proporciona experiencias comparables |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+PROBLEMA #1: Usuario logueado sigue viendo la pantalla de iniciar sesión
+Severidad: 3
+Heurística violada: Usability: Usabilidad y control del usuario
+Problema: Si el usuario está logueado y va al enlace inicial de la aplicación, la aplicación no lo redirecciona a su pantalla correspondiente.
+Imagen:
+![Imagen Problema de Heuristica 1](img/heuristica1.png)
+Recomendación: Implementar una funcionalidad que detecte si el usuario está logueado y lo lleve a su vista correspondiente.
+
+PROBLEMA #2: Incorrecta visualización de información de un viaje en progreso en celulares
+Severidad: 2
+Heurística violada: Inclusive Design: Proporciona experiencias comparables
+Problema: Si el usuario está entrando desde un dispositivo móvil, la pantalla donde se muestra la información de un viaje en progreso no se visualiza correctamente.
+Imagen: 
+![Imagen Problema de Heuristica 2](img/heuristica2.png)
+Recomendación: Cambiar la disposición de elementos en la vista de viajes en progreso para que haya más espacio para visualizar la información.
+
+PROBLEMA #3: Incorrecta visualización del botón de gastos en celulares
+Severidad: 2
+Heurística violada: Inclusive Design: Proporciona experiencias comparables
+Problema: Si el usuario está entrando desde un dispositivo móvil, el botón para ver la información de un gasto no se visualiza completamente.
+Imagen:
+![Imagen Problema de Heuristica 3](img/heuristica3.png)
+Recomendación: Centrar el botón de gastos y aumentar su ancho para que todo el texto esté dentro del recuadro.
+
+PROBLEMA #4: Incorrecta visualización de la vista de configuración en celulares
+Severidad: 2
+Heurística violada: Inclusive Design: Proporciona experiencias comparables
+Problema: Si el usuario está entrando desde un dispositivo móvil, la vista de configuración no se visualiza correctamente.
+Imagen:
+![Imagen Problema de Heuristica 4](img/heuristica4.png)
+Recomendación: Reducir el tamaño de los botones de suscripción para que todo quepa en el dispositivo.
+
+PROBLEMA #5: Incorrecta visualización de la vista de suscripción en celulares
+Severidad: 2
+Heurística violada: Inclusive Design: Proporciona experiencias comparables
+Problema: Si el usuario está entrando desde un dispositivo móvil, la vista de selección de suscripción no se visualiza correctamente.
+Imagen:
+![Imagen Problema de Heuristica 5](img/heuristica5.png)
+Recomendación: Cambiar la disposición de elementos en la vista de suscripción para que haya más espacio para visualizar la información.
+
 ## 5.4. Video About-the-Product.
+En el vídeo se proporciona información sobre el producto CargoApp. Se mencionan las diferentes funcionalidades de la aplicación como son la visualización de envíos en tiempo real, alertas, estadísticas, etc.
 
+Screenshot del video: 
 
+![Imagen de Video About-The-Product](img/VideoAbout-The-Product.png)
+
+Enlace al vídeo de YouTube: https://youtu.be/Qu6a7DhsWms
+Enlace al vídeo de Microsoft Stream: [Video About-The-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/EQYdafRID_ZDsc3bKC0fprMBb0GoHJ7mm2nNv-CT5WgNwg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5j4Hdg)
+Duración del vídeo: 2:42
 
 # Conclusiones
 
