@@ -2308,43 +2308,73 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 PROBLEMA #1: Usuario logueado sigue viendo la pantalla de iniciar sesión
+
 Severidad: 3
+
 Heurística violada: Usability: Usabilidad y control del usuario
+
 Problema: Si el usuario está logueado y va al enlace inicial de la aplicación, la aplicación no lo redirecciona a su pantalla correspondiente.
+
 Imagen:
+
 ![Imagen Problema de Heuristica 1](img/heuristica1.png)
-Recomendación: Implementar una funcionalidad que detecte si el usuario está logueado y lo lleve a su vista correspondiente.
+
+Recomendación: 
+Implementar una funcionalidad que detecte si el usuario está logueado y lo lleve a su vista correspondiente.
 
 PROBLEMA #2: Incorrecta visualización de información de un viaje en progreso en celulares
+
 Severidad: 2
+
 Heurística violada: Inclusive Design: Proporciona experiencias comparables
+
 Problema: Si el usuario está entrando desde un dispositivo móvil, la pantalla donde se muestra la información de un viaje en progreso no se visualiza correctamente.
+
 Imagen: 
+
 ![Imagen Problema de Heuristica 2](img/heuristica2.png)
+
 Recomendación: Cambiar la disposición de elementos en la vista de viajes en progreso para que haya más espacio para visualizar la información.
 
 PROBLEMA #3: Incorrecta visualización del botón de gastos en celulares
+
 Severidad: 2
+
 Heurística violada: Inclusive Design: Proporciona experiencias comparables
+
 Problema: Si el usuario está entrando desde un dispositivo móvil, el botón para ver la información de un gasto no se visualiza completamente.
+
 Imagen:
+
 ![Imagen Problema de Heuristica 3](img/heuristica3.png)
+
 Recomendación: Centrar el botón de gastos y aumentar su ancho para que todo el texto esté dentro del recuadro.
 
 PROBLEMA #4: Incorrecta visualización de la vista de configuración en celulares
+
 Severidad: 2
+
 Heurística violada: Inclusive Design: Proporciona experiencias comparables
+
 Problema: Si el usuario está entrando desde un dispositivo móvil, la vista de configuración no se visualiza correctamente.
+
 Imagen:
+
 ![Imagen Problema de Heuristica 4](img/heuristica4.png)
+
 Recomendación: Reducir el tamaño de los botones de suscripción para que todo quepa en el dispositivo.
 
 PROBLEMA #5: Incorrecta visualización de la vista de suscripción en celulares
+
 Severidad: 2
+
 Heurística violada: Inclusive Design: Proporciona experiencias comparables
+
 Problema: Si el usuario está entrando desde un dispositivo móvil, la vista de selección de suscripción no se visualiza correctamente.
+
 Imagen:
 ![Imagen Problema de Heuristica 5](img/heuristica5.png)
+
 Recomendación: Cambiar la disposición de elementos en la vista de suscripción para que haya más espacio para visualizar la información.
 
 ## 5.4. Video About-the-Product.
@@ -2355,7 +2385,9 @@ Screenshot del video:
 ![Imagen de Video About-The-Product](img/VideoAbout-The-Product.png)
 
 Enlace al vídeo de YouTube: https://youtu.be/Qu6a7DhsWms
+
 Enlace al vídeo de Microsoft Stream: [Video About-The-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/EQYdafRID_ZDsc3bKC0fprMBb0GoHJ7mm2nNv-CT5WgNwg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5j4Hdg)
+
 Duración del vídeo: 2:42
 
 # Conclusiones
