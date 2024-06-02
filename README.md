@@ -2209,7 +2209,9 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 ## 5.3. Validation Interviews.
 
 ### 5.3.1. Diseño de Entrevistas.
+
 **Enlace a la landing page**: https://grupo-2-apps-web.github.io/Landing-Page/
+
 **Enlace a la aplicación web**:  https://cargoapp-demo.web.app
 
 
@@ -2373,6 +2375,7 @@ Heurística violada: Inclusive Design: Proporciona experiencias comparables
 Problema: Si el usuario está entrando desde un dispositivo móvil, la vista de selección de suscripción no se visualiza correctamente.
 
 Imagen:
+
 ![Imagen Problema de Heuristica 5](img/heuristica5.png)
 
 Recomendación: Cambiar la disposición de elementos en la vista de suscripción para que haya más espacio para visualizar la información.
