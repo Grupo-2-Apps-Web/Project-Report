@@ -2412,6 +2412,9 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 |Parámetros|Body: name, phone, ruc, address, email, password y subscription|
 |Resultado|![Service Documentation Post User](img/service-documentation-post-user.png)|
 
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/users/{userId}**
+
 |Método|GET|
 |--|--|
 |Parámetros|{userId}: Id del usuario|
@@ -2435,6 +2438,8 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 |Parámetros|Ninguno|
 |Resultado|![Service Documentation Get Clients](img/service-documentation-get-clients.png)|
 
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/clients/{clientId}**
+
 |Método|GET|
 |--|--|
 |Parámetros|{clientId}: Id del cliente|
@@ -2443,12 +2448,12 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 
 **Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/vehicles**
 
-|Método| GET|
+|Método|GET|
 |--|--|
 |Parámetros|Ninguno|
 |Resultado|![Service Documentation 1](img/service-documentation1.png)|
 
-|Método| POST|
+|Método|POST|
 |--|--|
 |Parámetros| Body: model, plate, tractorPlate, maxLoad y volume|
 |Resultado|![Service Documentation 2](img/service-documentation2.png)|
