@@ -2400,114 +2400,77 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 
 **EVIDENCIAS**
 
-**Endpoint:** https://cargoappwebservice.azurewebsites.net/api/v1/vehicles
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/vehicles**
 
-<u>Método:</u> GET
+|Método| GET|
+|--|--|
+|Parámetros| Ninguno|
+|Resultado|![Service Documentation 1](img/service-documentation1.png)|
 
-<u>Parámetros:</u> Ninguno
+|Método| POST|
+|--|--|
+|Parámetros| Body: model, plate, tractorPlate, maxLoad y volume|
+|Resultado|![Service Documentation 2](img/service-documentation2.png)|
 
-<u>Resultado:</u>
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/vehicles/{vehicleId}**
 
-![Service Documentation 1](img/service-documentation1.png)
+|Método|GET|
+|--|--|
+|Parámetros|{vehicleId}: Id del vehículo|
+|Resultado|![Service Documentation 3](img/service-documentation3.png)|
 
-<u>Método:</u> POST
+|Método|PUT|
+|--|--|
+|Parámetros|{vehicleId}: Id del vehículo, Body: model, plate, tractorPlate, maxLoad y volume|
+|Resultado|![Service Documentation 4](img/service-documentation4.png)|
 
-<u>Parámetros:</u> Body: model, plate, tractorPlate, maxLoad y volume
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/drivers**
 
-<u>Resultado:</u>
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation 5](img/service-documentation5.png)|
 
-![Service Documentation 2](img/service-documentation2.png)
+|Método|POST|
+|--|--|
+|Parámetros|Body: name, dni, license y contactNumber|
+|Resultado|![Service Documentation 6](img/service-documentation6.png)|
 
-**Endpoint:** https://cargoappwebservice.azurewebsites.net/api/v1/vehicles/{vehicleId}
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/drivers/{driverId}**
 
-<u>Método:</u> GET
+|Método|GET|
+|--|--|
+|Parámetros|{driverId}: Id del conductor|
+|Resultado|![Service Documentation 7](img/service-documentation7.png)|
 
-<u>Parámetros:</u> {vehicleId}: Id del vehículo
+|Método|PUT|
+|--|--|
+|Parámetros|{driverId}: Id del conductor, Body: name, dni, license y contactNumber|
+|Resultado|![Service Documentation 8](img/service-documentation8.png)|
 
-<u>Resultado:</u>
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/trips**
 
-![Service Documentation 3](img/service-documentation3.png)
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation 9](img/service-documentation9.png)|
 
-<u>Método:</u> PUT
+|Método|POST|
+|--|--|
+|Parámetros|Body: name, type, weight, loadLocation, loadDate, unloadLocation, unloadDate, driverId, vehicleId, clientId, entrepreneurId|
+|Resultado|![Service Documentation 10](img/service-documentation10.png)|
 
-<u>Parámetros:</u> {vehicleId}: Id del vehículo, Body: model, plate, tractorPlate, maxLoad y volume
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/trips/{tripId}**
 
-<u>Resultado:</u>
+|Método|GET|
+|--|--|
+|Parámetros|{tripId}: Id del viaje|
+|Resultado|![Service Documentation 11](img/service-documentation11.png)|
 
-![Service Documentation 4](img/service-documentation4.png)
-
-**Endpoint:** https://cargoappwebservice.azurewebsites.net/api/v1/drivers
-
-<u>Método:</u> GET
-
-<u>Parámetros:</u> Ninguno
-
-<u>Resultado:</u>
-
-![Service Documentation 5](img/service-documentation5.png)
-
-<u>Método:</u> POST
-
-<u>Parámetros:</u> Body: name, dni, license y contactNumber
-
-<u>Resultado:</u>
-
-![Service Documentation 6](img/service-documentation6.png)
-
-**Endpoint:** https://cargoappwebservice.azurewebsites.net/api/v1/drivers/{driverId}
-
-<u>Método:</u> GET
-
-<u>Parámetros:</u> {driverId}: Id del conductor
-
-<u>Resultado:</u>
-
-![Service Documentation 7](img/service-documentation7.png)
-
-<u>Método:</u> PUT
-
-<u>Parámetros:</u> {driverId}: Id del conductor, Body: name, dni, license y contactNumber
-
-<u>Resultado:</u>
-
-![Service Documentation 8](img/service-documentation8.png)
-
-**Endpoint:** https://cargoappwebservice.azurewebsites.net/api/v1/trips
-
-<u>Método:</u> GET
-
-<u>Parámetros:</u> Ninguno
-
-<u>Resultado:</u>
-
-![Service Documentation 9](img/service-documentation9.png)
-
-<u>Método:</u> POST
-
-<u>Parámetros:</u> Body: name, type, weight, loadLocation, loadDate, unloadLocation, unloadDate, driverId, vehicleId, clientId, entrepreneurId
-
-<u>Resultado:</u>
-
-![Service Documentation 10](img/service-documentation10.png)
-
-**Endpoint:** https://cargoappwebservice.azurewebsites.net/api/v1/trips/{tripId}
-
-<u>Método:</u> GET
-
-<u>Parámetros:</u> {tripId}: Id del viaje
-
-<u>Resultado:</u>
-
-![Service Documentation 11](img/service-documentation11.png)
-
-<u>Método:</u> PUT
-
-<u>Parámetros:</u> {tripId}: Id del viaje, Body: name, type, weight, loadLocation, loadDate, unloadLocation, unloadDate, driverId, vehicleId, clientId, entrepreneurId
-
-<u>Resultado:</u>
-
-![Service Documentation 12](img/service-documentation12.png)
-
+|Método|PUT|
+|--|--|
+|Parámetros|{tripId}: Id del viaje, Body: name, type, weight, loadLocation, loadDate, unloadLocation, unloadDate, driverId, vehicleId, clientId, entrepreneurId|
+|Resultado|![Service Documentation 12](img/service-documentation12.png)|
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
