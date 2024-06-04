@@ -2357,8 +2357,154 @@ Para este sprint, hemos implementado una primera versión de la API para nuestro
 
 Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-Services
 
+|Método|Endpoint (https://cargoappwebservice.azurewebsites.net)|Descripción|
+|--|--|--|
+|GET|/api/v1/users|Se obtiene toda la lista de usuarios|
+|GET|/api/v1/clients|Se obtiene toda la lista de clientes|
+|GET|/api/v1/entrepreneurs|Se obtiene toda la lista de empresarios|
+|GET|/api/v1/configurations|Se obtiene toda la lista de las configuraciones de los usuarios|
+|GET|/api/v1/drivers|Se obtiene toda la lista de conductores|
+|GET|/api/v1/vehicles|Se obtiene toda la lista de vehículos|
+|GET|/api/v1/trips|Se obtiene toda la lista de viajes|
+|GET|/api/v1/evidences|Se obtiene toda la lista de evidencias|
+|GET|/api/v1/expenses|Se obtiene toda la lista de gastos|
+|GET|/api/v1/ongoing-trips|Se obtiene toda la lista de viajes en progreso|
+|GET|/api/v1/users/{id}|Se obtiene un usuario por ID|
+|GET|/api/v1/clients/{id}|Se obtiene un cliente por ID|
+|GET|/api/v1/entrepreneurs/{id}|Se obtiene un empresario por ID|
+|GET|/api/v1/configurations/{id}|Se obtiene una configuración de usuario por ID|
+|GET|/api/v1/drivers/{id}|Se obtiene un conductor por ID|
+|GET|/api/v1/vehicles/{id}|Se obtiene un vehículo por ID|
+|GET|/api/v1/trips/{id}|Se obtiene un viaje por ID|
+|GET|/api/v1/evidences/{id}|Se obtiene una evidencia por ID|
+|GET|/api/v1/expenses/{id}|Se obtiene un gasto por ID|
+|GET|/api/v1/ongoing-trips/{id}|Se obtiene un viaje en progreso por ID|
+|PUT|/api/v1/users/{id}|Se actualiza la información de un usuario por ID|
+|PUT|/api/v1/configurations/{id}|Se actualiza la información de una configuración de un usuario por ID|
+|PUT|/api/v1/drivers/{id}|Se actualiza la información de un conductor por ID|
+|PUT|/api/v1/vehicles/{id}|Se actualiza la información de un vehículo por ID|
+|PUT|/api/v1/trips/{id}|Se actualiza la información de un viaje por ID|
+|PUT|/api/v1/evidences/{id}|Se actualiza la información de una evidencia por ID|
+|PUT|/api/v1/expenses/{id}|Se actualiza la información de un gasto por ID|
+|PUT|/api/v1/ongoing-trips/{id}|Se actualiza la información de un viaje en progreso por ID|
+|POST|/api/v1/users|Se publica un nuevo usuario|
+|POST|/api/v1/clients|Se publica un nuevo cliente|
+|POST|/api/v1/entrepreneurs|Se publica un nuevo empresario|
+|POST|/api/v1/configurations|Se publica una nueva configuración de un usuario|
+|POST|/api/v1/drivers|Se publica un nuevo conductor|
+|POST|/api/v1/vehicles|Se publica un nuevo vehículo|
+|POST|/api/v1/trips|Se publica un nuevo viaje|
+|POST|/api/v1/evidences|Se publica una nueva evidencia|
+|POST|/api/v1/expenses|Se publica un nuevo gasto|
+|POST|/api/v1/ongoing-trips|Se publica un nuevo viaje en progreso|
+
+**EVIDENCIAS**
+
+**Endpoint:** https://cargoappwebservice.azurewebsites.net/api/v1/vehicles
+
+<u>Método:</u> GET
+<u>Parámetros:</u> Ninguno
+<u>Resultado:</u>
+
+![Service Documentation 1](img/service-documentation1.png)
+
+<u>Método:</u> POST
+<u>Parámetros:</u> Body: model, plate, tractorPlate, maxLoad y volume
+<u>Resultado:</u>
+
+![Service Documentation 2](img/service-documentation2.png)
+
+**Endpoint:** https://cargoappwebservice.azurewebsites.net/api/v1/vehicles/{vehicleId}
+
+<u>Método:</u> GET
+<u>Parámetros:</u> {vehicleId}: Id del vehículo
+<u>Resultado:</u>
+
+![Service Documentation 3](img/service-documentation3.png)
+
+<u>Método:</u> PUT
+<u>Parámetros:</u> {vehicleId}: Id del vehículo, Body: model, plate, tractorPlate, maxLoad y volume
+<u>Resultado:</u>
+
+![Service Documentation 4](img/service-documentation4.png)
+
+**Endpoint:** https://cargoappwebservice.azurewebsites.net/api/v1/drivers
+
+<u>Método:</u> GET
+<u>Parámetros:</u> Ninguno
+<u>Resultado:</u>
+
+![Service Documentation 5](img/service-documentation5.png)
+
+<u>Método:</u> POST
+<u>Parámetros:</u> Body: name, dni, license y contactNumber
+<u>Resultado:</u>
+
+![Service Documentation 6](img/service-documentation6.png)
+
+**Endpoint:** https://cargoappwebservice.azurewebsites.net/api/v1/drivers/{driverId}
+
+<u>Método:</u> GET
+<u>Parámetros:</u> {driverId}: Id del conductor
+<u>Resultado:</u>
+
+![Service Documentation 7](img/service-documentation7.png)
+
+<u>Método:</u> PUT
+<u>Parámetros:</u> {driverId}: Id del conductor, Body: name, dni, license y contactNumber
+<u>Resultado:</u>
+
+![Service Documentation 8](img/service-documentation8.png)
+
+**Endpoint:** https://cargoappwebservice.azurewebsites.net/api/v1/trips
+
+<u>Método:</u> GET
+<u>Parámetros:</u> Ninguno
+<u>Resultado:</u>
+
+![Service Documentation 9](img/service-documentation9.png)
+
+<u>Método:</u> POST
+<u>Parámetros:</u> Body: name, type, weight, loadLocation, loadDate, unloadLocation, unloadDate, driverId, vehicleId, clientId, entrepreneurId
+<u>Resultado:</u>
+
+![Service Documentation 10](img/service-documentation10.png)
+
+**Endpoint:** https://cargoappwebservice.azurewebsites.net/api/v1/trips/{tripId}
+
+<u>Método:</u> GET
+<u>Parámetros:</u> {tripId}: Id del viaje
+<u>Resultado:</u>
+
+![Service Documentation 11](img/service-documentation11.png)
+
+<u>Método:</u> PUT
+<u>Parámetros:</u> {tripId}: Id del viaje, Body: name, type, weight, loadLocation, loadDate, unloadLocation, unloadDate, driverId, vehicleId, clientId, entrepreneurId
+<u>Resultado:</u>
+
+![Service Documentation 12](img/service-documentation12.png)
+
+
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+Se decidió desplegar el Web Service en Microsoft Azure. Para ello, se instaló el plugin de Azure para publicar el Web Service en Rider y se conectó a Azure con las credenciales necesarias.
+
+![Imagen Deployment Backend](img/backend_deployment1.png)
+
+Asimismo, se configuró la aplicación para crear un Web App y se seleccionó Run.
+
+![Imagen Deployment Backend](img/backend_deployment2.png)
+
+Al seleccionar Run, se creó la Web App y se subieron los archivos necesarios.
+
+![Imagen Deployment Backend](img/backend_deployment3.png)
+
+Luego, se comprobó la correcta creación del Web Service, en Postman accediendo al endpoint /api/v1/trips con el método http Get y el enlace https://cargoappwebservice.azurewebsites.net/api/v1/trips
+
+![Imagen Deployment Backend](img/backend_deployment4.png)
+
+De esta manera, se comprobó que se implementó correctamente la aplicación ya que devolvió 200 OK y la lista de trips en la base de datos.
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
 
