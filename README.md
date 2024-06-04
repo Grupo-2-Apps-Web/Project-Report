@@ -133,9 +133,9 @@ Commits en project report TP1:
 
 # **Tabla de Contenido**
 
-- [Registro de Versiones](#registro-de-versiones)
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#Capítulo-I-Introducción)
+- ## [Registro de Versiones](#registro-de-versiones)
+- ## [Student Outcome](#student-outcome)
+- ## [Capítulo I: Introducción](#Capítulo-I-Introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
@@ -147,7 +147,7 @@ Commits en project report TP1:
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#Capítulo-II-Requirements-Elicitation--Analysis)
+- ## [Capítulo II: Requirements Elicitation & Analysis](#Capítulo-II-Requirements-Elicitation--Analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
@@ -162,12 +162,12 @@ Commits en project report TP1:
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#Capítulo-III-Requirements-Specification)
+- ## [Capítulo III: Requirements Specification](#Capítulo-III-Requirements-Specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Product Design](#Capítulo-IV-Product-Design)
+- ## [Capítulo IV: Product Design](#Capítulo-IV-Product-Design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
@@ -195,7 +195,7 @@ Commits en project report TP1:
     - [4.7.2. Class Dictionary](#472-class-dictionary)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagram](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation & Deployment](#Capítulo-V-Product-Implementation-Validation--Deployment)
+- ## [Capítulo V: Product Implementation, Validation & Deployment](#Capítulo-V-Product-Implementation-Validation--Deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
@@ -234,11 +234,11 @@ Commits en project report TP1:
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
-- [Conclusiones](#conclusiones)
+- ## [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
+- ## [Bibliografía](#bibliografía)
+- ## [Anexos](#anexos)
 
 
 # Student Outcome
@@ -1591,116 +1591,269 @@ El diagrama de componentes de la API REST muestra las partes esenciales de nuest
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 
-Se realizó el diagrama de clase, en el cual se especifica las clases a manejar, así como sus atributos y métodos.
+Se realizaron los diagramas de clase, en los cuales se especifica las clases a manejar en cada Bounded Context, así como sus atributos y métodos.
 
-<img src="img/class-diagram.png" alt="Diagrama de clases" width="100%">
+#### User Bounded Context
+<img src="img/class-diagram-user.png" alt="Diagrama de clases (User)" width="100%">
+
+#### Registration Bounded Context
+<img src="img/class-diagram-registration.png" alt="Diagrama de clases (Registration)" width="100%">
 
 ### 4.7.2. Class Dictionary
 
 A continuación, se especificara más a detalle sobre cada una de las clases.
 
+#### User Bounded Context
 
-1. User (Usuario):
-   - Atributos:
-     - id: Identificador único del usuario.
-     - username: Nombre de usuario del usuario.
-     - email: Dirección de correo electrónico del usuario.
-     - password: Contraseña del usuario.
-     - subscription: Tipo de suscripción del usuario.
-   - Métodos:
-     - changePassword(): Permite al usuario cambiar su contraseña.
-     - changeEmail(): Permite al usuario cambiar su dirección de correo electrónico.
-     - suscribe(): Permite al usuario suscribirse a un plan de suscripción.
+##### User (Aggregate)
 
+La clase User contiene toda la información de un usuario registrado dentro de la aplicación, así como su información empresarial, información de autenticación y plan de suscripción.
 
-2. Client (Cliente):
-   - Atributos:
-     - id: Identificador único del cliente.
-     - name: Nombre del cliente.
-     - email: Dirección de correo electrónico del cliente.
-     - phone: Número de teléfono del cliente.
-     - shipments: Lista de envíos asociados al cliente.
-     - users: Lista de usuarios asociados al cliente.
-   - Métodos:
-     - createShipment(): Crea un nuevo envío para el cliente.
-     - updateShipment(): Actualiza la información de un envío existente.
-     - cancelShipment(): Cancela un envío existente.
-     - trackShipment(): Permite al cliente rastrear un envío específico.
-     - getShipmentData(): Obtiene los datos de los envíos asociados al cliente.
-     - updateProfile(): Actualiza el perfil del cliente con nueva información.
+**Atributos:**
+- id: int - Identificador único del usuario
+- userData: UserData - Información sobre datos del usuario
+- userAuthentication: UserAuthentication - Información sobre autenticación del usuario
+- subscriptionPlan: SubscriptionPlan - Información sobre el plan de suscripción
 
 
-3. Company (Empresa):
-   - Atributos:
-     - id: Identificador único de la empresa.
-     - name: Nombre de la empresa.
-     - address: Dirección de la empresa.
-     - phone: Número de teléfono de la empresa.
-     - email: Dirección de correo electrónico de la empresa.
-     - website: Sitio web de la empresa.
-     - units: Lista de unidades asociadas a la empresa.
-   - Métodos:
-     - addUnit(): Agrega una nueva unidad a la flota de la empresa.
-     - updateUnit(): Actualiza la información de una unidad existente.
-     - removeUnit(): Elimina una unidad de la flota de la empresa.
+**Métodos:**
+- getUser(): Devuelve los detalles del usuario.
+- updateUser(): Actualiza los detalles del usuario.
+
+##### UserData (Value Object)
+
+La clase UserData contiene información de los datos empresariales del usuario.
+
+**Atributos:**
+- name: string - Nombre del usuario
+- phone: string - Teléfono del usuario
+- ruc: string - Identificador RUC del usuario
+- address: string - Dirección del usuario
 
 
-4. Unit (Unidad):
-   - Atributos:
-     - id: Identificador único de la unidad.
-     - name: Nombre de la unidad.
-     - description: Descripción de la unidad.
-     - capacity: Capacidad de carga de la unidad.
-     - weight: Peso de la unidad.
-     - volume: Volumen de la unidad.
-     - status: Estado actual de la unidad.
-   - Métodos:
-     - checkStatus(): Verifica el estado actual de la unidad.
-     - updateStatus(): Actualiza el estado de la unidad.
+**Métodos:**
+- getName(): Devuelve el nombre del usuario
+- setName(): Establece el nombre del usuario
+- getPhone(): Devuelve el teléfono del usuario
+- setPhone(): Establece el teléfono del usuario
+- getRuc(): Devuelve el RUC del usuario
+- setRuc(): Establece el RUC del usuario
+- getAddress(): Devuelve la dirección del usuario
+- setAddress(): Establece la dirección del usuario
+
+##### UserAuthentication (Value Object)
+
+La clase UserAuthentication contiene información de los datos de autenticación del usuario
+
+**Atributos:**
+- email: string - Correo electrónico del usuario
+- password: string - Contraseña del usuario
+
+**Métodos:**
+- getEmail(): Devuelve el correo electrónico del usuario
+- setEmail(): Establece el correo electrónico del usuario
+- getPassword(): Devuelve la contraseña del usuario
+- setPassword(): Establece la contraseña del usuario
+
+##### SubscriptionPlan (Value Object)
+
+La clase SubscriptionPlan contiene información del plan de suscripción del usuario.
+
+**Atributos:**
+- subscription: string - Suscripción elegida por el usuario
+
+**Métodos:**
+- getSubscription(): Devuelve la suscripción del usuario
+- setSubscription(): Establece la suscripción del usuario
+
+##### Client (Entity)
+
+La clase Client representa a un usuario que es de tipo cliente.
+
+**Atributos:**
+- id: int - Identificador único del cliente
+- userId: int - Identificador del usuario con el que se relaciona
 
 
-5. Shipment (Envío):
-   - Atributos:
-     - id: Identificador único del envío.
-     - date: Fecha del envío.
-     - status: Estado del envío.
-     - origin: Ubicación de origen del envío.
-     - destination: Ubicación de destino del envío.
-     - weight: Peso del envío.
-     - volume: Volumen del envío.
-     - description: Descripción del envío.
-     - client: Cliente asociado al envío.
-     - company: Empresa asociada al envío.
-     - unit: Unidad asignada al envío.
-     - photographicEvidence: Lista de evidencia fotográfica asociada al envío.
-   - Métodos:
-     - calculateCost(): Calcula el costo de envío del paquete.
-     - updateStatus(): Actualiza el estado del envío.
-     - addPhotographicEvidence(photo: string): Agrega evidencia fotográfica al envío.
-     - removePhotographicEvidence(photo: string): Elimina evidencia fotográfica del envío.
-     - getPhotographicEvidence(): Obtiene la lista de evidencia fotográfica asociada al envío.
+**Métodos:**
+- getClient(): Devuelve los detalles del cliente
+
+##### Entrepreneur (Entity)
+
+La clase Entrepreneur representa a un usuario que es de tipo empresario.
+
+**Atributos:**
+- id: int - Identificador único del empresario
+- logoImage: string - Imagen del logo de la empresa
+- userId: int - Identificador del usuario con el que se relaciona
+
+**Métodos:**
+- getEntrepreneur(): Devuelve los detalles del empresario
 
 
-6. Location (Ubicación):
-   - Atributos:
-     - id: Identificador único de la ubicación.
-     - address: Dirección de la ubicación.
-     - latitude: Coordenada de latitud de la ubicación.
-     - longitude: Coordenada de longitud de la ubicación.
+##### Configuration (Entity)
+
+La clase Configuration representa la configuración de tema, vista y compartir información determinada por el usuario dentro de la aplicación.
 
 
-7. Configuration (Configuración):
-   - Atributos:
-     - userId: Identificador del usuario asociado a la configuración.
-     - theme: Tema seleccionado por el usuario.
-     - view: Vista preferida por el usuario.
-     - allowDataCollection: Indica si se permite la recopilación de datos.
-     - allowDataSharing: Indica si se permite el intercambio de datos.
-   - Métodos:
-     - updateTheme(): Actualiza el tema seleccionado por el usuario.
-     - updateView(): Actualiza la vista preferida por el usuario.
-     - updateDataCollection(): Actualiza la configuración de recopilación de datos.
-     - updateDataSharing(): Actualiza la configuración de intercambio de datos.
+**Atributos:**
+- id: int - Identificador único de la configuración
+- theme: string - Tema elegido por el usuario
+- view: string - Vista elegida por el usuario
+- allowDataCollection: bool - Opción elegida por el usuario para colección de datos
+- updateDataSharing: bool - Opción elegida por el usuario para compartir datos
+- userId: int - Identificador del usuario con el que se relaciona
+
+
+**Métodos:**
+- getConfiguration(): Devuelve los detalles de la configuración
+- updateConfiguration(): Actualiza los detalles de la configuración
+
+#### Registration Bounded Context
+
+##### Trip (Aggregate)
+La clase Trip contiene información central sobre el viaje, como el nombre, datos de la carga, detalles del viaje, y referencias a entidades como el vehículo y el conductor.
+
+**Atributos:**
+- id: int — Identificador único del viaje.
+- name: Name — Nombre del viaje, representado como un Value Object.
+- cargoData: CargoData — Información sobre la carga del viaje.
+- tripData: TripData — Detalles específicos del viaje.
+- vehicleId: int — Identificador del vehículo asignado.
+- driverId: int — Identificador del conductor asignado.
+- clientId: int — Identificador del cliente.
+- entrepreneurId: int — Identificador del emprendedor.
+
+**Métodos:**
+- getTrip(): Devuelve los detalles del viaje.
+- updateTrip(): Actualiza los detalles del viaje.
+
+##### Name (Value Object)
+La clase Name representa el nombre del viaje como un Value Object.
+
+**Atributos:**
+- tripName: string — Nombre del viaje.
+
+**Métodos:**
+- getName(): Devuelve el nombre del viaje.
+- setName(): Establece el nombre del viaje.
+
+##### CargoData (Value Object)
+La clase CargoData contiene información sobre la carga del viaje.
+
+**Atributos:**
+- type: string — Tipo de carga.
+- weight: float — Peso de la carga.
+
+**Métodos:**
+- getType(): Devuelve el tipo de carga.
+- setType(): Establece el tipo de carga.
+- getWeight(): Devuelve el peso de la carga.
+- setWeight(): Establece el peso de la carga.
+
+##### TripData (Value Object)
+La clase TripData incluye detalles específicos del viaje, como ubicaciones y fechas de carga y descarga.
+
+**Atributos:**
+- loadLocation: string — Ubicación de carga.
+- loadDate: DateTime — Fecha de carga.
+- unloadLocation: string — Ubicación de descarga.
+- unloadDate: DateTime — Fecha de descarga.
+
+**Métodos:**
+- getLoadLocation(): Devuelve la ubicación de carga.
+- setLoadLocation(): Establece la ubicación de carga.
+- getLoadDate(): Devuelve la fecha de carga.
+- setLoadDate(): Establece la fecha de carga.
+- getUnloadLocation(): Devuelve la ubicación de descarga.
+- setUnloadLocation(): Establece la ubicación de descarga.
+- getUnloadDate(): Devuelve la fecha de descarga.
+- setUnloadDate(): Establece la fecha de descarga.
+
+##### Vehicle (Entity)
+La clase Vehicle representa un vehículo asociado a un viaje.
+
+**Atributos:**
+- id: int — Identificador único del vehículo.
+- model: string — Modelo del vehículo.
+- plate: string — Placa del vehículo.
+- tractorPlate: string — Placa del tractor.
+- maxLoad: float — Carga máxima del vehículo.
+- volume: float — Volumen del vehículo.
+
+**Métodos:**
+- getVehicle(): Devuelve los detalles del vehículo.
+- updateVehicle(): Actualiza los detalles del vehículo.
+
+##### Driver (Entity)
+La clase Driver representa un conductor asociado a un viaje.
+
+**Atributos:**
+- id: int — Identificador único del conductor.
+- name: string — Nombre del conductor.
+- dni: string — Documento Nacional de Identidad del conductor.
+- license: string — Licencia del conductor.
+- contactNumber: string — Número de contacto del conductor.
+
+**Métodos:**
+- getDriver(): Devuelve los detalles del conductor.
+- updateDriver(): Actualiza los detalles del conductor.
+
+##### Alert (Entity)
+La clase Alert representa una alerta asociada a un viaje.
+
+**Atributos:**
+- id: int — Identificador único de la alerta.
+- tripId: int — Identificador del viaje asociado.
+- title: string — Título de la alerta.
+- description: string — Descripción de la alerta.
+- date: DateTime — Fecha de la alerta.
+
+**Métodos:**
+- getAlert(): Devuelve los detalles de la alerta.
+
+##### Expense (Entity)
+La clase Expense representa un gasto asociado a un viaje.
+
+**Atributos:**
+- id: int — Identificador único del gasto.
+- tripId: int — Identificador del viaje asociado.
+- fuelAmount: int — Monto de combustible.
+- fuelDescription: int — Descripción del combustible.
+- viaticsAmount: int — Monto de viáticos.
+- viaticsDescription: int — Descripción de los viáticos.
+- tollsAmount: int — Monto de peajes.
+- tollsDescription: int — Descripción de los peajes.
+
+**Métodos:**
+- getExpense(): Devuelve los detalles del gasto.
+- updateExpense(): Actualiza los detalles del gasto.
+
+
+##### OnGoingTrip (Entity)
+La clase OnGoingTrip representa un viaje en curso con información sobre la ubicación y estado actual.
+
+**Atributos:**
+- id: int — Identificador único del viaje en curso.
+- tripId: int — Identificador del viaje asociado.
+- latitude: float — Latitud de la ubicación actual.
+- longitude: float — Longitud de la ubicación actual.
+- speed: int — Velocidad actual.
+- distance: int — Distancia recorrida.
+
+**Métodos:**
+- getOnGoingTrip(): Devuelve los detalles del viaje en curso.
+
+##### Evidence (Entity)
+La clase Evidence representa evidencia asociada a un viaje.
+
+**Atributos:**
+- id: int — Identificador único de la evidencia.
+- tripId: int — Identificador del viaje asociado.
+- link: string — Enlace a la evidencia.
+
+**Métodos:**
+- getEvidence(): Devuelve los detalles de la evidencia.
 
 
 ## 4.8. Database Design
@@ -2033,7 +2186,7 @@ El segundo sprint se planeó a través de una reunión presencial en la universi
 
 El objetivo de este segundo sprint es la realización del Frontend de la aplicación web. Asimismo, trabajamos en una tabla en Trello: https://trello.com/b/Mz2gCQVf/cargowatch-sprint-backlog-2
 
-<img src="img/trello-sprint2.png" width="100%">
+<img src="img/sprint-backlog-2.png" width="100%">
 
 <table><tr><th valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 2</th></tr>
 <tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
@@ -2179,6 +2332,9 @@ El tercer sprint se planeó a través de una reunión presencial en la universid
 #### 5.2.3.2. Sprint Backlog 3.
 
 El objetivo de este tercer sprint es la realización de la parte faltante de Frontend y empezar con el Backend de la aplicación web. Al igual que anteriores sprints, trabajamos las tareas en una tabla en Trello: <https://trello.com/b/miduy6Jv/cargowatch-sprint-backlog-3>
+
+<img src="img/sprint-backlog-3.png" width="100%">
+
 
 #### 5.2.3.3. Development Evidence for Sprint Review.
 
