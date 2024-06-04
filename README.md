@@ -2400,11 +2400,52 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 
 **EVIDENCIAS**
 
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/users**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Users](img/service-documentation-get-users.png)|
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: name, phone, ruc, address, email, password y subscription|
+|Resultado|![Service Documentation Post User](img/service-documentation-post-user.png)|
+
+|Método|GET|
+|--|--|
+|Parámetros|{userId}: Id del usuario|
+|Resultado|![Service Documentation Get User](img/service-documentation-get-user.png)|
+
+|Método|PUT|
+|--|--|
+|Parámetros|{userId}: Id del usuario, Body: name, phone, ruc, address, email, password y subscription|
+|Resultado|![Service Documentation Put User](img/service-documentation-put-user.png)|
+
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/clients**
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: userId|
+|Resultado|![Service Documentation Post Client](img/service-documentation-post-client.png)|
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Clients](img/service-documentation-get-clients.png)|
+
+|Método|GET|
+|--|--|
+|Parámetros|{clientId}: Id del cliente|
+|Resultado|![Service Documentation Get Client](img/service-documentation-get-client.png)|
+
+
 **Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/vehicles**
 
 |Método| GET|
 |--|--|
-|Parámetros| Ninguno|
+|Parámetros|Ninguno|
 |Resultado|![Service Documentation 1](img/service-documentation1.png)|
 
 |Método| POST|
