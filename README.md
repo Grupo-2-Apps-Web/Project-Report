@@ -134,8 +134,8 @@ Commits en project report TP1:
 # **Tabla de Contenido**
 
 - ## [Registro de Versiones](#registro-de-versiones)
-- ## [Student Outcome](#student-outcome)
-- ## [Capítulo I: Introducción](#Capítulo-I-Introducción)
+- ## [Student Outcome](#student-outcome-1)
+- ## [Capítulo I: Introducción](#Capítulo-I-Introducción-1)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
@@ -147,7 +147,7 @@ Commits en project report TP1:
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- ## [Capítulo II: Requirements Elicitation & Analysis](#Capítulo-II-Requirements-Elicitation--Analysis)
+- ## [Capítulo II: Requirements Elicitation & Analysis](#Capítulo-II-Requirements-Elicitation--Analysis-1)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
@@ -162,12 +162,12 @@ Commits en project report TP1:
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- ## [Capítulo III: Requirements Specification](#Capítulo-III-Requirements-Specification)
+- ## [Capítulo III: Requirements Specification](#Capítulo-III-Requirements-Specification-1)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
-- ## [Capítulo IV: Product Design](#Capítulo-IV-Product-Design)
+- ## [Capítulo IV: Product Design](#Capítulo-IV-Product-Design-1)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
@@ -195,7 +195,7 @@ Commits en project report TP1:
     - [4.7.2. Class Dictionary](#472-class-dictionary)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagram](#481-database-diagram)
-- ## [Capítulo V: Product Implementation, Validation & Deployment](#Capítulo-V-Product-Implementation-Validation--Deployment)
+- ## [Capítulo V: Product Implementation, Validation & Deployment](#Capítulo-V-Product-Implementation-Validation--Deployment-1)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
@@ -234,11 +234,11 @@ Commits en project report TP1:
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
-- ## [Conclusiones](#conclusiones)
+- ## [Conclusiones](#conclusiones-1)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
-- ## [Bibliografía](#bibliografía)
-- ## [Anexos](#anexos)
+- ## [Bibliografía](#bibliografía-1)
+- ## [Anexos](#anexos-1)
 
 
 # Student Outcome
@@ -250,7 +250,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 | :- | :- | :- |
 |Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software. |<p>**Delgado Corrales, Piero Gonzalo**</p><p>**TB1:** He ayudado a organizar las actividades del equipo de tal modo que hemos podido trabajar de manera simultánea para entregar resultados rápidamente.<br> **TP1:** He organizado las actividades del equipo como la división de exposiciones y tareas del sprint 2 para alcanzar los objetivos de este entregable.</p><p></p><p>**Matos Fernandez, Christian Andre**</p><p>**TB1:** He contribuido en la coordinación de las tareas del equipo de manera que hemos sido capaces de realizar múltiples actividades de forma concurrente, lo que nos ha permitido alcanzar resultados de manera ágil y eficiente.<br> **TP1:** He planificado las actividades del equipo, incluyendo la asignación de presentaciones y tareas para la segunda fase del proyecto, con el fin de lograr los objetivos establecidos para este entregable.</p><p></p><p>**Paredes Puente, Sebastián Roberto**</p><p>**TB1:** He coordinado en las reuniones para establecer los trabajos que le tocaba hacer a cada uno para el informe. Adicionalmente, apoyé activamente en las actividades del equipo, asegurando que trabajemos de forma simultánea y eficiente para lograr una entrega rápida y bien hecha.<br> **TP1:** Para esta entrega parcial, la comunicación en el equipo ha sido fundamental. Me comuniqué con mis compañeros para coordinar y asignar tareas de manera ordenada. Gracias a esto, logramos crear las funcionalidades esenciales del frontend de la aplicación web.</p><p></p><p>**Salinas Torres, Salvador Antonio**</p><p>**TB1:** Contribuí ágilmente durante el desarrollo de esta entrega, siempre estando pendiente del tiempo para llegar a la fecha límite habiendo terminado todos los puntos requeridos. Asimismo, me aseguré de utilizar el flujo de trabajo GitFlow con el cual ya estaba familiarizado anteriormente y pude enseñar al resto de mi equipo para que lo apliquen correctamente.<br> **TP1:** Para esta entrega, apoyé en la distribución de tareas y poder lograr el objetivo de este segundo sprint satisfactoriamente. Y logre trabajar en la parte de Frontend de nuestra aplicación, usando el framework Vue y creando una fake api para simulación de datos.</p><p></p><p>**Valverde Mozo, Andre Gabriel**</p><p>**TB1:** Participé en las reuniones grupales para establecer las responsabilidades de cada miembro en el informe. Además, contribuí de manera activa en las labores del equipo, asegurando que trabajaramos de forma coordinada y eficiente para alcanzar una entrega rápida y de calidad.<br> **TP1:** Durante esta fase intermedia de desarrollo, la comunicación dentro del equipo ha demostrado ser un pilar fundamental. Me he mantenido en constante contacto con mis colegas, estableciendo un flujo de comunicación efectivo para coordinar nuestras acciones y asignar tareas de manera organizada y eficiente.</p>|**TB1:** Para esta primera entrega, la comunicación efectiva ha sido esencial ya que la cantidad de contenidos a presentar ha sido grande. Del mismo modo, realizar reuniones de grupo nos sirvió para ser más eficientes a la hora de gestionar los avances para llegar a entregar lo pedido.<br> **TP1:** Para esta entrega parcial, la comunicación en el equipo ha sido importante para alcanzar a crear todas las funcionalidades esenciales del apartado del frontend de la aplicación web.|
 |Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|<p>**Delgado Corrales, Piero Gonzalo**</p><p>**TB1:** Para esta primera entrega, he investigado sobre los principales competidores en el sector de aplicaciones para la gestión de transporte terrestre.<br> **TP1:** Para esta entrega del trabajo parcial, he utilizado los conocimientos que obtuve de la entrevista que realicé para crear la vista del frontend de forma más objetiva. </p><p></p><p>**Matos Fernandez, Christian Andre**</p><p>**TB1:** Para esta entrega, me he dedicado a investigar acerca de los competidores principales dentro del sector de aplicaciones destinadas a la gestión del transporte terrestre.<br> **TP1:** En este trabajo parcial, apliquen los aprendizajes obtenidos de la entrevista que llevé a cabo para desarrollar la interfaz del frontend de manera más imparcial y precisa.</p><p></p><p>**Paredes Puente, Sebastián Roberto**</p><p>**TB1:** Para este proyecto, realicé una investigación exhaustiva en el sector empresarial vinculado al transporte de carga. Durante este proceso, tuve la oportunidad de entrevistar a profesionales con amplia experiencia en el campo, lo que me permitió comprender mejor sus necesidades y obtener una perspectiva renovada para el desarrollo de nuestra aplicación. <br> **TP1:** Para esta entrega parcial del trabajo, he utilizado los conocimientos recopilados de artefactos como entrevistas para diseñar la solución de software del frontend.</p><p></p><p>**Salinas Torres, Salvador Antonio**</p><p>**TB1:** Realicé una investigación sobre la necesidad para el seguimiento de transporte de forma segura y que tan importante puede llegar a ser para las empresas que requieren de un servicio de transporte para cargas grandes. De este modo, investigué en un área que yo no conocía muy bien, e igualmente logré obtener los datos necesarios para realizar un buen trabajo <br> **TP1:** Tomando en cuenta toda la investigación de mercado realizada en la entrega anterior, he apoyado en la realización de una interfaz en Frontend que sea de agrado para nuestros segmentos objetivo y lograr con los requisitos planteados.</p><p></p><p>**Valverde Mozo, Andre Gabriel**</p><p>**TB1:** Para esta primera entrega, investigué el diseño de páginas de destino en aplicaciones de gestión de transporte terrestre. Analicé la presentación de productos, elementos visuales, y cómo se guía al usuario hacia la conversión, obteniendo una visión completa de las mejores prácticas en este ámbito.<br> **TP1:** Durante este proceso, he aplicado los conocimientos adquiridos de las entrevistas para desarrollar la interfaz del frontend con mayor imparcialidad y precisión. La información obtenida de las entrevistas ha sido fundamental para entender las necesidades y perspectivas de los usuarios, lo que ha influido directamente en el diseño de la interfaz.</p>|<p>**TB1:** Para esta entrega, se realizó una investigación a los principales competidores en el sector de aplicaciones para la gestión de transporte terrestre; y, a su vez, a personas que se encuentran involucradas en el rubro, obteniendo una perspectiva valiosa para el desarrollo del proyecto.<br> **TP1:** Para esta entrega del trabajo parcial, se han tenido que usar los conocimientos recopilados de los artefactos como entrevistas para diseñar la solución de software del apartado frontend.
-</p><p></p>|
+</p><p></p>
 
 
 
