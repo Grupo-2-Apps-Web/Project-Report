@@ -2700,9 +2700,55 @@ De esta manera, se comprobó que se implementó correctamente la aplicación ya 
 8. ¿Qué sugerencias tendrías para mejorar la experiencia de usuario en la aplicación web, especialmente en cuanto a la navegación y presentación de información?
 
 ### 5.3.2. Registro de Entrevistas.
+**Entrevista 1 - Cliente que requiere transporte**
+**Entrevistador:** Salvador Salinas
+**Entrevistado:** Anderson Gonza
+**Link de la entrevista:** [Entrevista de Validación 1](https://youtu.be/qnlm6n4S70k)
+<img src="img/entrevista-validacion1.png" width="100%">
+**Resumen de la entrevista:** Para esta entrevista de validación con Anderson, se le mostró lo trabajado en la Landing Page y Web Application. Él nos comenta que le parece agradable los elementos visuales y organización usada, así como los colores, imágenes y estilos. Asimismo, comentó que la Landing Page debería mostrar un video de introducción. Igualmente, le gustó la funcionalidad de la vista en tiempo real y las alertas ya que brinda más transparencia durante el proceso del envío de transporte de carga.
+
+**Entrevista 2 - Cliente que requiere transporte**
+**Entrevistador:** Piero Delgado
+**Entrevistado:** Joaquin Rivadeneyra
+**Link de la entrevista:** [Entrevista de Validación 2](https://youtu.be/QeZ4ZToAG_E)
+<img src="img/entrevista-validacion2.png" width="100%">
+**Resumen de la entrevista:**
+Para esta entrevista de validación con Joaquin, se le mostró lo trabajado en la Landing Page y Web Application. Él nos comenta que le parece agradable los elementos visuales y organización usada en la parte de la aplicación web y le parece que las funcionalidades son muy útiles especialmente el seguimiento a tiempo real. Por otro lado, menciona que deberíamos mejorar la presentación del Landing page con una mejor disposición de los elementos.
+
+**Entrevista 3 - Cliente que requiere transporte**
+**Entrevistador:** Andre Valverde
+**Entrevistado:** Rodrigo Guerra
+**Link de la entrevista:** [Entrevista de Validación 3](https://youtu.be/7HYOnvIA5Ks)
+<img src="img/entrevista-validacion3.png" width="100%">
+**Resumen de la entrevista:**
+El entrevistado destacó que la landing page es profesional, con información clara y bien balanceada. Los elementos visuales son atractivos y la navegación es intuitiva. El llamado a la acción es convincente y el contenido genera confianza. Sugirió incluir testimonios de clientes y un video explicativo para mejorar la página. Sobre la web application, el entrevistado señaló que la información está bien organizada y la interfaz es fácil de usar. La gestión de alertas es eficiente y la función de búsqueda es rápida y efectiva. La personalización cumple con sus expectativas y los elementos visuales son relevantes
+
+**Entrevista 4 - Empresa de gestión logística de transporte**
+**Entrevistador:** Christian Matos
+**Entrevistado:** Valeria Cardenas
+**Link de la entrevista:** [Entrevista de Validación 4](https://youtu.be/z3lqt4pCalk)
+<img src="img/entrevista-validacion4.png" width="100%">
+**Resumen de la entrevista:** 
+En la entrevista con Valeria Cárdenas, se le presentó el trabajo en la Landing Page y la Aplicación Web. Valeria mencionó que los elementos visuales y la organización de la aplicación web le parecieron agradables, y destacó la utilidad de las funcionalidades, especialmente el seguimiento en tiempo real. No obstante, sugirió que deberíamos mejorar la presentación de la Landing Page reorganizando mejor los elementos.
+
+**Entrevista 5 - Empresa de gestión logística de transporte**
+**Entrevistador:** Sebastian Paredes
+**Entrevistado:** Miriam Puente
+**Link de la entrevista:** [Entrevista de Validación 5]()
+<img src="img/" width="100%">
+**Resumen de la entrevista:** 
+
+**Entrevista 6 - Empresa de gestión logística de transporte**
+**Entrevistador:** Sebastian Paredes
+**Entrevistado:** Roberto Paredes
+**Link de la entrevista:** [Entrevista de Validación 6]()
+<img src="img/" width="100%">
+**Resumen de la entrevista:** 
+
+
+
 
 ### 5.3.3. Evaluaciones según heurísticas.
-
 **Site o App a Evaluar:**
 CargoApp
 **Tareas a evaluar:**
