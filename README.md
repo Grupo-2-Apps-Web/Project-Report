@@ -1076,14 +1076,14 @@ __Segmento Clientes que requieren servicios de transporte__
 |US26|Modificación de datos de un viaje|Como empresario de gestión logística, quiero modificar los datos de un viaje para corregir  datos erróneos que fueron registrados.|<p>**Escenario 1: Modificar datos de viaje**</p><p>**Dado que** el empresario desea modificar los datos de un viaje en la aplicación</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para modificar un viaje</p><p>**Y** ingresa el ID del viaje a modificar</p><p>**Y** llena los campos requeridos de conductor, unidad, carga, entre otros</p><p>**Y** da click en “Guardar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** registrarán las modificaciones sobre el viaje</p>|E06|
 |US27|Registro de gastos de viaje|Como empresario de gestión logística, quiero poder registrar los gastos realizados durante los viajes para mantener un registro preciso y mantener informados a mis clientes sobre los costos asociados a sus servicios.|<p>**Escenario 1: Registrar gastos de un viaje**</p><p>**Dado que** el empresario desea registrar los gastos de un viaje en la aplicación</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para registrar un nuevo gasto</p><p>**Y** ingresa el ID del viaje</p><p>**Y** llena los campos requeridos de gasolina, peajes y viáticos</p><p>**Y** da click en “Registrar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará los gastos del viaje</p>|E06|
 |US28|Modificación de gastos de un viaje|Como empresario de gestión logística, quiero modificar los gastos realizados durante un viaje para corregir datos erróneos ingresados al hacer el registro del gasto.|<p>**Escenario 1: Modificar gastos de un viaje**</p><p>**Dado que** el empresario desea modificar los gastos de un viaje en la aplicación</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para modificar gastos de un viaje</p><p>**Y** ingresa el ID del viaje</p><p>**Y** llena los campos requeridos de gasolina, peajes y viáticos</p><p>**Y** da click en “Guardar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará las modificaciones en los gastos del viaje</p>|E06|
-|US29|Registro de datos de conductor|Como empresario de gestión logística, quiero poder registrar los datos de mis conductores para asignarlos adecuadamente a cada envío.|<p>**Escenario 1: Registrar datos de conductor**</p><p>**Dado que** el empresario desea registrar los conductores de un viaje en la aplicación</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para registrar un nuevo conductor</p><p>**Y** llena los campos requeridos de nombre, dni, licencia y teléfono</p><p>**Y** da click en “Registrar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará los datos del conductor</p>|E06|
+|US29|Registro de datos de conductor|Como empresario de gestión logística, quiero poder registrar los datos de mis conductores para asignarlos adecuadamente a cada envío.|<p>**Escenario 1: Registrar datos de conductor**</p><p>**Dado que** el empresario desea registrar los gastos de un viaje en la aplicación</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para registrar un nuevo conductor</p><p>**Y** llena los campos requeridos de nombre, dni, licencia y teléfono</p><p>**Y** da click en “Registrar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará los datos del conductor</p>|E06|
 |US30|Modificación de datos de conductor|Como empresario de gestión logística, quiero modificar los datos de un conductor para corregir datos erróneos ingresados al hacer el registro del conductor.|<p>**Escenario 1: Modificar datos de conductor**</p><p>**Dado que** el empresario desea modificar los datos de un conductor</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para modificar datos de un conductor</p><p>**Y** ingresa el dni del conductor</p><p>**Y** llena los campos requeridos de nombre, dni, licencia y teléfono</p><p>**Y** da click en “Guardar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará las modificaciones en los datos del conductor</p>|E06|
-|US31|Registro de datos de vehículo|Como empresario de gestión logística, quiero poder registrar los datos de mis vehículos para tener registro de los envíos que realizan.|<p>**Escenario 1: Registrar datos de vehículo**</p><p>**Dado que** el empresario desea registrar vehículos en la aplicación</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para registrar un nuevo vehículo</p><p>**Y** llena los campos requeridos de modelo, placa, placa de tracto, carga máxima y volumen</p><p>**Y** da click en “Registrar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará los datos del vehículo</p>|E06|
-|US32|Modificación de datos de vehículo|Como empresario de gestión logística, quiero modificar los datos de un conductor para corregir datos erróneos ingresados al hacer el registro del vehículo.|<p>**Escenario 1: Modificar datos de vehículo**</p><p>**Dado que** el empresario desea modificar los datos de un vehículo</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para modificar datos de un vehículo</p><p>**Y** ingresa la placa del vehículo</p><p>**Y** llena los campos requeridos de modelo, placa, placa de tracto, carga máxima y volumen</p><p>**Y** da click en “Guardar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará las modificaciones en los datos del vehículo</p>|E06|
+|US31|Registro de datos de vehículo|Como empresario de gestión logística, quiero poder registrar los datos de mis vehículos para tener registro de los envíos que realizan.|<p>**Escenario 1: Registrar datos de conductor**</p><p>**Dado que** el empresario desea registrar los gastos de un viaje en la aplicación</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para registrar un nuevo conductor</p><p>**Y** llena los campos requeridos de modelo, placa, placa de tracto, carga máxima y volumen</p><p>**Y** da click en “Registrar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará los datos del vehículo</p>|E06|
+|US32|Modificación de datos de vehículo|Como empresario de gestión logística, quiero modificar los datos de un conductor para corregir datos erróneos ingresados al hacer el registro del vehículo.|<p>**Escenario 1: Modificar datos de vehículo**</p><p>**Dado que** el empresario desea modificar los datos de un conductor</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para modificar datos de un conductor</p><p>**Y** ingresa el dni del conductor</p><p>**Y** llena los campos requeridos de modelo, placa, placa de tracto, carga máxima y volumen</p><p>**Y** da click en “Guardar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará las modificaciones en los datos del vehículo</p>|E06|
 |US33|Seguimiento en tiempo real para empresa|Como empresario de gestión logística, quiero poder visualizar el seguimiento en tiempo real de los servicios mediante la plataforma para identificar posibles imprevistos y tomar acciones correctivas de manera oportuna.|<p>**Escenario 1: Visualización de seguimiento en tiempo real**</p><p>**Dado que** el empresario necesita supervisar el progreso de los servicios en tiempo real</p><p>**Cuando** accede a la plataforma para verificar el estado de un servicio en curso</p><p>**Y** selecciona la sección GPS para el "Seguimiento en Tiempo Real"</p><p>**Entonces** se mostrará la ubicación y ruta trazada en un mapa</p>|E06|
 |US34|Historial de envíos realizados|Como empresario de gestión logística, quiero tener un historial de envíos para llevar un registro detallado de todos los servicios que he realizado y poder acceder a esta información en cualquier momento.|<p>**Escenario 1: Visualización de historial de envíos**</p><p>**Dado que** el empresario necesita mantener un registro de todos los servicios realizados</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Historial para visualizar el "Historial de Envíos"</p><p>**Entonces** se mostrará el listado de los envíos realizados</p><p>**Y** podrá ver los detalles de cada uno</p>|E06|
-|US35|Visualización de datos de conductor|Como empresario de gestión logística, quiero ver los datos de los conductores para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de conductores**</p><p>**Dado que** el empresario desea ver la información de los conductores que ha registrado</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Conductores</p><p>**Entonces** se mostrará el listado de los conductores registrados</p><p>**Y** podrá ver los detalles de cada uno</p>|E06|
-|US36|Visualización de datos de vehículo|Como empresario de gestión logística, quiero ver los datos de los vehículos para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de vehículos**</p><p>**Dado que** el empresario desea ver la información de los vehículos que ha registrado</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Vehículos</p><p>**Entonces** se mostrará el listado de los vehículos registrados</p><p>**Y** podrá ver los detalles de cada uno</p>|E06|
+|US35|Visualización de datos de conductor|Como empresario de gestión logística, quiero ver los datos de los conductores para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de un conductor**</p><p>**Dado que** el empresario desea ver la información de los conductores que ha registrado</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Conductores</p><p>**Entonces** se mostrará el listado de los conductores registrados</p><p>**Y** podrá ver los detalles de cada uno</p>|E06|
+|US36|Visualización de datos de vehículo|Como empresario de gestión logística, quiero ver los datos de los vehículos para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de un vehículo**</p><p>**Dado que** el empresario desea ver la información de los vehículos que ha registrado</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Vehículos</p><p>**Entonces** se mostrará el listado de los vehículos registrados</p><p>**Y** podrá ver los detalles de cada uno</p>|E06|
 |US37|Visualización de datos de cliente|Como empresario de gestión logística, quiero ver los datos de mis clientes para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de clientes**</p><p>**Dado que** el empresario desea ver la información de los clientes con los que ha registrado viajes</p><p>**Cuando** accede a la plataforma</p><p>**Y** selecciona la sección Clientes</p><p>**Entonces** se mostrará el listado de sus clientes registrados</p>|E06|
 |US38|Uso de nuestra API para gestionar usuarios|Como desarrollador quiero integrar un API para gestionar la información de los usuarios en la base de datos.|<p>**Escenario 1: Agregar datos del usuario en la base de datos**</p><p>**Dado que** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud POST con los datos del usuario a la API</p><p>**Entonces** la API responde con un código de estado 200 y el usuario se agrega correctamente a la base de datos</p><p>**Escenario 2: Obtener la información de un usuario**</p><p>**Dado** que el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud GET a la API para obtener la información de un usuario específico</p><p>**Entonces** la API responde con un código de estado 200 y devuelve los datos del usuario solicitado</p>|E07|
 |US39|Uso de nuestra API para gestionar los datos de viajes|Como desarrollador quiero integrar un API para gestionar la información de los viajes, gastos, conductores y vehículos en la base de datos|<p>**Escenario 1: Agregar datos referente a un viaje en la base de datos**</p><p>**Dado que** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud POST con los datos de un viaje, gasto, conductor o vehículo de una empresa a la API</p><p>**Entonces** la API responde con un código de estado 200 y el elemento se agrega correctamente a la base de datos</p><p>**Escenario 2: Obtener la información de elementos referente a un viaje**</p><p>**Dado que** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud GET a la API para obtener la información de los viajes, gastos, conductores o vehículos de un usuario específico</p><p>**Entonces** la API responde con un código de estado 200 y devuelve todos los elementos del usuario solicitado</p>|E07|
@@ -2368,6 +2368,7 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 |GET|/api/v1/trips|Se obtiene toda la lista de viajes|
 |GET|/api/v1/evidences|Se obtiene toda la lista de evidencias|
 |GET|/api/v1/expenses|Se obtiene toda la lista de gastos|
+|GET|/api/v1/alerts|Se obtiene toda la lista de las alertas|
 |GET|/api/v1/ongoing-trips|Se obtiene toda la lista de viajes en progreso|
 |GET|/api/v1/users/{id}|Se obtiene un usuario por ID|
 |GET|/api/v1/clients/{id}|Se obtiene un cliente por ID|
@@ -2378,6 +2379,7 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 |GET|/api/v1/trips/{id}|Se obtiene un viaje por ID|
 |GET|/api/v1/evidences/{id}|Se obtiene una evidencia por ID|
 |GET|/api/v1/expenses/{id}|Se obtiene un gasto por ID|
+|GET|/api/v1/alerts/{id}|Se obtiene una alerta por ID|
 |GET|/api/v1/ongoing-trips/{id}|Se obtiene un viaje en progreso por ID|
 |PUT|/api/v1/users/{id}|Se actualiza la información de un usuario por ID|
 |PUT|/api/v1/configurations/{id}|Se actualiza la información de una configuración de un usuario por ID|
@@ -2396,6 +2398,7 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 |POST|/api/v1/trips|Se publica un nuevo viaje|
 |POST|/api/v1/evidences|Se publica una nueva evidencia|
 |POST|/api/v1/expenses|Se publica un nuevo gasto|
+|POST|/api/v1/alerts|Se publica una nueva alerta|
 |POST|/api/v1/ongoing-trips|Se publica un nuevo viaje en progreso|
 
 **EVIDENCIAS**
@@ -2518,6 +2521,48 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 |Parámetros|{tripId}: Id del viaje, Body: name, type, weight, loadLocation, loadDate, unloadLocation, unloadDate, driverId, vehicleId, clientId, entrepreneurId|
 |Resultado|![Service Documentation 12](img/service-documentation12.png)|
 
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/ongoing-trips**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation 13](img/service-documentation13.png)|
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: latitude, longitude, speed, distance, tripId|
+|Resultado|![Service Documentation 14](img/service-documentation14.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/ongoing-trips/{ongoingTripId}**
+
+|Método|GET|
+|--|--|
+|Parámetros|{ongoingTripId}: Id del viaje en progreso|
+|Resultado|![Service Documentation 15](img/service-documentation15.png)|
+
+|Método|PUT|
+|--|--|
+|Parámetros|{ongoingTripId}: Id del viaje en progreso, Body: latitude, longitude, speed, distance|
+|Resultado|![Service Documentation 16](img/service-documentation16.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/alerts**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation 17](img/service-documentation17.png)|
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: title(20), description, date, tripId|
+|Resultado|![Service Documentation 18](img/service-documentation18.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/alerts/{alertId}**
+
+|Método|GET|
+|--|--|
+|Parámetros|{alertId}: Id del viaje en progreso|
+|Resultado|![Service Documentation 19](img/service-documentation19.png)|
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
