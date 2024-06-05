@@ -2490,15 +2490,6 @@ Se realizaron los acceptance tests para las historias de usuario trabajadas y se
 
 Repositorio Acceptance Tests: https://github.com/Grupo-2-Apps-Web/Acceptance-Tests
 
-|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
-| :- | :- | :- | :- | :- |
-|Grupo-2-Apps-Web/Acceptance-Tests|main|250ad81|fix: update user story codes|26/05/2024|
-|Grupo-2-Apps-Web/Acceptance-Tests|main|100c981|feat: added US09, US16, US18 acceptance tests|04/06/2024|
-|Grupo-2-Apps-Web/Acceptance-Tests|main|5b35a8e|feat: added us29-us37|04/06/2024|
-|Grupo-2-Apps-Web/Acceptance-Tests|main|6943e63|feat: Added US11, US39, US03|05/06/2024|
-|Grupo-2-Apps-Web/Acceptance-Tests|main|5526bb3|feat: US13, US14, US15, US17 added|05/06/2024|
-|Grupo-2-Apps-Web/Acceptance-Tests|main|39fc378|Update US17.feature|05/06/2024|
-|Grupo-2-Apps-Web/Acceptance-Tests|main||||
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
