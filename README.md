@@ -2335,6 +2335,47 @@ El objetivo de este tercer sprint es la realización de la parte faltante de Fro
 
 <img src="img/sprint-backlog-3.png" width="100%">
 
+<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 3</th></tr>
+<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
+<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation (Hours)</td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
+<tr><td colspan="1" valign="top">US29</td><td colspan="1" valign="top">Registro de datos de conductor</td><td colspan="1" valign="top">TS01</td><td colspan="1" valign="top">Implementación de registro de conductores</td><td colspan="1" valign="top">Se implementa el componente para el registro de conductores.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top"><p>Salvador Salinas</p><p></p></td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US30</td><td colspan="1" valign="top">Modificación de datos de conductor</td><td colspan="1" valign="top">TS02</td><td colspan="1" valign="top">Implementación de modificación de conductores</td><td colspan="1" valign="top">Se implementa el componente para la modificación de conductores.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US31</td><td colspan="1" valign="top">Registro de datos de vehículo</td><td colspan="1" valign="top">TS03</td><td colspan="1" valign="top">Implementación de registro de vehículos</td><td colspan="1" valign="top">Se implementa el componente para el registro de vehículos.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US32</td><td colspan="1" valign="top">Modificación de datos de vehículo</td><td colspan="1" valign="top">TS04</td><td colspan="1" valign="top">Implementación de modificación de vehículos</td><td colspan="1" valign="top">Se implementa el componente para la modificación de vehículos.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US35</td><td colspan="1" valign="top">Visualización de datos de conductor</td><td colspan="1" valign="top">TS05</td><td colspan="1" valign="top">Implementación de visualización de conductores</td><td colspan="1" valign="top">Se implementa el componente para la visualización de conductores.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US36</td><td colspan="1" valign="top">Visualización de datos de vehículo</td><td colspan="1" valign="top">TS06</td><td colspan="1" valign="top">Implementación de visualización de vehículos</td><td colspan="1" valign="top">Se implementa el componente para la visualización de vehículos.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US03</td><td colspan="1" valign="top">Notificaciones de eventos relevantes</td><td colspan="1" valign="top">TS07</td><td colspan="1" valign="top">Implementación de notificaciones de alertas</td><td colspan="1" valign="top">Se implementa la vista de alertas en la vista de GPS en tiempo real para la vista del cliente.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Andre Valverde</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US09</td><td colspan="1" valign="top">Exportación del historial de envíos</td><td colspan="1" valign="top">TS08</td><td colspan="1" valign="top">Implementación de exportación de historial</td><td colspan="1" valign="top">Se implementa el componente para la exportación del historial de envíos en el formato deseado.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US10</td><td colspan="1" valign="top">Interfaz intuitiva y fácil de usar</td><td colspan="1" valign="top">TS09</td><td colspan="1" valign="top">Implementación de interfaz intuitiva y sencilla</td><td colspan="1" valign="top">Se implementan las vistas intuitivas y sencillas para todos los componentes trabajados.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Piero Delgado, Christian Matos, Sebastian Paredes, Salvador Salinas, Andre Valverde</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US11</td><td colspan="1" valign="top">Soporte multidispositivo y multiplataforma</td><td colspan="1" valign="top">TS10</td><td colspan="1" valign="top">Implementación de responsividad en la aplicación</td><td colspan="1" valign="top">Se implementa la responsividad en el CSS de todos los componentes trabajados</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Piero Delgado, Christian Matos, Sebastian Paredes, Salvador Salinas, Andre Valverde</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">US12</td><td colspan="1" rowspan="3" valign="top">Personalización de visualización</td><td colspan="1" valign="top">TS11</td><td colspan="1" valign="top">Implementación de selector de tema entre claro y oscuro.</td><td colspan="1" valign="top">Se implementa un seleccionador que permita al usuario cambiar el tema de la página entre claro y oscuro.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Christian Matos</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS12</td><td colspan="1" valign="top">Implementación de selector de vista entre cuadrícula y lista. </td><td colspan="1" valign="top">Se implementa un seleccionador que permita al usuario cambiar la vista de la página entre cuadrícula y lista.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Christian Matos</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS13</td><td colspan="1" valign="top">Implementación de casillas de verificación para recopilación de datos y compartir con terceros.</td><td colspan="1" valign="top">Implementación de casillas de verificación que permitan al usuario seleccionar la recopilación de datos y compartir datos con terceros.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Christian Matos</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">US13</td><td colspan="1" rowspan="3" valign="top">Registro de usuario</td><td colspan="1" valign="top">TS14</td><td colspan="1" valign="top">Implementación de registro de usuario</td><td colspan="1" valign="top">Se crea la componente para la vista de registro de usuario.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS15</td><td colspan="1" valign="top">Implementación de registro de cliente</td><td colspan="1" valign="top">Se crea la componente para el registro de un usuario cliente.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS16</td><td colspan="1" valign="top">Implementación de registro de empresario</td><td colspan="1" valign="top">Se crea la componente para el registro de un usuario empresario.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas, Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US14</td><td colspan="1" valign="top">Inicio de sesión</td><td colspan="1" valign="top">TS17</td><td colspan="1" valign="top">Implementación de formulario login</td><td colspan="1" valign="top">Se crea el componente para acceder a la aplicación mediante una cuenta ya creada</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US15</td><td colspan="1" valign="top">Cierre de sesión</td><td colspan="1" valign="top">TS18</td><td colspan="1" valign="top">Implementación de cierre de sesión</td><td colspan="1" valign="top">Se crea el botón cierre de sesión para cuando el usuario quiere salir de su cuenta en la aplicación</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US16</td><td colspan="1" valign="top">Elegir plan de suscripción</td><td colspan="1" valign="top">TS19</td><td colspan="1" valign="top">Implementación de elección de plan de suscripción</td><td colspan="1" valign="top">Se implementa la opción para elegir el plan de suscripción desde la configuración.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US17</td><td colspan="1" valign="top">Recuperación de cuenta</td><td colspan="1" valign="top">TS20</td><td colspan="1" valign="top">Implementación de recuperación de cuenta</td><td colspan="1" valign="top">Se crea el componente para que el usuario pueda recuperar su cuenta en caso se olvide la contraseña.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US02</td><td colspan="1" valign="top">Seguimiento en tiempo real de envios para cliente</td><td colspan="1" valign="top">TS21</td><td colspan="1" valign="top">Implementación de la funcionalidad de seguimiento en mapa</td><td colspan="1" valign="top">Se modifica el componente map en el cual se implementa la primera versión de la funcionalidad de seguimiento en mapa utilizando Google Maps API</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">US33</td><td colspan="1" rowspan="2" valign="top">Seguimiento en tiempo real para empresa</td><td colspan="1" valign="top">TS22</td><td colspan="1" valign="top">Implementación de la funcionalidad de seguimiento en mapa</td><td colspan="1" valign="top">Se modifica el componente map en el cual se implementa la primera versión de la funcionalidad de seguimiento en mapa utilizando Google Maps API</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Andre Valverde </td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS23</td><td colspan="1" valign="top">Implementación de vista propia del seguimiento en mapa para la empresa </td><td colspan="1" valign="top">Se modifica el componente y rutas de las partes que tienen que ver con el path para que este no utilice el path del cliente y de esta manera tengan diferencia</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Andre Valverde </td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US34</td><td colspan="1" valign="top">Historial de envíos realizados</td><td colspan="1" valign="top">TS24</td><td colspan="1" valign="top">Implementación de vista propia del historial de envíos para la empresa </td><td colspan="1" valign="top">Se modifica el componente de historial de envíos y rutas de las partes que tienen que ver con el path para que este no utilice el path del cliente y de esta manera tengan diferencia</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Andre Valverde</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US37</td><td colspan="1" valign="top">Visualización de datos de cliente</td><td colspan="1" valign="top">TS25</td><td colspan="1" valign="top">Implementación de visualización de clientes</td><td colspan="1" valign="top">Se implementa el componente para la visualización de clientes.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="4" valign="top">US38</td><td colspan="1" rowspan="4" valign="top">Uso de nuestra API para gestionar usuarios</td><td colspan="1" valign="top">TS26</td><td colspan="1" valign="top">Implementación de protocolos HTTP para usuarios</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los usuarios dentro de nuestra API.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS27</td><td colspan="1" valign="top">Implementación de protocolos HTTP para clientes</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los clientes dentro de nuestra API.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS28</td><td colspan="1" valign="top">Implementación de protocolos HTTP para empresarios</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los empresarios dentro de nuestra API.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Christian Matos</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS29</td><td colspan="1" valign="top">Implementación de protocolos HTTP para configuraciones</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las configuraciones dentro de nuestra API.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Christian Matos</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="7" valign="top">US39</td><td colspan="1" rowspan="7" valign="top">Uso de nuestra API para gestionar los datos de viajes</td><td colspan="1" valign="top">TS30</td><td colspan="1" valign="top">Implementación de protocolos HTTP para conductores</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los conductores dentro de nuestra API.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS31</td><td colspan="1" valign="top">Implementación de protocolos HTTP para vehículos</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los vehículos dentro de nuestra API.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS32</td><td colspan="1" valign="top">Implementación de protocolos HTTP para viajes</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los viajes dentro de nuestra API.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS33</td><td colspan="1" valign="top">Implementación de protocolos HTTP para gastos</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los gastos dentro de nuestra API.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sebastián Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS34</td><td colspan="1" valign="top">Implementación de protocolos HTTP para evidencias</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las evidencias dentro de nuestra API.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sebastián Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS35</td><td colspan="1" valign="top">Implementación de protocolos HTTP para viajes en progreso</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los viajes en progreso dentro de nuestra API.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Andre Valverde</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS36</td><td colspan="1" valign="top">Implementación de protocolos HTTP para alertas</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las alertas dentro de nuestra API.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Andre Valverde</td><td colspan="1" valign="top">Done</td></tr>
+</table>
+
 
 #### 5.2.3.3. Development Evidence for Sprint Review.
 
@@ -2344,11 +2385,120 @@ Repositorio Frontend: https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applicati
 
 Repositorio Backend: https://github.com/Grupo-2-Apps-Web/Web-Services
 
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- |
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|7c1ae14|[feat: removed deployment files & changed baseURL to json-server](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/7c1ae14cdf20fe0b2c435fc90799ff953eae5f3e)|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|7a4f937|<p>[feat: added configuration page & route](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/7a4f9378964a769d5b94273154b53227b4f32e33)</p><p></p>|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|2120e3e|[feat: added base html & css](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/2120e3ed91d9df4729fd96d4f3d9b4c317307e06)|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|a3b7beb|<p>[feat: added functionality to action buttons](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/a3b7beb78bfad7a196616d76ad7d4c442b0acf2e)</p><p></p>|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|c3dd830|<p>[feat: added subscription selection and its route](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/c3dd8302182d5b4b288c012af1ce0f95d271cd3b)</p><p></p>|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|f1c7fec|[feat: added payment form and route](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/f1c7fec05faa1ae6921e225efae81941329023c7)|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|19e2455|<p>[fix: modify data.json for users](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/19e2455ee76434e053020240ee31e57bff512eec)</p><p></p>|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|d221f00|<p>[feat: added register for client and entrepreneur](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/d221f0070c532be7e181adc5363149f8a2beaf2a)</p><p></p>|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|84cf42c|<p>[feat: added routes for register components](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/84cf42c0a43463c13fa47145ab1ff2d2188f0fda)</p><p></p>|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login |d4ca803|<p>[feat: sections login, register and recover account added](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/d4ca803b570cc1760facf052331a37deaa3586f7)</p><p></p>|15/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|e0ac90c|<p>[Feat: Changed register card styles in Entrepreneur View.](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/e0ac90cdcc9b074ed66fe5a28856281ce1943bf6)</p><p></p>|15/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|ee65853|<p>[feat: added switcher-theme, switcher-view-data & data-collection](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/ee65853fe101d524ce57b41a6c5cf079db69d471)</p><p></p>|19/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|31c4c70|<p>[feat: Install googleMapsAPI](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/31c4c705bada4199de3033b0e8517c3931eb7e8c)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/map|75417d5|<p>[feat: Update map.component (Test functionality)](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/75417d59f5439b8020b740064a1fd7069484a505)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|0ec903ff|<p>[fix: fixed view dark theme](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/0ec903f37cb55e10e63e206f770f4bf79fee7d6f)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|0695515|<p>[Merge pull request](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/0695515ecda9606b3ed49a0d3485f2e4ad9131df) [#20](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/20) [from Grupo-2-Apps-Web/feature/configuration](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/0695515ecda9606b3ed49a0d3485f2e4ad9131df)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/map|e019718|<p>[Merge pull request](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/e019718da72591172c470c588809701c40e464f1) [#19](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/19) [from Grupo-2-Apps-Web/feature/map](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/e019718da72591172c470c588809701c40e464f1)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login |5776b0a|<p>[Fix: store.js fixed](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/5776b0aadebda2b73a309aac5f7288400becbed0)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login|8cdfd9b|<p>[fix: fix register users components and css](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/8cdfd9bd6afeb796a1911dd34442bf1e2c175eea)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login |65cdbde|<p>[Merge branch 'develop' into feature/signup-and-login](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/65cdbdefc29722474958109a9e2a533c5a482c6e)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login |1585cf0|<p>[fix: fixed missing sign](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/1585cf031ce349a04191f42ab3b51c9be80dc89e)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login |aece384|<p>[fix: fixed css on recover account component](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/aece3845c2512a1c6ed52528e6bd4509d0a9a781)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login |773f5c3|<p>[Merge pull request](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/773f5c3f399b9e3d54f0fba6e76cc0073d44a742) [#23](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/23) [from Grupo-2-Apps-Web/feature/signup-and-login](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/773f5c3f399b9e3d54f0fba6e76cc0073d44a742)</p><p><h4></h4></p><p></p>|<a name="_p95szh4ocef9"></a>21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|32c270e|<p>[feat: Update Views on Entrepreneur (path)](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/32c270e25230feeaee0edfeb346e1cf38484c925)</p><p></p>|22/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|fb0d1b4|<p>[feat: added missing functionality for updating subscription data](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/fb0d1b47ff6065622ded1f5eb1468687ed17be33)</p><p></p>|23/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|60894f8|<p>[fix: fixed buttons of sidebar & configuration dissapeared when reloading](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/60894f8bfb793ebe61f8c416212c0c080a9f9094)</p><p></p>|23/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|1afd9a8|<p>[feat: added configuration saving functionality](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/1afd9a8ee83bf92cc3b6f2c15e5ff93b477aa882)</p><p></p>|23/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|446c811|<p>[Merge pull request](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/446c8116ab61bb49fe5984aafa0a2ceb45b9e086) [#24](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/24) [from Grupo-2-Apps-Web/feature/configuration](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/446c8116ab61bb49fe5984aafa0a2ceb45b9e086)</p><p></p>|23/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login |c582cef|<p>[fix: fixed user registration and email validation](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/c582cef64b0e9ec3039c8cfadae2347d19393aab)</p><p></p>|23/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|6aafb40|<p>[refactor: changed data json file location](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/6aafb40bb1d81fbd5c6c664b17c0eb2e7196977e)</p><p></p>|23/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login |e91f23c|<p>[Merge pull request](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/e91f23c0e39f04eae1caa14e0f7c2a89a39ccd55) [#26](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/26) [from Grupo-2-Apps-Web/feature/signup-and-login](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/e91f23c0e39f04eae1caa14e0f7c2a89a39ccd55)</p><p></p>|23/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|24fc9e5|refactor: changed folder organization to ddd|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|1f0a7e2|feat: improved services to use base service and improve models|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|6292b38|feat: changed db.json for user bounded context & updated components|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|ab45388|feat: updated expenses in db.json and components|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|c21bb60|feat: added alert endpoint and improve trip functionality|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login|6e277ce|fix: fixed error in login and register|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|f094999|feat: change camel case to snake case|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/map|d73ae44|fix: fixed data not showing in map or ongoingtrips|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|40a7d0c|fix: fixed error when trying to modify an expense or trip|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|720bb58|feat: added driver, vehicle, and entrepreneur information in “trip-description”|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|bcdc442|feat: added register driver and vehicle components|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|727eb33|fix: update plates registration|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|d966ebe|feat: modify request for driver dni and vehicle plate|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|bd8d15e|fix: responsive and method filter section Record for Clients fixed|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|fee1a05|feat: added functions to getByAttribute in service|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|c969adb|feat: added modify driver and vehicle components|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/map|89344b6|feat: Added button “Return in Map View”|26/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/alerts|eb98708|feat: added alert registration for entrepreneur|26/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|6ea4466|feat: drivers and vehicles visualization lists|26/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|1507c39|feat: driver and vehicle description views|26/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|f7587a5|fix: remove X from dialog component that didnt work|26/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/export|4f7e013|feat: added export dialog & functionality|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|fb954ca|feat: added store to view only user trips|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|0397966|fix: responsive for section Record for clients fixed|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|6570ada|fix: responsive fixed|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|3f96873|style: driver section responsive fixed|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|a2c40ac|style: adjust responsiveness for vehicles view|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|444c98f|style: adjust responsive toolbar|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|cbad6ca|feat: only user ongoingtrips, expenses, statistics displayed|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|4bb2362|fix: if statement for response & catch error|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|5ed855a|feat: clients view for entrepreneur|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/export|54d093a|feat: added export with filtered trips|30/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|47826ca|fix: solved error in expense definition|30/05/2024|
+|Grupo-2-Apps-Web/Web-Services|main|9a2d257|chore: initial setup for project|31/05/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|879a5a7|feat: added drivers and vehicles http requests|31/05/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|8bb3296|feat: partially added trip http requests|31/05/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|c7ac899|fix: changed name value object attribute to tripName|01/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|0d304df|feat: added users http requests|01/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|b928f02|feat: added expenses http requests|01/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|04c3c6f|fix: corrected the foreign key from expense|01/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|560c48e|feat: added evidences http requests|01/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|dbef586|feat: validation for creation of expense and evidence objects added|01/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|401414a|feat: added clients http requests|01/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|9cd19ae|feat: added entrepreneurs http requests|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|4093628|feat: added alerts http requests|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|ac68d2a|feat: Added OngoingTrips http requests|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|0c0bb46|feat: added configuration http requests|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|2f35829|feat: added validation in configuration|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|b40f22e|Merge pull request #3 from Grupo-2-Apps-Web/feature/us38|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|b9d7339|feat: added client id & entrepreneur id for trips|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|796c160|Merge pull request #5 from Grupo-2-Apps-Web/feature/us39|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|6f6fea2|feat: added connect string to deployed database|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|bd249b1|fix: changed logoIma to logoImage|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|7f1ef40|fix: renamed logoIma in http get to LogoImage|02/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|4890e30|feat: changed entities to cammelCase|03/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|39e53e1|feat: added cors policy to allow api request from frontend|03/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|fb0883b|feat: added swagger for azure deployment|03/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|8d7cbcf|feat: updated user functionality to work with backend|03/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|1f54dc2|fix: search bar for register-list, client-list, driver-list, vehicle-list fixed|03/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|cb94b42|feat: modified attributes to CamelCase|03/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|4c8c141|feat: added new constructor to alert, evidence, ongoingtrip & expense|04/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|6d38b22|feat: added try catch functionality to post and update methods|04/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|4f63f18|fix: solved register and modify expense functionality|04/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|a158b13|fix: attributes name for trip-registration fixed|04/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|e33aac8|feat: fix id in OngoingTripCommandService|04/06/2024|
+
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review.
 
 Se realizaron los acceptance tests para las historias de usuario trabajadas y se registraron en el repositorio de la siguiente forma.
 
 Repositorio Acceptance Tests: https://github.com/Grupo-2-Apps-Web/Acceptance-Tests
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- |
+|Grupo-2-Apps-Web/Acceptance-Tests|main|250ad81|fix: update user story codes|26/05/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|100c981|feat: added US09, US16, US18 acceptance tests|04/06/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|5b35a8e|feat: added us29-us37|04/06/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|6943e63|feat: Added US11, US39, US03|05/06/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|5526bb3|feat: US13, US14, US15, US17 added|05/06/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|39fc378|Update US17.feature|05/06/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main||||
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
@@ -2787,76 +2937,52 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 | 5 | Incorrecta visualización de la vista de suscripción en celulares | 3 | Inclusive Design: Proporciona experiencias comparables |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
-PROBLEMA #1: Usuario logueado sigue viendo la pantalla de iniciar sesión
+**PROBLEMA #1:** Usuario logueado sigue viendo la pantalla de iniciar sesión
+**Severidad:** 3
+**Heurística violada:** Usability: Usabilidad y control del usuario
+**Problema:** Si el usuario está logueado y va al enlace inicial de la aplicación, la aplicación no lo redirecciona a su pantalla correspondiente.
 
-Severidad: 3
-
-Heurística violada: Usability: Usabilidad y control del usuario
-
-Problema: Si el usuario está logueado y va al enlace inicial de la aplicación, la aplicación no lo redirecciona a su pantalla correspondiente.
-
-Imagen:
-
+**Imagen:**
 ![Imagen Problema de Heuristica 1](img/heuristica1.png)
-
-Recomendación: 
+**Recomendación:**
 Implementar una funcionalidad que detecte si el usuario está logueado y lo lleve a su vista correspondiente.
 
-PROBLEMA #2: Incorrecta visualización de información de un viaje en progreso en celulares
 
-Severidad: 2
+**PROBLEMA #2:** Incorrecta visualización de información de un viaje en progreso en celulares
+**Severidad:** 2
+**Heurística violada:** Inclusive Design: Proporciona experiencias comparables
+**Problema:** Si el usuario está entrando desde un dispositivo móvil, la pantalla donde se muestra la información de un viaje en progreso no se visualiza correctamente.
 
-Heurística violada: Inclusive Design: Proporciona experiencias comparables
-
-Problema: Si el usuario está entrando desde un dispositivo móvil, la pantalla donde se muestra la información de un viaje en progreso no se visualiza correctamente.
-
-Imagen: 
-
+**Imagen:**
 ![Imagen Problema de Heuristica 2](img/heuristica2.png)
+**Recomendación:** Cambiar la disposición de elementos en la vista de viajes en progreso para que haya más espacio para visualizar la información.
 
-Recomendación: Cambiar la disposición de elementos en la vista de viajes en progreso para que haya más espacio para visualizar la información.
+**PROBLEMA #3:** Incorrecta visualización del botón de gastos en celulares
+**Severidad:** 2
+**Heurística violada:** Inclusive Design: Proporciona experiencias comparables
+**Problema:** Si el usuario está entrando desde un dispositivo móvil, el botón para ver la información de un gasto no se visualiza completamente.
 
-PROBLEMA #3: Incorrecta visualización del botón de gastos en celulares
-
-Severidad: 2
-
-Heurística violada: Inclusive Design: Proporciona experiencias comparables
-
-Problema: Si el usuario está entrando desde un dispositivo móvil, el botón para ver la información de un gasto no se visualiza completamente.
-
-Imagen:
-
+**Imagen:**
 ![Imagen Problema de Heuristica 3](img/heuristica3.png)
+**Recomendación:** Centrar el botón de gastos y aumentar su ancho para que todo el texto esté dentro del recuadro.
 
-Recomendación: Centrar el botón de gastos y aumentar su ancho para que todo el texto esté dentro del recuadro.
+**PROBLEMA #4:** Incorrecta visualización de la vista de configuración en celulares
+**Severidad:** 2
+**Heurística violada:** Inclusive Design: Proporciona experiencias comparables
+**Problema:** Si el usuario está entrando desde un dispositivo móvil, la vista de configuración no se visualiza correctamente.
 
-PROBLEMA #4: Incorrecta visualización de la vista de configuración en celulares
-
-Severidad: 2
-
-Heurística violada: Inclusive Design: Proporciona experiencias comparables
-
-Problema: Si el usuario está entrando desde un dispositivo móvil, la vista de configuración no se visualiza correctamente.
-
-Imagen:
-
+**Imagen:**
 ![Imagen Problema de Heuristica 4](img/heuristica4.png)
+**Recomendación:** Reducir el tamaño de los botones de suscripción para que todo quepa en el dispositivo.
 
-Recomendación: Reducir el tamaño de los botones de suscripción para que todo quepa en el dispositivo.
+**PROBLEMA #5:** Incorrecta visualización de la vista de suscripción en celulares
+**Severidad:** 2
+**Heurística violada:** Inclusive Design: Proporciona experiencias comparables
+**Problema:** Si el usuario está entrando desde un dispositivo móvil, la vista de selección de suscripción no se visualiza correctamente.
 
-PROBLEMA #5: Incorrecta visualización de la vista de suscripción en celulares
-
-Severidad: 2
-
-Heurística violada: Inclusive Design: Proporciona experiencias comparables
-
-Problema: Si el usuario está entrando desde un dispositivo móvil, la vista de selección de suscripción no se visualiza correctamente.
-
-Imagen:
-
+**Imagen:**
 ![Imagen Problema de Heuristica 5](img/heuristica5.png)
-
-Recomendación: Cambiar la disposición de elementos en la vista de suscripción para que haya más espacio para visualizar la información.
+**Recomendación:** Cambiar la disposición de elementos en la vista de suscripción para que haya más espacio para visualizar la información.
 
 ## 5.4. Video About-the-Product.
 En el vídeo se proporciona información sobre el producto CargoApp. Se mencionan las diferentes funcionalidades de la aplicación como son la visualización de envíos en tiempo real, alertas, estadísticas, etc.
@@ -2865,9 +2991,9 @@ Screenshot del video:
 
 ![Imagen de Video About-The-Product](img/VideoAbout-The-Product.png)
 
-Enlace al vídeo de YouTube: https://youtu.be/Qu6a7DhsWms
+Enlace al vídeo de YouTube: [Video About-the-Product Youtube](https://youtu.be/Qu6a7DhsWms)
 
-Enlace al vídeo de Microsoft Stream: [Video About-The-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/EQYdafRID_ZDsc3bKC0fprMBb0GoHJ7mm2nNv-CT5WgNwg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5j4Hdg)
+Enlace al vídeo de Microsoft Stream: [Video About-The-Product MS](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/EQYdafRID_ZDsc3bKC0fprMBb0GoHJ7mm2nNv-CT5WgNwg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5j4Hdg)
 
 Duración del vídeo: 2:42
 
