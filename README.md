@@ -2521,6 +2521,58 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 |Parámetros|{tripId}: Id del viaje, Body: name, type, weight, loadLocation, loadDate, unloadLocation, unloadDate, driverId, vehicleId, clientId, entrepreneurId|
 |Resultado|![Service Documentation 12](img/service-documentation12.png)|
 
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/expenses**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Expenses](img/service-documentation20.png)|
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: fuelAmount, fuelDescription, viaticsAmount, viaticsDescription, tollsAmount, tollsDescription, tripId|
+|Resultado|![Service Documentation Post Expense](img/service-documentation21.png)|
+
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/expenses/{expenseId}**
+
+|Método|GET|
+|--|--|
+|Parámetros|{expenseId}: Id del expense|
+|Resultado|![Service Documentation Get Expense](img/service-documentation22.png)|
+
+|Método|PUT|
+|--|--|
+|Parámetros|{expenseId}: Id del expense, Body: fuelAmount, fuelDescription, viaticsAmount, viaticsDescription, tollsAmount, tollsDescription, tripId|
+|Resultado|![Service Documentation Put Expense](img/service-documentation23.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/evidences**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Evidences](img/service-documentation24.png)|
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: link, tripId|
+|Resultado|![Service Documentation Post Evidence](img/service-documentation25.png)|
+
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/evidences/{evidenceId}**
+
+|Método|GET|
+|--|--|
+|Parámetros|{evidenceId}: Id del evidence|
+|Resultado|![Service Documentation Get Evidence](img/service-documentation26.png)|
+
+|Método|PUT|
+|--|--|
+|Parámetros|{evidenceId}: Id del evidence, Body: link, tripId|
+|Resultado|![Service Documentation Put Evidence](img/service-documentation27.png)|
+
+
+
 **Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/ongoing-trips**
 
 |Método|GET|
