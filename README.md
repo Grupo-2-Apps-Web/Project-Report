@@ -2483,6 +2483,11 @@ Repositorio Backend: https://github.com/Grupo-2-Apps-Web/Web-Services
 |Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|4f63f18|fix: solved register and modify expense functionality|04/06/2024|
 |Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|a158b13|fix: attributes name for trip-registration fixed|04/06/2024|
 |Grupo-2-Apps-Web/Web-Services|feature/us39|e33aac8|feat: fix id in OngoingTripCommandService|04/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|45f8d23|feat: Add try-catch error handling for duplicate TripId in Expense creation|05/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|e9d38df|feat: Add try-catch error handling for duplicate TripId in Evidence and OngoingTrip creation|05/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|release|7bf354f|feat: deployed frontend for sprint 3|05/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|main|c2a099b|release v2.0: Sprint 3 Release|05/06/2024|
+
 
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review.
 
@@ -2769,7 +2774,7 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
-Se decidió desplegar el Web Service en Microsoft Azure. Para ello, se instaló el plugin de Azure para publicar el Web Service en Rider y se conectó a Azure con las credenciales necesarias.
+En el caso del Frontend, simplemente se actualizó el proyecto desplegado en Firebase que ya habíamos creado anteriormente en el Sprint 2. Por otro lado, se decidió desplegar el Web Service en Microsoft Azure. Para ello, se instaló el plugin de Azure para publicar el Web Service en Rider y se conectó a Azure con las credenciales necesarias.
 
 ![Imagen Deployment Backend](img/backend_deployment1.png)
 
@@ -2787,7 +2792,31 @@ Luego, se comprobó la correcta creación del Web Service, en Postman accediendo
 
 De esta manera, se comprobó que se implementó correctamente la aplicación ya que devolvió 200 OK y la lista de trips en la base de datos.
 
+Asimismo, también se logra visualizar la vista de Swagger de la API a través del navegador en el siguiente enlace: https://cargoappwebservice.azurewebsites.net/swagger/index.html
+
+![Imagen Deployment Backend](img/backend_deployment5.png)
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+Para la elaboración del Frontend y Backend, nos repartimos las tareas entre cada miembro así como se especifica en el Sprint Backlog 3, y cada uno trabajó en las ramas feature correspondientes, para luego ir realizando los merge con la rama develop. Asimismo, nos reunimos de forma virtual a través de Google Meet para revisar juntos los avances y los merges realizados para verificar que todo funciona acorde a lo esperado.
+
+Commits trabajados en Frontend
+
+<img src="img/commits-frontend-sprint-3.png" width="100%">
+
+
+Commits trabajados en Backend
+
+<img src="img/commits-backend-sprint-3.png" width="100%">
+
+Gráfico de estadísticas de commits
+
+<img src="img/commit-statistics-sprint-3.png" width="100%">
+
+Gráfico de red
+
+<img src="img/network-graph-sprint-3.png" width="100%">
+
 
 ## 5.3. Validation Interviews.
 
@@ -2851,51 +2880,84 @@ De esta manera, se comprobó que se implementó correctamente la aplicación ya 
 8. ¿Qué sugerencias tendrías para mejorar la experiencia de usuario en la aplicación web, especialmente en cuanto a la navegación y presentación de información?
 
 ### 5.3.2. Registro de Entrevistas.
+
 **Entrevista 1 - Cliente que requiere transporte**
+
 **Entrevistador:** Salvador Salinas
+
 **Entrevistado:** Anderson Gonza
+
 **Link de la entrevista:** [Entrevista de Validación 1](https://youtu.be/qnlm6n4S70k)
+
 <img src="img/entrevista-validacion1.png" width="100%">
+
 **Resumen de la entrevista:** Para esta entrevista de validación con Anderson, se le mostró lo trabajado en la Landing Page y Web Application. Él nos comenta que le parece agradable los elementos visuales y organización usada, así como los colores, imágenes y estilos. Asimismo, comentó que la Landing Page debería mostrar un video de introducción. Igualmente, le gustó la funcionalidad de la vista en tiempo real y las alertas ya que brinda más transparencia durante el proceso del envío de transporte de carga.
 
+
 **Entrevista 2 - Cliente que requiere transporte**
+
 **Entrevistador:** Piero Delgado
+
 **Entrevistado:** Joaquin Rivadeneyra
+
 **Link de la entrevista:** [Entrevista de Validación 2](https://youtu.be/QeZ4ZToAG_E)
+
 <img src="img/entrevista-validacion2.png" width="100%">
+
 **Resumen de la entrevista:**
 Para esta entrevista de validación con Joaquin, se le mostró lo trabajado en la Landing Page y Web Application. Él nos comenta que le parece agradable los elementos visuales y organización usada en la parte de la aplicación web y le parece que las funcionalidades son muy útiles especialmente el seguimiento a tiempo real. Por otro lado, menciona que deberíamos mejorar la presentación del Landing page con una mejor disposición de los elementos.
 
 **Entrevista 3 - Cliente que requiere transporte**
+
 **Entrevistador:** Andre Valverde
+
 **Entrevistado:** Rodrigo Guerra
+
 **Link de la entrevista:** [Entrevista de Validación 3](https://youtu.be/7HYOnvIA5Ks)
+
 <img src="img/entrevista-validacion3.png" width="100%">
+
 **Resumen de la entrevista:**
 El entrevistado destacó que la landing page es profesional, con información clara y bien balanceada. Los elementos visuales son atractivos y la navegación es intuitiva. El llamado a la acción es convincente y el contenido genera confianza. Sugirió incluir testimonios de clientes y un video explicativo para mejorar la página. Sobre la web application, el entrevistado señaló que la información está bien organizada y la interfaz es fácil de usar. La gestión de alertas es eficiente y la función de búsqueda es rápida y efectiva. La personalización cumple con sus expectativas y los elementos visuales son relevantes
 
+
 **Entrevista 4 - Empresa de gestión logística de transporte**
+
 **Entrevistador:** Christian Matos
+
 **Entrevistado:** Valeria Cardenas
+
 **Link de la entrevista:** [Entrevista de Validación 4](https://youtu.be/z3lqt4pCalk)
+
 <img src="img/entrevista-validacion4.png" width="100%">
+
 **Resumen de la entrevista:** 
 En la entrevista con Valeria Cárdenas, se le presentó el trabajo en la Landing Page y la Aplicación Web. Valeria mencionó que los elementos visuales y la organización de la aplicación web le parecieron agradables, y destacó la utilidad de las funcionalidades, especialmente el seguimiento en tiempo real. No obstante, sugirió que deberíamos mejorar la presentación de la Landing Page reorganizando mejor los elementos.
 
 **Entrevista 5 - Empresa de gestión logística de transporte**
+
 **Entrevistador:** Sebastian Paredes
+
 **Entrevistado:** Miriam Puente
+
 **Link de la entrevista:** [Entrevista de Validación 5]()
+
 <img src="img/" width="100%">
+
 **Resumen de la entrevista:** 
+
 
 **Entrevista 6 - Empresa de gestión logística de transporte**
-**Entrevistador:** Sebastian Paredes
-**Entrevistado:** Roberto Paredes
-**Link de la entrevista:** [Entrevista de Validación 6]()
-<img src="img/" width="100%">
-**Resumen de la entrevista:** 
 
+**Entrevistador:** Sebastian Paredes
+
+**Entrevistado:** Roberto Paredes
+
+**Link de la entrevista:** [Entrevista de Validación 6]()
+
+<img src="img/" width="100%">
+
+**Resumen de la entrevista:** 
 
 
 
@@ -2938,52 +3000,80 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 | 5 | Incorrecta visualización de la vista de suscripción en celulares | 3 | Inclusive Design: Proporciona experiencias comparables |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
+
 **PROBLEMA #1:** Usuario logueado sigue viendo la pantalla de iniciar sesión
+
 **Severidad:** 3
+
 **Heurística violada:** Usability: Usabilidad y control del usuario
+
 **Problema:** Si el usuario está logueado y va al enlace inicial de la aplicación, la aplicación no lo redirecciona a su pantalla correspondiente.
 
 **Imagen:**
+
 ![Imagen Problema de Heuristica 1](img/heuristica1.png)
-**Recomendación:**
-Implementar una funcionalidad que detecte si el usuario está logueado y lo lleve a su vista correspondiente.
+
+**Recomendación:** Implementar una funcionalidad que detecte si el usuario está logueado y lo lleve a su vista correspondiente.
 
 
 **PROBLEMA #2:** Incorrecta visualización de información de un viaje en progreso en celulares
+
 **Severidad:** 2
+
 **Heurística violada:** Inclusive Design: Proporciona experiencias comparables
+
 **Problema:** Si el usuario está entrando desde un dispositivo móvil, la pantalla donde se muestra la información de un viaje en progreso no se visualiza correctamente.
 
 **Imagen:**
+
 ![Imagen Problema de Heuristica 2](img/heuristica2.png)
+
 **Recomendación:** Cambiar la disposición de elementos en la vista de viajes en progreso para que haya más espacio para visualizar la información.
 
+
 **PROBLEMA #3:** Incorrecta visualización del botón de gastos en celulares
+
 **Severidad:** 2
+
 **Heurística violada:** Inclusive Design: Proporciona experiencias comparables
+
 **Problema:** Si el usuario está entrando desde un dispositivo móvil, el botón para ver la información de un gasto no se visualiza completamente.
 
 **Imagen:**
+
 ![Imagen Problema de Heuristica 3](img/heuristica3.png)
+
 **Recomendación:** Centrar el botón de gastos y aumentar su ancho para que todo el texto esté dentro del recuadro.
 
+
 **PROBLEMA #4:** Incorrecta visualización de la vista de configuración en celulares
+
 **Severidad:** 2
+
 **Heurística violada:** Inclusive Design: Proporciona experiencias comparables
+
 **Problema:** Si el usuario está entrando desde un dispositivo móvil, la vista de configuración no se visualiza correctamente.
 
 **Imagen:**
+
 ![Imagen Problema de Heuristica 4](img/heuristica4.png)
+
 **Recomendación:** Reducir el tamaño de los botones de suscripción para que todo quepa en el dispositivo.
 
 **PROBLEMA #5:** Incorrecta visualización de la vista de suscripción en celulares
+
 **Severidad:** 2
+
 **Heurística violada:** Inclusive Design: Proporciona experiencias comparables
+
 **Problema:** Si el usuario está entrando desde un dispositivo móvil, la vista de selección de suscripción no se visualiza correctamente.
 
 **Imagen:**
+
 ![Imagen Problema de Heuristica 5](img/heuristica5.png)
+
 **Recomendación:** Cambiar la disposición de elementos en la vista de suscripción para que haya más espacio para visualizar la información.
+
 
 ## 5.4. Video About-the-Product.
 En el vídeo se proporciona información sobre el producto CargoApp. Se mencionan las diferentes funcionalidades de la aplicación como son la visualización de envíos en tiempo real, alertas, estadísticas, etc.
