@@ -93,7 +93,7 @@ Junio 2024
   </tr>
   <tr>
   <td><strong>TB2</strong></td>
-      <td>Jueves 6 de junio</td>
+      <td>Domingo 9 de junio</td>
       <td>
         <ul>
           <li>Delgado Corrales, Piero Gonzalo</li>
@@ -2559,6 +2559,9 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 
 **EVIDENCIAS**
 
+
+**User BC Endpoints**
+
 **Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/users**
 
 |Método|GET|
@@ -2604,6 +2607,52 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 |Parámetros|{clientId}: Id del cliente|
 |Resultado|![Service Documentation Get Client](img/service-documentation-get-client.png)|
 
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/entrepreneurs**
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: userId,logoImage|
+|Resultado|![Service Documentation 29](img/service-documentation29.png)|
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation 28](img/service-documentation28.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/entrepreneurs/{entrepreneurId}**
+
+|Método|GET|
+|--|--|
+|Parámetros|{entrepreneurId}: id del entrepreneur|
+|Resultado|![Service Documentation 30](img/service-documentation30.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/configurations**
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: userId, theme, view, allowDataCollection, updateDataSharing|
+|Resultado|![Service Documentation 31](img/service-documentation31.png)|
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation 32](img/service-documentation32.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/configurations/{configurationId}**
+
+|Método|PUT|
+|--|--|
+|Parámetros|{configurationId}: Id de la configuración, Body: theme, view, allowDataCollection, updateDataSharing|
+|Resultado|![Service Documentation 33](img/service-documentation33.png)|
+
+|Método|GET|
+|--|--|
+|Parámetros|{configurationId}: Id de la configuración|
+|Resultado|![Service Documentation 34](img/service-documentation34.png)|
+
+
+**Registration BC Endpoints**
 
 **Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/vehicles**
 
@@ -2772,52 +2821,10 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 |Parámetros|{alertId}: Id del viaje en progreso|
 |Resultado|![Service Documentation 19](img/service-documentation19.png)|
 
-**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/entrepreneurs**
-
-|Método|POST|
-|--|--|
-|Parámetros|Body: userId,logoImage|
-|Resultado|![Service Documentation 29](img/service-documentation29.png)|
-
-|Método|GET|
-|--|--|
-|Parámetros|Ninguno|
-|Resultado|![Service Documentation 28](img/service-documentation28.png)|
-
-**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/entrepreneurs/{entrepreneurId}**
-
-|Método|GET|
-|--|--|
-|Parámetros|{entrepreneurId}: id del entrepreneur|
-|Resultado|![Service Documentation 30](img/service-documentation30.png)|
-
-**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/configurations**
-
-|Método|POST|
-|--|--|
-|Parámetros|Body: userId, theme, view, allowDataCollection, updateDataSharing|
-|Resultado|![Service Documentation 31](img/service-documentation31.png)|
-
-|Método|GET|
-|--|--|
-|Parámetros|Ninguno|
-|Resultado|![Service Documentation 32](img/service-documentation32.png)|
-
-**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/configurations/{configurationId}**
-
-|Método|PUT|
-|--|--|
-|Parámetros|{configurationId}: Id de la configuración, Body: theme, view, allowDataCollection, updateDataSharing|
-|Resultado|![Service Documentation 33](img/service-documentation33.png)|
-
-|Método|GET|
-|--|--|
-|Parámetros|{configurationId}: Id de la configuración|
-|Resultado|![Service Documentation 34](img/service-documentation34.png)|
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
-En el caso del Frontend, simplemente se actualizó el proyecto desplegado en Firebase que ya habíamos creado anteriormente en el Sprint 2. Por otro lado, se decidió desplegar el Web Service en Microsoft Azure. Para ello, se instaló el plugin de Azure para publicar el Web Service en Rider y se conectó a Azure con las credenciales necesarias.
+Se decidió desplegar el Web Service en Microsoft Azure. Para ello, se instaló el plugin de Azure para publicar el Web Service en Rider y se conectó a Azure con las credenciales necesarias.
 
 ![Imagen Deployment Backend](img/backend_deployment1.png)
 
@@ -2839,24 +2846,49 @@ Asimismo, también se logra visualizar la vista de Swagger de la API a través d
 
 ![Imagen Deployment Backend](img/backend_deployment5.png)
 
+Por otro lado, también se desplegó el Frontend Web Applications con la conexión al Web Service y las mejoras realizadas en este Sprint. Para ello, primero se volvió a ejecutar el comando npm run build.
+
+![Imagen Deployment Frontend](img/frontend-deployment-1.png)
+
+Se actualizan los paquetes de firebase-tools con npm install.
+
+![Imagen Deployment Frontend](img/frontend-deployment-2.png)
+
+Se comprueba que se esté logueado en firebase para el despliegue.
+
+![Imagen Deployment Frontend](img/frontend-deployment-3.png)
+
+Luego, se empieza con el despliegue utilizando el comando firebase init hosting.
+
+![Imagen Deployment Frontend](img/frontend-deployment-4.png)
+
+Para terminar con el despliegue luego de tener el proyecto con Firebase se utiliza el comando firebase deploy --only hosting
+
+![Imagen Deployment Frontend](img/frontend-deployment-5.png)
+
+Finalmente, se comprueba que el proyecto se haya desplegado correctamente entrando al URL: <https://cargoapp-demo.web.app>
+
+![Imagen Deployment Frontend](img/frontend-deployment-6.png)
+
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
 
 Para la elaboración del Frontend y Backend, nos repartimos las tareas entre cada miembro así como se especifica en el Sprint Backlog 3, y cada uno trabajó en las ramas feature correspondientes, para luego ir realizando los merge con la rama develop. Asimismo, nos reunimos de forma virtual a través de Google Meet para revisar juntos los avances y los merges realizados para verificar que todo funciona acorde a lo esperado.
 
-Commits trabajados en Frontend
+**Commits trabajados en Frontend**
 
 <img src="img/commits-frontend-sprint-3.png" width="100%">
 
 
-Commits trabajados en Backend
+**Commits trabajados en Backend**
 
 <img src="img/commits-backend-sprint-3.png" width="100%">
 
-Gráfico de estadísticas de commits
+**Gráfico de estadísticas de commits**
 
 <img src="img/commit-statistics-sprint-3.png" width="100%">
 
-Gráfico de red
+**Gráfico de red**
 
 <img src="img/network-graph-sprint-3.png" width="100%">
 
@@ -3020,6 +3052,7 @@ El alcance de esta evaluación incluye la revisión de usabilidad de las siguien
 9. Visualización de alertas
 10. Configuración de tipo de vista y tema
 11. Elección de plan de suscripción
+
 No están incluidas en esta versión de la evaluación las siguientes tareas:
 1. Landing Page
 2. Recuperación de cuenta
@@ -3058,6 +3091,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **Recomendación:** Implementar una funcionalidad que detecte si el usuario está logueado y lo lleve a su vista correspondiente.
 
+-----
 
 **PROBLEMA #2:** Incorrecta visualización de información de un viaje en progreso en celulares
 
@@ -3073,6 +3107,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **Recomendación:** Cambiar la disposición de elementos en la vista de viajes en progreso para que haya más espacio para visualizar la información.
 
+-----
 
 **PROBLEMA #3:** Incorrecta visualización del botón de gastos en celulares
 
@@ -3088,6 +3123,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **Recomendación:** Centrar el botón de gastos y aumentar su ancho para que todo el texto esté dentro del recuadro.
 
+-----
 
 **PROBLEMA #4:** Incorrecta visualización de la vista de configuración en celulares
 
@@ -3102,6 +3138,8 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 ![Imagen Problema de Heuristica 4](img/heuristica4.png)
 
 **Recomendación:** Reducir el tamaño de los botones de suscripción para que todo quepa en el dispositivo.
+
+-----
 
 **PROBLEMA #5:** Incorrecta visualización de la vista de suscripción en celulares
 
@@ -3125,11 +3163,11 @@ Screenshot del video:
 
 ![Imagen de Video About-The-Product](img/VideoAbout-The-Product.png)
 
-Enlace al vídeo de YouTube: [Video About-the-Product Youtube](https://youtu.be/Qu6a7DhsWms)
+**Enlace al vídeo de YouTube:** [Video About-the-Product Youtube](https://youtu.be/Qu6a7DhsWms)
 
-Enlace al vídeo de Microsoft Stream: [Video About-The-Product MS](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/EQYdafRID_ZDsc3bKC0fprMBb0GoHJ7mm2nNv-CT5WgNwg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5j4Hdg)
+**Enlace al vídeo de Microsoft Stream:** [Video About-The-Product MS](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/EQYdafRID_ZDsc3bKC0fprMBb0GoHJ7mm2nNv-CT5WgNwg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5j4Hdg)
 
-Duración del vídeo: 2:42
+**Duración del vídeo:** 2:42
 
 # Conclusiones
 
