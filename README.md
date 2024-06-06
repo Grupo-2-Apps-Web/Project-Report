@@ -1605,8 +1605,7 @@ A continuación, se especificara más a detalle sobre cada una de las clases.
 
 #### User Bounded Context
 
-##### User (Aggregate)
-
+**User (Aggregate)**
 La clase User contiene toda la información de un usuario registrado dentro de la aplicación, así como su información empresarial, información de autenticación y plan de suscripción.
 
 **Atributos:**
@@ -1620,8 +1619,9 @@ La clase User contiene toda la información de un usuario registrado dentro de l
 - getUser(): Devuelve los detalles del usuario.
 - updateUser(): Actualiza los detalles del usuario.
 
-##### UserData (Value Object)
+-----
 
+**UserData (Value Object)**
 La clase UserData contiene información de los datos empresariales del usuario.
 
 **Atributos:**
@@ -1641,8 +1641,9 @@ La clase UserData contiene información de los datos empresariales del usuario.
 - getAddress(): Devuelve la dirección del usuario
 - setAddress(): Establece la dirección del usuario
 
-##### UserAuthentication (Value Object)
+-----
 
+**UserAuthentication (Value Object)**
 La clase UserAuthentication contiene información de los datos de autenticación del usuario
 
 **Atributos:**
@@ -1655,8 +1656,9 @@ La clase UserAuthentication contiene información de los datos de autenticación
 - getPassword(): Devuelve la contraseña del usuario
 - setPassword(): Establece la contraseña del usuario
 
-##### SubscriptionPlan (Value Object)
+-----
 
+**SubscriptionPlan (Value Object)**
 La clase SubscriptionPlan contiene información del plan de suscripción del usuario.
 
 **Atributos:**
@@ -1666,8 +1668,9 @@ La clase SubscriptionPlan contiene información del plan de suscripción del usu
 - getSubscription(): Devuelve la suscripción del usuario
 - setSubscription(): Establece la suscripción del usuario
 
-##### Client (Entity)
+-----
 
+**Client (Entity)**
 La clase Client representa a un usuario que es de tipo cliente.
 
 **Atributos:**
@@ -1678,8 +1681,9 @@ La clase Client representa a un usuario que es de tipo cliente.
 **Métodos:**
 - getClient(): Devuelve los detalles del cliente
 
-##### Entrepreneur (Entity)
+-----
 
+**Entrepreneur (Entity)**
 La clase Entrepreneur representa a un usuario que es de tipo empresario.
 
 **Atributos:**
@@ -1690,9 +1694,9 @@ La clase Entrepreneur representa a un usuario que es de tipo empresario.
 **Métodos:**
 - getEntrepreneur(): Devuelve los detalles del empresario
 
+-----
 
-##### Configuration (Entity)
-
+**Configuration (Entity)**
 La clase Configuration representa la configuración de tema, vista y compartir información determinada por el usuario dentro de la aplicación.
 
 
@@ -1709,9 +1713,12 @@ La clase Configuration representa la configuración de tema, vista y compartir i
 - getConfiguration(): Devuelve los detalles de la configuración
 - updateConfiguration(): Actualiza los detalles de la configuración
 
+-----
+
+
 #### Registration Bounded Context
 
-##### Trip (Aggregate)
+**Trip (Aggregate)**
 La clase Trip contiene información central sobre el viaje, como el nombre, datos de la carga, detalles del viaje, y referencias a entidades como el vehículo y el conductor.
 
 **Atributos:**
@@ -1728,7 +1735,9 @@ La clase Trip contiene información central sobre el viaje, como el nombre, dato
 - getTrip(): Devuelve los detalles del viaje.
 - updateTrip(): Actualiza los detalles del viaje.
 
-##### Name (Value Object)
+-----
+
+**Name (Value Object)**
 La clase Name representa el nombre del viaje como un Value Object.
 
 **Atributos:**
@@ -1738,7 +1747,9 @@ La clase Name representa el nombre del viaje como un Value Object.
 - getName(): Devuelve el nombre del viaje.
 - setName(): Establece el nombre del viaje.
 
-##### CargoData (Value Object)
+-----
+
+**CargoData (Value Object)**
 La clase CargoData contiene información sobre la carga del viaje.
 
 **Atributos:**
@@ -1751,7 +1762,9 @@ La clase CargoData contiene información sobre la carga del viaje.
 - getWeight(): Devuelve el peso de la carga.
 - setWeight(): Establece el peso de la carga.
 
-##### TripData (Value Object)
+-----
+
+**TripData (Value Object)**
 La clase TripData incluye detalles específicos del viaje, como ubicaciones y fechas de carga y descarga.
 
 **Atributos:**
@@ -1770,7 +1783,9 @@ La clase TripData incluye detalles específicos del viaje, como ubicaciones y fe
 - getUnloadDate(): Devuelve la fecha de descarga.
 - setUnloadDate(): Establece la fecha de descarga.
 
-##### Vehicle (Entity)
+-----
+
+**Vehicle (Entity)**
 La clase Vehicle representa un vehículo asociado a un viaje.
 
 **Atributos:**
@@ -1785,7 +1800,9 @@ La clase Vehicle representa un vehículo asociado a un viaje.
 - getVehicle(): Devuelve los detalles del vehículo.
 - updateVehicle(): Actualiza los detalles del vehículo.
 
-##### Driver (Entity)
+-----
+
+**Driver (Entity)**
 La clase Driver representa un conductor asociado a un viaje.
 
 **Atributos:**
@@ -1799,7 +1816,9 @@ La clase Driver representa un conductor asociado a un viaje.
 - getDriver(): Devuelve los detalles del conductor.
 - updateDriver(): Actualiza los detalles del conductor.
 
-##### Alert (Entity)
+-----
+
+**Alert (Entity)**
 La clase Alert representa una alerta asociada a un viaje.
 
 **Atributos:**
@@ -1812,7 +1831,9 @@ La clase Alert representa una alerta asociada a un viaje.
 **Métodos:**
 - getAlert(): Devuelve los detalles de la alerta.
 
-##### Expense (Entity)
+-----
+
+**Expense (Entity)**
 La clase Expense representa un gasto asociado a un viaje.
 
 **Atributos:**
@@ -1829,8 +1850,9 @@ La clase Expense representa un gasto asociado a un viaje.
 - getExpense(): Devuelve los detalles del gasto.
 - updateExpense(): Actualiza los detalles del gasto.
 
+-----
 
-##### OnGoingTrip (Entity)
+**OnGoingTrip (Entity)**
 La clase OnGoingTrip representa un viaje en curso con información sobre la ubicación y estado actual.
 
 **Atributos:**
@@ -1844,7 +1866,9 @@ La clase OnGoingTrip representa un viaje en curso con información sobre la ubic
 **Métodos:**
 - getOnGoingTrip(): Devuelve los detalles del viaje en curso.
 
-##### Evidence (Entity)
+-----
+
+**Evidence (Entity)**
 La clase Evidence representa evidencia asociada a un viaje.
 
 **Atributos:**
