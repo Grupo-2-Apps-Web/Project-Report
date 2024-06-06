@@ -2772,6 +2772,49 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 |Parámetros|{alertId}: Id del viaje en progreso|
 |Resultado|![Service Documentation 19](img/service-documentation19.png)|
 
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/entrepreneurs**
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: userId,logoImage|
+|Resultado|![Service Documentation 29](img/service-documentation29.png)|
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation 28](img/service-documentation28.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/entrepreneurs/{entrepreneurId}**
+
+|Método|GET|
+|--|--|
+|Parámetros|{entrepreneurId}: id del entrepreneur|
+|Resultado|![Service Documentation 30](img/service-documentation30.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/configurations**
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: userId, theme, view, allowDataCollection, updateDataSharing|
+|Resultado|![Service Documentation 31](img/service-documentation31.png)|
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation 32](img/service-documentation32.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/configurations/{configurationId}**
+
+|Método|PUT|
+|--|--|
+|Parámetros|{configurationId}: Id de la configuración, Body: theme, view, allowDataCollection, updateDataSharing|
+|Resultado|![Service Documentation 33](img/service-documentation33.png)|
+
+|Método|GET|
+|--|--|
+|Parámetros|{configurationId}: Id de la configuración|
+|Resultado|![Service Documentation 34](img/service-documentation34.png)|
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
 En el caso del Frontend, simplemente se actualizó el proyecto desplegado en Firebase que ya habíamos creado anteriormente en el Sprint 2. Por otro lado, se decidió desplegar el Web Service en Microsoft Azure. Para ello, se instaló el plugin de Azure para publicar el Web Service en Rider y se conectó a Azure con las credenciales necesarias.
