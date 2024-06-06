@@ -2536,6 +2536,8 @@ Se implementaron todas las historias de usuario en el sprint backlog 3. Al final
 
 URL de video: [Video de ejecución del Web Services y Front End](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214162_upc_edu_pe/EUWoK1zsX-RJi2UQTULn8X0BB40kdFIJwulGBjsPDJrigQ?e=dIItFP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+<img src="img/execution-evidence-sprint3.png" width="100%">
+
 
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
