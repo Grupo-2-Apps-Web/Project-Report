@@ -1959,7 +1959,16 @@ http://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications
 *URL de repositorio de Web Services:*
 http://github.com/Grupo-2-Apps-Web/Web-Services
 
-Para el desarrollo del trabajo se usará GitFlow. Este es un modelo de flujo de trabajo para la gestión de control de versiones Git. Está compuesta por ramas y cada una tiene un uso específico: Main, Feature, Develop. En la rama Main, se trabaja con las versiones finales del sprint y se hace un despliegue de la aplicación web, es por ello que todas las versiones almacenadas en esta rama deben ser funcionales y estables para el usuario. En las ramas Feature se trabaja con versiones sobre las que se desarrolla un feature específico, así como un feature para registro de un usuario. Las ramas Feature se trabajan y controlan por separado para tener un orden sobre el cual trabajar a partir del Product Backlog, y en caso ocurra algún problema al trabajar en un feature, no afecte sobre todo el programa. Finalmente, tenemos la rama Develop, sobre la cual se fusionan todos los features ya trabajados. De esta manera, se puede asegurar que todo esté funcionando como se espera antes de hacer el despliegue oficial para pasarlo a la rama Main.
+Para el desarrollo del trabajo se hará uso de GitFlow, el cual es un modelo de flujo de trabajo para la gestión de control de versiones Git. Está compuesta por ramas y cada una cumple un propósito distinto. Las ramas que utilizamos son: Feature, Develop, Release y Main. 
+
+**Rama Feature**: En esta rama se desarrolla un feature específico, por ejemplo la implementación del registro de un usuario o del inicio de sesión. Las ramas Feature se trabajan y controlan por separado para tener un orden sobre el cual trabajar a partir del Product Backlog. Esto asegura que cualquier problema que surja durante el desarrollo de una característica no afecte al programa en su totalidad.
+
+**Rama Develop**: En esta rama se fusionan las ramas feature desarrolladas. Esto permite verificar que todo funcione correctamente antes de integrarlo en la rama Release para su despliegue.
+
+**Rama Release**: En esta rama se prepara la versión final del sprint. Se realiza una revisión final de la versión para poder hacer el despliegue. Se asegura que todo esté correcto y funcional antes de hacer el despliegue. Al hacer el merge a la rama main, se especifica la versión que se está desplegando, para tener un control sobre las versiones desplegadas.
+
+**Rama Main**: En esta rama se encuentra la versión desplegada más reciente del proyecto. Es la rama principal que cuenta con cada versión desplegada oficialmente.
+
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
