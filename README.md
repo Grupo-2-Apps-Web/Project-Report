@@ -3187,9 +3187,9 @@ Screenshot del video:
 
 ![Imagen de Video About-The-Product](img/VideoAbout-The-Product.png)
 
-**Enlace al vídeo de YouTube:** [Video About-the-Product Youtube](https://youtu.be/Qu6a7DhsWms)
+**Enlace al vídeo de YouTube:** [Video About-the-Product Youtube](https://youtu.be/xmUHIVYzkBY)
 
-**Enlace al vídeo de Microsoft Stream:** [Video About-The-Product MS](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/EQYdafRID_ZDsc3bKC0fprMBb0GoHJ7mm2nNv-CT5WgNwg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5j4Hdg)
+**Enlace al vídeo de Microsoft Stream:** [Video About-The-Product MS](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/ESgFUp5LxYdOufQGHAU0VgoBJhXBsounIy90LCYn8rD-NQ)
 
 **Duración del vídeo:** 2:42
 
