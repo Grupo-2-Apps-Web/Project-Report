@@ -2532,6 +2532,12 @@ Repositorio Acceptance Tests: https://github.com/Grupo-2-Apps-Web/Acceptance-Tes
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
+Se implementaron todas las historias de usuario en el sprint backlog 3. Al finalizar todas las historias de usuario previstas para este sprint, se demostró un compromiso extraordinario con el éxito del proyecto y la entrega de valor al cliente. Para mostrar la ejecución, se grabó el siguiente video que presenta todos los procesos logrados:
+
+URL de video: [Video de ejecución del Web Services y Front End](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214162_upc_edu_pe/EUWoK1zsX-RJi2UQTULn8X0BB40kdFIJwulGBjsPDJrigQ?e=dIItFP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 Para este sprint, hemos implementado una primera versión de la API para nuestro proyecto con la mayoría de endpoints necesarios para su funcionamiento.
 
