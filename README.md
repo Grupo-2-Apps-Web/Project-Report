@@ -3206,7 +3206,7 @@ Screenshot del video:
 
 **Enlace al vídeo de YouTube:** [Video About-the-Product Youtube](https://youtu.be/xmUHIVYzkBY)
 
-**Enlace al vídeo de Microsoft Stream:** [Video About-The-Product MS](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/ESgFUp5LxYdOufQGHAU0VgoBJhXBsounIy90LCYn8rD-NQ)
+**Enlace al vídeo de Microsoft Stream:** [Video About-The-Product Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/ESgFUp5LxYdOufQGHAU0VgoBJhXBsounIy90LCYn8rD-NQ)
 
 **Duración del vídeo:** 2:42
 
@@ -3223,6 +3223,18 @@ Entre otras actividades realizadas, incluimos los User Persona, Empathy Map, As-
 Luego establecimos los estilos a utilizar para nuestro producto, incluyendo la tipografía, paleta de colores, íconos, sistemas de organización, entre otros. Con ello, pudimos hacer un prototipo funcional de nuestra aplicación y tener un modelo de diseño del cual guiarnos durante el desarrollo.
 
 ## Video About The Team
+
+En el video About-The-Team cada miembro de la Startup ha mencionado cuales han sido sus roles en el desarrollo de este trabajo, que objetivos han alcanzado y como han desarrollado el Student Outcome a lo largo del proyecto.
+
+Screenshot del video: 
+
+![Imagen de Video About-The-Team](img/VideoAbout-The-Team.png)
+
+**Enlace al vídeo de YouTube:** [Video About-the-Team Youtube](https://youtu.be/lAXDyMd7ILY)
+
+**Enlace al vídeo de Microsoft Stream:** [Video About-The-Team Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/EaS9UAiGhk9MrSqst5kX-CkB7IAFHrYhOms-haLiANwNVA?e=LEvjmV)
+
+**Duración del vídeo:** 6:22
 
 # Bibliografía
 
