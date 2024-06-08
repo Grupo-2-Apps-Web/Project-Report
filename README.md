@@ -3056,12 +3056,12 @@ En la entrevista con Valeria Cárdenas, se le presentó el trabajo en la Landing
 
 **Entrevistado:** Miriam Puente
 
-**Link de la entrevista:** [Entrevista de Validación 5]()
+**Link de la entrevista:** [Entrevista de Validación 5](https://youtu.be/VTZnFWNc3bo)
 
-<img src="img/" width="100%">
+<img src="img/entrevista-validacion5.png" width="100%">
 
 **Resumen de la entrevista:** 
-
+Durante la entrevista con la Sra. Miriam Puente, se le presentó tanto la landing page como la aplicación web, explicando el contenido y propósito de cada sección, así como la información mostrada. Ella comentó que los elementos visuales y la organización de la aplicación web eran adecuados, la navegación era fluida y la interfaz de usuario resultaba fácil de comprender. Además, destacó la utilidad de las funcionalidades, especialmente el poder agregar alertas para el cliente y de esta manera no preocuparse, ya que en este tiempo se ha incrementado la delincuencia y las estafas. Sin embargo, sugirió mejorar las alertas para que no se tengan que hacer constantemente y haya una manera de generarlas automáticamente.
 
 **Entrevista 6 - Empresa de gestión logística de transporte**
 
@@ -3069,11 +3069,12 @@ En la entrevista con Valeria Cárdenas, se le presentó el trabajo en la Landing
 
 **Entrevistado:** Roberto Paredes
 
-**Link de la entrevista:** [Entrevista de Validación 6]()
+**Link de la entrevista:** [Entrevista de Validación 6](https://youtu.be/vobHLgBs-wc)
 
-<img src="img/" width="100%">
+<img src="img/entrevista-validacion6.png" width="100%">
 
 **Resumen de la entrevista:** 
+Durante la entrevista con el Sr. Roberto Paredes, se le presentó tanto la landing page como la aplicación web, explicando el contenido y propósito de cada sección, así como la información mostrada. Él comentó que los elementos visuales y la organización de la aplicación web eran adecuados, la navegación era fluida, y la interfaz de usuario resultaba fácil de comprender. Además, destacó la utilidad de las funcionalidades, especialmente el seguimiento en tiempo real, que aporta mayor confianza a los clientes. Sin embargo, sugirió agregar más información sobre la aplicación en la landing page.
 
 
 
