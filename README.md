@@ -131,6 +131,8 @@ Commits en project report TP1:
 <img src="img/insights-tp1.png">
 <img src="img/commits-tp1.png">
 
+Commits en project report TB2:
+
 # **Tabla de Contenido**
 
 - ## [Registro de Versiones](#registro-de-versiones)
@@ -3272,3 +3274,5 @@ Mollahosseini, A. (2021). *Make your Gherkin Specifications More Readable.* BDD 
 Exposición TB1: [upc-pre-202401-si730-sw53-cargowatch-tb1](https://upcedupe-my.sharepoint.com/personal/u202210749_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202210749%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202401%2Dsi730%2Dsw53%2Dcargowatch%2Dtb1%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
 
 Exposición TP1: [upc-pre-202401-si730-sw53-cargowatch-tp1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/EbxZLzpnOJVAiGzxtUBHOB8B3hI80bMJ8q-0UCbmkMhqaw?e=TvhZJc)
+
+Exposición TB2: [upc-pre-202401-si730-sw53-cargowatch-tb2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/ES2vJozwtD5EtN3f4s8zGz8BSFFibXU3HNc0gUXep5dFMQ?e=zHULkU)
