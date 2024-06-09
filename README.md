@@ -31,7 +31,7 @@ Producto: CargoApp
 |  Salinas Torres, Salvador Antonio   |    U20221B127    |
 |   Valverde Mozo, Andre Gabriel   |    U202218899    |
 
-Mayo 2024
+Junio 2024
 
 </div>
 
@@ -91,6 +91,29 @@ Mayo 2024
         </ul>
       </td>
   </tr>
+  <tr>
+  <td><strong>TB2</strong></td>
+      <td>Domingo 9 de junio</td>
+      <td>
+        <ul>
+          <li>Delgado Corrales, Piero Gonzalo</li>
+          <li>Matos Fernandez, Christian Andre</li>
+          <li>Paredes Puente, Sebastián Roberto</li>
+          <li>Salinas Torres, Salvador Antonio</li>
+          <li>Valverde Mozo, Andre Gabriel</li>
+        </ul>
+      </td>
+      <td>
+        Se han incluído los siguientes cambios:
+        <ul>
+          <li>Implementación de mejoras</li>
+          <li>5.2.3. Sprint 3</li>
+          <li>5.3. Validation Interviews</li>
+          <li>5.4. Video About the Product</li>
+          <li>Video About the Team</li>
+        </ul>
+      </td>
+  </tr>
   </tbody>
 </table>
 
@@ -108,11 +131,13 @@ Commits en project report TP1:
 <img src="img/insights-tp1.png">
 <img src="img/commits-tp1.png">
 
+Commits en project report TB2:
+
 # **Tabla de Contenido**
 
-- [Registro de Versiones](#registro-de-versiones)
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#Capítulo-I-Introducción)
+- ## [Registro de Versiones](#registro-de-versiones)
+- ## [Student Outcome](#student-outcome-1)
+- ## [Capítulo I: Introducción](#Capítulo-I-Introducción-1)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
@@ -124,7 +149,7 @@ Commits en project report TP1:
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#Capítulo-II-Requirements-Elicitation--Analysis)
+- ## [Capítulo II: Requirements Elicitation & Analysis](#Capítulo-II-Requirements-Elicitation--Analysis-1)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
@@ -139,12 +164,12 @@ Commits en project report TP1:
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#Capítulo-III-Requirements-Specification)
+- ## [Capítulo III: Requirements Specification](#Capítulo-III-Requirements-Specification-1)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Product Design](#Capítulo-IV-Product-Design)
+- ## [Capítulo IV: Product Design](#Capítulo-IV-Product-Design-1)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
@@ -172,7 +197,7 @@ Commits en project report TP1:
     - [4.7.2. Class Dictionary](#472-class-dictionary)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagram](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation & Deployment](#Capítulo-V-Product-Implementation-Validation--Deployment)
+- ## [Capítulo V: Product Implementation, Validation & Deployment](#Capítulo-V-Product-Implementation-Validation--Deployment-1)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
@@ -197,16 +222,25 @@ Commits en project report TP1:
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Sprint Backlog 3](#5232-sprint-backlog-2)
+      - [5.2.3.3. Development Evidence for Sprint Review](#5233-development-evidence-for-sprint-review)
+      - [5.2.3.4. Testing Suite Evidence for Sprint Review](#5234-testing-suite-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
-- [Conclusiones](#conclusiones)
+- ## [Conclusiones](#conclusiones-1)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
+  - [Video About-the-Team](#video-about-the-team)
+- ## [Bibliografía](#bibliografía-1)
+- ## [Anexos](#anexos-1)
 
 
 # Student Outcome
@@ -216,9 +250,8 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 
 |Criterio específico|Acciones realizadas|Conclusiones|
 | :- | :- | :- |
-|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software. |<p>**Delgado Corrales, Piero Gonzalo**</p><p>**TB1:** He ayudado a organizar las actividades del equipo de tal modo que hemos podido trabajar de manera simultánea para entregar resultados rápidamente.<br> **TP1:** He organizado las actividades del equipo como la división de exposiciones y tareas del sprint 2 para alcanzar los objetivos de este entregable.</p><p></p><p>**Matos Fernandez, Christian Andre**</p><p>**TB1:** He contribuido en la coordinación de las tareas del equipo de manera que hemos sido capaces de realizar múltiples actividades de forma concurrente, lo que nos ha permitido alcanzar resultados de manera ágil y eficiente.<br> **TP1:** He planificado las actividades del equipo, incluyendo la asignación de presentaciones y tareas para la segunda fase del proyecto, con el fin de lograr los objetivos establecidos para este entregable.</p><p></p><p>**Paredes Puente, Sebastián Roberto**</p><p>**TB1:** He coordinado en las reuniones para establecer los trabajos que le tocaba hacer a cada uno para el informe. Adicionalmente, apoyé activamente en las actividades del equipo, asegurando que trabajemos de forma simultánea y eficiente para lograr una entrega rápida y bien hecha.<br> **TP1:** Para esta entrega parcial, la comunicación en el equipo ha sido fundamental. Me comuniqué con mis compañeros para coordinar y asignar tareas de manera ordenada. Gracias a esto, logramos crear las funcionalidades esenciales del frontend de la aplicación web.</p><p></p><p>**Salinas Torres, Salvador Antonio**</p><p>**TB1:** Contribuí ágilmente durante el desarrollo de esta entrega, siempre estando pendiente del tiempo para llegar a la fecha límite habiendo terminado todos los puntos requeridos. Asimismo, me aseguré de utilizar el flujo de trabajo GitFlow con el cual ya estaba familiarizado anteriormente y pude enseñar al resto de mi equipo para que lo apliquen correctamente.<br> **TP1:** Para esta entrega, apoyé en la distribución de tareas y poder lograr el objetivo de este segundo sprint satisfactoriamente. Y logre trabajar en la parte de Frontend de nuestra aplicación, usando el framework Vue y creando una fake api para simulación de datos.</p><p></p><p>**Valverde Mozo, Andre Gabriel**</p><p>**TB1:** Participé en las reuniones grupales para establecer las responsabilidades de cada miembro en el informe. Además, contribuí de manera activa en las labores del equipo, asegurando que trabajaramos de forma coordinada y eficiente para alcanzar una entrega rápida y de calidad.<br> **TP1:** Durante esta fase intermedia de desarrollo, la comunicación dentro del equipo ha demostrado ser un pilar fundamental. Me he mantenido en constante contacto con mis colegas, estableciendo un flujo de comunicación efectivo para coordinar nuestras acciones y asignar tareas de manera organizada y eficiente.</p>|**TB1:** Para esta primera entrega, la comunicación efectiva ha sido esencial ya que la cantidad de contenidos a presentar ha sido grande. Del mismo modo, realizar reuniones de grupo nos sirvió para ser más eficientes a la hora de gestionar los avances para llegar a entregar lo pedido.<br> **TP1:** Para esta entrega parcial, la comunicación en el equipo ha sido importante para alcanzar a crear todas las funcionalidades esenciales del apartado del frontend de la aplicación web.|
-|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|<p>**Delgado Corrales, Piero Gonzalo**</p><p>**TB1:** Para esta primera entrega, he investigado sobre los principales competidores en el sector de aplicaciones para la gestión de transporte terrestre.<br> **TP1:** Para esta entrega del trabajo parcial, he utilizado los conocimientos que obtuve de la entrevista que realicé para crear la vista del frontend de forma más objetiva. </p><p></p><p>**Matos Fernandez, Christian Andre**</p><p>**TB1:** Para esta entrega, me he dedicado a investigar acerca de los competidores principales dentro del sector de aplicaciones destinadas a la gestión del transporte terrestre.<br> **TP1:** En este trabajo parcial, apliquen los aprendizajes obtenidos de la entrevista que llevé a cabo para desarrollar la interfaz del frontend de manera más imparcial y precisa.</p><p></p><p>**Paredes Puente, Sebastián Roberto**</p><p>**TB1:** Para este proyecto, realicé una investigación exhaustiva en el sector empresarial vinculado al transporte de carga. Durante este proceso, tuve la oportunidad de entrevistar a profesionales con amplia experiencia en el campo, lo que me permitió comprender mejor sus necesidades y obtener una perspectiva renovada para el desarrollo de nuestra aplicación. <br> **TP1:** Para esta entrega parcial del trabajo, he utilizado los conocimientos recopilados de artefactos como entrevistas para diseñar la solución de software del frontend.</p><p></p><p>**Salinas Torres, Salvador Antonio**</p><p>**TB1:** Realicé una investigación sobre la necesidad para el seguimiento de transporte de forma segura y que tan importante puede llegar a ser para las empresas que requieren de un servicio de transporte para cargas grandes. De este modo, investigué en un área que yo no conocía muy bien, e igualmente logré obtener los datos necesarios para realizar un buen trabajo <br> **TP1:** Tomando en cuenta toda la investigación de mercado realizada en la entrega anterior, he apoyado en la realización de una interfaz en Frontend que sea de agrado para nuestros segmentos objetivo y lograr con los requisitos planteados.</p><p></p><p>**Valverde Mozo, Andre Gabriel**</p><p>**TB1:** Para esta primera entrega, investigué el diseño de páginas de destino en aplicaciones de gestión de transporte terrestre. Analicé la presentación de productos, elementos visuales, y cómo se guía al usuario hacia la conversión, obteniendo una visión completa de las mejores prácticas en este ámbito.<br> **TP1:** Durante este proceso, he aplicado los conocimientos adquiridos de las entrevistas para desarrollar la interfaz del frontend con mayor imparcialidad y precisión. La información obtenida de las entrevistas ha sido fundamental para entender las necesidades y perspectivas de los usuarios, lo que ha influido directamente en el diseño de la interfaz.</p>|<p>**TB1:** Para esta entrega, se realizó una investigación a los principales competidores en el sector de aplicaciones para la gestión de transporte terrestre; y, a su vez, a personas que se encuentran involucradas en el rubro, obteniendo una perspectiva valiosa para el desarrollo del proyecto.<br> **TP1:** Para esta entrega del trabajo parcial, se han tenido que usar los conocimientos recopilados de los artefactos como entrevistas para diseñar la solución de software del apartado frontend.
-</p><p></p>|
+|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.|<p>**Delgado Corrales, Piero Gonzalo**</p><p>**TB1:** He ayudado a organizar las actividades del equipo de tal modo que hemos podido trabajar de manera simultánea para entregar resultados rápidamente.<br> **TP1:** He organizado las actividades del equipo como la división de exposiciones y tareas del sprint 2 para alcanzar los objetivos de este entregable.<br> **TB2:** He organizado las actividades para el sprint 3 y alcanzar los objetivos en el plazo por distintos medios de comunicación.</p><p></p><p>**Matos Fernandez, Christian Andre**</p><p>**TB1:** He contribuido en la coordinación de las tareas del equipo de manera que hemos sido capaces de realizar múltiples actividades de forma concurrente, lo que nos ha permitido alcanzar resultados de manera ágil y eficiente.<br> **TP1:** He planificado las actividades del equipo, incluyendo la asignación de presentaciones y tareas para la segunda fase del proyecto, con el fin de lograr los objetivos establecidos para este entregable. <br> **TB2:** He completado todas las tareas del sprint 3, asegurándome de que todos los objetivos se cumplieran dentro del plazo establecido.</p><p></p><p>**Paredes Puente, Sebastián Roberto**</p><p>**TB1:** He coordinado en las reuniones para establecer los trabajos que le tocaba hacer a cada uno para el informe. Adicionalmente, apoyé activamente en las actividades del equipo, asegurando que trabajemos de forma simultánea y eficiente para lograr una entrega rápida y bien hecha.<br> **TP1:** Para esta entrega parcial, la comunicación en el equipo ha sido fundamental. Me comuniqué con mis compañeros para coordinar y asignar tareas de manera ordenada. Gracias a esto, logramos crear las funcionalidades esenciales del frontend de la aplicación web.<br> **TB2:** Logré completar todas mis tareas asignadas para este Sprint 3, asegurándome de cumplir todos los objetivos dentro del plazo establecido. Durante esta tercera entrega, organizamos adecuadamente las actividades a través de distintos medios de comunicación para desarrollar tanto el Frontend como el Backend de la aplicación.</p><p></p><p>**Salinas Torres, Salvador Antonio**</p><p>**TB1:** Contribuí ágilmente durante el desarrollo de esta entrega, siempre estando pendiente del tiempo para llegar a la fecha límite habiendo terminado todos los puntos requeridos. Asimismo, me aseguré de utilizar el flujo de trabajo GitFlow con el cual ya estaba familiarizado anteriormente y pude enseñar al resto de mi equipo para que lo apliquen correctamente.<br> **TP1:** Para esta entrega, apoyé en la distribución de tareas y poder lograr el objetivo de este segundo sprint satisfactoriamente. Y logre trabajar en la parte de Frontend de nuestra aplicación, usando el framework Vue y creando una fake api para simulación de datos. <br> **TB2:** En esta tercera entrega, se desarrolló el Sprint 3 del proyecto, el cual se basó en el desarrollo del Frontend y Backend de la aplicación. Para ello, nos organizamos adecuadamente con las tareas y llegar a cumplir con todo en la fecha límite.</p><p></p><p>**Valverde Mozo, Andre Gabriel**</p><p>**TB1:** Participé en las reuniones grupales para establecer las responsabilidades de cada miembro en el informe. Además, contribuí de manera activa en las labores del equipo, asegurando que trabajaramos de forma coordinada y eficiente para alcanzar una entrega rápida y de calidad.<br> **TP1:** Durante esta fase intermedia de desarrollo, la comunicación dentro del equipo ha demostrado ser un pilar fundamental. Me he mantenido en constante contacto con mis colegas, estableciendo un flujo de comunicación efectivo para coordinar nuestras acciones y asignar tareas de manera organizada y eficiente. <br> **TB2:** En esta entrega nos enfocamos en el Sprint 3, centrándonos en el desarrollo del backend y su integración con el frontend. Implementamos funcionalidades clave para el procesamiento de datos y la gestión de usuarios, y mejoramos la interfaz de usuario para una experiencia más intuitiva. Esta sincronización entre backend y frontend garantiza una aplicación más robusta y eficiente, acercándonos a nuestros objetivos del proyecto.</p>|**TB1:** Para esta primera entrega, la comunicación efectiva ha sido esencial ya que la cantidad de contenidos a presentar ha sido grande. Del mismo modo, realizar reuniones de grupo nos sirvió para ser más eficientes a la hora de gestionar los avances para llegar a entregar lo pedido. <br> **TP1:** Para esta entrega parcial, la comunicación en el equipo ha sido importante para alcanzar a crear todas las funcionalidades esenciales del apartado del frontend de la aplicación web. <br> **TB2:** Para esta entrega, se han recopilado las opiniones de los segmentos en las entrevistas de validación para realizar mejoras en el diseño y funcionalidades de nuestra aplicación. |
+|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|<p>**Delgado Corrales, Piero Gonzalo**</p><p>**TB1:** Para esta primera entrega, he investigado sobre los principales competidores en el sector de aplicaciones para la gestión de transporte terrestre.<br> **TP1:** Para esta entrega del trabajo parcial, he utilizado los conocimientos que obtuve de la entrevista que realicé para crear la vista del frontend de forma más objetiva. <br> **TB2:** Para esta entrega, se ha aprendido más sobre la opinión de los dos segmentos objetivos mediante las entrevistas de validación. </p><p></p><p>**Matos Fernandez, Christian Andre**</p><p>**TB1:** Para esta entrega, me he dedicado a investigar acerca de los competidores principales dentro del sector de aplicaciones destinadas a la gestión del transporte terrestre.<br> **TP1:** En este trabajo parcial, apliquen los aprendizajes obtenidos de la entrevista que llevé a cabo para desarrollar la interfaz del frontend de manera más imparcial y precisa. <br> **TB2:** Durante este tercer sprint, llevé a cabo entrevistas de validación en las que expliqué el desarrollo realizado en la aplicación. Esto nos permitió obtener valiosas opiniones de nuestros segmentos objetivo para seguir mejorando. </p><p></p><p>**Paredes Puente, Sebastián Roberto**</p><p>**TB1:** Para este proyecto, realicé una investigación exhaustiva en el sector empresarial vinculado al transporte de carga. Durante este proceso, tuve la oportunidad de entrevistar a profesionales con amplia experiencia en el campo, lo que me permitió comprender mejor sus necesidades y obtener una perspectiva renovada para el desarrollo de nuestra aplicación. <br> **TP1:** Para esta entrega parcial del trabajo, he utilizado los conocimientos recopilados de artefactos como entrevistas para diseñar la solución de software del frontend.<br> **TB2:** Durante este tercer sprint, llevé a cabo entrevistas de validación en las que expliqué el desarrollo realizado en la aplicación. Esto nos permitió obtener valiosas opiniones de nuestros segmentos objetivo para seguir mejorando. En esta entrega, nos enfocamos en el desarrollo del backend y su integración con el frontend, implementando funcionalidades clave para el procesamiento de datos y la gestión de usuarios, y mejorando la interfaz de usuario para una experiencia más intuitiva. Esta sincronización entre backend y frontend garantiza una aplicación más eficiente, acercándonos a los objetivos del proyecto.</p><p></p><p>**Salinas Torres, Salvador Antonio**</p><p>**TB1:** Realicé una investigación sobre la necesidad para el seguimiento de transporte de forma segura y que tan importante puede llegar a ser para las empresas que requieren de un servicio de transporte para cargas grandes. De este modo, investigué en un área que yo no conocía muy bien, e igualmente logré obtener los datos necesarios para realizar un buen trabajo <br> **TP1:** Tomando en cuenta toda la investigación de mercado realizada en la entrega anterior, he apoyado en la realización de una interfaz en Frontend que sea de agrado para nuestros segmentos objetivo y lograr con los requisitos planteados. <br> **TB2:** En este tercer sprint, realicé entrevistas de validación, en el cual expliqué lo que se trabajó en la aplicación, y con esto pudimos obtener una buena retroalimentación de nuestros segmentos objetivo para seguir mejorando.</p><p></p><p>**Valverde Mozo, Andre Gabriel**</p><p>**TB1:** Para esta primera entrega, investigué el diseño de páginas de destino en aplicaciones de gestión de transporte terrestre. Analicé la presentación de productos, elementos visuales, y cómo se guía al usuario hacia la conversión, obteniendo una visión completa de las mejores prácticas en este ámbito.<br> **TP1:** Durante este proceso, he aplicado los conocimientos adquiridos de las entrevistas para desarrollar la interfaz del frontend con mayor imparcialidad y precisión. La información obtenida de las entrevistas ha sido fundamental para entender las necesidades y perspectivas de los usuarios, lo que ha influido directamente en el diseño de la interfaz. <br> **TB2:** En este avance, me comuniqué con mi grupo de trabajo para coordinar los cambios e implementaciones relacionados con el backend. Implemente los endpoints necesarios y realice la documentación correspondiente, mostrando evidencia de su funcionamiento. Además, integramos el frontend y el backend para proporcionar el máximo valor a nuestros usuarios.</p>|<p> **TB1:** Para esta entrega, se realizó una investigación a los principales competidores en el sector de aplicaciones para la gestión de transporte terrestre; y, a su vez, a personas que se encuentran involucradas en el rubro, obteniendo una perspectiva valiosa para el desarrollo del proyecto. <br> **TP1:** Para esta entrega del trabajo parcial, se han tenido que usar los conocimientos recopilados de los artefactos como entrevistas para diseñar la solución de software del apartado frontend. <br> **TB2:** Para esta entrega, se han recopilado las opiniones de los segmentos en las entrevistas de validación para realizar mejoras en el diseño y funcionalidades de nuestra aplicación. </p>|
 
 
 
@@ -360,7 +393,7 @@ Los clientes de los proveedores de servicios de transporte carecen de visibilida
 
 ¿Cómo podemos garantizar la entrega de evidencia fotográfica al momento de cargar la mercancía de manera confiable? ¿Cuáles son los principales puntos de dolor para los clientes al no poder rastrear el estado y la ubicación de sus envíos durante el transporte de carga? ¿Qué sistemas o herramientas se utilizan actualmente para mostrar el recorrido de las unidades de transporte a los clientes? ¿Cómo podemos mejorar la eficiencia en la captura y registro de los gastos asociados con el transporte de carga, como gasolina diesel, peajes y viáticos del conductor? ¿Qué información específica esperan los clientes recibir sobre el recorrido de sus envíos para sentirse seguros y confiados con el servicio?
 
-1.2.2.2. Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions
 
 
 **Business Outcomes:**
@@ -971,75 +1004,90 @@ __Segmento Clientes que requieren servicios de transporte__
 **ÉPICAS**
 
 <table><tr><th valign="top"><b>Epic ID</b></th><th valign="top"><b>Epic</b></th><th valign="top"><b>User story ID</b></th><th valign="top"><b>User stories</b></th></tr>
-<tr><td rowspan="3" valign="top">E01</td><td rowspan="3" valign="top">Como cliente de empresa logística quiero recibir alertas automáticas para tomar medidas preventivas</td><td valign="top">US01</td><td valign="top">Alertas de eventos importantes durante la entrega</td></tr>
-<tr><td valign="top">US02</td><td valign="top">Alertas de condiciones climáticas adversas</td></tr>
-<tr><td valign="top">US03</td><td valign="top">Alertas de detención no programada</td></tr>
-<tr><td rowspan="3" valign="top">E02</td><td rowspan="3" valign="top">Como cliente de empresa logística quiero tener información detallada de mis envíos en tiempo real para tener una visibilidad completa del proceso.</td><td valign="top">US04</td><td valign="top">Seguimiento en tiempo real para cliente</td></tr>
-<tr><td valign="top">US05</td><td valign="top">Notificaciones de eventos relevantes</td></tr>
-<tr><td valign="top">US06</td><td valign="top">Acceso a detalles de entrega</td></tr>
-<tr><td rowspan="5" valign="top">E03</td><td rowspan="5" valign="top">Como cliente de empresa logística quiero acceder a un historial completo de mis envíos anteriores para gestionar mis actividades pasadas</td><td valign="top">US07</td><td valign="top">Historial de envíos ordenados</td></tr>
-<tr><td valign="top">US08</td><td valign="top">Búsqueda de envíos ordenados</td></tr>
-<tr><td valign="top">US09</td><td valign="top">Visualización de gastos realizados en el viaje</td></tr>
-<tr><td valign="top">US10</td><td valign="top">Estadísticas de envíos</td></tr>
-<tr><td valign="top">US11</td><td valign="top">Exportación del historial de envíos</td></tr>
-<tr><td rowspan="3" valign="top">E04</td><td rowspan="3" valign="top">Como cliente quiero una interfaz de usuario intuitiva y fácil de usar para tener una experiencia agradable</td><td valign="top">US12</td><td valign="top">Interfaz intuitiva y fácil de usar</td></tr>
-<tr><td valign="top">US13</td><td valign="top">Soporte multidispositivo y multiplataforma</td></tr>
-<tr><td valign="top">US14</td><td valign="top">Personalización de visualización</td></tr>
-<tr><td rowspan="6" valign="top">E05</td><td rowspan="6" valign="top">Como cliente quiero tener acceso seguro a la aplicación para poder utilizar las funcionalidades acorde a mis necesidades</td><td valign="top">US15</td><td valign="top">Registro de usuario</td></tr>
-<tr><td valign="top">US16</td><td valign="top">Inicio de sesión</td></tr>
-<tr><td valign="top">US17</td><td valign="top">Cierre de sesión</td></tr>
-<tr><td valign="top">US18</td><td valign="top">Elegir plan de suscripción</td></tr>
-<tr><td valign="top">US19</td><td valign="top">Recuperación de cuenta</td></tr>
-<tr><td valign="top">US20</td><td valign="top">Gestión de método de pago</td></tr>
-<tr><td rowspan="6" valign="top">E06</td><td rowspan="6" valign="top">Como potencial usuario quiero poder acceder a una Landing Page estática para conocer tanto sobre la aplicación y sus funcionalidades como la startup.</td><td valign="top">US21</td><td valign="top">NavBar y Footer</td></tr>
-<tr><td valign="top">US22</td><td valign="top"><p>Página de inicio</p><p></p></td></tr>
-<tr><td valign="top">US23</td><td valign="top">Sección “Acerca De”</td></tr>
-<tr><td valign="top">US24</td><td valign="top">Sección “Sobre Nosotros”</td></tr>
-<tr><td valign="top">US25</td><td valign="top">Sección “Características”</td></tr>
-<tr><td valign="top">US26</td><td valign="top">Sección “Contacto”</td></tr>
-<tr><td rowspan="6" valign="top">EP07</td><td rowspan="6" valign="top"><p>Como empresario de gestión logística quiero que la aplicación me brinde diferentes funcionalidades como seguimiento real, registrar gastos y ver el historial de envíos para poder llevar un registro eficiente</p><p></p></td><td valign="top">US27</td><td valign="top">Registro de un nuevo viaje</td></tr>
-<tr><td valign="top">US28</td><td valign="top">Modificación de datos de un viaje</td></tr>
-<tr><td valign="top">US29</td><td valign="top">Registro de gastos de viaje</td></tr>
-<tr><td valign="top">US30</td><td valign="top">Modificación de gastos de un viaje</td></tr>
-<tr><td valign="top">US31</td><td valign="top">Seguimiento en tiempo real para empresa</td></tr>
-<tr><td valign="top">US32</td><td valign="top">Historial de envíos realizados</td></tr>
+<tr><td rowspan="4" valign="top">E01</td><td rowspan="4" valign="top">Como cliente de empresa logística quiero tener información detallada de mis envíos en tiempo real para tener una visibilidad completa del proceso.</td><td valign="top">US01</td><td valign="top">Alertas de eventos importantes durante la entrega</td></tr>
+<tr><td valign="top">US02</td><td valign="top">Seguimiento en tiempo real para cliente</td></tr>
+<tr><td valign="top">US03</td><td valign="top">Notificaciones de eventos relevantes</td></tr>
+<tr><td valign="top">US04</td><td valign="top">Acceso a detalles de entrega</td></tr>
+<tr><td rowspan="5" valign="top">E02</td><td rowspan="5" valign="top">Como cliente de empresa logística quiero acceder a un historial completo de mis envíos anteriores para gestionar mis actividades pasadas</td><td valign="top">US05</td><td valign="top">Historial de envíos ordenados</td></tr>
+<tr><td valign="top">US06</td><td valign="top">Búsqueda de envíos ordenados</td></tr>
+<tr><td valign="top">US07</td><td valign="top">Visualización de gastos realizados en el viaje</td></tr>
+<tr><td valign="top">US08</td><td valign="top">Estadísticas de envíos</td></tr>
+<tr><td valign="top">US09</td><td valign="top">Exportación del historial de envíos</td></tr>
+<tr><td rowspan="3" valign="top">E03</td><td rowspan="3" valign="top">Como cliente quiero una interfaz de usuario intuitiva y fácil de usar para tener una experiencia agradable</td><td valign="top">US10</td><td valign="top">Interfaz intuitiva y fácil de usar</td></tr>
+<tr><td valign="top">US11</td><td valign="top">Soporte multidispositivo y multiplataforma</td></tr>
+<tr><td valign="top">US12</td><td valign="top">Personalización de visualización</td></tr>
+<tr><td rowspan="6" valign="top">E04</td><td rowspan="6" valign="top">Como cliente quiero tener acceso seguro a la aplicación para poder utilizar las funcionalidades acorde a mis necesidades</td><td valign="top">US13</td><td valign="top">Registro de usuario</td></tr>
+<tr><td valign="top">US14</td><td valign="top">Inicio de sesión</td></tr>
+<tr><td valign="top">US15</td><td valign="top">Cierre de sesión</td></tr>
+<tr><td valign="top">US16</td><td valign="top">Elegir plan de suscripción</td></tr>
+<tr><td valign="top">US17</td><td valign="top">Recuperación de cuenta</td></tr>
+<tr><td valign="top">US18</td><td valign="top">Gestión de método de pago</td></tr>
+<tr><td rowspan="6" valign="top">E05</td><td rowspan="6" valign="top">Como potencial usuario quiero poder acceder a una Landing Page estática para conocer tanto sobre la aplicación y sus funcionalidades como la startup.</td><td valign="top">US19</td><td valign="top">NavBar y Footer</td></tr>
+<tr><td valign="top">US20</td><td valign="top"><p>Página de inicio</p><p></p></td></tr>
+<tr><td valign="top">US21</td><td valign="top">Sección “Acerca De”</td></tr>
+<tr><td valign="top">US22</td><td valign="top">Sección “Sobre Nosotros”</td></tr>
+<tr><td valign="top">US23</td><td valign="top">Sección “Características”</td></tr>
+<tr><td valign="top">US24</td><td valign="top">Sección “Contacto”</td></tr>
+<tr><td rowspan="13" valign="top">E06</td><td rowspan="13" valign="top"><p>Como empresario de gestión logística quiero que la aplicación me brinde diferentes funcionalidades como seguimiento real, registrar gastos y ver el historial de envíos para poder llevar un registro eficiente</p><p></p></td><td valign="top">US25</td><td valign="top">Registro de un nuevo viaje</td></tr>
+<tr><td valign="top">US26</td><td valign="top">Modificación de datos de un viaje</td></tr>
+<tr><td valign="top">US27</td><td valign="top">Registro de gastos de viaje</td></tr>
+<tr><td valign="top">US28</td><td valign="top">Modificación de gastos de un viaje</td></tr>
+<tr><td valign="top">US29</td><td valign="top">Registro de datos de conductor</td></tr>
+<tr><td valign="top">US30</td><td valign="top">Modificación de datos de conductor</td></tr>
+<tr><td valign="top">US31</td><td valign="top">Registro de datos de vehículo</td></tr>
+<tr><td valign="top">US32</td><td valign="top">Modificación de datos de vehículo</td></tr>
+<tr><td valign="top">US33</td><td valign="top">Seguimiento en tiempo real para empresa</td></tr>
+<tr><td valign="top">US34</td><td valign="top">Historial de envíos realizados</td></tr>
+<tr><td valign="top">US35</td><td valign="top">Visualización de datos de conductor</td></tr>
+<tr><td valign="top">US36</td><td valign="top">Visualización de datos de vehículo</td></tr>
+<tr><td valign="top">US37</td><td valign="top">Visualización de datos de cliente</td></tr>
+<tr><td rowspan="2" valign="top">E07</td><td rowspan="4" valign="top">Como desarrollador quiero desarrollar mi propia API para gestionar la base de datos de forma adecuada</td><td valign="top">US38</td><td valign="top">Uso de nuestra API para gestionar usuarios</td></tr>
+<tr><td valign="top">US39</td><td valign="top">Uso de nuestra API para gestionar los datos de viajes</td></tr>
 </table>
 
 **HISTORIAS DE USUARIO**
+
 |User Story ID|Título|Descripción|Criterios de Aceptación |Relacionado con (Epic ID)|
 | :- | :- | :- | :- | :- |
 |US01|Alertas de eventos importantes durante la entrega|Como cliente de empresa logística quiero recibir una alerta sobre cualquier evento importante que pueda afectar la entrega para minimizar cualquier impacto en mi operación|<p>**Escenario 01: Alerta de Retraso**</p><p>**Dado** **que** el sistema detecta un retraso en la entrega de la mercancía</p><p>**Cuando** se activa la alerta de retraso</p><p>**Entonces** el cliente recibirá una notificación inmediata</p><p></p><p>**Escenario 02: Entrega Anticipada**</p><p>**Dado que** la entrega se realiza antes de la fecha prevista</p><p>**Cuando** el sistema detecta que la mercancía llegará antes de lo esperado.</p><p>**Entonces** el cliente recibirá una alerta</p><p></p><p>**Escenario 03: Alerta de Cambio de Ruta**</p><p>**Dado que** la unidad de transporte cambia su ruta planificada de manera inesperada</p><p>**Cuando** se detecta el cambio no autorizado en la ruta</p><p>**Entonces** el cliente recibirá una alerta sobre el cambio</p><p></p><p>**Escenario 04: Cambio de Ruta Autorizado**</p><p>**Dado que** la unidad de transporte necesita ajustar su ruta debido a un cierre de carretera planificado</p><p>**Cuando** se detecta el cambio en la ruta</p><p>**Y** se confirma que es necesario y autorizado</p><p>**Entonces** el cliente recibirá una alerta sobre el cambio de ruta junto con una explicación sobre la razón del cambio</p><p></p><p>**Escenario 05: Alerta de Parada No Programada**</p><p>**Dado que** la unidad de transporte realiza una parada no programada durante el viaje</p><p>**Cuando** se detecta una parada adicional fuera de las programadas</p><p>**Entonces** el cliente recibirá una alerta sobre la parada no programada</p><p></p><p>**Escenario 06: Parada No Programada Justificada**</p><p>**Dado que** la unidad de transporte realiza una parada no programada debido a una emergencia médica del conductor.</p><p>**Cuando** se detecta la parada adicional </p><p>**Y** se verifica que es justificada</p><p>**Entonces** el cliente recibirá una alerta sobre la parada no programada.</p>|E01|
-|US02|Alertas de condiciones climáticas adversas|Como cliente de empresa logística, quiero ser informado de inmediato si el transporte se ve afectado por condiciones climáticas adversas para tomar precauciones adecuadas y asegurar de que la mercancía esté protegida durante el transporte|<p>**Escenario 01: Alerta de Condiciones Climáticas Peligrosas**</p><p></p><p>**Dado que** el transporte se ve afectado por condiciones climáticas adversas</p><p>**Cuando** se activa la alerta debido a las condiciones meteorológicas peligrosas</p><p>**Entonces** el cliente recibirá una notificación sobre las condiciones climáticas.</p><p></p><p>**Escenario 02 Condiciones Climáticas Adversas Superadas:**</p><p></p><p>**Dado que** el transporte se enfrenta a condiciones climáticas adversas durante el viaje</p><p>**Cuando** se activa la alerta debido a las condiciones meteorológicas peligrosas.</p><p>**Entonces** el cliente recibirá una notificación sobre las condiciones climáticas adversas.</p>|E01|
-|US03|Alertas de detención no programada|Como cliente de empresa logística quiero ser alertado si la unidad de transporte se detiene de manera no programada durante el viaje para investigar la situación y asegurarme de que la mercancía esté protegida y en movimiento según lo planeado|<p>**Escenario 01: Alerta de Detención No Autorizada**</p><p>**Dado que** la unidad de transporte se detiene de manera no programada durante el viaje</p><p>**Cuando** se detecta la detención no autorizada</p><p>**Entonces** el cliente recibirá una alerta sobre la detención.</p><p></p><p>**Escenario 02: Sin Detenciones No Programadas**</p><p>**Dado que** la unidad de transporte no se detiene de manera no programada durante el viaje</p><p>**Cuando** no se detecta ninguna detención no autorizada</p><p>**Entonces** el cliente no recibirá ninguna alerta.</p>|E01|
-|US04|Seguimiento en tiempo real de envíos para cliente|Como cliente de empresa logística quiero hacer seguimiento de mi envío , para poder obtener actualizaciones en tiempo real sobre la ubicación y el estado de mi mercancía durante el transporte.|<p>**Escenario 1: Visualización de envíos en seguimiento**</p><p>**Dado** **que** el cliente tiene acceso a la plataforma en línea</p><p>**Cuando** ingresa a la sección GPS</p><p>**Y** se muestra el listado los envíos que se encuentran en progreso</p><p>**Y** selecciona uno de los viajes</p><p>**Entonces** la plataforma procesará la información </p><p>**Y** muestra actualizaciones en tiempo real sobre la ubicación y estado de la mercancía durante el transporte.</p><p></p><p>**Escenario 2: Acceso a Actualizaciones Continuas**</p><p>**Dado** **que** el cliente ha registrado el número de seguimiento,</p><p>**Cuando** revisa la sección de GPS en la plataforma</p><p>**Y** se muestra el listado los envíos que se encuentran en progreso</p><p>**Y** selecciona uno de los viajes</p><p>**Entonces** la plataforma procesará la información </p><p>**Y** se mostrarán actualizaciones continuas sobre la ubicación y estado de su mercancía, incluyendo hitos y estimaciones de entrega.</p>|E02|
-|US05|Notificaciones de eventos relevantes|Como cliente de empresa logística quiero recibir notificaciones automáticas sobre eventos relevantes relacionados con mi envío, para estar informado sobre el progreso de mi mercancía sin tener que realizar un seguimiento constante.|<p>**Escenario 1: Recepción de Notificación al Inicio del Transporte**</p><p>**Dado** **que** el cliente registró el envío en la plataforma,</p><p>**Cuando** comienza el transporte,</p><p>**Entonces** recibe automáticamente una notificación con detalles relevantes sobre el envío.</p><p></p><p>**Escenario 2: Notificación de Llegada a Punto de Control Importante**</p><p>**Dado que** el envío está en tránsito, <br>**Y** se habilitó las notificaciones automáticas,</p><p>**Cuando** la mercancía llega a un punto de control importante,</p><p>**Entonces** se enviará una notificación instantánea que informará sobre este evento relevante</p>|E02|
-|US06|Acceso a detalles de entrega|Como cliente de empresa logística quiero poder acceder a detalles específicos sobre la entrega de mi envío, para tener una comprensión completa del proceso de entrega.|<p>**Escenario 1: Visualización de Fecha y Hora de Entrega Programada**</p><p>**Dado** **que** el cliente sigue su envío en línea</p><p>**Cuando** ve los detalles de su envío específico en la sección GPS</p><p>**Entonces** encuentra fácilmente la fecha y hora programadas de entrega.</p><p></p><p>**Escenario 2: Acceso a Comentarios del Transportista**</p><p>**Dado** **que** el cliente espera un envío</p><p>**Cuando** revisa los detalles de su envío específico en la sección GPS</p><p>**Entonces** podrá ver comentarios del transportista.</p>|E02|
-|US07|<p>Historial de envíos ordenados</p><p></p>|Como cliente de empresa logística quiero tener acceso a un historial completo de mis envíos anteriores, para poder realizar un seguimiento de las actividades de envío pasadas y planificar futuros envíos de manera más eficiente.|<p>**Escenario 1: Acceso al Historial de Envíos Anteriores**</p><p></p><p>**Dado** **que** el cliente está registrado en la plataforma,</p><p>**Cuando** accede a su cuenta,</p><p>**Entonces** ve su historial de envíos con todos los detalles.</p>|E03|
-|US08|Búsqueda de envíos ordenados|Como cliente de empresa logística quiero poder filtrar mis envíos anteriores mediante criterios de búsqueda para encontrar la información que necesito|<p>**Escenario 1: Búsqueda por nombre**</p><p></p><p>**Dado que** un cliente está en el historial de envíos</p><p>**Y** le da a ‘Filtrar por nombre’</p><p>**Cuando** ingrese texto en la barra de búsqueda</p><p>**Entonces** la plataforma muestra una lista de todos los envíos realizados con la coincidencia de nombre</p><p></p><p>**Escenario 2: Búsqueda por fecha**</p><p></p><p>**Dado que** un cliente está en el historial de envíos</p><p>**Y** le da a ‘Filtrar por fecha’</p><p>**Cuando** ingrese la fecha en la barra de búsqueda</p><p>**Entonces** la plataforma muestra una lista de todos los envíos realizados en esa fecha</p><p></p><p>**Escenario 3: Búsqueda por lugar**</p><p></p><p>**Dado que** un cliente está en el historial de envíos</p><p>**Y** le da a ‘Filtrar por lugar’</p><p>**Cuando** ingrese el lugar en la barra de búsqueda</p><p>**Entonces** la plataforma muestra una lista de todos los envíos realizados con ese lugar</p>|E03|
-|US09|Visualización de gastos realizados en el viaje|Como cliente de empresa logística quiero visualizar los gastos realizados en cada viaje para conocer los motivos del monto total por el servicio.|<p>**Escenario 1: Visualización de gastos en un viaje**</p><p>**Dado que** el cliente desea conocer los gastos realizados por la empresa logísticas en un viaje</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Gastos</p><p>**Entonces** se mostrará el listado de los envíos realizados</p><p>**Y** podrá ver los detalles de los gastos realizados en cada uno</p>|E03|
-|US10|Estadísticas de envíos|Como cliente de empresa logística quiero tener acceso a estadísticas sobre mis envíos previos para comprender patrones y tomar decisiones informadas|<p>**Escenario 1: Visualización de envíos por mes**</p><p></p><p>**Dado que** un cliente está en el historial de envíos</p><p>**Cuando** seleccione ‘Visualización por mes’</p><p>**Entonces** la plataforma muestra un gráfico con el número de envíos por mes</p><p></p><p>**Escenario 2: Visualización de envíos por destino**</p><p></p><p>**Dado que** un cliente está en el historial de envíos </p><p>**Cuando** seleccione ‘Visualización por destino’</p><p>**Entonces** la plataforma muestra un gráfico con el número de envíos por destino</p>|E03|
-|US11|Exportación del historial de envíos|Como cliente de empresa logística quiero poder exportar mi historial de envíos para realizar un análisis fuera de la plataforma|<p>**Escenario 1: Exportación en formato CSV**</p><p></p><p>**Dado que** un cliente está en el historial de envíos </p><p>**Cuando** seleccione ‘Exportar historial’</p><p>**Y** elija formato CSV</p><p>**Entonces** la plataforma generará un archivo CSV con los detalles de los envíos</p><p></p><p>**Escenario 2: Exportación en formato PDF**</p><p></p><p>**Dado que** un cliente está en el historial de envíos </p><p>**Cuando** seleccione ‘Exportar historial’</p><p>**Y** elija formato PDF</p><p>**Entonces** la plataforma generará un archivo PDF con los detalles de los envíos</p>|E03|
-|US12|Interfaz intuitiva y fácil de usar|Como cliente quiero una plataforma de seguimiento fácil e intuitiva, para acceder rápidamente a la información sin complicaciones.|<p>**Escenario 1: Navegación Intuitiva en la Plataforma de Seguimiento**</p><p>**Dado** **que** el usuario accede a la plataforma de seguimiento, </p><p>**Cuando** inicia sesión, **Entonces** podrá ver una interfaz clara con navegación fácil y etiquetas claras.</p><p></p><p>**Escenario 2: Acceso Rápido a la Información de Envíos**</p><p>**Dado** **que** el usuario necesita detalles de un envío,</p><p>**Cuando** accede al panel de seguimiento,</p><p>**Entonces** ve de inmediato la ubicación actual del envío y eventos importantes, sin clics o búsquedas adicionales.</p>|E04|
-|US13|Soporte multidispositivo y multiplataforma|Como cliente quiero acceder a la plataforma desde cualquier dispositivo o sistema operativo para una experiencia consistente|<p>**Escenario 1: Acceso en dispositivo móvil**</p><p>**Dado que** un cliente está en dispositivo móvil </p><p>**Cuando** acceda a la plataforma</p><p>**Entonces** la plataforma se adaptará al tamaño del dispositivo</p><p></p><p>**Escenario 2: Acceso desde distintos navegador web**</p><p>**Dado que** un cliente usa distintos navegadores web </p><p>**Cuando** acceda a la plataforma</p><p>**Entonces** la plataforma cargará con normalidad y con todas las funcionalidades</p>|E04|
-|US14|Personalización de visualización|Como cliente, quiero personalizar la presentación de la información para que se adapte a mis preferencias|<p>**Escenario 1: Personalización de la vista**</p><p>**Dado que** un cliente accede a la plataforma</p><p>**Y** este en la configuración </p><p>**Cuando** seleccione un tipo de vista específico</p><p>**Entonces** la plataforma cambiará la disposición de los elementos para adaptarse al tipo de vista</p><p></p><p>**Escenario 2: Personalización del tema**</p><p>**Dado que** un cliente accede a la plataforma</p><p>**Y** este en la configuración </p><p>**Cuando** seleccione un tema específico</p><p>**Entonces** la plataforma cambiará los colores para adaptarse al tema</p>|E04|
-|US15|Registro de usuario|Como cliente quiero poder registrarme en la aplicación para tener acceso autorizado y personalizado|<p>**Escenario 1: Registro de usuario exitoso**</p><p>**Dado que** el cliente se encuentra en apartado de “Registrarse”</p><p>**Cuando** llene todo el formulario de registro con su información personal</p><p>**Y** los datos sean validados</p><p>**Entonces** la cuenta se creará correctamente</p><p>**Y** recibirá una confirmación en su correo con un enlace para verificar su cuenta.</p><p></p><p>**Escenario 2: Registro de usuario fallido**</p><p>**Dado que** el cliente se encuentra en apartado de “Registrarse”</p><p>**Cuando** llene todo el formulario de registro con información incorrecta</p><p>**Entonces** la cuenta no se creará.</p><p>**Y** se mostrará el mensaje indicando el error.</p>|E05|
-|US16|Inicio de sesión|Como cliente quiero acceder a mi cuenta registrada para acceder a las funciones de la aplicación|<p>**Escenario 1: Inicio de sesión exitoso**</p><p>**Dado que** el cliente se encuentra en el apartado de “Iniciar sesión”</p><p>**Cuando** introduzca sus credenciales</p><p>**Y** los datos sean validados</p><p>**Entonces** recibirá un mensaje de bienvenida</p><p>**Y** tendrá acceso a la vista del usuario</p><p></p><p>**Escenario 2: Inicio de sesión fallido**</p><p>**Dado que** el cliente se encuentra en el apartado de “Iniciar sesión”</p><p>**Cuando** introduzca sus credenciales</p><p>**Y** los datos sean invalidados</p><p>**Entonces** no se le permitirá acceso a su cuenta.</p><p>**Y** se mostrará el mensaje indicando el error.</p>|E05|
-|US17|Cierre de sesión|Como cliente quiero cerrar sesión de forma segura en cualquier momento para garantizar la seguridad y privacidad de mis datos|<p>**Escenario 1: Cierre de sesión exitoso**</p><p>**Dado que** el cliente ha iniciado sesión en la aplicación</p><p>**Cuando** se dirija al apartado de configuración</p><p>**Y** seleccione la opción “Cerrar sesión”</p><p>**Entonces** se cerrará el acceso a la cuenta</p><p>**Y** se mostrará nuevamente el apartado “Iniciar sesión”</p>|E05|
-|US18|Elegir plan de suscripción|Como cliente quiero elegir un plan de suscripción que se acomode a mis necesidades para acceder a las funcionalidades necesarias para mí.|<p>**Escenario 1: Elección de plan de suscripción exitosa**</p><p>**Dado que** el cliente se ha registrado en la aplicación</p><p>**Y** se le muestre los planes de suscripción disponibles</p><p>**Cuando** elija el plan de suscripción que desea</p><p>**Entonces** se asignará el tipo de suscripción a la cuenta</p><p>**Y** se le permitirá el acceso a las funcionalidades disponibles</p><p></p><p>**Escenario 2: Elección de plan de suscripción fallida**</p><p>**Dado que** el cliente se ha registrado en la aplicación</p><p>**Y** se le muestre los planes de suscripción disponibles</p><p>**Cuando** elija el plan de suscripción que desea</p><p>**Entonces** no se asignará el plan de suscripción elegido</p><p>**Y** se mostrará el mensaje de error.</p>|E05|
-|US19|Recuperación de cuenta|Como cliente quiero poder recuperar mi cuenta en caso haya tenido algún inconveniente con las credenciales para recuperar el acceso de forma segura.|<p>**Escenario 1: Recuperación de cuenta exitosa**</p><p>**Dado que** el cliente se encuentra en el apartado “Iniciar sesión”</p><p>**Cuando** seleccione la opción “¿Olvidó su contraseña?”</p><p>**Y** realice correctamente los pasos indicados para recuperar la cuenta.</p><p>**Entonces** recibirá una confirmación por correo</p><p>**Y** recuperará el acceso a la cuenta</p><p></p><p>**Escenario 2: Recuperación de cuenta fallida**</p><p>**Dado que** el cliente se encuentra en el apartado “Iniciar sesión”</p><p>**Cuando** seleccione la opción “¿Olvidó su contraseña?”</p><p>**Y** realice correctamente los pasos indicados para recuperar la cuenta.</p><p>**Entonces** recibirá una confirmación por correo</p><p>**Y** recuperará el acceso a la cuenta</p>|E05|
-|US20|Gestión de método de pago|Como cliente quiero gestionar mi método de pago para asegurarme de que la facturación se realice de manera correcta y segura en mi cuenta.|<p>**Escenario 1: Gestión de método de pago exitoso**</p><p>**Dado que** el cliente desea ingresar un método de pago</p><p>**Y** se dirige a la Configuración</p><p>**Y** selecciona la opción Gestionar método de pago</p><p>**Cuando** el cliente llena los campos con los datos de facturación y de la tarjeta a utilizar</p><p>**Entonces** se validará la información ingresada</p><p>**Y** se registrará la información para hacer el pago de suscripción</p><p></p><p>**Escenario 2:** **Gestión de método de pago erróneo**</p><p>**Dado que** el cliente desea ingresar un método de pago</p><p>**Y** se dirige a la Configuración</p><p>**Y** selecciona la opción Gestionar método de pago</p><p>**Cuando** el cliente llena los campos erróneamente con los datos de facturación y de la tarjeta a utilizar</p><p>**Entonces** se validará la información ingresada</p><p>**Y** se mostrará un mensaje de error indicando que los campos no se llenaron correctamente</p>|E05|
-|US21|NavBar y Footer|Como usuario quiero usar visualizar una barra de navegación y pie de página para navegar fácilmente a través de la página.|<p>**Escenario 1: Visualización de Navbar y Footer**</p><p>**Dado que** el usuario desea conocer sobre la aplicación</p><p>**Cuando** ingresa al Landing Page</p><p>**Entonces** se mostrará el Navbar y el Footer que permitirán al usuario navegar de forma sencilla</p>|E06|
-|US22|Página de inicio|Como usuario quiero ver una página de inicio para conocer la idea principal de la aplicación.|<p>**Escenario 1: Visualización de página de inicio**</p><p>**Dado que** el usuario desea conocer sobre la aplicación</p><p>**Cuando** ingresa al Landing Page</p><p>**Entonces** se mostrará la página de inicio sencilla que comprende la idea principal.</p>|E06|
-|US23|Sección “Acerca De”|Como usuario quiero ver una página “Acerca De” para conocer la problemática principal y el propósito de la aplicación.|<p>**Escenario 1: Visualización de página Acerca De**</p><p>**Dado que** el usuario desea conocer sobre el problema que resuelve la aplicación</p><p>**Cuando** ingresa al Landing Page</p><p>**Y** ingresa a la sección “Acerca De”</p><p>**Entonces** se mostrará la página Acerca De, donde se muestra la problemática que resolverá la aplicación.</p>|E06|
-|US24|Sección “Sobre Nosotros”|Como usuario quiero ver una página sobre la startup para conocer el propósito de la startup que está desarrollando la aplicación.|<p>**Escenario 1: Visualización de página Sobre Nosotros**</p><p>**Dado que** el usuario desea conocer sobre la empresa</p><p>**Cuando** ingresa al Landing Page</p><p>**Y** ingresa a la sección Sobre Nosotros</p><p>**Entonces** se mostrará la página Sobre Nosotros, donde se muestra información sobre la startup, su misión y visión.</p>|E06|
-|US25|Sección “Características”|Como usuario quiero ver una página “Características” para conocer las funcionalidades que brinda la aplicación.|<p>**Escenario 1: Visualización de página Características**</p><p>**Dado que** el usuario desea conocer sobre las características de la aplicación</p><p>**Cuando** ingresa al Landing Page</p><p>**Y** ingresa a la sección “Características”</p><p>**Entonces** se mostrará la página Características, donde se muestra información sobre las principales funcionalidades que brinda la aplicación.</p>|E06|
-|US26|Sección “Contacto”|Como usuario quiero acceder a una página “Contacto” para conocer los medios de contacto con la empresa para realizar preguntas sobre dudas, problemas o sugerencias.|<p>**Escenario 1: Visualización de página Contacto**</p><p>**Dado que** el usuario desea contactar con el área de soporte de la startup</p><p>**Cuando** ingresa al Landing Page</p><p>**Y** ingresa a la sección “Contacto”</p><p>**Entonces** se mostrará la página Contacto, donde se muestra los medios de contacto que puede usar el usuario para realizar consultas.</p>|E06|
-|US27|Registro de nuevo viaje|Como empresario de gestión logística, quiero registrar los datos de un nuevo viaje para tener un registro guardado y mostrar transparencia a mis clientes.|<p>**Escenario 1: Registrar nuevo viaje**</p><p>**Dado que** el empresario desea registrar un nuevo viaje en la aplicación</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para registrar un nuevo viaje</p><p>**Y** llena los campos requeridos de conductor, unidad, carga, entre otros</p><p>**Y** da click en “Registrar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará información acerca del nuevo viaje</p>|E07|
-|US28|Modificación de datos de un viaje|Como empresario de gestión logística, quiero modificar los datos de un viaje para corregir  datos erróneos que fueron registrados.|<p>**Escenario 1: Modificar datos de viaje**</p><p>**Dado que** el empresario desea modificar los datos de un viaje en la aplicación</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para modificar un viaje</p><p>**Y** ingresa el ID del viaje a modificar</p><p>**Y** llena los campos requeridos de conductor, unidad, carga, entre otros</p><p>**Y** da click en “Registrar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** registrarán las modificaciones sobre el viaje</p>|E07|
-|US29|Registro de gastos de viaje|Como empresario de gestión logística, quiero poder registrar los gastos realizados durante los viajes para mantener un registro preciso y mantener informados a mis clientes sobre los costos asociados a sus servicios.|<p>**Escenario 1: Registrar gastos de un viaje**</p><p>**Dado que** el empresario desea registrar los gastos de un viaje en la aplicación</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para registrar un nuevo gasto</p><p>**Y** ingresa el ID del viaje</p><p>**Y** llena los campos requeridos de gasolina, peajes y viáticos</p><p>**Y** da click en “Registrar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará los gastos del viaje</p>|E07|
-|US30|Modificación de gastos de un viaje|Como empresario de gestión logística, quiero modificar los gastos realizados durante un viaje para corregir datos erróneos ingresados al hacer el registro del gasto.|<p>**Escenario 1: Modificar gastos de un viaje**</p><p>**Dado que** el empresario desea modificar los gastos de un viaje en la aplicación</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para modificar gastos de un viaje</p><p>**Y** ingresa el ID del viaje</p><p>**Y** llena los campos requeridos de gasolina, peajes y viáticos</p><p>**Y** da click en “Registrar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará las modificaciones en los gastos del viaje</p>|E07|
-|US31|Seguimiento en tiempo real para empresa|Como empresario de gestión logística, quiero poder visualizar el seguimiento en tiempo real de los servicios mediante la plataforma para identificar posibles imprevistos y tomar acciones correctivas de manera oportuna.|<p>**Escenario 1: Visualización de seguimiento en tiempo real**</p><p>**Dado que** el empresario necesita supervisar el progreso de los servicios en tiempo real</p><p>**Cuando** accede a la plataforma para verificar el estado de un servicio en curso</p><p>**Y** selecciona la sección GPS para el "Seguimiento en Tiempo Real"</p><p>**Entonces** se mostrará la ubicación y ruta trazada en un mapa</p>|E07|
-|US32|Historial de envíos realizados|Como empresario de gestión logística, quiero tener un historial de envíos para llevar un registro detallado de todos los servicios que he realizado y poder acceder a esta información en cualquier momento.|<p>**Escenario 1: Visualización de historial de envíos**</p><p>**Dado que** el empresario necesita mantener un registro de todos los servicios realizados</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Historial para visualizar el "Historial de Envíos"</p><p>**Entonces** se mostrará el listado de los envíos realizados</p><p>**Y** podrá ver los detalles de cada uno</p>|E07|
+|US02|Seguimiento en tiempo real de envíos para cliente|Como cliente de empresa logística quiero hacer seguimiento de mi envío , para poder obtener actualizaciones en tiempo real sobre la ubicación y el estado de mi mercancía durante el transporte.|<p>**Escenario 1: Visualización de envíos en seguimiento**</p><p>**Dado** **que** el cliente tiene acceso a la plataforma en línea</p><p>**Cuando** ingresa a la sección GPS</p><p>**Y** se muestra el listado los envíos que se encuentran en progreso</p><p>**Y** selecciona uno de los viajes</p><p>**Entonces** la plataforma procesará la información </p><p>**Y** muestra actualizaciones en tiempo real sobre la ubicación y estado de la mercancía durante el transporte.</p><p></p><p>**Escenario 2: Acceso a Actualizaciones Continuas**</p><p>**Dado** **que** el cliente ha registrado el número de seguimiento,</p><p>**Cuando** revisa la sección de GPS en la plataforma</p><p>**Y** se muestra el listado los envíos que se encuentran en progreso</p><p>**Y** selecciona uno de los viajes</p><p>**Entonces** la plataforma procesará la información </p><p>**Y** se mostrarán actualizaciones continuas sobre la ubicación y estado de su mercancía, incluyendo hitos y estimaciones de entrega.</p>|E01|
+|US03|Notificaciones de eventos relevantes|Como cliente de empresa logística quiero recibir notificaciones automáticas sobre eventos relevantes relacionados con mi envío, para estar informado sobre el progreso de mi mercancía sin tener que realizar un seguimiento constante.|<p>**Escenario 1: Recepción de Notificación al Inicio del Transporte**</p><p>**Dado** **que** el cliente registró el envío en la plataforma,</p><p>**Cuando** comienza el transporte,</p><p>**Entonces** recibe automáticamente una notificación con detalles relevantes sobre el envío.</p><p></p><p>**Escenario 2: Notificación de Llegada a Punto de Control Importante**</p><p>**Dado que** el envío está en tránsito, <br>**Y** se habilitó las notificaciones automáticas,</p><p>**Cuando** la mercancía llega a un punto de control importante,</p><p>**Entonces** se enviará una notificación instantánea que informará sobre este evento relevante</p>|E01|
+|US04|Acceso a detalles de entrega|Como cliente de empresa logística quiero poder acceder a detalles específicos sobre la entrega de mi envío, para tener una comprensión completa del proceso de entrega.|<p>**Escenario 1: Visualización de Fecha y Hora de Entrega Programada**</p><p>**Dado** **que** el cliente sigue su envío en línea</p><p>**Cuando** ve los detalles de su envío específico en la sección GPS</p><p>**Entonces** encuentra fácilmente la fecha y hora programadas de entrega.</p><p></p><p>**Escenario 2: Acceso a Comentarios del Transportista**</p><p>**Dado** **que** el cliente espera un envío</p><p>**Cuando** revisa los detalles de su envío específico en la sección GPS</p><p>**Entonces** podrá ver comentarios del transportista.</p>|E01|
+|US05|<p>Historial de envíos ordenados</p><p></p>|Como cliente de empresa logística quiero tener acceso a un historial completo de mis envíos anteriores, para poder realizar un seguimiento de las actividades de envío pasadas y planificar futuros envíos de manera más eficiente.|<p>**Escenario 1: Acceso al Historial de Envíos Anteriores**</p><p></p><p>**Dado** **que** el cliente está registrado en la plataforma,</p><p>**Cuando** accede a su cuenta,</p><p>**Entonces** ve su historial de envíos con todos los detalles.</p>|E02|
+|US06|Búsqueda de envíos ordenados|Como cliente de empresa logística quiero poder filtrar mis envíos anteriores mediante criterios de búsqueda para encontrar la información que necesito|<p>**Escenario 1: Búsqueda por nombre**</p><p></p><p>**Dado que** un cliente está en el historial de envíos</p><p>**Y** le da a ‘Filtrar por nombre’</p><p>**Cuando** ingrese texto en la barra de búsqueda</p><p>**Entonces** la plataforma muestra una lista de todos los envíos realizados con la coincidencia de nombre</p><p></p><p>**Escenario 2: Búsqueda por fecha**</p><p></p><p>**Dado que** un cliente está en el historial de envíos</p><p>**Y** le da a ‘Filtrar por fecha’</p><p>**Cuando** ingrese la fecha en la barra de búsqueda</p><p>**Entonces** la plataforma muestra una lista de todos los envíos realizados en esa fecha</p><p></p><p>**Escenario 3: Búsqueda por lugar**</p><p></p><p>**Dado que** un cliente está en el historial de envíos</p><p>**Y** le da a ‘Filtrar por lugar’</p><p>**Cuando** ingrese el lugar en la barra de búsqueda</p><p>**Entonces** la plataforma muestra una lista de todos los envíos realizados con ese lugar</p>|E02|
+|US07|Visualización de gastos realizados en el viaje|Como cliente de empresa logística quiero visualizar los gastos realizados en cada viaje para conocer los motivos del monto total por el servicio.|<p>**Escenario 1: Visualización de gastos en un viaje**</p><p>**Dado que** el cliente desea conocer los gastos realizados por la empresa logísticas en un viaje</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Gastos</p><p>**Entonces** se mostrará el listado de los envíos realizados</p><p>**Y** podrá ver los detalles de los gastos realizados en cada uno</p>|E02|
+|US08|Estadísticas de envíos|Como cliente de empresa logística quiero tener acceso a estadísticas sobre mis envíos previos para comprender patrones y tomar decisiones informadas|<p>**Escenario 1: Visualización de envíos por mes**</p><p></p><p>**Dado que** un cliente está en el historial de envíos</p><p>**Cuando** seleccione ‘Visualización por mes’</p><p>**Entonces** la plataforma muestra un gráfico con el número de envíos por mes</p><p></p><p>**Escenario 2: Visualización de envíos por destino**</p><p></p><p>**Dado que** un cliente está en el historial de envíos </p><p>**Cuando** seleccione ‘Visualización por destino’</p><p>**Entonces** la plataforma muestra un gráfico con el número de envíos por destino</p>|E02|
+|US09|Exportación del historial de envíos|Como cliente de empresa logística quiero poder exportar mi historial de envíos para realizar un análisis fuera de la plataforma|<p>**Escenario 1: Exportación en formato JSON**</p><p></p><p>**Dado que** un cliente está en el historial de envíos </p><p>**Cuando** seleccione ‘Exportar historial’</p><p>**Y** elija formato JSON</p><p>**Entonces** la plataforma generará un archivo JSON con los detalles de los envíos</p><p></p><p>**Escenario 2: Exportación en formato XML**</p><p></p><p>**Dado que** un cliente está en el historial de envíos </p><p>**Cuando** seleccione ‘Exportar historial’</p><p>**Y** elija formato XML</p><p>**Entonces** la plataforma generará un archivo XML con los detalles de los envíos</p>|E02|
+|US10|Interfaz intuitiva y fácil de usar|Como cliente quiero una plataforma de seguimiento fácil e intuitiva, para acceder rápidamente a la información sin complicaciones.|<p>**Escenario 1: Navegación Intuitiva en la Plataforma de Seguimiento**</p><p>**Dado** **que** el usuario accede a la plataforma de seguimiento, </p><p>**Cuando** inicia sesión, **Entonces** podrá ver una interfaz clara con navegación fácil y etiquetas claras.</p><p></p><p>**Escenario 2: Acceso Rápido a la Información de Envíos**</p><p>**Dado** **que** el usuario necesita detalles de un envío,</p><p>**Cuando** accede al panel de seguimiento,</p><p>**Entonces** ve de inmediato la ubicación actual del envío y eventos importantes, sin clics o búsquedas adicionales.</p>|E04|
+|US11|Soporte multidispositivo y multiplataforma|Como cliente quiero acceder a la plataforma desde cualquier dispositivo o sistema operativo para una experiencia consistente|<p>**Escenario 1: Acceso en dispositivo móvil**</p><p>**Dado que** un cliente está en dispositivo móvil </p><p>**Cuando** acceda a la plataforma</p><p>**Entonces** la plataforma se adaptará al tamaño del dispositivo</p><p></p><p>**Escenario 2: Acceso desde distintos navegador web**</p><p>**Dado que** un cliente usa distintos navegadores web </p><p>**Cuando** acceda a la plataforma</p><p>**Entonces** la plataforma cargará con normalidad y con todas las funcionalidades</p>|E03|
+|US12|Personalización de visualización|Como cliente, quiero personalizar la presentación de la información para que se adapte a mis preferencias|<p>**Escenario 1: Personalización de la vista**</p><p>**Dado que** un cliente accede a la plataforma</p><p>**Y** este en la configuración </p><p>**Cuando** seleccione un tipo de vista específico</p><p>**Entonces** la plataforma cambiará la disposición de los elementos para adaptarse al tipo de vista</p><p></p><p>**Escenario 2: Personalización del tema**</p><p>**Dado que** un cliente accede a la plataforma</p><p>**Y** este en la configuración </p><p>**Cuando** seleccione un tema específico</p><p>**Entonces** la plataforma cambiará los colores para adaptarse al tema</p>|E03|
+|US13|Registro de usuario|Como cliente quiero poder registrarme en la aplicación para tener acceso autorizado y personalizado|<p>**Escenario 1: Registro de usuario exitoso**</p><p>**Dado que** el cliente se encuentra en apartado de “Registrarse”</p><p>**Cuando** llene todo el formulario de registro con su información personal</p><p>**Y** los datos sean validados</p><p>**Entonces** la cuenta se creará correctamente</p><p>**Y** recibirá una confirmación en su correo con un enlace para verificar su cuenta.</p><p></p><p>**Escenario 2: Registro de usuario fallido**</p><p>**Dado que** el cliente se encuentra en apartado de “Registrarse”</p><p>**Cuando** llene todo el formulario de registro con información incorrecta</p><p>**Entonces** la cuenta no se creará.</p><p>**Y** se mostrará el mensaje indicando el error.</p>|E04|
+|US14|Inicio de sesión|Como cliente quiero acceder a mi cuenta registrada para acceder a las funciones de la aplicación|<p>**Escenario 1: Inicio de sesión exitoso**</p><p>**Dado que** el cliente se encuentra en el apartado de “Iniciar sesión”</p><p>**Cuando** introduzca sus credenciales</p><p>**Y** los datos sean validados</p><p>**Entonces** recibirá un mensaje de bienvenida</p><p>**Y** tendrá acceso a la vista del usuario</p><p></p><p>**Escenario 2: Inicio de sesión fallido**</p><p>**Dado que** el cliente se encuentra en el apartado de “Iniciar sesión”</p><p>**Cuando** introduzca sus credenciales</p><p>**Y** los datos sean invalidados</p><p>**Entonces** no se le permitirá acceso a su cuenta.</p><p>**Y** se mostrará el mensaje indicando el error.</p>|E04|
+|US15|Cierre de sesión|Como cliente quiero cerrar sesión de forma segura en cualquier momento para garantizar la seguridad y privacidad de mis datos|<p>**Escenario 1: Cierre de sesión exitoso**</p><p>**Dado que** el cliente ha iniciado sesión en la aplicación</p><p>**Cuando** se dirija al apartado de configuración</p><p>**Y** seleccione la opción “Cerrar sesión”</p><p>**Entonces** se cerrará el acceso a la cuenta</p><p>**Y** se mostrará nuevamente el apartado “Iniciar sesión”</p>|E04|
+|US16|Elegir plan de suscripción|Como cliente quiero elegir un plan de suscripción que se acomode a mis necesidades para acceder a las funcionalidades necesarias para mí.|<p>**Escenario 1: Elección de plan de suscripción exitosa**</p><p>**Dado que** el cliente se ha registrado en la aplicación</p><p>**Y** se le muestre los planes de suscripción disponibles</p><p>**Cuando** elija el plan de suscripción que desea</p><p>**Entonces** se asignará el tipo de suscripción a la cuenta</p><p>**Y** se le permitirá el acceso a las funcionalidades disponibles</p><p></p><p>**Escenario 2: Elección de plan de suscripción fallida**</p><p>**Dado que** el cliente se ha registrado en la aplicación</p><p>**Y** se le muestre los planes de suscripción disponibles</p><p>**Cuando** elija el plan de suscripción que desea</p><p>**Entonces** no se asignará el plan de suscripción elegido</p><p>**Y** se mostrará el mensaje de error.</p>|E04|
+|US17|Recuperación de cuenta|Como cliente quiero poder recuperar mi cuenta en caso haya tenido algún inconveniente con las credenciales para recuperar el acceso de forma segura.|<p>**Escenario 1: Recuperación de cuenta exitosa**</p><p>**Dado que** el cliente se encuentra en el apartado “Iniciar sesión”</p><p>**Cuando** seleccione la opción “¿Olvidó su contraseña?”</p><p>**Y** realice correctamente los pasos indicados para recuperar la cuenta.</p><p>**Entonces** recibirá una confirmación por correo</p><p>**Y** recuperará el acceso a la cuenta</p><p></p><p>**Escenario 2: Recuperación de cuenta fallida**</p><p>**Dado que** el cliente se encuentra en el apartado “Iniciar sesión”</p><p>**Cuando** seleccione la opción “¿Olvidó su contraseña?”</p><p>**Y** realice incorrectamente los pasos indicados para recuperar la cuenta.</p><p>**Entonces** recibirá un mensaje indicando el error por correo</p>|E04|
+|US18|Gestión de método de pago|Como cliente quiero gestionar mi método de pago para asegurarme de que la facturación se realice de manera correcta y segura en mi cuenta.|<p>**Escenario 1: Gestión de método de pago exitoso**</p><p>**Dado que** el cliente desea ingresar un método de pago</p><p>**Y** se dirige a la Configuración</p><p>**Y** selecciona la opción Gestionar método de pago</p><p>**Cuando** el cliente llena los campos con los datos de facturación y de la tarjeta a utilizar</p><p>**Entonces** se validará la información ingresada</p><p>**Y** se registrará la información para hacer el pago de suscripción</p><p></p><p>**Escenario 2:** **Gestión de método de pago erróneo**</p><p>**Dado que** el cliente desea ingresar un método de pago</p><p>**Y** se dirige a la Configuración</p><p>**Y** selecciona la opción Gestionar método de pago</p><p>**Cuando** el cliente llena los campos erróneamente con los datos de facturación y de la tarjeta a utilizar</p><p>**Entonces** se validará la información ingresada</p><p>**Y** se mostrará un mensaje de error indicando que los campos no se llenaron correctamente</p>|E04|
+|US19|NavBar y Footer|Como usuario quiero usar visualizar una barra de navegación y pie de página para navegar fácilmente a través de la página.|<p>**Escenario 1: Visualización de Navbar y Footer**</p><p>**Dado que** el usuario desea conocer sobre la aplicación</p><p>**Cuando** ingresa al Landing Page</p><p>**Entonces** se mostrará el Navbar y el Footer que permitirán al usuario navegar de forma sencilla</p>|E05|
+|US20|Página de inicio|Como usuario quiero ver una página de inicio para conocer la idea principal de la aplicación.|<p>**Escenario 1: Visualización de página de inicio**</p><p>**Dado que** el usuario desea conocer sobre la aplicación</p><p>**Cuando** ingresa al Landing Page</p><p>**Entonces** se mostrará la página de inicio sencilla que comprende la idea principal.</p>|E05|
+|US21|Sección “Acerca De”|Como usuario quiero ver una página “Acerca De” para conocer la problemática principal y el propósito de la aplicación.|<p>**Escenario 1: Visualización de página Acerca De**</p><p>**Dado que** el usuario desea conocer sobre el problema que resuelve la aplicación</p><p>**Cuando** ingresa al Landing Page</p><p>**Y** ingresa a la sección “Acerca De”</p><p>**Entonces** se mostrará la página Acerca De, donde se muestra la problemática que resolverá la aplicación.</p>|E05|
+|US22|Sección “Sobre Nosotros”|Como usuario quiero ver una página sobre la startup para conocer el propósito de la startup que está desarrollando la aplicación.|<p>**Escenario 1: Visualización de página Sobre Nosotros**</p><p>**Dado que** el usuario desea conocer sobre la empresa</p><p>**Cuando** ingresa al Landing Page</p><p>**Y** ingresa a la sección Sobre Nosotros</p><p>**Entonces** se mostrará la página Sobre Nosotros, donde se muestra información sobre la startup, su misión y visión.</p>|E05|
+|US23|Sección “Características”|Como usuario quiero ver una página “Características” para conocer las funcionalidades que brinda la aplicación.|<p>**Escenario 1: Visualización de página Características**</p><p>**Dado que** el usuario desea conocer sobre las características de la aplicación</p><p>**Cuando** ingresa al Landing Page</p><p>**Y** ingresa a la sección “Características”</p><p>**Entonces** se mostrará la página Características, donde se muestra información sobre las principales funcionalidades que brinda la aplicación.</p>|E05|
+|US24|Sección “Contacto”|Como usuario quiero acceder a una página “Contacto” para conocer los medios de contacto con la empresa para realizar preguntas sobre dudas, problemas o sugerencias.|<p>**Escenario 1: Visualización de página Contacto**</p><p>**Dado que** el usuario desea contactar con el área de soporte de la startup</p><p>**Cuando** ingresa al Landing Page</p><p>**Y** ingresa a la sección “Contacto”</p><p>**Entonces** se mostrará la página Contacto, donde se muestra los medios de contacto que puede usar el usuario para realizar consultas.</p>|E05|
+|US25|Registro de nuevo viaje|Como empresario de gestión logística, quiero registrar los datos de un nuevo viaje para tener un registro guardado y mostrar transparencia a mis clientes.|<p>**Escenario 1: Registrar nuevo viaje**</p><p>**Dado que** el empresario desea registrar un nuevo viaje en la aplicación</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para registrar un nuevo viaje</p><p>**Y** llena los campos requeridos de conductor, unidad, carga, entre otros</p><p>**Y** da click en “Registrar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará información acerca del nuevo viaje</p>|E06|
+|US26|Modificación de datos de un viaje|Como empresario de gestión logística, quiero modificar los datos de un viaje para corregir  datos erróneos que fueron registrados.|<p>**Escenario 1: Modificar datos de viaje**</p><p>**Dado que** el empresario desea modificar los datos de un viaje en la aplicación</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para modificar un viaje</p><p>**Y** ingresa el ID del viaje a modificar</p><p>**Y** llena los campos requeridos de conductor, unidad, carga, entre otros</p><p>**Y** da click en “Guardar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** registrarán las modificaciones sobre el viaje</p>|E06|
+|US27|Registro de gastos de viaje|Como empresario de gestión logística, quiero poder registrar los gastos realizados durante los viajes para mantener un registro preciso y mantener informados a mis clientes sobre los costos asociados a sus servicios.|<p>**Escenario 1: Registrar gastos de un viaje**</p><p>**Dado que** el empresario desea registrar los gastos de un viaje en la aplicación</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para registrar un nuevo gasto</p><p>**Y** ingresa el ID del viaje</p><p>**Y** llena los campos requeridos de gasolina, peajes y viáticos</p><p>**Y** da click en “Registrar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará los gastos del viaje</p>|E06|
+|US28|Modificación de gastos de un viaje|Como empresario de gestión logística, quiero modificar los gastos realizados durante un viaje para corregir datos erróneos ingresados al hacer el registro del gasto.|<p>**Escenario 1: Modificar gastos de un viaje**</p><p>**Dado que** el empresario desea modificar los gastos de un viaje en la aplicación</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para modificar gastos de un viaje</p><p>**Y** ingresa el ID del viaje</p><p>**Y** llena los campos requeridos de gasolina, peajes y viáticos</p><p>**Y** da click en “Guardar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará las modificaciones en los gastos del viaje</p>|E06|
+|US29|Registro de datos de conductor|Como empresario de gestión logística, quiero poder registrar los datos de mis conductores para asignarlos adecuadamente a cada envío.|<p>**Escenario 1: Registrar datos de conductor**</p><p>**Dado que** el empresario desea registrar los gastos de un viaje en la aplicación</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para registrar un nuevo conductor</p><p>**Y** llena los campos requeridos de nombre, dni, licencia y teléfono</p><p>**Y** da click en “Registrar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará los datos del conductor</p>|E06|
+|US30|Modificación de datos de conductor|Como empresario de gestión logística, quiero modificar los datos de un conductor para corregir datos erróneos ingresados al hacer el registro del conductor.|<p>**Escenario 1: Modificar datos de conductor**</p><p>**Dado que** el empresario desea modificar los datos de un conductor</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para modificar datos de un conductor</p><p>**Y** ingresa el dni del conductor</p><p>**Y** llena los campos requeridos de nombre, dni, licencia y teléfono</p><p>**Y** da click en “Guardar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará las modificaciones en los datos del conductor</p>|E06|
+|US31|Registro de datos de vehículo|Como empresario de gestión logística, quiero poder registrar los datos de mis vehículos para tener registro de los envíos que realizan.|<p>**Escenario 1: Registrar datos de conductor**</p><p>**Dado que** el empresario desea registrar los gastos de un viaje en la aplicación</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para registrar un nuevo conductor</p><p>**Y** llena los campos requeridos de modelo, placa, placa de tracto, carga máxima y volumen</p><p>**Y** da click en “Registrar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará los datos del vehículo</p>|E06|
+|US32|Modificación de datos de vehículo|Como empresario de gestión logística, quiero modificar los datos de un conductor para corregir datos erróneos ingresados al hacer el registro del vehículo.|<p>**Escenario 1: Modificar datos de vehículo**</p><p>**Dado que** el empresario desea modificar los datos de un conductor</p><p>**Cuando** accede a la plataforma y selecciona la sección Registro</p><p>**Y** selecciona la opción para modificar datos de un conductor</p><p>**Y** ingresa el dni del conductor</p><p>**Y** llena los campos requeridos de modelo, placa, placa de tracto, carga máxima y volumen</p><p>**Y** da click en “Guardar”</p><p>**Entonces** se verificarán los datos ingresados</p><p>**Y** se registrará las modificaciones en los datos del vehículo</p>|E06|
+|US33|Seguimiento en tiempo real para empresa|Como empresario de gestión logística, quiero poder visualizar el seguimiento en tiempo real de los servicios mediante la plataforma para identificar posibles imprevistos y tomar acciones correctivas de manera oportuna.|<p>**Escenario 1: Visualización de seguimiento en tiempo real**</p><p>**Dado que** el empresario necesita supervisar el progreso de los servicios en tiempo real</p><p>**Cuando** accede a la plataforma para verificar el estado de un servicio en curso</p><p>**Y** selecciona la sección GPS para el "Seguimiento en Tiempo Real"</p><p>**Entonces** se mostrará la ubicación y ruta trazada en un mapa</p>|E06|
+|US34|Historial de envíos realizados|Como empresario de gestión logística, quiero tener un historial de envíos para llevar un registro detallado de todos los servicios que he realizado y poder acceder a esta información en cualquier momento.|<p>**Escenario 1: Visualización de historial de envíos**</p><p>**Dado que** el empresario necesita mantener un registro de todos los servicios realizados</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Historial para visualizar el "Historial de Envíos"</p><p>**Entonces** se mostrará el listado de los envíos realizados</p><p>**Y** podrá ver los detalles de cada uno</p>|E06|
+|US35|Visualización de datos de conductor|Como empresario de gestión logística, quiero ver los datos de los conductores para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de un conductor**</p><p>**Dado que** el empresario desea ver la información de los conductores que ha registrado</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Conductores</p><p>**Entonces** se mostrará el listado de los conductores registrados</p><p>**Y** podrá ver los detalles de cada uno</p>|E06|
+|US36|Visualización de datos de vehículo|Como empresario de gestión logística, quiero ver los datos de los vehículos para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de un vehículo**</p><p>**Dado que** el empresario desea ver la información de los vehículos que ha registrado</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Vehículos</p><p>**Entonces** se mostrará el listado de los vehículos registrados</p><p>**Y** podrá ver los detalles de cada uno</p>|E06|
+|US37|Visualización de datos de cliente|Como empresario de gestión logística, quiero ver los datos de mis clientes para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de clientes**</p><p>**Dado que** el empresario desea ver la información de los clientes con los que ha registrado viajes</p><p>**Cuando** accede a la plataforma</p><p>**Y** selecciona la sección Clientes</p><p>**Entonces** se mostrará el listado de sus clientes registrados</p>|E06|
+|US38|Uso de nuestra API para gestionar usuarios|Como desarrollador quiero integrar un API para gestionar la información de los usuarios en la base de datos.|<p>**Escenario 1: Agregar datos del usuario en la base de datos**</p><p>**Dado que** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud POST con los datos del usuario a la API</p><p>**Entonces** la API responde con un código de estado 200 y el usuario se agrega correctamente a la base de datos</p><p>**Escenario 2: Obtener la información de un usuario**</p><p>**Dado** que el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud GET a la API para obtener la información de un usuario específico</p><p>**Entonces** la API responde con un código de estado 200 y devuelve los datos del usuario solicitado</p>|E07|
+|US39|Uso de nuestra API para gestionar los datos de viajes|Como desarrollador quiero integrar un API para gestionar la información de los viajes, gastos, conductores y vehículos en la base de datos|<p>**Escenario 1: Agregar datos referente a un viaje en la base de datos**</p><p>**Dado que** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud POST con los datos de un viaje, gasto, conductor o vehículo de una empresa a la API</p><p>**Entonces** la API responde con un código de estado 200 y el elemento se agrega correctamente a la base de datos</p><p>**Escenario 2: Obtener la información de elementos referente a un viaje**</p><p>**Dado que** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud GET a la API para obtener la información de los viajes, gastos, conductores o vehículos de un usuario específico</p><p>**Entonces** la API responde con un código de estado 200 y devuelve todos los elementos del usuario solicitado</p>|E07|
 
 ## 3.3. Impact Mapping
 
@@ -1055,38 +1103,45 @@ El Product Backlog se gestiona a través de la herramienta Pivotal Tracker, el c
 
 |**# Orden**|**User Story Id**|**Título**|**Descripción**|**Story Points (1/2/3/5/8)**|
 | :- | :- | :- | :- | :- |
-|1|US21|NavBar y Footer|Como usuario quiero usar visualizar una barra de navegación y pie de página para navegar fácilmente a través de la página.|3|
-|2|US22|Página de inicio|Como usuario quiero ver una página de inicio para conocer la idea principal de la aplicación.|3|
-|3|US23|Sección “Acerca De”|Como usuario quiero ver una página “Acerca De” para conocer la problemática principal y el propósito de la aplicación.|3|
-|4|US24|Sección “Sobre Nosotros”|Como usuario quiero ver una página sobre la startup para conocer el propósito de la startup que está desarrollando la aplicación.|3|
-|5|US25|Sección “Características”|Como usuario quiero ver una página “Características” para conocer las funcionalidades que brinda la aplicación.|3|
-|6|US26|Sección “Contacto”|Como usuario quiero acceder a una página “Contacto” para conocer los medios de contacto con la empresa para realizar preguntas sobre dudas, problemas o sugerencias.|3|
-|7|US07|Historial de envíos ordenados|Como cliente de empresa logística quiero tener acceso a un historial completo de mis envíos anteriores, para poder realizar un seguimiento de las actividades de envío pasadas y planificar futuros envíos de manera más eficiente.|5|
-|8|US08|Búsqueda de envíos ordenados|Como cliente de empresa logística quiero poder filtrar mis envíos anteriores mediante criterios de búsqueda para encontrar la información que necesito|5|
-|9|US09|Visualización de gastos realizados en el viaje|Como cliente de empresa logística quiero visualizar los gastos realizados en cada viaje para conocer los motivos del monto total por el servicio.|5|
-|10|US04|Seguimiento en tiempo real de envíos para cliente|Como cliente de empresa logística, quiero poder ingresar el número de seguimiento de mi envío en una plataforma en línea, para poder obtener actualizaciones en tiempo real sobre la ubicación y el estado de mi mercancía durante el transporte.|8|
-|11|US06|Acceso a detalles de entrega|Como cliente de empresa logística, quiero poder acceder a detalles específicos sobre la entrega de mi envío, para tener una comprensión completa del proceso de entrega.|5|
-|12|US10|Estadísticas de envíos|Como cliente de empresa logística quiero tener acceso a estadísticas sobre mis envíos previos para comprender patrones y tomar decisiones informadas|5|
-|13|US27|Registro de nuevo viaje|Como empresario de gestión logística, quiero registrar los datos de un nuevo viaje para tener un registro guardado y mostrar transparencia a mis clientes.|5|
-|14|US28|Modificación de datos de un viaje|Como empresario de gestión logística, quiero modificar los datos de un viaje para corregir  datos erróneos que fueron registrados.|3|
-|15|US29|Registro de gastos de viaje|Como empresario de gestión logística, quiero poder registrar los gastos realizados durante los viajes para mantener un registro preciso y mantener informados a mis clientes sobre los costos asociados a sus servicios.|5|
-|16|US30|Modificación de gastos de un viaje|Como empresario de gestión logística, quiero modificar los gastos realizados durante un viaje para corregir datos erróneos ingresados al hacer el registro del gasto.|3|
-|17|US31|Seguimiento en tiempo real para empresa|Como empresario de gestión logística, quiero poder visualizar el seguimiento en tiempo real de los servicios mediante la plataforma para identificar posibles imprevistos y tomar acciones correctivas de manera oportuna.|8|
-|18|US32|Historial de envíos realizados|Como empresario de gestión logística, quiero tener un historial de envíos para llevar un registro detallado de todos los servicios que he realizado y poder acceder a esta información en cualquier momento.|3|
+|1|US19|NavBar y Footer|Como usuario quiero usar visualizar una barra de navegación y pie de página para navegar fácilmente a través de la página.|3|
+|2|US20|Página de inicio|Como usuario quiero ver una página de inicio para conocer la idea principal de la aplicación.|3|
+|3|US21|Sección “Acerca De”|Como usuario quiero ver una página “Acerca De” para conocer la problemática principal y el propósito de la aplicación.|3|
+|4|US22|Sección “Sobre Nosotros”|Como usuario quiero ver una página sobre la startup para conocer el propósito de la startup que está desarrollando la aplicación.|3|
+|5|US23|Sección “Características”|Como usuario quiero ver una página “Características” para conocer las funcionalidades que brinda la aplicación.|3|
+|6|US24|Sección “Contacto”|Como usuario quiero acceder a una página “Contacto” para conocer los medios de contacto con la empresa para realizar preguntas sobre dudas, problemas o sugerencias.|3|
+|7|US05|Historial de envíos ordenados|Como cliente de empresa logística quiero tener acceso a un historial completo de mis envíos anteriores, para poder realizar un seguimiento de las actividades de envío pasadas y planificar futuros envíos de manera más eficiente.|5|
+|8|US06|Búsqueda de envíos ordenados|Como cliente de empresa logística quiero poder filtrar mis envíos anteriores mediante criterios de búsqueda para encontrar la información que necesito|5|
+|9|US07|Visualización de gastos realizados en el viaje|Como cliente de empresa logística quiero visualizar los gastos realizados en cada viaje para conocer los motivos del monto total por el servicio.|5|
+|10|US02|Seguimiento en tiempo real de envíos para cliente|Como cliente de empresa logística, quiero poder ingresar el número de seguimiento de mi envío en una plataforma en línea, para poder obtener actualizaciones en tiempo real sobre la ubicación y el estado de mi mercancía durante el transporte.|5|
+|11|US04|Acceso a detalles de entrega|Como cliente de empresa logística, quiero poder acceder a detalles específicos sobre la entrega de mi envío, para tener una comprensión completa del proceso de entrega.|5|
+|12|US08|Estadísticas de envíos|Como cliente de empresa logística quiero tener acceso a estadísticas sobre mis envíos previos para comprender patrones y tomar decisiones informadas|5|
+|13|US25|Registro de nuevo viaje|Como empresario de gestión logística, quiero registrar los datos de un nuevo viaje para tener un registro guardado y mostrar transparencia a mis clientes.|5|
+|14|US26|Modificación de datos de un viaje|Como empresario de gestión logística, quiero modificar los datos de un viaje para corregir datos erróneos que fueron registrados.|3|
+|15|US27|Registro de gastos de viaje|Como empresario de gestión logística, quiero poder registrar los gastos realizados durante los viajes para mantener un registro preciso y mantener informados a mis clientes sobre los costos asociados a sus servicios.|5|
+|16|US28|Modificación de gastos de un viaje|Como empresario de gestión logística, quiero modificar los gastos realizados durante un viaje para corregir datos erróneos ingresados al hacer el registro del gasto.|3|
+|17|US33|Seguimiento en tiempo real para empresa|Como empresario de gestión logística, quiero poder visualizar el seguimiento en tiempo real de los servicios mediante la plataforma para identificar posibles imprevistos y tomar acciones correctivas de manera oportuna.|5|
+|18|US34|Historial de envíos realizados|Como empresario de gestión logística, quiero tener un historial de envíos para llevar un registro detallado de todos los servicios que he realizado y poder acceder a esta información en cualquier momento.|3|
 |19|US01|Alertas de eventos importantes durante la entrega|Como cliente de empresa logística quiero recibir una alerta sobre cualquier evento importante que pueda afectar la entrega para minimizar cualquier impacto en mi operación|5|
-|20|US02|Alertas de condiciones climáticas adversas|Como cliente de empresa logística quiero ser informado de inmediato si el transporte se ve afectado por condiciones climáticas adversas para tomar precauciones adecuadas y asegurar de que la mercancía esté protegida durante el transporte|5|
-|21|US03|Alertas de detención no programada|Como cliente de empresa logística quiero ser alertado si la unidad de transporte se detiene de manera no programada durante el viaje para investigar la situación y asegurarme de que la mercancía esté protegida y en movimiento según lo planeado|5|
-|22|US05|Notificaciones de eventos relevantes|Como cliente de empresa logística quiero recibir notificaciones automáticas sobre eventos relevantes relacionados con mi envío, para estar informado sobre el progreso de mi mercancía sin tener que realizar un seguimiento constante.|5|
-|23|US11|Exportación del historial de envíos|Como cliente de empresa logística quiero poder exportar mi historial de envíos para realizar un análisis fuera de la plataforma|5|
-|24|US12|Interfaz intuitiva y fácil de usar|Como cliente, quiero una plataforma de seguimiento fácil e intuitiva, para acceder rápidamente a la información sin complicaciones.|3|
-|25|US13|Soporte multidispositivo y multiplataforma|Como cliente quiero acceder a la plataforma desde cualquier dispositivo o sistema operativo para una experiencia consistente|5|
-|26|US14|Personalización de visualización|Como cliente, quiero personalizar la presentación de la información para que se adapte a mis preferencias|5|
-|27|US15|Registro de usuario|Como cliente quiero poder registrarme en la aplicación para tener acceso autorizado y personalizado|8|
-|28|US16|Inicio de sesión|Como cliente quiero acceder a mi cuenta registrada para acceder a las funciones de la aplicación|8|
-|29|US17|Cierre de sesión|Como cliente quiero cerrar sesión de forma segura en cualquier momento para garantizar la seguridad y privacidad de mis datos|5|
-|30|US18|Elegir plan de suscripción|Como cliente quiero elegir un plan de suscripción que se acomode a mis necesidades para acceder a las funcionalidades necesarias para mí.|5|
-|31|US19|Recuperación de cuenta|Como cliente quiero poder recuperar mi cuenta en caso haya tenido algún inconveniente con las credenciales para recuperar el acceso de forma segura.|5|
-|32|US20|Gestión de método de pago|Como cliente quiero gestionar mi método de pago para asegurarme de que la facturación se realice de manera correcta y segura en mi cuenta.|8|
+|20|US37|Visualización de datos de cliente|Como empresario de gestión logística, quiero ver los datos de mis clientes para visualizar la información de cada uno de ellos de forma ordenada.|3|
+|21|US29|Registro de datos de conductor|Como empresario de gestión logística, quiero poder registrar los datos de mis conductores para asignarlos adecuadamente a cada envío.|3|
+|22|US30|Modificación de datos de conductor|Como empresario de gestión logística, quiero modificar los datos de un conductor para corregir datos erróneos ingresados al hacer el registro del conductor.|3|
+|23|US31|Registro de datos de vehículo|Como empresario de gestión logística, quiero poder registrar los datos de mis vehículos para tener registro de los envíos que realizan.|3|
+|24|US32|Modificación de datos de vehículo|Como empresario de gestión logística, quiero modificar los datos de un conductor para corregir datos erróneos ingresados al hacer el registro del vehículo.|3|
+|25|US35|Visualización de datos de conductor|Como empresario de gestión logística, quiero ver los datos de los conductores para visualizar la información de cada uno de ellos de forma ordenada.|2|
+|26|US36|Visualización de datos de vehículo|Como empresario de gestión logística, quiero ver los datos de los vehículos para visualizar la información de cada uno de ellos de forma ordenada.|2|
+|27|US03|Notificaciones de eventos relevantes|Como cliente de empresa logística quiero recibir notificaciones automáticas sobre eventos relevantes relacionados con mi envío, para estar informado sobre el progreso de mi mercancía sin tener que realizar un seguimiento constante.|5|
+|28|US09|Exportación del historial de envíos|Como cliente de empresa logística quiero poder exportar mi historial de envíos para realizar un análisis fuera de la plataforma|5|
+|29|US10|Interfaz intuitiva y fácil de usar|Como cliente, quiero una plataforma de seguimiento fácil e intuitiva, para acceder rápidamente a la información sin complicaciones.|3|
+|30|US11|Soporte multidispositivo y multiplataforma|Como cliente quiero acceder a la plataforma desde cualquier dispositivo o sistema operativo para una experiencia consistente|5|
+|31|US12|Personalización de visualización|Como cliente, quiero personalizar la presentación de la información para que se adapte a mis preferencias|5|
+|32|US13|Registro de usuario|Como cliente quiero poder registrarme en la aplicación para tener acceso autorizado y personalizado|5|
+|33|US14|Inicio de sesión|Como cliente quiero acceder a mi cuenta registrada para acceder a las funciones de la aplicación|5|
+|34|US15|Cierre de sesión|Como cliente quiero cerrar sesión de forma segura en cualquier momento para garantizar la seguridad y privacidad de mis datos|5|
+|35|US16|Elegir plan de suscripción|Como cliente quiero elegir un plan de suscripción que se acomode a mis necesidades para acceder a las funcionalidades necesarias para mí.|5|
+|36|US17|Recuperación de cuenta|Como cliente quiero poder recuperar mi cuenta en caso haya tenido algún inconveniente con las credenciales para recuperar el acceso de forma segura.|5|
+|37|US18|Gestión de método de pago|Como cliente quiero gestionar mi método de pago para asegurarme de que la facturación se realice de manera correcta y segura en mi cuenta.|5|
+|38|US38|Uso de nuestra API para gestionar usuarios|Como desarrollador quiero integrar un API para gestionar la información de los usuarios en la base de datos.|5|
+|39|US39|Uso de nuestra API para gestionar los datos de viajes|Como desarrollador quiero integrar un API para gestionar la información de los viajes, gastos, conductores y vehículos en la base de datos.|5|
 
 # Capítulo IV Product Design
 ## 4.1. Style Guidelines
@@ -1150,34 +1205,70 @@ La organización por tópicos se utiliza para agrupar información relacionada p
 
 
 ### 4.2.2. Labeling Systems
+
+**Vista Cliente**
+
 <table>
   <tr>
     <th>Titulo</th>
     <th>Descripción</th>
   </tr>
   <tr>
-    <td>Mis Envíos</td>
-    <td>Este botón te permite acceder y gestionar tus envíos activos y pasados, así como cualquier información relacionada con ellos, como el estado del envío, detalles de seguimiento y documentos asociados.</td>
+    <td>Record / Historial</td>
+    <td>Este botón te permite acceder al listado de todos los envíos del usuario.</td>
   </tr>
   <tr>
-    <td>Buscar Envío</td>
-    <td>Al seleccionar este botón, puedes ingresar el número de seguimiento de un envío para obtener información detallada sobre su ubicación y estado actual.</td>
+    <td>Expenses / Gastos</td>
+    <td>Este botón permite acceder al listado de gastos registrados de los envíos.</td>
   </tr>
   <tr>
-    <td>Perfil del Conductor</td>
-    <td>Este botón te lleva al perfil del conductor asignado a tu envío, donde puedes ver su información personal, historial de conducción y valoraciones de otros usuarios.</td>
+    <td>GPS</td>
+    <td>Este botón permite acceder a la vista de ubicación en tiempo real de los envíos actuales.</td>
   </tr>
   <tr>
-    <td>Contacto de Emergencia</td>
-    <td>Al hacer clic aquí, puedes acceder rápidamente a los números de contacto de emergencia para comunicarte con el equipo de soporte en caso de problemas durante el transporte.</td>
+    <td>Statistics / Estadísticas</td>
+    <td>Este botón permite acceder a las estadísticas obtenidas de los envíos considerando la fecha y destino de cada envío.</td>
   </tr>
   <tr>
-    <td>Calendario de Entregas</td>
-    <td>Este botón te permite ver un calendario con todas tus entregas programadas, facilitando la planificación y organización de tus actividades diarias de envío.</td>
+    <td>Settings / Configuración</td>
+    <td>Al seleccionar este botón, puedes acceder a la configuración de tu cuenta para gestionar tus preferencias de visualización, suscripción y otros ajustes relacionados con tu cuenta de CargoApp.</td>
+  </tr>
+</table>
+
+**Vista Empresario**
+
+<table>
+  <tr>
+    <th>Titulo</th>
+    <th>Descripción</th>
   </tr>
   <tr>
-    <td>Configuración de la Cuenta</td>
-    <td>Al seleccionar este botón, puedes acceder a la configuración de tu cuenta para gestionar tus preferencias de notificación, información de contacto y otros ajustes relacionados con tu cuenta de CargoApp.</td>
+    <td>Registry / Registro</td>
+    <td>Este botón permite registrar y modificar datos como envíos, gastos, conductores y vehículos.</td>
+  </tr>
+    <tr>
+    <td>Clients / Clientes</td>
+    <td>Este botón te permite acceder al listado de los clientes con los que se haya registrado al menos un envío.</td>
+  </tr>
+  <tr>
+    <td>Drivers / Conductores</td>
+    <td>Este botón te permite acceder al listado de los conductores registrados.</td>
+  </tr>
+  <tr>
+    <td>Vehicles / Vehículos</td>
+    <td>Este botón te permite acceder al listado de los vehículos registrados.</td>
+  </tr>
+  <tr>
+    <td>Record / Historial</td>
+    <td>Este botón te permite acceder al listado de todos los envíos del usuario.</td>
+  </tr>
+  <tr>
+    <td>GPS</td>
+    <td>Este botón permite acceder a la vista de ubicación en tiempo real de los envíos actuales.</td>
+  </tr>
+  <tr>
+    <td>Settings / Configuración</td>
+    <td>Al seleccionar este botón, puedes acceder a la configuración de tu cuenta para gestionar tus preferencias de visualización, suscripción y otros ajustes relacionados con tu cuenta de CargoApp.</td>
   </tr>
 </table>
 
@@ -1501,116 +1592,293 @@ El diagrama de componentes de la API REST muestra las partes esenciales de nuest
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 
-Se realizó el diagrama de clase, en el cual se especifica las clases a manejar, así como sus atributos y métodos.
+Se realizaron los diagramas de clase, en los cuales se especifica las clases a manejar en cada Bounded Context, así como sus atributos y métodos.
 
-<img src="img/class-diagram.png" alt="Diagrama de clases" width="100%">
+#### User Bounded Context
+<img src="img/class-diagram-user.png" alt="Diagrama de clases (User)" width="100%">
+
+#### Registration Bounded Context
+<img src="img/class-diagram-registration.png" alt="Diagrama de clases (Registration)" width="100%">
 
 ### 4.7.2. Class Dictionary
 
 A continuación, se especificara más a detalle sobre cada una de las clases.
 
+#### User Bounded Context
 
-1. User (Usuario):
-   - Atributos:
-     - id: Identificador único del usuario.
-     - username: Nombre de usuario del usuario.
-     - email: Dirección de correo electrónico del usuario.
-     - password: Contraseña del usuario.
-     - subscription: Tipo de suscripción del usuario.
-   - Métodos:
-     - changePassword(): Permite al usuario cambiar su contraseña.
-     - changeEmail(): Permite al usuario cambiar su dirección de correo electrónico.
-     - suscribe(): Permite al usuario suscribirse a un plan de suscripción.
+**User (Aggregate)**
+La clase User contiene toda la información de un usuario registrado dentro de la aplicación, así como su información empresarial, información de autenticación y plan de suscripción.
+
+**Atributos:**
+- id: int - Identificador único del usuario
+- userData: UserData - Información sobre datos del usuario
+- userAuthentication: UserAuthentication - Información sobre autenticación del usuario
+- subscriptionPlan: SubscriptionPlan - Información sobre el plan de suscripción
 
 
-2. Client (Cliente):
-   - Atributos:
-     - id: Identificador único del cliente.
-     - name: Nombre del cliente.
-     - email: Dirección de correo electrónico del cliente.
-     - phone: Número de teléfono del cliente.
-     - shipments: Lista de envíos asociados al cliente.
-     - users: Lista de usuarios asociados al cliente.
-   - Métodos:
-     - createShipment(): Crea un nuevo envío para el cliente.
-     - updateShipment(): Actualiza la información de un envío existente.
-     - cancelShipment(): Cancela un envío existente.
-     - trackShipment(): Permite al cliente rastrear un envío específico.
-     - getShipmentData(): Obtiene los datos de los envíos asociados al cliente.
-     - updateProfile(): Actualiza el perfil del cliente con nueva información.
+**Métodos:**
+- getUser(): Devuelve los detalles del usuario.
+- updateUser(): Actualiza los detalles del usuario.
+
+-----
+
+**UserData (Value Object)**
+La clase UserData contiene información de los datos empresariales del usuario.
+
+**Atributos:**
+- name: string - Nombre del usuario
+- phone: string - Teléfono del usuario
+- ruc: string - Identificador RUC del usuario
+- address: string - Dirección del usuario
 
 
-3. Company (Empresa):
-   - Atributos:
-     - id: Identificador único de la empresa.
-     - name: Nombre de la empresa.
-     - address: Dirección de la empresa.
-     - phone: Número de teléfono de la empresa.
-     - email: Dirección de correo electrónico de la empresa.
-     - website: Sitio web de la empresa.
-     - units: Lista de unidades asociadas a la empresa.
-   - Métodos:
-     - addUnit(): Agrega una nueva unidad a la flota de la empresa.
-     - updateUnit(): Actualiza la información de una unidad existente.
-     - removeUnit(): Elimina una unidad de la flota de la empresa.
+**Métodos:**
+- getName(): Devuelve el nombre del usuario
+- setName(): Establece el nombre del usuario
+- getPhone(): Devuelve el teléfono del usuario
+- setPhone(): Establece el teléfono del usuario
+- getRuc(): Devuelve el RUC del usuario
+- setRuc(): Establece el RUC del usuario
+- getAddress(): Devuelve la dirección del usuario
+- setAddress(): Establece la dirección del usuario
+
+-----
+
+**UserAuthentication (Value Object)**
+La clase UserAuthentication contiene información de los datos de autenticación del usuario
+
+**Atributos:**
+- email: string - Correo electrónico del usuario
+- password: string - Contraseña del usuario
+
+**Métodos:**
+- getEmail(): Devuelve el correo electrónico del usuario
+- setEmail(): Establece el correo electrónico del usuario
+- getPassword(): Devuelve la contraseña del usuario
+- setPassword(): Establece la contraseña del usuario
+
+-----
+
+**SubscriptionPlan (Value Object)**
+La clase SubscriptionPlan contiene información del plan de suscripción del usuario.
+
+**Atributos:**
+- subscription: string - Suscripción elegida por el usuario
+
+**Métodos:**
+- getSubscription(): Devuelve la suscripción del usuario
+- setSubscription(): Establece la suscripción del usuario
+
+-----
+
+**Client (Entity)**
+La clase Client representa a un usuario que es de tipo cliente.
+
+**Atributos:**
+- id: int - Identificador único del cliente
+- userId: int - Identificador del usuario con el que se relaciona
 
 
-4. Unit (Unidad):
-   - Atributos:
-     - id: Identificador único de la unidad.
-     - name: Nombre de la unidad.
-     - description: Descripción de la unidad.
-     - capacity: Capacidad de carga de la unidad.
-     - weight: Peso de la unidad.
-     - volume: Volumen de la unidad.
-     - status: Estado actual de la unidad.
-   - Métodos:
-     - checkStatus(): Verifica el estado actual de la unidad.
-     - updateStatus(): Actualiza el estado de la unidad.
+**Métodos:**
+- getClient(): Devuelve los detalles del cliente
+
+-----
+
+**Entrepreneur (Entity)**
+La clase Entrepreneur representa a un usuario que es de tipo empresario.
+
+**Atributos:**
+- id: int - Identificador único del empresario
+- logoImage: string - Imagen del logo de la empresa
+- userId: int - Identificador del usuario con el que se relaciona
+
+**Métodos:**
+- getEntrepreneur(): Devuelve los detalles del empresario
+
+-----
+
+**Configuration (Entity)**
+La clase Configuration representa la configuración de tema, vista y compartir información determinada por el usuario dentro de la aplicación.
 
 
-5. Shipment (Envío):
-   - Atributos:
-     - id: Identificador único del envío.
-     - date: Fecha del envío.
-     - status: Estado del envío.
-     - origin: Ubicación de origen del envío.
-     - destination: Ubicación de destino del envío.
-     - weight: Peso del envío.
-     - volume: Volumen del envío.
-     - description: Descripción del envío.
-     - client: Cliente asociado al envío.
-     - company: Empresa asociada al envío.
-     - unit: Unidad asignada al envío.
-     - photographicEvidence: Lista de evidencia fotográfica asociada al envío.
-   - Métodos:
-     - calculateCost(): Calcula el costo de envío del paquete.
-     - updateStatus(): Actualiza el estado del envío.
-     - addPhotographicEvidence(photo: string): Agrega evidencia fotográfica al envío.
-     - removePhotographicEvidence(photo: string): Elimina evidencia fotográfica del envío.
-     - getPhotographicEvidence(): Obtiene la lista de evidencia fotográfica asociada al envío.
+**Atributos:**
+- id: int - Identificador único de la configuración
+- theme: string - Tema elegido por el usuario
+- view: string - Vista elegida por el usuario
+- allowDataCollection: bool - Opción elegida por el usuario para colección de datos
+- updateDataSharing: bool - Opción elegida por el usuario para compartir datos
+- userId: int - Identificador del usuario con el que se relaciona
 
 
-6. Location (Ubicación):
-   - Atributos:
-     - id: Identificador único de la ubicación.
-     - address: Dirección de la ubicación.
-     - latitude: Coordenada de latitud de la ubicación.
-     - longitude: Coordenada de longitud de la ubicación.
+**Métodos:**
+- getConfiguration(): Devuelve los detalles de la configuración
+- updateConfiguration(): Actualiza los detalles de la configuración
+
+-----
 
 
-7. Configuration (Configuración):
-   - Atributos:
-     - userId: Identificador del usuario asociado a la configuración.
-     - theme: Tema seleccionado por el usuario.
-     - view: Vista preferida por el usuario.
-     - allowDataCollection: Indica si se permite la recopilación de datos.
-     - allowDataSharing: Indica si se permite el intercambio de datos.
-   - Métodos:
-     - updateTheme(): Actualiza el tema seleccionado por el usuario.
-     - updateView(): Actualiza la vista preferida por el usuario.
-     - updateDataCollection(): Actualiza la configuración de recopilación de datos.
-     - updateDataSharing(): Actualiza la configuración de intercambio de datos.
+#### Registration Bounded Context
+
+**Trip (Aggregate)**
+La clase Trip contiene información central sobre el viaje, como el nombre, datos de la carga, detalles del viaje, y referencias a entidades como el vehículo y el conductor.
+
+**Atributos:**
+- id: int — Identificador único del viaje.
+- name: Name — Nombre del viaje, representado como un Value Object.
+- cargoData: CargoData — Información sobre la carga del viaje.
+- tripData: TripData — Detalles específicos del viaje.
+- vehicleId: int — Identificador del vehículo asignado.
+- driverId: int — Identificador del conductor asignado.
+- clientId: int — Identificador del cliente.
+- entrepreneurId: int — Identificador del emprendedor.
+
+**Métodos:**
+- getTrip(): Devuelve los detalles del viaje.
+- updateTrip(): Actualiza los detalles del viaje.
+
+-----
+
+**Name (Value Object)**
+La clase Name representa el nombre del viaje como un Value Object.
+
+**Atributos:**
+- tripName: string — Nombre del viaje.
+
+**Métodos:**
+- getName(): Devuelve el nombre del viaje.
+- setName(): Establece el nombre del viaje.
+
+-----
+
+**CargoData (Value Object)**
+La clase CargoData contiene información sobre la carga del viaje.
+
+**Atributos:**
+- type: string — Tipo de carga.
+- weight: float — Peso de la carga.
+
+**Métodos:**
+- getType(): Devuelve el tipo de carga.
+- setType(): Establece el tipo de carga.
+- getWeight(): Devuelve el peso de la carga.
+- setWeight(): Establece el peso de la carga.
+
+-----
+
+**TripData (Value Object)**
+La clase TripData incluye detalles específicos del viaje, como ubicaciones y fechas de carga y descarga.
+
+**Atributos:**
+- loadLocation: string — Ubicación de carga.
+- loadDate: DateTime — Fecha de carga.
+- unloadLocation: string — Ubicación de descarga.
+- unloadDate: DateTime — Fecha de descarga.
+
+**Métodos:**
+- getLoadLocation(): Devuelve la ubicación de carga.
+- setLoadLocation(): Establece la ubicación de carga.
+- getLoadDate(): Devuelve la fecha de carga.
+- setLoadDate(): Establece la fecha de carga.
+- getUnloadLocation(): Devuelve la ubicación de descarga.
+- setUnloadLocation(): Establece la ubicación de descarga.
+- getUnloadDate(): Devuelve la fecha de descarga.
+- setUnloadDate(): Establece la fecha de descarga.
+
+-----
+
+**Vehicle (Entity)**
+La clase Vehicle representa un vehículo asociado a un viaje.
+
+**Atributos:**
+- id: int — Identificador único del vehículo.
+- model: string — Modelo del vehículo.
+- plate: string — Placa del vehículo.
+- tractorPlate: string — Placa del tractor.
+- maxLoad: float — Carga máxima del vehículo.
+- volume: float — Volumen del vehículo.
+
+**Métodos:**
+- getVehicle(): Devuelve los detalles del vehículo.
+- updateVehicle(): Actualiza los detalles del vehículo.
+
+-----
+
+**Driver (Entity)**
+La clase Driver representa un conductor asociado a un viaje.
+
+**Atributos:**
+- id: int — Identificador único del conductor.
+- name: string — Nombre del conductor.
+- dni: string — Documento Nacional de Identidad del conductor.
+- license: string — Licencia del conductor.
+- contactNumber: string — Número de contacto del conductor.
+
+**Métodos:**
+- getDriver(): Devuelve los detalles del conductor.
+- updateDriver(): Actualiza los detalles del conductor.
+
+-----
+
+**Alert (Entity)**
+La clase Alert representa una alerta asociada a un viaje.
+
+**Atributos:**
+- id: int — Identificador único de la alerta.
+- tripId: int — Identificador del viaje asociado.
+- title: string — Título de la alerta.
+- description: string — Descripción de la alerta.
+- date: DateTime — Fecha de la alerta.
+
+**Métodos:**
+- getAlert(): Devuelve los detalles de la alerta.
+
+-----
+
+**Expense (Entity)**
+La clase Expense representa un gasto asociado a un viaje.
+
+**Atributos:**
+- id: int — Identificador único del gasto.
+- tripId: int — Identificador del viaje asociado.
+- fuelAmount: int — Monto de combustible.
+- fuelDescription: int — Descripción del combustible.
+- viaticsAmount: int — Monto de viáticos.
+- viaticsDescription: int — Descripción de los viáticos.
+- tollsAmount: int — Monto de peajes.
+- tollsDescription: int — Descripción de los peajes.
+
+**Métodos:**
+- getExpense(): Devuelve los detalles del gasto.
+- updateExpense(): Actualiza los detalles del gasto.
+
+-----
+
+**OnGoingTrip (Entity)**
+La clase OnGoingTrip representa un viaje en curso con información sobre la ubicación y estado actual.
+
+**Atributos:**
+- id: int — Identificador único del viaje en curso.
+- tripId: int — Identificador del viaje asociado.
+- latitude: float — Latitud de la ubicación actual.
+- longitude: float — Longitud de la ubicación actual.
+- speed: int — Velocidad actual.
+- distance: int — Distancia recorrida.
+
+**Métodos:**
+- getOnGoingTrip(): Devuelve los detalles del viaje en curso.
+
+-----
+
+**Evidence (Entity)**
+La clase Evidence representa evidencia asociada a un viaje.
+
+**Atributos:**
+- id: int — Identificador único de la evidencia.
+- tripId: int — Identificador del viaje asociado.
+- link: string — Enlace a la evidencia.
+
+**Métodos:**
+- getEvidence(): Devuelve los detalles de la evidencia.
 
 
 ## 4.8. Database Design
@@ -1689,7 +1957,19 @@ Usuarios de GitHub:
 *URL de repositorio de Frontend Web Applications:*
 http://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications
 
-Para el desarrollo del trabajo se usará GitFlow. Este es un modelo de flujo de trabajo para la gestión de control de versiones Git. Está compuesta por ramas y cada una tiene un uso específico: Main, Feature, Develop. En la rama Main, se trabaja con las versiones finales del sprint y se hace un despliegue de la aplicación web, es por ello que todas las versiones almacenadas en esta rama deben ser funcionales y estables para el usuario. En las ramas Feature se trabaja con versiones sobre las que se desarrolla un feature específico, así como un feature para registro de un usuario. Las ramas Feature se trabajan y controlan por separado para tener un orden sobre el cual trabajar a partir del Product Backlog, y en caso ocurra algún problema al trabajar en un feature, no afecte sobre todo el programa. Finalmente, tenemos la rama Develop, sobre la cual se fusionan todos los features ya trabajados. De esta manera, se puede asegurar que todo esté funcionando como se espera antes de hacer el despliegue oficial para pasarlo a la rama Main.
+*URL de repositorio de Web Services:*
+http://github.com/Grupo-2-Apps-Web/Web-Services
+
+Para el desarrollo del trabajo se hará uso de GitFlow, el cual es un modelo de flujo de trabajo para la gestión de control de versiones Git. Está compuesta por ramas y cada una cumple un propósito distinto. Las ramas que utilizamos son: Feature, Develop, Release y Main. 
+
+**Rama Feature**: En esta rama se desarrolla un feature específico, por ejemplo la implementación del registro de un usuario o del inicio de sesión. Las ramas Feature se trabajan y controlan por separado para tener un orden sobre el cual trabajar a partir del Product Backlog. Esto asegura que cualquier problema que surja durante el desarrollo de una característica no afecte al programa en su totalidad.
+
+**Rama Develop**: En esta rama se fusionan las ramas feature desarrolladas. Esto permite verificar que todo funcione correctamente antes de integrarlo en la rama Release para su despliegue.
+
+**Rama Release**: En esta rama se prepara la versión final del sprint. Se realiza una revisión final de la versión para poder hacer el despliegue. Se asegura que todo esté correcto y funcional antes de hacer el despliegue. Al hacer el merge a la rama main, se especifica la versión que se está desplegando, para tener un control sobre las versiones desplegadas.
+
+**Rama Main**: En esta rama se encuentra la versión desplegada más reciente del proyecto. Es la rama principal que cuenta con cada versión desplegada oficialmente.
+
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
@@ -1795,18 +2075,20 @@ El objetivo de este primer sprint es la realización del Landing Page estático.
 <table><tr><th valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 1</th></tr>
 <tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
 <tr><td valign="top">Id</td><td valign="top">Title</td><td valign="top">Id</td><td valign="top">Title</td><td valign="top">Description</td><td valign="top">Estimation (Hours)</td><td valign="top">Assigned To</td><td valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
-<tr><td rowspan="2" valign="top">US21</td><td rowspan="2" valign="top">NavBar y Footer</td><td valign="top">TS01</td><td valign="top">Implementación de Navbar</td><td valign="top">Se implementa el navbar de forma responsive.</td><td valign="top">2</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">US19</td><td rowspan="2" valign="top">NavBar y Footer</td><td valign="top">TS01</td><td valign="top">Implementación de Navbar</td><td valign="top">Se implementa el navbar de forma responsive.</td><td valign="top">2</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
 <tr><td valign="top">TS02</td><td valign="top">Implementación de Footer</td><td valign="top">Se implementa el footer de forma responsive.</td><td valign="top">2</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
-<tr><td valign="top">US22</td><td valign="top">Página de inicio</td><td valign="top">TS03</td><td valign="top">Implementación de página de inicio</td><td valign="top">Se implementa la página de inicio de forma responsive y con su archivo css correspondiente.</td><td valign="top">1</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
-<tr><td valign="top">US23</td><td valign="top">Sección “Acerca De”</td><td valign="top">TS04</td><td valign="top">Implementación de sección Acerca De</td><td valign="top">Se implementa la página Acerca De, de forma responsive y con su archivo css correspondiente.</td><td valign="top">1</td><td valign="top">Sebastián Paredes</td><td valign="top">Done</td></tr>
-<tr><td valign="top">US24</td><td valign="top">Sección “Sobre Nosotros”</td><td valign="top">TS05</td><td valign="top">Implementación de sección Sobre Nosotros</td><td valign="top">Se implementa la página Sobre Nosotros, de forma responsive y con su archivo css correspondiente.</td><td valign="top">1</td><td valign="top">Salvador Salinas</td><td valign="top">Done</td></tr>
-<tr><td valign="top">US25</td><td valign="top">Sección “Características”</td><td valign="top">TS06</td><td valign="top">Implementación de sección Características</td><td valign="top">Se implementa la página Características, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Piero Delgado</td><td valign="top">Done</td></tr>
-<tr><td valign="top">US26</td><td valign="top">Sección “Contacto”</td><td valign="top">TS07</td><td valign="top">Implementación de sección Contacto</td><td valign="top">Se implementa la página Contacto, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Christian Matos</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US20</td><td valign="top">Página de inicio</td><td valign="top">TS03</td><td valign="top">Implementación de página de inicio</td><td valign="top">Se implementa la página de inicio de forma responsive y con su archivo css correspondiente.</td><td valign="top">1</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US21</td><td valign="top">Sección “Acerca De”</td><td valign="top">TS04</td><td valign="top">Implementación de sección Acerca De</td><td valign="top">Se implementa la página Acerca De, de forma responsive y con su archivo css correspondiente.</td><td valign="top">1</td><td valign="top">Sebastián Paredes</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US22</td><td valign="top">Sección “Sobre Nosotros”</td><td valign="top">TS05</td><td valign="top">Implementación de sección Sobre Nosotros</td><td valign="top">Se implementa la página Sobre Nosotros, de forma responsive y con su archivo css correspondiente.</td><td valign="top">1</td><td valign="top">Salvador Salinas</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US23</td><td valign="top">Sección “Características”</td><td valign="top">TS06</td><td valign="top">Implementación de sección Características</td><td valign="top">Se implementa la página Características, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Piero Delgado</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US24</td><td valign="top">Sección “Contacto”</td><td valign="top">TS07</td><td valign="top">Implementación de sección Contacto</td><td valign="top">Se implementa la página Contacto, de forma responsive y con su archivo css correspondiente.</td><td valign="top">2</td><td valign="top">Christian Matos</td><td valign="top">Done</td></tr>
 </table>
 
 #### 5.2.1.3. Development Evidence for Sprint Review.
 
 Se realizaron los avances con los commits correspondientes en el repositorio de la siguiente forma.
+
+Repositorio Landing Page: https://github.com/Grupo-2-Apps-Web/Landing-Page
 
 |**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
 | :- | :- | :- | :- | :- |
@@ -1827,6 +2109,8 @@ Se realizaron los avances con los commits correspondientes en el repositorio de 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review.
 
 Se realizaron los acceptance tests para las historias de usuario trabajadas y se registraron en el repositorio de la siguiente forma.
+
+Repositorio Acceptance Tests: https://github.com/Grupo-2-Apps-Web/Acceptance-Tests
 
 |**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
 | :- | :- | :- | :- | :- |
@@ -1936,35 +2220,37 @@ El segundo sprint se planeó a través de una reunión presencial en la universi
 
 El objetivo de este segundo sprint es la realización del Frontend de la aplicación web. Asimismo, trabajamos en una tabla en Trello: https://trello.com/b/Mz2gCQVf/cargowatch-sprint-backlog-2
 
-<img src="img/trello-sprint2.png" width="100%">
+<img src="img/sprint-backlog-2.png" width="100%">
 
 <table><tr><th valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 2</th></tr>
 <tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
 <tr><td valign="top">Id</td><td valign="top">Title</td><td valign="top">Id</td><td valign="top">Title</td><td valign="top">Description</td><td valign="top">Estimation (Hours)</td><td valign="top">Assigned To</td><td valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
-<tr><td rowspan="3" valign="top">US07</td><td rowspan="3" valign="top">Historial de envíos ordenados</td><td valign="top">TS01</td><td valign="top">Implementación de header y navbar</td><td valign="top">Se implementa el header y navbar para poder navegar dentro de la aplicación web.</td><td valign="top">2</td><td valign="top">Piero Delgado</td><td valign="top">Done</td></tr>
+<tr><td rowspan="3" valign="top">US05</td><td rowspan="3" valign="top">Historial de envíos ordenados</td><td valign="top">TS01</td><td valign="top">Implementación de header y navbar</td><td valign="top">Se implementa el header y navbar para poder navegar dentro de la aplicación web.</td><td valign="top">2</td><td valign="top">Piero Delgado</td><td valign="top">Done</td></tr>
 <tr><td valign="top">TS02</td><td valign="top">Implementación de página de historial</td><td valign="top">Se implementa la página principal del historial que muestra el listado de los viajes anteriores.</td><td valign="top">1</td><td valign="top">Salvador Salinas</td><td valign="top">Done</td></tr>
 <tr><td valign="top">TS03</td><td valign="top">Implementación de página de detalles de viaje</td><td valign="top">Se implementa la página de detalles de un viaje anterior elegido.</td><td valign="top">2</td><td valign="top">Salvador Salinas</td><td valign="top">Done</td></tr>
-<tr><td rowspan="2" valign="top">US08</td><td rowspan="2" valign="top">Búsqueda de envíos ordenados</td><td valign="top">TS04</td><td valign="top">Implementación de barra de búsqueda</td><td valign="top">Se implementa la barra de búsqueda para buscar un viaje en específico dentro del historial de viajes anteriores.</td><td valign="top">2</td><td valign="top">Sebastián Paredes</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">US06</td><td rowspan="2" valign="top">Búsqueda de envíos ordenados</td><td valign="top">TS04</td><td valign="top">Implementación de barra de búsqueda</td><td valign="top">Se implementa la barra de búsqueda para buscar un viaje en específico dentro del historial de viajes anteriores.</td><td valign="top">2</td><td valign="top">Sebastián Paredes</td><td valign="top">Done</td></tr>
 <tr><td valign="top">TS05</td><td valign="top">Implementación de filtrado</td><td valign="top">Se implementa el filtrado para buscar por nombre, fecha y lugar.</td><td valign="top">2</td><td valign="top">Sebastián Paredes</td><td valign="top">Done</td></tr>
-<tr><td rowspan="2" valign="top">US09</td><td rowspan="2" valign="top">Visualización de gastos realizados en el viaje</td><td valign="top">TS06</td><td valign="top">Implementación de listado de viajes</td><td valign="top">Se implementa la página muestra el listado de los viajes anteriores.</td><td valign="top">1</td><td valign="top">Piero Delgado</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">US07</td><td rowspan="2" valign="top">Visualización de gastos realizados en el viaje</td><td valign="top">TS06</td><td valign="top">Implementación de listado de viajes</td><td valign="top">Se implementa la página muestra el listado de los viajes anteriores.</td><td valign="top">1</td><td valign="top">Piero Delgado</td><td valign="top">Done</td></tr>
 <tr><td valign="top">TS07</td><td valign="top">Implementación de detalles de gastos del viaje</td><td valign="top">Se implementa la página de detalles de los gastos realizados de un viaje anterior elegido.</td><td valign="top">1</td><td valign="top">Piero Delgado</td><td valign="top">Done</td></tr>
-<tr><td valign="top">US04</td><td valign="top">Seguimiento en tiempo real de envíos para cliente</td><td valign="top">TS08</td><td valign="top">Implementación de mapa</td><td valign="top">Se implementa el mapa con la ubicación actual del transporte.</td><td valign="top">2</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
-<tr><td valign="top">US06</td><td valign="top">Acceso a detalles de entrega</td><td valign="top">TS09</td><td valign="top">Implementación de detalles de entrega</td><td valign="top">Se muestra en la página los detalles del envío como la velocidad, longitud y latitud actual.</td><td valign="top">1</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
-<tr><td rowspan="3" valign="top">US10</td><td rowspan="3" valign="top">Estadísticas de envíos</td><td valign="top">TS10</td><td valign="top">Implementación de página de estadísticas</td><td valign="top">Se implementa la página que mostrará la vista de las estadísticas.</td><td valign="top">1</td><td valign="top">Christian Matos</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US02</td><td valign="top">Seguimiento en tiempo real de envíos para cliente</td><td valign="top">TS08</td><td valign="top">Implementación de mapa</td><td valign="top">Se implementa el mapa con la ubicación actual del transporte.</td><td valign="top">2</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US04</td><td valign="top">Acceso a detalles de entrega</td><td valign="top">TS09</td><td valign="top">Implementación de detalles de entrega</td><td valign="top">Se muestra en la página los detalles del envío como la velocidad, longitud y latitud actual.</td><td valign="top">1</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td rowspan="3" valign="top">US08</td><td rowspan="3" valign="top">Estadísticas de envíos</td><td valign="top">TS10</td><td valign="top">Implementación de página de estadísticas</td><td valign="top">Se implementa la página que mostrará la vista de las estadísticas.</td><td valign="top">1</td><td valign="top">Christian Matos</td><td valign="top">Done</td></tr>
 <tr><td valign="top">TS11</td><td valign="top">Implementación de estadísticas por mes</td><td valign="top">Se implementa la gráfica para presentar las estadísticas de los viajes realizados por mes.</td><td valign="top">1</td><td valign="top">Christian Matos</td><td valign="top">Done</td></tr>
 <tr><td valign="top">TS12</td><td valign="top">Implementación de estadísticas por destino</td><td valign="top">Se implementa la gráfica para presentar las estadísticas de los viajes realizados por destino.</td><td valign="top">1</td><td valign="top">Christian Matos</td><td valign="top">Done</td></tr>
-<tr><td valign="top">US27</td><td valign="top">Registro de nuevo viaje</td><td valign="top">TS13</td><td valign="top">Implementación de página de registro de viaje</td><td valign="top">Se implementa la página con formulario para registrar el viaje.</td><td valign="top">1</td><td valign="top">Sebastián Paredes</td><td valign="top">Done</td></tr>
-<tr><td valign="top">US28</td><td valign="top">Modificación de datos de un viaje</td><td valign="top">TS14</td><td valign="top">Implementación de página de modificación de viaje</td><td valign="top">Se implementa la página con formulario para modificar un viaje específico.</td><td valign="top">1</td><td valign="top">Salvador Salinas</td><td valign="top">Done</td></tr>
-<tr><td valign="top">US29</td><td valign="top">Registro de gastos de viaje</td><td valign="top">TS15</td><td valign="top">Implementación de página de registro de gastos de un viaje</td><td valign="top">Se implementa la página con formulario para registrar los gastos de un viaje.</td><td valign="top">1</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
-<tr><td valign="top">US30</td><td valign="top">Modificación de gastos de un viaje</td><td valign="top">TS16</td><td valign="top">Implementación de página de modificación de gastos de un viaje</td><td valign="top">Se implementa la página con formulario para modificar los gastos de un viaje específico.</td><td valign="top">1</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
-<tr><td valign="top">US31</td><td valign="top">Seguimiento en tiempo real para empresa</td><td valign="top">TS17</td><td valign="top">Implementación de mapa</td><td valign="top">Se implementa el mapa con la ubicación actual del transporte.</td><td valign="top">2</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
-<tr><td valign="top">US32</td><td valign="top">Historial de envíos realizados</td><td valign="top">TS18</td><td valign="top">Implementación de listado de envíos realizados por empresa</td><td valign="top">Se implementa la página que muestra los viajes realizados anteriormente por la empresa.</td><td valign="top">1</td><td valign="top">Christian Matos</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US25</td><td valign="top">Registro de nuevo viaje</td><td valign="top">TS13</td><td valign="top">Implementación de página de registro de viaje</td><td valign="top">Se implementa la página con formulario para registrar el viaje.</td><td valign="top">1</td><td valign="top">Sebastián Paredes</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US26</td><td valign="top">Modificación de datos de un viaje</td><td valign="top">TS14</td><td valign="top">Implementación de página de modificación de viaje</td><td valign="top">Se implementa la página con formulario para modificar un viaje específico.</td><td valign="top">1</td><td valign="top">Salvador Salinas</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US27</td><td valign="top">Registro de gastos de viaje</td><td valign="top">TS15</td><td valign="top">Implementación de página de registro de gastos de un viaje</td><td valign="top">Se implementa la página con formulario para registrar los gastos de un viaje.</td><td valign="top">1</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US28</td><td valign="top">Modificación de gastos de un viaje</td><td valign="top">TS16</td><td valign="top">Implementación de página de modificación de gastos de un viaje</td><td valign="top">Se implementa la página con formulario para modificar los gastos de un viaje específico.</td><td valign="top">1</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US33</td><td valign="top">Seguimiento en tiempo real para empresa</td><td valign="top">TS17</td><td valign="top">Implementación de mapa</td><td valign="top">Se implementa el mapa con la ubicación actual del transporte.</td><td valign="top">2</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td valign="top">US34</td><td valign="top">Historial de envíos realizados</td><td valign="top">TS18</td><td valign="top">Implementación de listado de envíos realizados por empresa</td><td valign="top">Se implementa la página que muestra los viajes realizados anteriormente por la empresa.</td><td valign="top">1</td><td valign="top">Christian Matos</td><td valign="top">Done</td></tr>
 <tr><td valign="top">US01</td><td valign="top">Alertas de eventos importantes durante la entrega</td><td valign="top">TS19</td><td valign="top">Implementación de alertas</td><td valign="top">Se implementa el listado de alertas de viajes desde la página del seguimiento en tiempo real.</td><td valign="top">2</td><td valign="top">Piero Delgado</td><td valign="top">Done</td></tr>
 </table>
 
 #### 5.2.2.3. Development Evidence for Sprint Review.
 
 Se realizaron los avances con los commits correspondientes en el repositorio de la siguiente forma.
+
+Repositorio Frontend: https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications
 
 |**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
 | :- | :- | :- | :- | :- |
@@ -1985,6 +2271,8 @@ Se realizaron los avances con los commits correspondientes en el repositorio de 
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
 
 Se realizaron los acceptance tests para las historias de usuario trabajadas y se registraron en el repositorio de la siguiente forma.
+
+Repositorio Acceptance Tests: https://github.com/Grupo-2-Apps-Web/Acceptance-Tests
 
 |**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
 | :- | :- | :- | :- | :- |
@@ -2053,6 +2341,894 @@ Para la elaboración del Frontend, nos repartimos las tareas entre cada miembro,
 
 <img src="img/team_colaboration_insights_2.png" width="100%">
 
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3.
+
+El tercer sprint se planeó a través de una reunión presencial en la universidad. Para ello, se hizo la siguiente tabla para registrar la información que se discutió.
+
+|**Sprint #**|Sprint 3|
+| :- | :- |
+|**Sprint Planning Background**||
+|Date|2024-05-13|
+|Time|07:00 PM|
+|Location|Presencial (En la universidad)|
+|Prepared by|Delgado Corrales, Piero Gonzalo|
+|Attendees (to planning meeting)|<p>Delgado Corrales, Piero Gonzalo</p><p>Matos Fernandez, Christian Andre</p><p>Paredes Puente, Sebastián Roberto</p><p>Salinas Torres, Salvador Antonio</p><p>Valverde Mozo, Andre Gabriel</p>|
+|Sprint 2 Review Summary|En el sprint 2, se realizó la implementación y deployment del Frontend de la aplicación web.|
+|Sprint 2 Retrospective Summary|Este segundo sprint consistió principalmente en Frontend, aunque faltaron algunas partes a desarrollar y realizar algunas mejoras en el product backlog, así como la estimación de puntos.|
+|**Sprint Goal & User Stories**||
+|Sprint 3 Goal|Desarrollar la parte faltante en Frontend y empezar con el desarrollo de Backend de la aplicación web.|
+|Sprint 3 Velocity|80|
+|Sum of Story Points|80|
+
+#### 5.2.3.2. Sprint Backlog 3.
+
+El objetivo de este tercer sprint es la realización de la parte faltante de Frontend y empezar con el Backend de la aplicación web. Al igual que anteriores sprints, trabajamos las tareas en una tabla en Trello: <https://trello.com/b/miduy6Jv/cargowatch-sprint-backlog-3>
+
+<img src="img/sprint-backlog-3.png" width="100%">
+
+<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 3</th></tr>
+<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
+<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation (Hours)</td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
+<tr><td colspan="1" valign="top">US29</td><td colspan="1" valign="top">Registro de datos de conductor</td><td colspan="1" valign="top">TS01</td><td colspan="1" valign="top">Implementación de registro de conductores</td><td colspan="1" valign="top">Se implementa el componente para el registro de conductores.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top"><p>Salvador Salinas</p><p></p></td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US30</td><td colspan="1" valign="top">Modificación de datos de conductor</td><td colspan="1" valign="top">TS02</td><td colspan="1" valign="top">Implementación de modificación de conductores</td><td colspan="1" valign="top">Se implementa el componente para la modificación de conductores.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US31</td><td colspan="1" valign="top">Registro de datos de vehículo</td><td colspan="1" valign="top">TS03</td><td colspan="1" valign="top">Implementación de registro de vehículos</td><td colspan="1" valign="top">Se implementa el componente para el registro de vehículos.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US32</td><td colspan="1" valign="top">Modificación de datos de vehículo</td><td colspan="1" valign="top">TS04</td><td colspan="1" valign="top">Implementación de modificación de vehículos</td><td colspan="1" valign="top">Se implementa el componente para la modificación de vehículos.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US35</td><td colspan="1" valign="top">Visualización de datos de conductor</td><td colspan="1" valign="top">TS05</td><td colspan="1" valign="top">Implementación de visualización de conductores</td><td colspan="1" valign="top">Se implementa el componente para la visualización de conductores.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US36</td><td colspan="1" valign="top">Visualización de datos de vehículo</td><td colspan="1" valign="top">TS06</td><td colspan="1" valign="top">Implementación de visualización de vehículos</td><td colspan="1" valign="top">Se implementa el componente para la visualización de vehículos.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US03</td><td colspan="1" valign="top">Notificaciones de eventos relevantes</td><td colspan="1" valign="top">TS07</td><td colspan="1" valign="top">Implementación de notificaciones de alertas</td><td colspan="1" valign="top">Se implementa la vista de alertas en la vista de GPS en tiempo real para la vista del cliente.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Andre Valverde</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US09</td><td colspan="1" valign="top">Exportación del historial de envíos</td><td colspan="1" valign="top">TS08</td><td colspan="1" valign="top">Implementación de exportación de historial</td><td colspan="1" valign="top">Se implementa el componente para la exportación del historial de envíos en el formato deseado.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US10</td><td colspan="1" valign="top">Interfaz intuitiva y fácil de usar</td><td colspan="1" valign="top">TS09</td><td colspan="1" valign="top">Implementación de interfaz intuitiva y sencilla</td><td colspan="1" valign="top">Se implementan las vistas intuitivas y sencillas para todos los componentes trabajados.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Piero Delgado, Christian Matos, Sebastian Paredes, Salvador Salinas, Andre Valverde</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US11</td><td colspan="1" valign="top">Soporte multidispositivo y multiplataforma</td><td colspan="1" valign="top">TS10</td><td colspan="1" valign="top">Implementación de responsividad en la aplicación</td><td colspan="1" valign="top">Se implementa la responsividad en el CSS de todos los componentes trabajados</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Piero Delgado, Christian Matos, Sebastian Paredes, Salvador Salinas, Andre Valverde</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">US12</td><td colspan="1" rowspan="3" valign="top">Personalización de visualización</td><td colspan="1" valign="top">TS11</td><td colspan="1" valign="top">Implementación de selector de tema entre claro y oscuro.</td><td colspan="1" valign="top">Se implementa un seleccionador que permita al usuario cambiar el tema de la página entre claro y oscuro.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Christian Matos</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS12</td><td colspan="1" valign="top">Implementación de selector de vista entre cuadrícula y lista. </td><td colspan="1" valign="top">Se implementa un seleccionador que permita al usuario cambiar la vista de la página entre cuadrícula y lista.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Christian Matos</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS13</td><td colspan="1" valign="top">Implementación de casillas de verificación para recopilación de datos y compartir con terceros.</td><td colspan="1" valign="top">Implementación de casillas de verificación que permitan al usuario seleccionar la recopilación de datos y compartir datos con terceros.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Christian Matos</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">US13</td><td colspan="1" rowspan="3" valign="top">Registro de usuario</td><td colspan="1" valign="top">TS14</td><td colspan="1" valign="top">Implementación de registro de usuario</td><td colspan="1" valign="top">Se crea la componente para la vista de registro de usuario.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS15</td><td colspan="1" valign="top">Implementación de registro de cliente</td><td colspan="1" valign="top">Se crea la componente para el registro de un usuario cliente.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS16</td><td colspan="1" valign="top">Implementación de registro de empresario</td><td colspan="1" valign="top">Se crea la componente para el registro de un usuario empresario.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas, Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US14</td><td colspan="1" valign="top">Inicio de sesión</td><td colspan="1" valign="top">TS17</td><td colspan="1" valign="top">Implementación de formulario login</td><td colspan="1" valign="top">Se crea el componente para acceder a la aplicación mediante una cuenta ya creada</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US15</td><td colspan="1" valign="top">Cierre de sesión</td><td colspan="1" valign="top">TS18</td><td colspan="1" valign="top">Implementación de cierre de sesión</td><td colspan="1" valign="top">Se crea el botón cierre de sesión para cuando el usuario quiere salir de su cuenta en la aplicación</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US16</td><td colspan="1" valign="top">Elegir plan de suscripción</td><td colspan="1" valign="top">TS19</td><td colspan="1" valign="top">Implementación de elección de plan de suscripción</td><td colspan="1" valign="top">Se implementa la opción para elegir el plan de suscripción desde la configuración.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US17</td><td colspan="1" valign="top">Recuperación de cuenta</td><td colspan="1" valign="top">TS20</td><td colspan="1" valign="top">Implementación de recuperación de cuenta</td><td colspan="1" valign="top">Se crea el componente para que el usuario pueda recuperar su cuenta en caso se olvide la contraseña.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US02</td><td colspan="1" valign="top">Seguimiento en tiempo real de envios para cliente</td><td colspan="1" valign="top">TS21</td><td colspan="1" valign="top">Implementación de la funcionalidad de seguimiento en mapa</td><td colspan="1" valign="top">Se modifica el componente map en el cual se implementa la primera versión de la funcionalidad de seguimiento en mapa utilizando Google Maps API</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">US33</td><td colspan="1" rowspan="2" valign="top">Seguimiento en tiempo real para empresa</td><td colspan="1" valign="top">TS22</td><td colspan="1" valign="top">Implementación de la funcionalidad de seguimiento en mapa</td><td colspan="1" valign="top">Se modifica el componente map en el cual se implementa la primera versión de la funcionalidad de seguimiento en mapa utilizando Google Maps API</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Andre Valverde </td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS23</td><td colspan="1" valign="top">Implementación de vista propia del seguimiento en mapa para la empresa </td><td colspan="1" valign="top">Se modifica el componente y rutas de las partes que tienen que ver con el path para que este no utilice el path del cliente y de esta manera tengan diferencia</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Andre Valverde </td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US34</td><td colspan="1" valign="top">Historial de envíos realizados</td><td colspan="1" valign="top">TS24</td><td colspan="1" valign="top">Implementación de vista propia del historial de envíos para la empresa </td><td colspan="1" valign="top">Se modifica el componente de historial de envíos y rutas de las partes que tienen que ver con el path para que este no utilice el path del cliente y de esta manera tengan diferencia</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Andre Valverde</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US37</td><td colspan="1" valign="top">Visualización de datos de cliente</td><td colspan="1" valign="top">TS25</td><td colspan="1" valign="top">Implementación de visualización de clientes</td><td colspan="1" valign="top">Se implementa el componente para la visualización de clientes.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="4" valign="top">US38</td><td colspan="1" rowspan="4" valign="top">Uso de nuestra API para gestionar usuarios</td><td colspan="1" valign="top">TS26</td><td colspan="1" valign="top">Implementación de protocolos HTTP para usuarios</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los usuarios dentro de nuestra API.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS27</td><td colspan="1" valign="top">Implementación de protocolos HTTP para clientes</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los clientes dentro de nuestra API.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS28</td><td colspan="1" valign="top">Implementación de protocolos HTTP para empresarios</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los empresarios dentro de nuestra API.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Christian Matos</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS29</td><td colspan="1" valign="top">Implementación de protocolos HTTP para configuraciones</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las configuraciones dentro de nuestra API.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Christian Matos</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="7" valign="top">US39</td><td colspan="1" rowspan="7" valign="top">Uso de nuestra API para gestionar los datos de viajes</td><td colspan="1" valign="top">TS30</td><td colspan="1" valign="top">Implementación de protocolos HTTP para conductores</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los conductores dentro de nuestra API.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS31</td><td colspan="1" valign="top">Implementación de protocolos HTTP para vehículos</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los vehículos dentro de nuestra API.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS32</td><td colspan="1" valign="top">Implementación de protocolos HTTP para viajes</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los viajes dentro de nuestra API.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS33</td><td colspan="1" valign="top">Implementación de protocolos HTTP para gastos</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los gastos dentro de nuestra API.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sebastián Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS34</td><td colspan="1" valign="top">Implementación de protocolos HTTP para evidencias</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las evidencias dentro de nuestra API.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sebastián Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS35</td><td colspan="1" valign="top">Implementación de protocolos HTTP para viajes en progreso</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los viajes en progreso dentro de nuestra API.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Andre Valverde</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS36</td><td colspan="1" valign="top">Implementación de protocolos HTTP para alertas</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las alertas dentro de nuestra API.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Andre Valverde</td><td colspan="1" valign="top">Done</td></tr>
+</table>
+
+
+#### 5.2.3.3. Development Evidence for Sprint Review.
+
+A continuación, se muestran los commits realizados en los repositorios, acorde a lo trabajado en el Sprint Backlog 3.
+
+Repositorio Frontend: https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications
+
+Repositorio Backend: https://github.com/Grupo-2-Apps-Web/Web-Services
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- |
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|7c1ae14|[feat: removed deployment files & changed baseURL to json-server](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/7c1ae14cdf20fe0b2c435fc90799ff953eae5f3e)|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|7a4f937|<p>[feat: added configuration page & route](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/7a4f9378964a769d5b94273154b53227b4f32e33)</p><p></p>|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|2120e3e|[feat: added base html & css](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/2120e3ed91d9df4729fd96d4f3d9b4c317307e06)|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|a3b7beb|<p>[feat: added functionality to action buttons](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/a3b7beb78bfad7a196616d76ad7d4c442b0acf2e)</p><p></p>|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|c3dd830|<p>[feat: added subscription selection and its route](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/c3dd8302182d5b4b288c012af1ce0f95d271cd3b)</p><p></p>|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|f1c7fec|[feat: added payment form and route](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/f1c7fec05faa1ae6921e225efae81941329023c7)|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|19e2455|<p>[fix: modify data.json for users](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/19e2455ee76434e053020240ee31e57bff512eec)</p><p></p>|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|d221f00|<p>[feat: added register for client and entrepreneur](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/d221f0070c532be7e181adc5363149f8a2beaf2a)</p><p></p>|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|84cf42c|<p>[feat: added routes for register components](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/84cf42c0a43463c13fa47145ab1ff2d2188f0fda)</p><p></p>|14/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login |d4ca803|<p>[feat: sections login, register and recover account added](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/d4ca803b570cc1760facf052331a37deaa3586f7)</p><p></p>|15/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|e0ac90c|<p>[Feat: Changed register card styles in Entrepreneur View.](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/e0ac90cdcc9b074ed66fe5a28856281ce1943bf6)</p><p></p>|15/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|ee65853|<p>[feat: added switcher-theme, switcher-view-data & data-collection](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/ee65853fe101d524ce57b41a6c5cf079db69d471)</p><p></p>|19/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|31c4c70|<p>[feat: Install googleMapsAPI](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/31c4c705bada4199de3033b0e8517c3931eb7e8c)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/map|75417d5|<p>[feat: Update map.component (Test functionality)](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/75417d59f5439b8020b740064a1fd7069484a505)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|0ec903ff|<p>[fix: fixed view dark theme](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/0ec903f37cb55e10e63e206f770f4bf79fee7d6f)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|0695515|<p>[Merge pull request](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/0695515ecda9606b3ed49a0d3485f2e4ad9131df) [#20](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/20) [from Grupo-2-Apps-Web/feature/configuration](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/0695515ecda9606b3ed49a0d3485f2e4ad9131df)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/map|e019718|<p>[Merge pull request](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/e019718da72591172c470c588809701c40e464f1) [#19](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/19) [from Grupo-2-Apps-Web/feature/map](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/e019718da72591172c470c588809701c40e464f1)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login |5776b0a|<p>[Fix: store.js fixed](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/5776b0aadebda2b73a309aac5f7288400becbed0)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login|8cdfd9b|<p>[fix: fix register users components and css](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/8cdfd9bd6afeb796a1911dd34442bf1e2c175eea)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login |65cdbde|<p>[Merge branch 'develop' into feature/signup-and-login](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/65cdbdefc29722474958109a9e2a533c5a482c6e)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login |1585cf0|<p>[fix: fixed missing sign](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/1585cf031ce349a04191f42ab3b51c9be80dc89e)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login |aece384|<p>[fix: fixed css on recover account component](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/aece3845c2512a1c6ed52528e6bd4509d0a9a781)</p><p></p>|21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login |773f5c3|<p>[Merge pull request](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/773f5c3f399b9e3d54f0fba6e76cc0073d44a742) [#23](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/23) [from Grupo-2-Apps-Web/feature/signup-and-login](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/773f5c3f399b9e3d54f0fba6e76cc0073d44a742)</p><p><h4></h4></p><p></p>|<a name="_p95szh4ocef9"></a>21/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|32c270e|<p>[feat: Update Views on Entrepreneur (path)](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/32c270e25230feeaee0edfeb346e1cf38484c925)</p><p></p>|22/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|fb0d1b4|<p>[feat: added missing functionality for updating subscription data](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/fb0d1b47ff6065622ded1f5eb1468687ed17be33)</p><p></p>|23/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|60894f8|<p>[fix: fixed buttons of sidebar & configuration dissapeared when reloading](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/60894f8bfb793ebe61f8c416212c0c080a9f9094)</p><p></p>|23/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|1afd9a8|<p>[feat: added configuration saving functionality](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/1afd9a8ee83bf92cc3b6f2c15e5ff93b477aa882)</p><p></p>|23/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/configuration|446c811|<p>[Merge pull request](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/446c8116ab61bb49fe5984aafa0a2ceb45b9e086) [#24](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/24) [from Grupo-2-Apps-Web/feature/configuration](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/446c8116ab61bb49fe5984aafa0a2ceb45b9e086)</p><p></p>|23/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login |c582cef|<p>[fix: fixed user registration and email validation](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/c582cef64b0e9ec3039c8cfadae2347d19393aab)</p><p></p>|23/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|6aafb40|<p>[refactor: changed data json file location](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/6aafb40bb1d81fbd5c6c664b17c0eb2e7196977e)</p><p></p>|23/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login |e91f23c|<p>[Merge pull request](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/e91f23c0e39f04eae1caa14e0f7c2a89a39ccd55) [#26](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/26) [from Grupo-2-Apps-Web/feature/signup-and-login](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/commit/e91f23c0e39f04eae1caa14e0f7c2a89a39ccd55)</p><p></p>|23/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|24fc9e5|refactor: changed folder organization to ddd|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|1f0a7e2|feat: improved services to use base service and improve models|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|6292b38|feat: changed db.json for user bounded context & updated components|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|ab45388|feat: updated expenses in db.json and components|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|c21bb60|feat: added alert endpoint and improve trip functionality|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/signup-and-login|6e277ce|fix: fixed error in login and register|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|f094999|feat: change camel case to snake case|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/map|d73ae44|fix: fixed data not showing in map or ongoingtrips|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|40a7d0c|fix: fixed error when trying to modify an expense or trip|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|720bb58|feat: added driver, vehicle, and entrepreneur information in “trip-description”|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|bcdc442|feat: added register driver and vehicle components|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|727eb33|fix: update plates registration|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|d966ebe|feat: modify request for driver dni and vehicle plate|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|bd8d15e|fix: responsive and method filter section Record for Clients fixed|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|fee1a05|feat: added functions to getByAttribute in service|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/register|c969adb|feat: added modify driver and vehicle components|25/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/map|89344b6|feat: Added button “Return in Map View”|26/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/alerts|eb98708|feat: added alert registration for entrepreneur|26/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|6ea4466|feat: drivers and vehicles visualization lists|26/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|1507c39|feat: driver and vehicle description views|26/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|f7587a5|fix: remove X from dialog component that didnt work|26/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/export|4f7e013|feat: added export dialog & functionality|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|fb954ca|feat: added store to view only user trips|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|0397966|fix: responsive for section Record for clients fixed|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|6570ada|fix: responsive fixed|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|3f96873|style: driver section responsive fixed|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|a2c40ac|style: adjust responsiveness for vehicles view|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|444c98f|style: adjust responsive toolbar|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|cbad6ca|feat: only user ongoingtrips, expenses, statistics displayed|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|4bb2362|fix: if statement for response & catch error|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|5ed855a|feat: clients view for entrepreneur|27/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/export|54d093a|feat: added export with filtered trips|30/05/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/visualization|47826ca|fix: solved error in expense definition|30/05/2024|
+|Grupo-2-Apps-Web/Web-Services|main|9a2d257|chore: initial setup for project|31/05/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|879a5a7|feat: added drivers and vehicles http requests|31/05/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|8bb3296|feat: partially added trip http requests|31/05/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|c7ac899|fix: changed name value object attribute to tripName|01/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|0d304df|feat: added users http requests|01/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|b928f02|feat: added expenses http requests|01/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|04c3c6f|fix: corrected the foreign key from expense|01/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|560c48e|feat: added evidences http requests|01/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|dbef586|feat: validation for creation of expense and evidence objects added|01/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|401414a|feat: added clients http requests|01/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|9cd19ae|feat: added entrepreneurs http requests|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|4093628|feat: added alerts http requests|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|ac68d2a|feat: Added OngoingTrips http requests|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|0c0bb46|feat: added configuration http requests|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|2f35829|feat: added validation in configuration|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|b40f22e|Merge pull request #3 from Grupo-2-Apps-Web/feature/us38|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|b9d7339|feat: added client id & entrepreneur id for trips|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|796c160|Merge pull request #5 from Grupo-2-Apps-Web/feature/us39|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|6f6fea2|feat: added connect string to deployed database|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|bd249b1|fix: changed logoIma to logoImage|02/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|7f1ef40|fix: renamed logoIma in http get to LogoImage|02/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|4890e30|feat: changed entities to cammelCase|03/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|39e53e1|feat: added cors policy to allow api request from frontend|03/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|fb0883b|feat: added swagger for azure deployment|03/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|8d7cbcf|feat: updated user functionality to work with backend|03/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|1f54dc2|fix: search bar for register-list, client-list, driver-list, vehicle-list fixed|03/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|cb94b42|feat: modified attributes to CamelCase|03/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|4c8c141|feat: added new constructor to alert, evidence, ongoingtrip & expense|04/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|6d38b22|feat: added try catch functionality to post and update methods|04/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|4f63f18|fix: solved register and modify expense functionality|04/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/db-json|a158b13|fix: attributes name for trip-registration fixed|04/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|e33aac8|feat: fix id in OngoingTripCommandService|04/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|45f8d23|feat: Add try-catch error handling for duplicate TripId in Expense creation|05/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|e9d38df|feat: Add try-catch error handling for duplicate TripId in Evidence and OngoingTrip creation|05/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|release|7bf354f|feat: deployed frontend for sprint 3|05/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|main|c2a099b|release v2.0: Sprint 3 Release|05/06/2024|
+
+
+#### 5.2.3.4. Testing Suite Evidence for Sprint Review.
+
+Se realizaron los acceptance tests para las historias de usuario trabajadas y se registraron en el repositorio de la siguiente forma.
+
+Repositorio Acceptance Tests: https://github.com/Grupo-2-Apps-Web/Acceptance-Tests
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- |
+|Grupo-2-Apps-Web/Acceptance-Tests|main|250ad81|fix: update user story codes|26/05/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|100c981|feat: added US09, US16, US18 acceptance tests|04/06/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|5b35a8e|feat: added us29-us37|04/06/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|6943e63|feat: Added US11, US39, US03|05/06/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|5526bb3|feat: US13, US14, US15, US17 added|05/06/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|39fc378|Update US17.feature|05/06/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|55535f0|feat: US10,US12,US38 added|06/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|d89776a|feat: added unit test for backend|05/06/2024|
+
+Se han implementado los Units Tests para los endpoints del Web Service creados en este Sprint.
+Para ello, se creó la solución de CargoApp.UnitTests y se vinculó al proyecto del WebService para utilizar sus entidades y servicios.
+
+<img src="img/unit-tests.png" alt="Unit Test for Backend" height="100%">
+
+Asimismo, cada Unit Test tiene distintas validaciones para cada situación como puede ser crear una entidad, obtener una entidad por id, obtener todas las entidades de un endpoint o actualizar.  Además, se validó que los Unit Tests no devuelvan errores al ejecutarse.
+
+<img src="img/unit-test-success.png" alt="Unit Test for Backend" height="100%">
+
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+
+Se implementaron todas las historias de usuario en el sprint backlog 3. Al finalizar todas las historias de usuario previstas para este sprint, se demostró un compromiso extraordinario con el éxito del proyecto y la entrega de valor al cliente. Para mostrar la ejecución, se grabó el siguiente video que presenta todos los procesos logrados:
+
+URL de video: [Video de ejecución del Web Services y Front End](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214162_upc_edu_pe/EUWoK1zsX-RJi2UQTULn8X0BB40kdFIJwulGBjsPDJrigQ?e=dIItFP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<img src="img/execution-evidence-sprint3.png" width="100%">
+
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+Para este sprint, hemos implementado una primera versión de la API para nuestro proyecto con la mayoría de endpoints necesarios para su funcionamiento.
+
+Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-Services
+
+|Método|Endpoint (https://cargoappwebservice.azurewebsites.net)|Descripción|
+|--|--|--|
+|GET|/api/v1/users|Se obtiene toda la lista de usuarios|
+|GET|/api/v1/clients|Se obtiene toda la lista de clientes|
+|GET|/api/v1/entrepreneurs|Se obtiene toda la lista de empresarios|
+|GET|/api/v1/configurations|Se obtiene toda la lista de las configuraciones de los usuarios|
+|GET|/api/v1/drivers|Se obtiene toda la lista de conductores|
+|GET|/api/v1/vehicles|Se obtiene toda la lista de vehículos|
+|GET|/api/v1/trips|Se obtiene toda la lista de viajes|
+|GET|/api/v1/evidences|Se obtiene toda la lista de evidencias|
+|GET|/api/v1/expenses|Se obtiene toda la lista de gastos|
+|GET|/api/v1/alerts|Se obtiene toda la lista de las alertas|
+|GET|/api/v1/ongoing-trips|Se obtiene toda la lista de viajes en progreso|
+|GET|/api/v1/users/{id}|Se obtiene un usuario por ID|
+|GET|/api/v1/clients/{id}|Se obtiene un cliente por ID|
+|GET|/api/v1/entrepreneurs/{id}|Se obtiene un empresario por ID|
+|GET|/api/v1/configurations/{id}|Se obtiene una configuración de usuario por ID|
+|GET|/api/v1/drivers/{id}|Se obtiene un conductor por ID|
+|GET|/api/v1/vehicles/{id}|Se obtiene un vehículo por ID|
+|GET|/api/v1/trips/{id}|Se obtiene un viaje por ID|
+|GET|/api/v1/evidences/{id}|Se obtiene una evidencia por ID|
+|GET|/api/v1/expenses/{id}|Se obtiene un gasto por ID|
+|GET|/api/v1/alerts/{id}|Se obtiene una alerta por ID|
+|GET|/api/v1/ongoing-trips/{id}|Se obtiene un viaje en progreso por ID|
+|PUT|/api/v1/users/{id}|Se actualiza la información de un usuario por ID|
+|PUT|/api/v1/configurations/{id}|Se actualiza la información de una configuración de un usuario por ID|
+|PUT|/api/v1/drivers/{id}|Se actualiza la información de un conductor por ID|
+|PUT|/api/v1/vehicles/{id}|Se actualiza la información de un vehículo por ID|
+|PUT|/api/v1/trips/{id}|Se actualiza la información de un viaje por ID|
+|PUT|/api/v1/evidences/{id}|Se actualiza la información de una evidencia por ID|
+|PUT|/api/v1/expenses/{id}|Se actualiza la información de un gasto por ID|
+|PUT|/api/v1/ongoing-trips/{id}|Se actualiza la información de un viaje en progreso por ID|
+|POST|/api/v1/users|Se publica un nuevo usuario|
+|POST|/api/v1/clients|Se publica un nuevo cliente|
+|POST|/api/v1/entrepreneurs|Se publica un nuevo empresario|
+|POST|/api/v1/configurations|Se publica una nueva configuración de un usuario|
+|POST|/api/v1/drivers|Se publica un nuevo conductor|
+|POST|/api/v1/vehicles|Se publica un nuevo vehículo|
+|POST|/api/v1/trips|Se publica un nuevo viaje|
+|POST|/api/v1/evidences|Se publica una nueva evidencia|
+|POST|/api/v1/expenses|Se publica un nuevo gasto|
+|POST|/api/v1/alerts|Se publica una nueva alerta|
+|POST|/api/v1/ongoing-trips|Se publica un nuevo viaje en progreso|
+
+**EVIDENCIAS**
+
+
+**User BC Endpoints**
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/users**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Users](img/service-documentation-get-users.png)|
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: name, phone, ruc, address, email, password y subscription|
+|Resultado|![Service Documentation Post User](img/service-documentation-post-user.png)|
+
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/users/{userId}**
+
+|Método|GET|
+|--|--|
+|Parámetros|{userId}: Id del usuario|
+|Resultado|![Service Documentation Get User](img/service-documentation-get-user.png)|
+
+|Método|PUT|
+|--|--|
+|Parámetros|{userId}: Id del usuario, Body: name, phone, ruc, address, email, password y subscription|
+|Resultado|![Service Documentation Put User](img/service-documentation-put-user.png)|
+
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/clients**
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: userId|
+|Resultado|![Service Documentation Post Client](img/service-documentation-post-client.png)|
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Clients](img/service-documentation-get-clients.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/clients/{clientId}**
+
+|Método|GET|
+|--|--|
+|Parámetros|{clientId}: Id del cliente|
+|Resultado|![Service Documentation Get Client](img/service-documentation-get-client.png)|
+
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/entrepreneurs**
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: userId,logoImage|
+|Resultado|![Service Documentation 29](img/service-documentation29.png)|
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation 28](img/service-documentation28.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/entrepreneurs/{entrepreneurId}**
+
+|Método|GET|
+|--|--|
+|Parámetros|{entrepreneurId}: id del entrepreneur|
+|Resultado|![Service Documentation 30](img/service-documentation30.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/configurations**
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: userId, theme, view, allowDataCollection, updateDataSharing|
+|Resultado|![Service Documentation 31](img/service-documentation31.png)|
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation 32](img/service-documentation32.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/configurations/{configurationId}**
+
+|Método|PUT|
+|--|--|
+|Parámetros|{configurationId}: Id de la configuración, Body: theme, view, allowDataCollection, updateDataSharing|
+|Resultado|![Service Documentation 33](img/service-documentation33.png)|
+
+|Método|GET|
+|--|--|
+|Parámetros|{configurationId}: Id de la configuración|
+|Resultado|![Service Documentation 34](img/service-documentation34.png)|
+
+
+**Registration BC Endpoints**
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/vehicles**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation 1](img/service-documentation1.png)|
+
+|Método|POST|
+|--|--|
+|Parámetros| Body: model, plate, tractorPlate, maxLoad y volume|
+|Resultado|![Service Documentation 2](img/service-documentation2.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/vehicles/{vehicleId}**
+
+|Método|GET|
+|--|--|
+|Parámetros|{vehicleId}: Id del vehículo|
+|Resultado|![Service Documentation 3](img/service-documentation3.png)|
+
+|Método|PUT|
+|--|--|
+|Parámetros|{vehicleId}: Id del vehículo, Body: model, plate, tractorPlate, maxLoad y volume|
+|Resultado|![Service Documentation 4](img/service-documentation4.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/drivers**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation 5](img/service-documentation5.png)|
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: name, dni, license y contactNumber|
+|Resultado|![Service Documentation 6](img/service-documentation6.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/drivers/{driverId}**
+
+|Método|GET|
+|--|--|
+|Parámetros|{driverId}: Id del conductor|
+|Resultado|![Service Documentation 7](img/service-documentation7.png)|
+
+|Método|PUT|
+|--|--|
+|Parámetros|{driverId}: Id del conductor, Body: name, dni, license y contactNumber|
+|Resultado|![Service Documentation 8](img/service-documentation8.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/trips**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation 9](img/service-documentation9.png)|
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: name, type, weight, loadLocation, loadDate, unloadLocation, unloadDate, driverId, vehicleId, clientId, entrepreneurId|
+|Resultado|![Service Documentation 10](img/service-documentation10.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/trips/{tripId}**
+
+|Método|GET|
+|--|--|
+|Parámetros|{tripId}: Id del viaje|
+|Resultado|![Service Documentation 11](img/service-documentation11.png)|
+
+|Método|PUT|
+|--|--|
+|Parámetros|{tripId}: Id del viaje, Body: name, type, weight, loadLocation, loadDate, unloadLocation, unloadDate, driverId, vehicleId, clientId, entrepreneurId|
+|Resultado|![Service Documentation 12](img/service-documentation12.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/expenses**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Expenses](img/service-documentation20.png)|
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: fuelAmount, fuelDescription, viaticsAmount, viaticsDescription, tollsAmount, tollsDescription, tripId|
+|Resultado|![Service Documentation Post Expense](img/service-documentation21.png)|
+
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/expenses/{expenseId}**
+
+|Método|GET|
+|--|--|
+|Parámetros|{expenseId}: Id del expense|
+|Resultado|![Service Documentation Get Expense](img/service-documentation22.png)|
+
+|Método|PUT|
+|--|--|
+|Parámetros|{expenseId}: Id del expense, Body: fuelAmount, fuelDescription, viaticsAmount, viaticsDescription, tollsAmount, tollsDescription, tripId|
+|Resultado|![Service Documentation Put Expense](img/service-documentation23.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/evidences**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Evidences](img/service-documentation24.png)|
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: link, tripId|
+|Resultado|![Service Documentation Post Evidence](img/service-documentation25.png)|
+
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/evidences/{evidenceId}**
+
+|Método|GET|
+|--|--|
+|Parámetros|{evidenceId}: Id del evidence|
+|Resultado|![Service Documentation Get Evidence](img/service-documentation26.png)|
+
+|Método|PUT|
+|--|--|
+|Parámetros|{evidenceId}: Id del evidence, Body: link, tripId|
+|Resultado|![Service Documentation Put Evidence](img/service-documentation27.png)|
+
+
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/ongoing-trips**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation 13](img/service-documentation13.png)|
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: latitude, longitude, speed, distance, tripId|
+|Resultado|![Service Documentation 14](img/service-documentation14.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/ongoing-trips/{ongoingTripId}**
+
+|Método|GET|
+|--|--|
+|Parámetros|{ongoingTripId}: Id del viaje en progreso|
+|Resultado|![Service Documentation 15](img/service-documentation15.png)|
+
+|Método|PUT|
+|--|--|
+|Parámetros|{ongoingTripId}: Id del viaje en progreso, Body: latitude, longitude, speed, distance|
+|Resultado|![Service Documentation 16](img/service-documentation16.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/alerts**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation 17](img/service-documentation17.png)|
+
+|Método|POST|
+|--|--|
+|Parámetros|Body: title(20), description, date, tripId|
+|Resultado|![Service Documentation 18](img/service-documentation18.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/alerts/{alertId}**
+
+|Método|GET|
+|--|--|
+|Parámetros|{alertId}: Id del viaje en progreso|
+|Resultado|![Service Documentation 19](img/service-documentation19.png)|
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+Se decidió desplegar el Web Service en Microsoft Azure. Para ello, se instaló el plugin de Azure para publicar el Web Service en Rider y se conectó a Azure con las credenciales necesarias.
+
+![Imagen Deployment Backend](img/backend_deployment1.png)
+
+Asimismo, se configuró la aplicación para crear un Web App y se seleccionó Run.
+
+![Imagen Deployment Backend](img/backend_deployment2.png)
+
+Al seleccionar Run, se creó la Web App y se subieron los archivos necesarios.
+
+![Imagen Deployment Backend](img/backend_deployment3.png)
+
+Luego, se comprobó la correcta creación del Web Service, en Postman accediendo al endpoint /api/v1/trips con el método http Get y el enlace https://cargoappwebservice.azurewebsites.net/api/v1/trips
+
+![Imagen Deployment Backend](img/backend_deployment4.png)
+
+De esta manera, se comprobó que se implementó correctamente la aplicación ya que devolvió 200 OK y la lista de trips en la base de datos.
+
+Asimismo, también se logra visualizar la vista de Swagger de la API a través del navegador en el siguiente enlace: https://cargoappwebservice.azurewebsites.net/swagger/index.html
+
+![Imagen Deployment Backend](img/backend_deployment5.png)
+
+Por otro lado, también se desplegó el Frontend Web Applications con la conexión al Web Service y las mejoras realizadas en este Sprint. Para ello, primero se volvió a ejecutar el comando npm run build.
+
+![Imagen Deployment Frontend](img/frontend-deployment-1.png)
+
+Se actualizan los paquetes de firebase-tools con npm install.
+
+![Imagen Deployment Frontend](img/frontend-deployment-2.png)
+
+Se comprueba que se esté logueado en firebase para el despliegue.
+
+![Imagen Deployment Frontend](img/frontend-deployment-3.png)
+
+Luego, se empieza con el despliegue utilizando el comando firebase init hosting.
+
+![Imagen Deployment Frontend](img/frontend-deployment-4.png)
+
+Para terminar con el despliegue luego de tener el proyecto con Firebase se utiliza el comando firebase deploy --only hosting
+
+![Imagen Deployment Frontend](img/frontend-deployment-5.png)
+
+Finalmente, se comprueba que el proyecto se haya desplegado correctamente entrando al URL: <https://cargoapp-demo.web.app>
+
+![Imagen Deployment Frontend](img/frontend-deployment-6.png)
+
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+Para la elaboración del Frontend y Backend, nos repartimos las tareas entre cada miembro así como se especifica en el Sprint Backlog 3, y cada uno trabajó en las ramas feature correspondientes, para luego ir realizando los merge con la rama develop. Asimismo, nos reunimos de forma virtual a través de Google Meet para revisar juntos los avances y los merges realizados para verificar que todo funciona acorde a lo esperado.
+
+**Commits trabajados en Frontend**
+
+<img src="img/commits-frontend-sprint-3.png" width="100%">
+
+
+**Commits trabajados en Backend**
+
+<img src="img/commits-backend-sprint-3.png" width="100%">
+
+**Gráfico de estadísticas de commits**
+
+<img src="img/commit-statistics-sprint-3.png" width="100%">
+
+**Gráfico de red**
+
+<img src="img/network-graph-sprint-3.png" width="100%">
+
+
+## 5.3. Validation Interviews.
+
+### 5.3.1. Diseño de Entrevistas.
+
+**Enlace a la landing page**: https://grupo-2-apps-web.github.io/Landing-Page/
+
+**Enlace a la aplicación web**:  https://cargoapp-demo.web.app
+
+
+**Para cliente**: 
+
+<u>Sobre Landing page:</u>
+
+1. ¿Cuál es tu impresión general de la landing page?
+2. ¿Es fácil comprender la naturaleza de nuestro producto al revisar la página?
+3. ¿Los elementos visuales, como imágenes y colores, son atractivos y relevantes?
+4. ¿Consideras que la información proporcionada es clara y concisa, o percibes que hay demasiada o muy poca?
+5. ¿El llamado a la acción es directo y convincente?
+6. ¿La navegación resulta intuitiva y fácil de usar?
+7. ¿Qué opinas sobre la organización y disposición de los elementos en la página?
+8. ¿El contenido te brinda confianza en la calidad del producto ofrecido?
+9. ¿Identificas algún aspecto confuso o que no contribuya al valor de la página?
+10. ¿Qué sugerencias tendrías para mejorar la experiencia de usuario en la Landing Page estática de la aplicación, especialmente en cuanto a la navegación y presentación de información?
+
+<u>Sobre Web application:</u>
+
+1. ¿Qué opinas sobre la disposición y organización de la información en la aplicación para el seguimiento en tiempo real de los envíos?
+2. ¿Encuentras la interfaz de usuario intuitiva y fácil de usar?
+3. ¿Qué opinas de la experiencia de la gestión de alertas durante el transporte?
+4. ¿Cómo describirías la experiencia de navegación al acceder al historial completo de tus envíos en la aplicación?
+5. ¿Encuentras la función de búsqueda de envíos fácil de usar y eficiente en la aplicación?
+6. ¿Consideras que la personalización de la visualización en la aplicación cumple con tus expectativas y necesidades?
+7. ¿Los elementos visuales, como imágenes y colores, son atractivos y relevantes?
+8. ¿Qué sugerencias tendrías para mejorar la experiencia de usuario en la Web Application, especialmente en cuanto a la navegación y presentación de información?
+
+**Para empresario de gestión logística:**
+
+<u>Sobre Landing page:</u>
+
+1. ¿Cuál es tu impresión general de la landing page?
+2. ¿Es fácil comprender la naturaleza de nuestro producto al revisar la página?
+3. ¿Los elementos visuales, como imágenes y colores, son atractivos y relevantes?
+4. ¿Consideras que la información proporcionada es clara y concisa, o percibes que hay demasiada o muy poca?
+5. ¿El llamado a la acción es directo y convincente?
+6. ¿La navegación resulta intuitiva y fácil de usar?
+7. ¿Qué opinas sobre la organización y disposición de los elementos en la página?
+8. ¿El contenido te brinda confianza en la calidad del producto ofrecido?
+9. ¿Identificas algún aspecto confuso o que no contribuya al valor de la página?
+10. ¿Qué sugerencias tendrías para mejorar la experiencia de usuario en la Landing Page estática de la aplicación, especialmente en cuanto a la navegación y presentación de información?
+
+<u>Sobre Web application:</u>
+
+1. ¿Qué opinas sobre la disposición y organización de la información en la aplicación para el seguimiento en tiempo real de los envíos?
+2. ¿Encuentras la interfaz de usuario intuitiva y fácil de usar con la gestión de alertas durante la entrega de tus envíos?
+3. ¿Qué elementos visuales o de diseño crees que podrían mejorar la experiencia de la gestión de alertas durante el transporte?
+4. ¿Cómo describirías la experiencia de registro de envíos en la aplicación?
+5. ¿Encuentras la función de búsqueda de envíos fácil de usar y eficiente en la aplicación?
+6. ¿Consideras que la información mostrada de los clientes en la aplicación es suficiente para cubrir tus necesidades?
+7. ¿Los elementos visuales, como imágenes y colores, son atractivos y relevantes?
+8. ¿Qué sugerencias tendrías para mejorar la experiencia de usuario en la aplicación web, especialmente en cuanto a la navegación y presentación de información?
+
+### 5.3.2. Registro de Entrevistas.
+
+**Entrevista 1 - Cliente que requiere transporte**
+
+**Entrevistador:** Salvador Salinas
+
+**Entrevistado:** Anderson Gonza
+
+**Link de la entrevista:** [Entrevista de Validación 1](https://youtu.be/qnlm6n4S70k)
+
+<img src="img/entrevista-validacion1.png" width="100%">
+
+**Resumen de la entrevista:** Para esta entrevista de validación con Anderson, se le mostró lo trabajado en la Landing Page y Web Application. Él nos comenta que le parece agradable los elementos visuales y organización usada, así como los colores, imágenes y estilos. Asimismo, comentó que la Landing Page debería mostrar un video de introducción. Igualmente, le gustó la funcionalidad de la vista en tiempo real y las alertas ya que brinda más transparencia durante el proceso del envío de transporte de carga.
+
+-----
+
+**Entrevista 2 - Cliente que requiere transporte**
+
+**Entrevistador:** Piero Delgado
+
+**Entrevistado:** Joaquin Rivadeneyra
+
+**Link de la entrevista:** [Entrevista de Validación 2](https://youtu.be/QeZ4ZToAG_E)
+
+<img src="img/entrevista-validacion2.png" width="100%">
+
+**Resumen de la entrevista:**
+Para esta entrevista de validación con Joaquin, se le mostró lo trabajado en la Landing Page y Web Application. Él nos comenta que le parece agradable los elementos visuales y organización usada en la parte de la aplicación web y le parece que las funcionalidades son muy útiles especialmente el seguimiento a tiempo real. Por otro lado, menciona que deberíamos mejorar la presentación del Landing page con una mejor disposición de los elementos.
+
+-----
+
+**Entrevista 3 - Cliente que requiere transporte**
+
+**Entrevistador:** Andre Valverde
+
+**Entrevistado:** Rodrigo Guerra
+
+**Link de la entrevista:** [Entrevista de Validación 3](https://youtu.be/7HYOnvIA5Ks)
+
+<img src="img/entrevista-validacion3.png" width="100%">
+
+**Resumen de la entrevista:**
+El entrevistado destacó que la landing page es profesional, con información clara y bien balanceada. Los elementos visuales son atractivos y la navegación es intuitiva. El llamado a la acción es convincente y el contenido genera confianza. Sugirió incluir testimonios de clientes y un video explicativo para mejorar la página. Sobre la web application, el entrevistado señaló que la información está bien organizada y la interfaz es fácil de usar. La gestión de alertas es eficiente y la función de búsqueda es rápida y efectiva. La personalización cumple con sus expectativas y los elementos visuales son relevantes
+
+-----
+
+**Entrevista 4 - Empresa de gestión logística de transporte**
+
+**Entrevistador:** Christian Matos
+
+**Entrevistado:** Valeria Cardenas
+
+**Link de la entrevista:** [Entrevista de Validación 4](https://youtu.be/z3lqt4pCalk)
+
+<img src="img/entrevista-validacion4.png" width="100%">
+
+**Resumen de la entrevista:** 
+En la entrevista con Valeria Cárdenas, se le presentó el trabajo en la Landing Page y la Aplicación Web. Valeria mencionó que los elementos visuales y la organización de la aplicación web le parecieron agradables, y destacó la utilidad de las funcionalidades, especialmente el seguimiento en tiempo real. No obstante, sugirió que deberíamos mejorar la presentación de la Landing Page reorganizando mejor los elementos.
+
+-----
+
+**Entrevista 5 - Empresa de gestión logística de transporte**
+
+**Entrevistador:** Sebastian Paredes
+
+**Entrevistado:** Miriam Puente
+
+**Link de la entrevista:** [Entrevista de Validación 5](https://youtu.be/VTZnFWNc3bo)
+
+<img src="img/entrevista-validacion5.png" width="100%">
+
+**Resumen de la entrevista:** 
+Durante la entrevista con la Sra. Miriam Puente, se le presentó tanto la landing page como la aplicación web, explicando el contenido y propósito de cada sección, así como la información mostrada. Ella comentó que los elementos visuales y la organización de la aplicación web eran adecuados, la navegación era fluida y la interfaz de usuario resultaba fácil de comprender. Además, destacó la utilidad de las funcionalidades, especialmente el poder agregar alertas para el cliente y de esta manera no preocuparse, ya que en este tiempo se ha incrementado la delincuencia y las estafas. Sin embargo, sugirió mejorar las alertas para que no se tengan que hacer constantemente y haya una manera de generarlas automáticamente.
+
+-----
+
+**Entrevista 6 - Empresa de gestión logística de transporte**
+
+**Entrevistador:** Sebastian Paredes
+
+**Entrevistado:** Roberto Paredes
+
+**Link de la entrevista:** [Entrevista de Validación 6](https://youtu.be/vobHLgBs-wc)
+
+<img src="img/entrevista-validacion6.png" width="100%">
+
+**Resumen de la entrevista:** 
+Durante la entrevista con el Sr. Roberto Paredes, se le presentó tanto la landing page como la aplicación web, explicando el contenido y propósito de cada sección, así como la información mostrada. Él comentó que los elementos visuales y la organización de la aplicación web eran adecuados, la navegación era fluida, y la interfaz de usuario resultaba fácil de comprender. Además, destacó la utilidad de las funcionalidades, especialmente el seguimiento en tiempo real, que aporta mayor confianza a los clientes. Sin embargo, sugirió agregar más información sobre la aplicación en la landing page.
+
+
+
+### 5.3.3. Evaluaciones según heurísticas.
+**Site o App a Evaluar:**
+CargoApp
+**Tareas a evaluar:**
+El alcance de esta evaluación incluye la revisión de usabilidad de las siguientes tareas:
+1. Creación de usuario
+2. Inicio de sesión
+3. Visualización de historial de viajes
+4. Filtros en historial de viajes
+5. Visualización de viajes en progreso
+6. Visualización de información de gastos, vehículos y conductores
+7. Registro de un nuevo viaje
+8. Registro de gastos, vehículos y conductores
+9. Visualización de alertas
+10. Configuración de tipo de vista y tema
+11. Elección de plan de suscripción
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+1. Landing Page
+2. Recuperación de cuenta
+
+**ESCALA DE SEVERIDAD:**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+| Nivel | Descripción |
+|-------| ------------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+**TABLA DE RESUMEN:**
+| #   | Problema | Escala de severidad | Heurística/principio violada(o)|
+|-----|----------|---------------------|-------------------|
+| 1 | Usuario logueado sigue viendo la pantalla de iniciar sesión | 3 | Usability: Usabilidad y control del usuario   |
+| 2 | Incorrecta visualización de información de un viaje en progreso en celulares | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 3 | Incorrecta visualización del botón de gastos en celulares  | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 4 | Incorrecta visualización de la vista de configuración en celulares | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 5 | Incorrecta visualización de la vista de suscripción en celulares | 3 | Inclusive Design: Proporciona experiencias comparables |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** Usuario logueado sigue viendo la pantalla de iniciar sesión
+
+**Severidad:** 3
+
+**Heurística violada:** Usability: Usabilidad y control del usuario
+
+**Problema:** Si el usuario está logueado y va al enlace inicial de la aplicación, la aplicación no lo redirecciona a su pantalla correspondiente.
+
+**Imagen:**
+
+![Imagen Problema de Heuristica 1](img/heuristica1.png)
+
+**Recomendación:** Implementar una funcionalidad que detecte si el usuario está logueado y lo lleve a su vista correspondiente.
+
+-----
+
+**PROBLEMA #2:** Incorrecta visualización de información de un viaje en progreso en celulares
+
+**Severidad:** 2
+
+**Heurística violada:** Inclusive Design: Proporciona experiencias comparables
+
+**Problema:** Si el usuario está entrando desde un dispositivo móvil, la pantalla donde se muestra la información de un viaje en progreso no se visualiza correctamente.
+
+**Imagen:**
+
+![Imagen Problema de Heuristica 2](img/heuristica2.png)
+
+**Recomendación:** Cambiar la disposición de elementos en la vista de viajes en progreso para que haya más espacio para visualizar la información.
+
+-----
+
+**PROBLEMA #3:** Incorrecta visualización del botón de gastos en celulares
+
+**Severidad:** 2
+
+**Heurística violada:** Inclusive Design: Proporciona experiencias comparables
+
+**Problema:** Si el usuario está entrando desde un dispositivo móvil, el botón para ver la información de un gasto no se visualiza completamente.
+
+**Imagen:**
+
+![Imagen Problema de Heuristica 3](img/heuristica3.png)
+
+**Recomendación:** Centrar el botón de gastos y aumentar su ancho para que todo el texto esté dentro del recuadro.
+
+-----
+
+**PROBLEMA #4:** Incorrecta visualización de la vista de configuración en celulares
+
+**Severidad:** 2
+
+**Heurística violada:** Inclusive Design: Proporciona experiencias comparables
+
+**Problema:** Si el usuario está entrando desde un dispositivo móvil, la vista de configuración no se visualiza correctamente.
+
+**Imagen:**
+
+![Imagen Problema de Heuristica 4](img/heuristica4.png)
+
+**Recomendación:** Reducir el tamaño de los botones de suscripción para que todo quepa en el dispositivo.
+
+-----
+
+**PROBLEMA #5:** Incorrecta visualización de la vista de suscripción en celulares
+
+**Severidad:** 2
+
+**Heurística violada:** Inclusive Design: Proporciona experiencias comparables
+
+**Problema:** Si el usuario está entrando desde un dispositivo móvil, la vista de selección de suscripción no se visualiza correctamente.
+
+**Imagen:**
+
+![Imagen Problema de Heuristica 5](img/heuristica5.png)
+
+**Recomendación:** Cambiar la disposición de elementos en la vista de suscripción para que haya más espacio para visualizar la información.
+
+
+## 5.4. Video About-the-Product.
+En el vídeo se proporciona información sobre el producto CargoApp. Se mencionan las diferentes funcionalidades de la aplicación como son la visualización de envíos en tiempo real, alertas, estadísticas, etc.
+
+Screenshot del video: 
+
+![Imagen de Video About-The-Product](img/VideoAbout-The-Product.png)
+
+**Enlace al vídeo de YouTube:** [Video About-the-Product Youtube](https://youtu.be/xmUHIVYzkBY)
+
+**Enlace al vídeo de Microsoft Stream:** [Video About-The-Product Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/ESgFUp5LxYdOufQGHAU0VgoBJhXBsounIy90LCYn8rD-NQ)
+
+**Duración del vídeo:** 2:42
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
@@ -2065,6 +3241,19 @@ Entre otras actividades realizadas, incluimos los User Persona, Empathy Map, As-
 
 Luego establecimos los estilos a utilizar para nuestro producto, incluyendo la tipografía, paleta de colores, íconos, sistemas de organización, entre otros. Con ello, pudimos hacer un prototipo funcional de nuestra aplicación y tener un modelo de diseño del cual guiarnos durante el desarrollo.
 
+## Video About The Team
+
+En el video About-The-Team cada miembro de la Startup ha mencionado cuales han sido sus roles en el desarrollo de este trabajo, que objetivos han alcanzado y como han desarrollado el Student Outcome a lo largo del proyecto.
+
+Screenshot del video: 
+
+![Imagen de Video About-The-Team](img/VideoAbout-The-Team.png)
+
+**Enlace al vídeo de YouTube:** [Video About-the-Team Youtube](https://youtu.be/lAXDyMd7ILY)
+
+**Enlace al vídeo de Microsoft Stream:** [Video About-The-Team Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/EaS9UAiGhk9MrSqst5kX-CkB7IAFHrYhOms-haLiANwNVA?e=LEvjmV)
+
+**Duración del vídeo:** 6:22
 
 # Bibliografía
 
@@ -2085,3 +3274,5 @@ Mollahosseini, A. (2021). *Make your Gherkin Specifications More Readable.* BDD 
 Exposición TB1: [upc-pre-202401-si730-sw53-cargowatch-tb1](https://upcedupe-my.sharepoint.com/personal/u202210749_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202210749%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202401%2Dsi730%2Dsw53%2Dcargowatch%2Dtb1%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
 
 Exposición TP1: [upc-pre-202401-si730-sw53-cargowatch-tp1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/EbxZLzpnOJVAiGzxtUBHOB8B3hI80bMJ8q-0UCbmkMhqaw?e=TvhZJc)
+
+Exposición TB2: [upc-pre-202401-si730-sw53-cargowatch-tb2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/ES2vJozwtD5EtN3f4s8zGz8BSFFibXU3HNc0gUXep5dFMQ?e=zHULkU)
