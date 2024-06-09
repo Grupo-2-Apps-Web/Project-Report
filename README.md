@@ -3017,6 +3017,7 @@ Para la elaboración del Frontend y Backend, nos repartimos las tareas entre cad
 
 **Resumen de la entrevista:** Para esta entrevista de validación con Anderson, se le mostró lo trabajado en la Landing Page y Web Application. Él nos comenta que le parece agradable los elementos visuales y organización usada, así como los colores, imágenes y estilos. Asimismo, comentó que la Landing Page debería mostrar un video de introducción. Igualmente, le gustó la funcionalidad de la vista en tiempo real y las alertas ya que brinda más transparencia durante el proceso del envío de transporte de carga.
 
+-----
 
 **Entrevista 2 - Cliente que requiere transporte**
 
@@ -3031,6 +3032,8 @@ Para la elaboración del Frontend y Backend, nos repartimos las tareas entre cad
 **Resumen de la entrevista:**
 Para esta entrevista de validación con Joaquin, se le mostró lo trabajado en la Landing Page y Web Application. Él nos comenta que le parece agradable los elementos visuales y organización usada en la parte de la aplicación web y le parece que las funcionalidades son muy útiles especialmente el seguimiento a tiempo real. Por otro lado, menciona que deberíamos mejorar la presentación del Landing page con una mejor disposición de los elementos.
 
+-----
+
 **Entrevista 3 - Cliente que requiere transporte**
 
 **Entrevistador:** Andre Valverde
@@ -3044,6 +3047,7 @@ Para esta entrevista de validación con Joaquin, se le mostró lo trabajado en l
 **Resumen de la entrevista:**
 El entrevistado destacó que la landing page es profesional, con información clara y bien balanceada. Los elementos visuales son atractivos y la navegación es intuitiva. El llamado a la acción es convincente y el contenido genera confianza. Sugirió incluir testimonios de clientes y un video explicativo para mejorar la página. Sobre la web application, el entrevistado señaló que la información está bien organizada y la interfaz es fácil de usar. La gestión de alertas es eficiente y la función de búsqueda es rápida y efectiva. La personalización cumple con sus expectativas y los elementos visuales son relevantes
 
+-----
 
 **Entrevista 4 - Empresa de gestión logística de transporte**
 
@@ -3058,6 +3062,8 @@ El entrevistado destacó que la landing page es profesional, con información cl
 **Resumen de la entrevista:** 
 En la entrevista con Valeria Cárdenas, se le presentó el trabajo en la Landing Page y la Aplicación Web. Valeria mencionó que los elementos visuales y la organización de la aplicación web le parecieron agradables, y destacó la utilidad de las funcionalidades, especialmente el seguimiento en tiempo real. No obstante, sugirió que deberíamos mejorar la presentación de la Landing Page reorganizando mejor los elementos.
 
+-----
+
 **Entrevista 5 - Empresa de gestión logística de transporte**
 
 **Entrevistador:** Sebastian Paredes
@@ -3070,6 +3076,8 @@ En la entrevista con Valeria Cárdenas, se le presentó el trabajo en la Landing
 
 **Resumen de la entrevista:** 
 Durante la entrevista con la Sra. Miriam Puente, se le presentó tanto la landing page como la aplicación web, explicando el contenido y propósito de cada sección, así como la información mostrada. Ella comentó que los elementos visuales y la organización de la aplicación web eran adecuados, la navegación era fluida y la interfaz de usuario resultaba fácil de comprender. Además, destacó la utilidad de las funcionalidades, especialmente el poder agregar alertas para el cliente y de esta manera no preocuparse, ya que en este tiempo se ha incrementado la delincuencia y las estafas. Sin embargo, sugirió mejorar las alertas para que no se tengan que hacer constantemente y haya una manera de generarlas automáticamente.
+
+-----
 
 **Entrevista 6 - Empresa de gestión logística de transporte**
 
