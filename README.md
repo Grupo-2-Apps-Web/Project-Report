@@ -2536,7 +2536,16 @@ Repositorio Acceptance Tests: https://github.com/Grupo-2-Apps-Web/Acceptance-Tes
 |Grupo-2-Apps-Web/Acceptance-Tests|main|5526bb3|feat: US13, US14, US15, US17 added|05/06/2024|
 |Grupo-2-Apps-Web/Acceptance-Tests|main|39fc378|Update US17.feature|05/06/2024|
 |Grupo-2-Apps-Web/Acceptance-Tests|main|55535f0|feat: US10,US12,US38 added|06/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|d89776a|feat: added unit test for backend|05/06/2024|
 
+Se han implementado los Units Tests para los endpoints del Web Service creados en este Sprint.
+Para ello, se creó la solución de CargoApp.UnitTests y se vinculó al proyecto del WebService para utilizar sus entidades y servicios.
+
+<img src="img/unit-tests.png" alt="Unit Test for Backend" height="100%">
+
+Asimismo, cada Unit Test tiene distintas validaciones para cada situación como puede ser crear una entidad, obtener una entidad por id, obtener todas las entidades de un endpoint o actualizar.  Además, se validó que los Unit Tests no devuelvan errores al ejecutarse.
+
+<img src="img/unit-test-success.png" alt="Unit Test for Backend" height="100%">
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
