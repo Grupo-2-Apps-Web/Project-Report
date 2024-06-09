@@ -132,6 +132,8 @@ Commits en project report TP1:
 <img src="img/commits-tp1.png">
 
 Commits en project report TB2:
+<img src="img/insights-tb2.png">
+<img src="img/commits-tb2.png">
 
 # **Tabla de Contenido**
 
