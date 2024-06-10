@@ -132,6 +132,8 @@ Commits en project report TP1:
 <img src="img/commits-tp1.png">
 
 Commits en project report TB2:
+<img src="img/insights-tb2.png">
+<img src="img/commits-tb2.png">
 
 # **Tabla de Contenido**
 
@@ -2547,7 +2549,7 @@ Para ello, se creó la solución de CargoApp.UnitTests y se vinculó al proyecto
 
 Asimismo, cada Unit Test tiene distintas validaciones para cada situación como puede ser crear una entidad, obtener una entidad por id, obtener todas las entidades de un endpoint o actualizar.  Además, se validó que los Unit Tests no devuelvan errores al ejecutarse.
 
-<img src="img/unit-test-success.png" alt="Unit Test for Backend" height="100%">
+<img src="img/unit-test-success.png" alt="Unit Test for Backend" width="100%">
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
