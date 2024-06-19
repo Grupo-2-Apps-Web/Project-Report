@@ -1060,8 +1060,9 @@ __Segmento Clientes que requieren servicios de transporte__
 <tr><td valign="top">US35</td><td valign="top">Visualización de datos de conductor</td></tr>
 <tr><td valign="top">US36</td><td valign="top">Visualización de datos de vehículo</td></tr>
 <tr><td valign="top">US37</td><td valign="top">Visualización de datos de cliente</td></tr>
-<tr><td rowspan="2" valign="top">E07</td><td rowspan="4" valign="top">Como desarrollador quiero desarrollar mi propia API para gestionar la base de datos de forma adecuada</td><td valign="top">US38</td><td valign="top">Uso de nuestra API para gestionar usuarios</td></tr>
+<tr><td rowspan="3" valign="top">E07</td><td rowspan="4" valign="top">Como desarrollador quiero desarrollar mi propia API para gestionar la base de datos de forma adecuada</td><td valign="top">US38</td><td valign="top">Uso de nuestra API para gestionar usuarios</td></tr>
 <tr><td valign="top">US39</td><td valign="top">Uso de nuestra API para gestionar los datos de viajes</td></tr>
+<tr><td valign="top">US40</td><td valign="top">Seguridad y autenticación en nuestra API</td></tr>
 </table>
 
 **HISTORIAS DE USUARIO**
@@ -1107,6 +1108,7 @@ __Segmento Clientes que requieren servicios de transporte__
 |US37|Visualización de datos de cliente|Como empresario de gestión logística, quiero ver los datos de mis clientes para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de clientes**</p><p>**Dado que** el empresario desea ver la información de los clientes con los que ha registrado viajes</p><p>**Cuando** accede a la plataforma</p><p>**Y** selecciona la sección Clientes</p><p>**Entonces** se mostrará el listado de sus clientes registrados</p>|E06|
 |US38|Uso de nuestra API para gestionar usuarios|Como desarrollador quiero integrar un API para gestionar la información de los usuarios en la base de datos.|<p>**Escenario 1: Agregar datos del usuario en la base de datos**</p><p>**Dado que** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud POST con los datos del usuario a la API</p><p>**Entonces** la API responde con un código de estado 200 y el usuario se agrega correctamente a la base de datos</p><p>**Escenario 2: Obtener la información de un usuario**</p><p>**Dado** que el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud GET a la API para obtener la información de un usuario específico</p><p>**Entonces** la API responde con un código de estado 200 y devuelve los datos del usuario solicitado</p>|E07|
 |US39|Uso de nuestra API para gestionar los datos de viajes|Como desarrollador quiero integrar un API para gestionar la información de los viajes, gastos, conductores y vehículos en la base de datos|<p>**Escenario 1: Agregar datos referente a un viaje en la base de datos**</p><p>**Dado que** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud POST con los datos de un viaje, gasto, conductor o vehículo de una empresa a la API</p><p>**Entonces** la API responde con un código de estado 200 y el elemento se agrega correctamente a la base de datos</p><p>**Escenario 2: Obtener la información de elementos referente a un viaje**</p><p>**Dado que** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud GET a la API para obtener la información de los viajes, gastos, conductores o vehículos de un usuario específico</p><p>**Entonces** la API responde con un código de estado 200 y devuelve todos los elementos del usuario solicitado</p>|E07|
+|US40|Seguridad y autenticación en nuestra API|Como usuario quiero que la aplicación cumpla con los estándares de seguridad para proteger mi información registrada.|<p>**Escenario 1: Seguridad en la conexión web**</p><p>**Dado que** el usuario desea que sus datos sean protegidos</p><p>**Cuando** el sistema realice alguna petición a nuestra API</p><p>**Entonces** se verificará el Token de autenticidad</p><p>**Y** una vez verificado brindará respuesta a la petición realizada</p>|E07|
 
 ## 3.3. Impact Mapping
 
@@ -1161,6 +1163,7 @@ El Product Backlog se gestiona a través de la herramienta Pivotal Tracker, el c
 |37|US18|Gestión de método de pago|Como cliente quiero gestionar mi método de pago para asegurarme de que la facturación se realice de manera correcta y segura en mi cuenta.|5|
 |38|US38|Uso de nuestra API para gestionar usuarios|Como desarrollador quiero integrar un API para gestionar la información de los usuarios en la base de datos.|5|
 |39|US39|Uso de nuestra API para gestionar los datos de viajes|Como desarrollador quiero integrar un API para gestionar la información de los viajes, gastos, conductores y vehículos en la base de datos.|5|
+|40|US40|Seguridad y autenticación en nuestra API|Como usuario quiero que la aplicación cumpla con los estándares de seguridad para proteger mi información registrada.|5|
 
 # Capítulo IV Product Design
 ## 4.1. Style Guidelines
