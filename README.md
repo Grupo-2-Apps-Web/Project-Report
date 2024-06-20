@@ -175,6 +175,7 @@ Commits en project report TB2:
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
+
 [Capítulo IV: Product Design](#Capítulo-IV-Product-Design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
