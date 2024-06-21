@@ -3047,6 +3047,26 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
+Para el despliegue de la nueva versión del API se seleccionó el proyecto y se seleccionó la opcion Publish y la opción Azure. Para hacer el despliegue del API desde el Web Service previamente creado en Azure.
+
+![Imagen Deployment Backend](img/backend_sprint4_deployment1.png)
+
+Luego, se seleccionó 'Use Existing Web App' y nuestra aplicación que creamos para el despliegue de la anterior entrega.
+
+![Imagen Deployment Backend](img/backend_sprint4_deployment2.png)
+
+Al seleccionar Run, se volvió a crear el API con los archivos actualizados.
+
+![Imagen Deployment Backend](img/backend_sprint4_deployment3.png)
+
+Luego, se comprobó la correcta actualización del API, accediendo a Swagger desde https://cargoappwebservice.azurewebsites.net/swagger/index.html
+
+![Imagen Deployment Backend](img/backend_sprint4_deployment4.png)
+
+De esta manera, se verificó que los archivos están actualizados al estar el nuevo endpoint Authentication y las funcionaidades del IAM.
+
+Por otro lado, también se desplegó el Frontend Web Applications con la conexión al API y las mejoras realizadas en este Sprint. Para ello, primero se volvió a ejecutar el comando npm run build.
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
 
