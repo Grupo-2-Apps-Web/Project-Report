@@ -2980,6 +2980,71 @@ Para la elaboración del Frontend y Backend, nos repartimos las tareas entre cad
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
+Para este sprint, hemos implementado la segunda versión de la API para nuestro proyecto con la totalidad de endpoints para el correcto funcionamiento de nuestra aplicación.
+
+Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-Services
+
+|Método|Endpoint (https://cargoappwebservice.azurewebsites.net)|Descripción|
+|--|--|--|
+|POST|/api/v1/alerts|Se publica una nueva alerta|
+|GET|/api/v1/alerts|Se obtiene toda la lista de las alertas|
+|GET|/api/v1/alerts/{alertId}|Se obtiene una alerta por ID|
+|POST|/api/v1/authentication/sign-in|Se inicia sesión con un usuario y contraseña|
+|POST|/api/v1/authentication/sign-up|Se crea una cuenta con un usuario y contraseña|
+|POST|/api/v1/clients|Se publica un nuevo cliente|
+|GET|/api/v1/clients|Se obtiene toda la lista de clientes|
+|GET|/api/v1/clients/{clientId}|Se obtiene un cliente por ID|
+|PUT|/api/v1/clients/{clientId}|Se actualiza un cliente por ID|
+|GET|/api/v1/clients/{clientId}/trips|Se obtienen los viajes del cliente por su ID|
+|POST|/api/v1/configurations|Se publica una nueva configuración de un usuario|
+|GET|/api/v1/configurations|Se obtiene toda la lista de las configuraciones de los usuarios|
+|PUT|/api/v1/configurations/{configurationId}|Se actualiza la información de una configuración de un usuario por ID|
+|GET|/api/v1/configurations/{configurationId}|Se obtiene una configuración de usuario por ID|
+|POST|/api/v1/drivers|Se publica un nuevo conductor|
+|GET|/api/v1/drivers|Se obtiene toda la lista de conductores|
+|PUT|/api/v1/drivers/{driverId}|Se actualiza la información de un conductor por ID|
+|GET|/api/v1/drivers/{driverId}|Se obtiene un conductor por ID|
+|POST|/api/v1/entrepreneurs|Se publica un nuevo empresario|
+|GET|/api/v1/entrepreneurs|Se obtiene toda la lista de empresarios|
+|GET|/api/v1/entrepreneurs/{entrepreneurId}|Se obtiene un empresario por ID|
+|PUT|/api/v1/entrepreneurs/{entrepreneurId}|Se actualiza un cliente por ID|
+|GET|/api/v1/entrepreneurs/{entrepreneurId}/drivers|Se obtienen los conductores designados del empresario por su ID|
+|GET|/api/v1/entrepreneurs/{entrepreneurId}/vehicles|Se obtienen los vehiculos designados del empresario por su ID|
+|GET|/api/v1/entrepreneurs/{entrepreneurId}/trips|Se obtienen los viajes del empresario por su ID|
+|POST|/api/v1/evidences|Se publica una nueva evidencia|
+|GET|/api/v1/evidences|Se obtiene toda la lista de evidencias|
+|PUT|/api/v1/evidences/{evidenceId}|Se actualiza la información de una evidencia por ID|
+|GET|/api/v1/evidences/{evidenceId}|Se obtiene una evidencia por ID|
+|POST|/api/v1/expenses|Se publica un nuevo gasto|
+|GET|/api/v1/expenses|Se obtiene toda la lista de gastos|
+|PUT|/api/v1/expenses/{expenseId}|Se actualiza la información de un gasto por ID|
+|GET|/api/v1/expenses/{expenseId}|Se obtiene un gasto por ID|
+|POST|/api/v1/ongoing-trips|Se publica un nuevo viaje en progreso|
+|GET|/api/v1/ongoing-trips|Se obtiene toda la lista de viajes en progreso|
+|PUT|/api/v1/ongoing-trips/{ongoingTripId}|Se actualiza la información de un viaje en progreso por ID|
+|GET|/api/v1/ongoing-trips/{ongoingTripId}|Se obtiene un viaje en progreso por ID|
+|POST|/api/v1/trips|Se publica un nuevo viaje|
+|GET|/api/v1/trips|Se obtiene toda la lista de viajes|
+|PUT|/api/v1/trips/{tripId}|Se actualiza la información de un viaje por ID|
+|GET|/api/v1/trips/{tripId}|Se obtiene un viaje por ID|
+|GET|/api/v1/trips/{tripId}/alerts|Se obtiene las alertas de un viaje por ID del viaje|
+|GET|/api/v1/trips/{tripId}/ongoingtrips|Se obtiene la información de un viaje en progreso por su ID del viaje|
+|GET|/api/v1/trips/{tripId}/evidences|Se obtiene la evidencia fotográfica de un viaje por ID del viaje|
+|GET|/api/v1/trips/{tripId}/expenses|Se obtiene la información relacionada a gastos de un viaje por ID del viaje|
+|GET|/api/v1/users/{userId}|Se obtiene un usuario por ID|
+|GET|/api/v1/users|Se obtiene toda la lista de usuarios|
+|GET|/api/v1/users/{userId}/clients|Se obtiene la información de cliente de un usuario por ID|
+|GET|/api/v1/users/{userId}/entrepreneurs|Se obtiene la información de entrepreneur de un usuario por ID|
+|POST|/api/v1/vehicles|Se publica un nuevo vehículo|
+|GET|/api/v1/vehicles|Se obtiene toda la lista de vehículos|
+|PUT|/api/v1/vehicles/{userId}|Se actualiza la información de un vehículo por ID|
+|GET|/api/v1/vehicles/{userId}|Se obtiene un vehículo por ID|
+
+**EVIDENCIAS**
+
+
+
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
