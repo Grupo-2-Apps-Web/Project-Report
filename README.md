@@ -3011,6 +3011,7 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 |GET|/api/v1/entrepreneurs/{entrepreneurId}/drivers|Se obtienen los conductores designados del empresario por su ID|
 |GET|/api/v1/entrepreneurs/{entrepreneurId}/vehicles|Se obtienen los vehiculos designados del empresario por su ID|
 |GET|/api/v1/entrepreneurs/{entrepreneurId}/trips|Se obtienen los viajes del empresario por su ID|
+|GET|/api/v1/entrepreneurs/{entrepreneurId}/clients|Se obtienen los clientes del empresario por su ID|
 |POST|/api/v1/evidences|Se publica una nueva evidencia|
 |GET|/api/v1/evidences|Se obtiene toda la lista de evidencias|
 |PUT|/api/v1/evidences/{evidenceId}|Se actualiza la información de una evidencia por ID|
@@ -3066,8 +3067,17 @@ Registration BC Endpoints
 |Parámetros|Ninguno|
 |Resultado|![Service Documentation Get Users](img/service-documentation-get-evidences-by-tripId.png)|
 
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/entrepreneurs/{entrepeneurId}/drivers**
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Drivers by Entrepreneur Id](img/service-documentation-get-drivers-by-entreprenur-id.jpg)|
 
-
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/entrepreneurs/{entrepeneurId}/vehicles**
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Vehicles by Entrepreneur Id](img/service-documentation-get-vehicles-by-entrepreneur-id.jpg)|
 
 
 
