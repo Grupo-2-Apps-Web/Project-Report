@@ -3067,6 +3067,28 @@ De esta manera, se verificó que los archivos están actualizados al estar el nu
 
 Por otro lado, también se desplegó el Frontend Web Applications con la conexión al API y las mejoras realizadas en este Sprint. Para ello, primero se volvió a ejecutar el comando npm run build.
 
+![Imagen Deployment Frontend](img/frontend_sprint4_deployment1.png)
+
+Se actualizan los paquetes de firebase-tools con npm install y corrigieron los problemas con npm audit fix.
+
+![Imagen Deployment Frontend](img/frontend_sprint4_deployment2.png)
+
+Se comprueba que se esté logueado en firebase para el despliegue.
+
+![Imagen Deployment Frontend](img/frontend_sprint4_deployment3.png)
+
+Luego, se empieza con el despliegue utilizando el comando firebase init hosting.
+
+![Imagen Deployment Frontend](img/frontend_sprint4_deployment4.png)
+
+Para terminar con el despliegue luego de tener el proyecto con Firebase se utiliza el comando firebase deploy --only hosting
+
+![Imagen Deployment Frontend](img/frontend_sprint4_deployment5.png)
+
+Finalmente, se comprueba que el proyecto se haya desplegado correctamente entrando al URL: https://cargoapp-demo.web.app
+
+![Imagen Deployment Frontend](img/frontend-deployment-6.png)
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
 
