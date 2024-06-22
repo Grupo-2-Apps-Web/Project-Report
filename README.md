@@ -2974,6 +2974,62 @@ Para la elaboración del Frontend y Backend, nos repartimos las tareas entre cad
 
 #### 5.2.4.3. Development Evidence for Sprint Review.
 
+A continuación, se muestran los commits realizados en los repositorios, acorde a lo trabajado en el Sprint Backlog 4.
+
+Repositorio Frontend: <https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications>
+
+Repositorio Backend: <https://github.com/Grupo-2-Apps-Web/Web-Services>
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- |
+|Grupo-2-Apps-Web/Web-Services|feature/us38|1218692|feat: add ClientByUserId Query|12/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|0643bf1|feat: add EntrepreneurByUserId Query|12/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|88aedf3|feat: add client query in queryService Interface|12/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|be1e3db|feat: add entrepreneurByUserIdQuery in QueryService|12/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|b1abd23|feat: add ConfigurationByUserIdQuery|12/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|7f3eecb|feat: implement queries in Users Controller|12/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us40|c73be28|feat: added IAM Bounded Context|18/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|d2e3a13|feat: added getters api/v1/trips/{tripId}/alerts and api/v1/trips/{tripId}/evidences|18/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|ab0df7e|feat: /api/v1/trips/{tripId}/ongoingtrips added|18/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us40|d92184f|feat: updated user bc|18/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|f526e0f|feat: added put http method to client & entrepreneur|18/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/us40|0d391a0|feat(IAM): update login and register with IAM|19/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us40|c6d6ee1|feat: fixed CORS error|19/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|d5893cf|feat: TripsByClientId, TripsByEntrepreneurId queries|20/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|cb60439|feat: add validation for users subscription|20/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|0cb90dc |<p><h2>feat: /api/v1/trips/{tripId}/expenses added</h2></p><p></p>|20/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us35|eb8658a |<p><h2>update gitignore</h2></p><p></p>|20/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us35|c624b87 |<p><h2>feat: Added GetDriversByEntrepreneurId</h2></p><p></p>|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us35|2e2875a |<h2>feat: Added GetVehiclesByEntrepreneurId</h2>|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|9d93653 |<p><h2>Merge pull request[ #17](https://github.com/Grupo-2-Apps-Web/Web-Services/pull/17) from Grupo-2-Apps-Web/feature/us35</h2></p><p></p>|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|f1e31b6 |<h2>Merge pull request #19 from Grupo-2-Apps-Web/feature/us39</h2>|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|cdb0c34 |<p><h2>fix: solved merge errors</h2></p><p></p>|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|release|73ca48e |<h2>Merge branch 'develop' into release</h2>|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|release|ff0cd13 |<p><h2>feat: updated connection string</h2></p><p></p>|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|release|f881208 |<h2>fix: solved relation problems in bd</h2>|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|release|d9b16e3 |<p><h2>feat: added missing endpoint for entrepreneur</h2></p><p></p>|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|main|4ea8dff |<h2>release v1.1.0</h2>|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|6841ef7 |<p><h2>Merge pull request[ #42](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/42) from Grupo-2-Apps-Web/feature/db-json</h2></p><p></p>|20/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|0d391a0 |<p><h2>feat(IAM): update login and register with IAM</h2></p><p></p>|20/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|2248660 |<p><h2>fix(IAM): fixed error with authorization headers</h2></p><p></p>|<p>21/06/2024</p><p></p>|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|bf015cb |<p><h2>fix(IAM): fixed error when logging as entrepreneur</h2></p><p></p>|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|d6bc609 |<p><h2>feat(registration): update services with new endpoints</h2></p><p></p>|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|55b82ef |<p><h2>fix(visualization): fixed bugs in services and components</h2></p><p></p>|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|162c97e |<h2>fix: solved problems from connection to backend</h2>|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|c824883 |<p><h2>fix: solved problems with client list</h2></p><p></p>|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |develop|7195a80 |<p><h2>Merge pull request[ #44](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/44) from Grupo-2-Apps-Web/feature/us40</h2></p><p></p>|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |release|260bdc3 |<p><h2>Merge pull request[ #45](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/45) from Grupo-2-Apps-Web/develop</h2></p><p></p>|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |release|cba097b |<p><h2>feat: added deployment files</h2></p><p></p>|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|9c2141d |<p><h2>refactor(IAM): login and register files in iam bc</h2></p><p></p>|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|d714d8f |<p><h2>feat(registration): update register trip component</h2></p><p></p>|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |develop|7195a80|<p><h2>Merge pull request[ #46](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/46) from Grupo-2-Apps-Web/feature/us40</h2></p><p></p>|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |release|add7076 |<p><h2>Deleted branch</h2></p><p></p>|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |release|add7076 |<h2>Merge pull request[ #46](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/46) from Grupo-2-Apps-Web/feature/us40</h2>|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |release|7be0bfc |<p><h2>feat: added netlify deploy files</h2></p><p></p>|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |main|8df7a43 |<h2>release v2.1.0</h2>|22/06/2024|
+
+
+
 #### 5.2.4.4. Testing Suite Evidence for Sprint Review.
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
@@ -3105,7 +3161,7 @@ Por otro lado, también se desplegó el Frontend Web Applications con la conexi�
 
 ![Imagen Deployment Frontend](img/frontend_sprint4_deployment1.png)
 
-Se actualizan los paquetes de firebase-tools con npm install y corrigieron los problemas con npm audit fix.
+Para este Sprint, se utilizó Netlify para el deployment del Frontend. Por lo que se instalarón los paquetes necesario con npm install.
 
 ![Imagen Deployment Frontend](img/frontend_sprint4_deployment2.png)
 
@@ -3113,15 +3169,13 @@ Se comprueba que se esté logueado en firebase para el despliegue.
 
 ![Imagen Deployment Frontend](img/frontend_sprint4_deployment3.png)
 
-Luego, se empieza con el despliegue utilizando el comando firebase init hosting.
+Luego, se realiza el despliegue utilizando el comando netlify init.
 
 ![Imagen Deployment Frontend](img/frontend_sprint4_deployment4.png)
 
-Para terminar con el despliegue luego de tener el proyecto con Firebase se utiliza el comando firebase deploy --only hosting
-
 ![Imagen Deployment Frontend](img/frontend_sprint4_deployment5.png)
 
-Finalmente, se comprueba que el proyecto se haya desplegado correctamente entrando al URL: https://cargoapp-demo.web.app
+Finalmente, se comprueba que el proyecto se haya desplegado correctamente entrando al URL: https://webcargoapp.netlify.app
 
 ![Imagen Deployment Frontend](img/frontend-deployment-6.png)
 
