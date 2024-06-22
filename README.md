@@ -2997,36 +2997,37 @@ Repositorio Backend: <https://github.com/Grupo-2-Apps-Web/Web-Services>
 |Grupo-2-Apps-Web/Web-Services|feature/us40|c6d6ee1|feat: fixed CORS error|19/06/2024|
 |Grupo-2-Apps-Web/Web-Services|feature/us39|d5893cf|feat: TripsByClientId, TripsByEntrepreneurId queries|20/06/2024|
 |Grupo-2-Apps-Web/Web-Services|feature/us39|cb60439|feat: add validation for users subscription|20/06/2024|
-|Grupo-2-Apps-Web/Web-Services|feature/us39|0cb90dc |<p><h2>feat: /api/v1/trips/{tripId}/expenses added</h2></p><p></p>|20/06/2024|
-|Grupo-2-Apps-Web/Web-Services|feature/us35|eb8658a |<p><h2>update gitignore</h2></p><p></p>|20/06/2024|
-|Grupo-2-Apps-Web/Web-Services|feature/us35|c624b87 |<p><h2>feat: Added GetDriversByEntrepreneurId</h2></p><p></p>|21/06/2024|
-|Grupo-2-Apps-Web/Web-Services|feature/us35|2e2875a |<h2>feat: Added GetVehiclesByEntrepreneurId</h2>|21/06/2024|
-|Grupo-2-Apps-Web/Web-Services|develop|9d93653 |<p><h2>Merge pull request[ #17](https://github.com/Grupo-2-Apps-Web/Web-Services/pull/17) from Grupo-2-Apps-Web/feature/us35</h2></p><p></p>|21/06/2024|
-|Grupo-2-Apps-Web/Web-Services|develop|f1e31b6 |<h2>Merge pull request #19 from Grupo-2-Apps-Web/feature/us39</h2>|21/06/2024|
-|Grupo-2-Apps-Web/Web-Services|develop|cdb0c34 |<p><h2>fix: solved merge errors</h2></p><p></p>|21/06/2024|
-|Grupo-2-Apps-Web/Web-Services|release|73ca48e |<h2>Merge branch 'develop' into release</h2>|21/06/2024|
-|Grupo-2-Apps-Web/Web-Services|release|ff0cd13 |<p><h2>feat: updated connection string</h2></p><p></p>|21/06/2024|
-|Grupo-2-Apps-Web/Web-Services|release|f881208 |<h2>fix: solved relation problems in bd</h2>|21/06/2024|
-|Grupo-2-Apps-Web/Web-Services|release|d9b16e3 |<p><h2>feat: added missing endpoint for entrepreneur</h2></p><p></p>|21/06/2024|
-|Grupo-2-Apps-Web/Web-Services|main|4ea8dff |<h2>release v1.1.0</h2>|22/06/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|6841ef7 |<p><h2>Merge pull request[ #42](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/42) from Grupo-2-Apps-Web/feature/db-json</h2></p><p></p>|20/06/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|0d391a0 |<p><h2>feat(IAM): update login and register with IAM</h2></p><p></p>|20/06/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|2248660 |<p><h2>fix(IAM): fixed error with authorization headers</h2></p><p></p>|<p>21/06/2024</p><p></p>|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|bf015cb |<p><h2>fix(IAM): fixed error when logging as entrepreneur</h2></p><p></p>|21/06/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|d6bc609 |<p><h2>feat(registration): update services with new endpoints</h2></p><p></p>|21/06/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|55b82ef |<p><h2>fix(visualization): fixed bugs in services and components</h2></p><p></p>|21/06/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|162c97e |<h2>fix: solved problems from connection to backend</h2>|21/06/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|c824883 |<p><h2>fix: solved problems with client list</h2></p><p></p>|21/06/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |develop|7195a80 |<p><h2>Merge pull request[ #44](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/44) from Grupo-2-Apps-Web/feature/us40</h2></p><p></p>|21/06/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |release|260bdc3 |<p><h2>Merge pull request[ #45](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/45) from Grupo-2-Apps-Web/develop</h2></p><p></p>|21/06/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |release|cba097b |<p><h2>feat: added deployment files</h2></p><p></p>|21/06/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|9c2141d |<p><h2>refactor(IAM): login and register files in iam bc</h2></p><p></p>|22/06/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|d714d8f |<p><h2>feat(registration): update register trip component</h2></p><p></p>|22/06/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |develop|7195a80|<p><h2>Merge pull request[ #46](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/46) from Grupo-2-Apps-Web/feature/us40</h2></p><p></p>|22/06/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |release|add7076 |<p><h2>Deleted branch</h2></p><p></p>|22/06/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |release|add7076 |<h2>Merge pull request[ #46](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/46) from Grupo-2-Apps-Web/feature/us40</h2>|22/06/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |release|7be0bfc |<p><h2>feat: added netlify deploy files</h2></p><p></p>|22/06/2024|
-|Grupo-2-Apps-Web/Frontend-Web-Applications |main|8df7a43 |<h2>release v2.1.0</h2>|22/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|0cb90dc |feat: /api/v1/trips/{tripId}/expenses added|20/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us35|eb8658a |update gitignore|20/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us35|c624b87 |feat: Added GetDriversByEntrepreneurId|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us35|2e2875a |feat: Added GetVehiclesByEntrepreneurId|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|9d93653 |Merge pull request[ #17](https://github.com/Grupo-2-Apps-Web/Web-Services/pull/17) from Grupo-2-Apps-Web/feature/us35|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|f1e31b6 |Merge pull request #19 from Grupo-2-Apps-Web/feature/us39|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|cdb0c34 |fix: solved merge errors|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|release|73ca48e |Merge branch 'develop' into release|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|release|ff0cd13 |feat: updated connection string|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|release|f881208 |fix: solved relation problems in bd|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|release|d9b16e3 |feat: added missing endpoint for entrepreneur|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|main|4ea8dff |release v1.1.0|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|6841ef7 |Merge pull request[ #42](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/42) from Grupo-2-Apps-Web/feature/db-json|20/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|0d391a0 |feat(IAM): update login and register with IAM|20/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|2248660 |fix(IAM): fixed error with authorization headers|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|bf015cb |fix(IAM): fixed error when logging as entrepreneur|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|d6bc609 |feat(registration): update services with new endpoints|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|55b82ef |fix(visualization): fixed bugs in services and components|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|162c97e |fix: solved problems from connection to backend|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|c824883 |fix: solved problems with client list|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |develop|7195a80 |Merge pull request[ #44](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/44) from Grupo-2-Apps-Web/feature/us40|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |release|260bdc3 |Merge pull request[ #45](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/45) from Grupo-2-Apps-Web/develop|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |release|cba097b |feat: added deployment files|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|9c2141d |refactor(IAM): login and register files in iam bc|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|d714d8f |feat(registration): update register trip component|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |develop|7195a80|Merge pull request[ #46](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/46) from Grupo-2-Apps-Web/feature/us40|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |release|add7076 |Deleted branch<|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |release|add7076 |Merge pull request[ #46](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/46) from Grupo-2-Apps-Web/feature/us40|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |release|7be0bfc |feat: added netlify deploy files|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |main|8df7a43 |release v2.1.0|22/06/2024|
+
 
 
 
