@@ -3033,6 +3033,12 @@ Repositorio Backend: <https://github.com/Grupo-2-Apps-Web/Web-Services>
 #### 5.2.4.4. Testing Suite Evidence for Sprint Review.
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
+Se implementaron todas las historias de usuario en el sprint backlog 3. Al finalizar todas las historias de usuario previstas para este sprint, se demostró un compromiso extraordinario con el éxito del proyecto y la entrega de valor al cliente. Para mostrar la ejecución, se grabó el siguiente video que presenta todos los procesos logrados:
+
+URL de video: [Video de ejecución del Web Services y Front End](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218899_upc_edu_pe/EUqP5k99uRhGqsRwAKfykFMBzMDAcV00EjYRKXLFqNL5Pg?e=mvLZJO)
+
+<img src="img/execution-evidence-sprint4.png" width="100%">
+
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
