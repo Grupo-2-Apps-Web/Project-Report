@@ -3043,6 +3043,32 @@ Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-S
 **EVIDENCIAS**
 
 
+Registration BC Endpoints
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/trips/{tripId}/alerts**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Users](img/service-documentation-get-alerts-by-tripId.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/trips/{tripId}/ongoing-trips**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Users](img/service-documentation-get-ongoing-trips-by-tripId.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/trips/{tripId}/evidences**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Users](img/service-documentation-get-evidences-by-tripId.png)|
+
+
+
+
 
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
