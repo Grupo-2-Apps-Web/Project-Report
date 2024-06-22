@@ -3095,7 +3095,7 @@ Por otro lado, también se desplegó el Frontend Web Applications con la conexi�
 
 ![Imagen Deployment Frontend](img/frontend_sprint4_deployment1.png)
 
-Se actualizan los paquetes de firebase-tools con npm install y corrigieron los problemas con npm audit fix.
+Para este Sprint, se utilizó Netlify para el deployment del Frontend. Por lo que se instalarón los paquetes necesario con npm install.
 
 ![Imagen Deployment Frontend](img/frontend_sprint4_deployment2.png)
 
@@ -3103,15 +3103,13 @@ Se comprueba que se esté logueado en firebase para el despliegue.
 
 ![Imagen Deployment Frontend](img/frontend_sprint4_deployment3.png)
 
-Luego, se empieza con el despliegue utilizando el comando firebase init hosting.
+Luego, se realiza el despliegue utilizando el comando netlify init.
 
 ![Imagen Deployment Frontend](img/frontend_sprint4_deployment4.png)
 
-Para terminar con el despliegue luego de tener el proyecto con Firebase se utiliza el comando firebase deploy --only hosting
-
 ![Imagen Deployment Frontend](img/frontend_sprint4_deployment5.png)
 
-Finalmente, se comprueba que el proyecto se haya desplegado correctamente entrando al URL: https://cargoapp-demo.web.app
+Finalmente, se comprueba que el proyecto se haya desplegado correctamente entrando al URL: https://webcargoapp.netlify.app
 
 ![Imagen Deployment Frontend](img/frontend-deployment-6.png)
 
