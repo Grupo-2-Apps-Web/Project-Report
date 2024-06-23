@@ -3192,6 +3192,7 @@ Registration BC Endpoints
 |Parámetros|Ninguno|
 |Resultado|![Service Documentation Get Users](img/service-documentation-get-ongoing-trips-by-tripId.png)|
 
+
 **Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/trips/{tripId}/evidences**
 
 |Método|GET|
@@ -3199,11 +3200,19 @@ Registration BC Endpoints
 |Parámetros|Ninguno|
 |Resultado|![Service Documentation Get Users](img/service-documentation-get-evidences-by-tripId.png)|
 
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/trips/{tripId}/expenses**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Users](img/service-documentation-get-expenses-by-tripId.png)|
+
 **Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/entrepreneurs/{entrepeneurId}/drivers**
 |Método|GET|
 |--|--|
 |Parámetros|Ninguno|
 |Resultado|![Service Documentation Get Drivers by Entrepreneur Id](img/service-documentation-get-drivers-by-entreprenur-id.jpg)|
+
 
 **Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/entrepreneurs/{entrepeneurId}/vehicles**
 |Método|GET|
