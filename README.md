@@ -114,6 +114,27 @@ Junio 2024
         </ul>
       </td>
   </tr>
+  <tr>
+  <td><strong>TF</strong></td>
+      <td>Domingo 23 de junio</td>
+      <td>
+        <ul>
+          <li>Delgado Corrales, Piero Gonzalo</li>
+          <li>Matos Fernandez, Christian Andre</li>
+          <li>Paredes Puente, Sebastián Roberto</li>
+          <li>Salinas Torres, Salvador Antonio</li>
+          <li>Valverde Mozo, Andre Gabriel</li>
+        </ul>
+      </td>
+      <td>
+        Se han incluído los siguientes cambios:
+        <ul>
+          <li>Implementación de mejoras</li>
+          <li>5.2.4. Sprint 4</li>
+          <li>Versión final de Conclusiones</li>
+        </ul>
+      </td>
+  </tr>
   </tbody>
 </table>
 
