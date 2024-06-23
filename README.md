@@ -2970,7 +2970,45 @@ Para la elaboración del Frontend y Backend, nos repartimos las tareas entre cad
 
 #### 5.2.4.1. Sprint Planning 4.
 
+El cuarto sprint se planeó a través de una reunión presencial en la universidad. Para ello, se hizo la siguiente tabla para registrar la información que se discutió.
+
+|**Sprint #**|Sprint 4|
+| :- | :- |
+|**Sprint Planning Background**||
+|Date|2024-06-10|
+|Time|07:00 PM|
+|Location|Presencial (En la universidad)|
+|Prepared by|Delgado Corrales, Piero Gonzalo|
+|Attendees (to planning meeting)|<p>Delgado Corrales, Piero Gonzalo</p><p>Matos Fernandez, Christian Andre</p><p>Paredes Puente, Sebastián Roberto</p><p>Salinas Torres, Salvador Antonio</p><p>Valverde Mozo, Andre Gabriel</p>|
+|Sprint 3 Review Summary|En el sprint 3, se realizó el deployment del Frontend y Backend de la aplicación web.|
+|Sprint 3 Retrospective Summary|Este tercer sprint consistió principalmente en terminar la parte de Frontend y empezar con una parte del Backend. Igualmente, faltaron implementar algunas funcionalidades más a partir de los endpoints trabajados.|
+|**Sprint Goal & User Stories**||
+|Sprint 4 Goal|Desarrollar la parte faltante de Backend de la aplicación web.|
+|Sprint 4 Velocity|15|
+|Sum of Story Points|15|
+
 #### 5.2.4.2. Sprint Backlog 4.
+
+El objetivo de este cuarto sprint es la finalización del Backend de la aplicación web, e igualmente implementar los cambios necesarios en Frontend. Al igual que anteriores sprints, trabajamos las tareas en una tabla en Trello: <https://trello.com/b/XZQhgLnk/cargowatch-sprint-backlog-4>
+
+<img src="img/sprint-backlog-4.png" width="100%">
+
+<table><tr><th valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 4</th></tr>
+<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
+<tr><td valign="top">Id</td><td valign="top">Title</td><td valign="top">Id</td><td valign="top">Title</td><td valign="top">Description</td><td valign="top">Estimation (Hours)</td><td valign="top">Assigned To</td><td valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
+<tr><td rowspan="3" valign="top">US38</td><td rowspan="3" valign="top">Uso de nuestra API para gestionar usuarios</td><td valign="top">TS01</td><td valign="top">Implementación de consulta de Cliente y Empresario por Id de usuario</td><td valign="top">Implementar consulta (query) para obtener el cliente o usuario a partir del id del usuario.</td><td valign="top">1</td><td valign="top">Salvador Salinas</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS02</td><td valign="top">Implementación de consulta de Configuración por Id de usuario</td><td valign="top">Implementar consulta (query) para obtener la configuración de un usuario a partir de su id.</td><td valign="top">1</td><td valign="top">Salvador Salinas</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS03</td><td valign="top">Implementación de consulta de viajes por Id de cliente o usuario</td><td valign="top">Implementar consulta (query) para obtener los viajes de un cliente o empresario a partir de su id.</td><td valign="top">1</td><td valign="top">Christian Matos</td><td valign="top">Done</td></tr>
+<tr><td rowspan="5" valign="top">US39</td><td rowspan="5" valign="top">Uso de nuestra API para gestionar los datos de viajes	</td><td valign="top">TS04</td><td valign="top">Implementación de consulta de evidencias y alertas por Id de viaje</td><td valign="top">Implementar consulta (query) para obtener el arreglo de evidencias o alertas a partir del id del viaje.</td><td valign="top">1</td><td valign="top">Sebastián Paredes</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS05</td><td valign="top">Implementación de consulta de viajes en progreso por Id de viaje</td><td valign="top">Implementar consulta (query) para obtener la información del viaje en progreso a partir del id del viaje.</td><td valign="top">1</td><td valign="top">Sebastián Paredes</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS06</td><td valign="top">Implementación de consulta de gastos por Id de viaje</td><td valign="top">Implementar consulta (query) para obtener la información de gastos a partir del id del viaje.</td><td valign="top">1</td><td valign="top">Christian Matos</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS07</td><td valign="top">Implementación de consulta de conductores por Id de empresario</td><td valign="top">Implementar consulta (query) para obtener el arreglo de conductores registrados a partir del id del empresario.</td><td valign="top">1</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS08</td><td valign="top">Implementación de consulta de vehículos por Id de empresario</td><td valign="top">Implementar consulta (query) para obtener el arreglo de vehículos registrados a partir del id del empresario.</td><td valign="top">1</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td rowspan="3" valign="top">US40</td><td rowspan="3" valign="top">Seguridad y autenticación en nuestra API</td><td valign="top">TS09</td><td valign="top">Implementación de IAM en Backend</td><td valign="top">Implementar la autenticación con Token de seguridad para tener acceso a las peticiones HTTP.</td><td valign="top">2</td><td valign="top">Piero Delgado</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS10</td><td valign="top">Implementación de IAM en Frontend</td><td valign="top">Actualizar método de inicio de sesión y registro en Frontend para que funcione con IAM.</td><td valign="top">1</td><td valign="top">Salvador Salinas</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS11</td><td valign="top">Modificación de modelos y servicios en Frontend </td><td valign="top">Modificar los modelos y servicios necesarios con la nueva forma de autenticación (IAM).</td><td valign="top">1</td><td valign="top">Salvador Salinas, Christian Matos</td><td valign="top">Done</td></tr>
+</table>
+
 
 #### 5.2.4.3. Development Evidence for Sprint Review.
 
@@ -3028,10 +3066,20 @@ Repositorio Backend: <https://github.com/Grupo-2-Apps-Web/Web-Services>
 |Grupo-2-Apps-Web/Frontend-Web-Applications |release|7be0bfc |feat: added netlify deploy files|22/06/2024|
 |Grupo-2-Apps-Web/Frontend-Web-Applications |main|8df7a43 |release v2.1.0|22/06/2024|
 
-
-
-
 #### 5.2.4.4. Testing Suite Evidence for Sprint Review.
+
+Se realizaron los acceptance tests para las historias de usuario trabajadas y se registraron en el repositorio de la siguiente forma.
+
+Repositorio Acceptance Tests: https://github.com/Grupo-2-Apps-Web/Acceptance-Tests
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- |
+|Grupo-2-Apps-Web/Web-Services|develop|c73be28|feat: updated user bc|19/06/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|cecebad|feat: updated US38 & added US40|22/06/2024|
+
+Se actualizaron los Unit Tests realizados anteriormente, pero solamente los relacionados con el Bounded Context de User, ya que hubo cambios luego de la implementación del IAM.
+
+<img src="img/unit-test-success.png" alt="Unit Test for Backend" width="100%">
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 Se implementaron todas las historias de usuario en el sprint backlog 3. Al finalizar todas las historias de usuario previstas para este sprint, se demostró un compromiso extraordinario con el éxito del proyecto y la entrega de valor al cliente. Para mostrar la ejecución, se grabó el siguiente video que presenta todos los procesos logrados:
