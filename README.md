@@ -3266,6 +3266,36 @@ Finalmente, se comprueba que el proyecto se haya desplegado correctamente entran
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
+Para la elaboración del Frontend y Backend, nos repartimos las tareas entre cada miembro así como se especifica en el Sprint Backlog 4, y cada uno trabajó en las ramas feature correspondientes, para luego ir realizando los merge con la rama develop. Asimismo, nos reunimos de forma virtual a través de Google Meet para revisar juntos los avances y los merges realizados para verificar que todo funciona acorde a lo esperado.
+
+**Commits trabajados en Frontend**
+
+<img src="img/commits-frontend-sprint-4-1.png" width="100%">
+
+<img src="img/commits-frontend-sprint-4-2.png" width="100%">
+
+<img src="img/commits-frontend-sprint-4-3.png" width="100%">
+
+<img src="img/commits-frontend-sprint-4-4.png" width="100%">
+
+
+**Commits trabajados en Backend**
+
+<img src="img/commits-backend-sprint-4-1.png" width="100%">
+
+<img src="img/commits-backend-sprint-4-2.png" width="100%">
+
+<img src="img/commits-backend-sprint-4-3.png" width="100%">
+
+
+**Gráfico de estadísticas de commits**
+
+<img src="img/commit-statistics-sprint-4.png" width="100%">
+
+**Gráfico de red**
+
+<img src="img/network-graph-sprint-4.png" width="100%">
+
 
 ## 5.3. Validation Interviews.
 
