@@ -1651,75 +1651,29 @@ A continuación, se especificara más a detalle sobre cada una de las clases.
 #### User Bounded Context
 
 **User (Aggregate)**
-La clase User contiene toda la información de un usuario registrado dentro de la aplicación, así como su información empresarial, información de autenticación y plan de suscripción.
+La clase User contiene los datos de autenticación del usuario.
 
 **Atributos:**
 - id: int - Identificador único del usuario
-- userData: UserData - Información sobre datos del usuario
-- userAuthentication: UserAuthentication - Información sobre autenticación del usuario
-- subscriptionPlan: SubscriptionPlan - Información sobre el plan de suscripción
+- username: string - Correo electrónico del usuario
+- password: string - Contraseña del usuario
 
 
 **Métodos:**
 - getUser(): Devuelve los detalles del usuario.
-- updateUser(): Actualiza los detalles del usuario.
 
 -----
 
-**UserData (Value Object)**
-La clase UserData contiene información de los datos empresariales del usuario.
-
-**Atributos:**
-- name: string - Nombre del usuario
-- phone: string - Teléfono del usuario
-- ruc: string - Identificador RUC del usuario
-- address: string - Dirección del usuario
-
-
-**Métodos:**
-- getName(): Devuelve el nombre del usuario
-- setName(): Establece el nombre del usuario
-- getPhone(): Devuelve el teléfono del usuario
-- setPhone(): Establece el teléfono del usuario
-- getRuc(): Devuelve el RUC del usuario
-- setRuc(): Establece el RUC del usuario
-- getAddress(): Devuelve la dirección del usuario
-- setAddress(): Establece la dirección del usuario
-
------
-
-**UserAuthentication (Value Object)**
-La clase UserAuthentication contiene información de los datos de autenticación del usuario
-
-**Atributos:**
-- email: string - Correo electrónico del usuario
-- password: string - Contraseña del usuario
-
-**Métodos:**
-- getEmail(): Devuelve el correo electrónico del usuario
-- setEmail(): Establece el correo electrónico del usuario
-- getPassword(): Devuelve la contraseña del usuario
-- setPassword(): Establece la contraseña del usuario
-
------
-
-**SubscriptionPlan (Value Object)**
-La clase SubscriptionPlan contiene información del plan de suscripción del usuario.
-
-**Atributos:**
-- subscription: string - Suscripción elegida por el usuario
-
-**Métodos:**
-- getSubscription(): Devuelve la suscripción del usuario
-- setSubscription(): Establece la suscripción del usuario
-
------
-
-**Client (Entity)**
+**Client (Aggregate)**
 La clase Client representa a un usuario que es de tipo cliente.
 
 **Atributos:**
 - id: int - Identificador único del cliente
+- name: string - Nombre del cliente
+- phone: string - Teléfono del cliente
+- ruc: string - Identificador RUC del cliente
+- address: string - Dirección del cliente
+- subscription: string - Suscripción elegida por el cliente
 - userId: int - Identificador del usuario con el que se relaciona
 
 
@@ -1728,12 +1682,17 @@ La clase Client representa a un usuario que es de tipo cliente.
 
 -----
 
-**Entrepreneur (Entity)**
+**Entrepreneur (Aggregate)**
 La clase Entrepreneur representa a un usuario que es de tipo empresario.
 
 **Atributos:**
 - id: int - Identificador único del empresario
+- name: string - Nombre del empresario
+- phone: string - Teléfono del empresario
+- ruc: string - Identificador RUC del empresario
+- address: string - Dirección del empresario
 - logoImage: string - Imagen del logo de la empresa
+- subscription: string - Suscripción elegida por el empresario
 - userId: int - Identificador del usuario con el que se relaciona
 
 **Métodos:**
