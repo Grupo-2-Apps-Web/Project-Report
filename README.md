@@ -3527,17 +3527,17 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 
 ## 5.4. Video About-the-Product.
-En el vídeo se proporciona información sobre el producto CargoApp. Se mencionan las diferentes funcionalidades de la aplicación como son la visualización de envíos en tiempo real, alertas, estadísticas, etc.
+En el vídeo se proporciona información sobre el producto CargoApp. Se mencionan las diferentes funcionalidades de la aplicación como son la visualización de envíos en tiempo real, alertas, estadísticas, etc. Y se incluye un testimonio de un usuario.
 
 Screenshot del video: 
 
-![Imagen de Video About-The-Product](img/VideoAbout-The-Product.png)
+![Imagen de Video About-The-Product](img/VideoAbout-The-Product1.png)
 
-**Enlace al vídeo de YouTube:** [Video About-the-Product Youtube](https://youtu.be/xmUHIVYzkBY)
+**Enlace al vídeo de YouTube:** [Video About-the-Product Youtube](https://youtu.be/3oevwW9zGbY)
 
-**Enlace al vídeo de Microsoft Stream:** [Video About-The-Product Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/ESgFUp5LxYdOufQGHAU0VgoBJhXBsounIy90LCYn8rD-NQ)
+**Enlace al vídeo de Microsoft Stream:** [Video About-The-Product Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/ERapd_JSGfxJrV7Nyi95EHQBWr29uI6PTjZ4hZl5NRnrkQ?e=y513xW)
 
-**Duración del vídeo:** 2:42
+**Duración del vídeo:** 0:58
 
 # Conclusiones
 
