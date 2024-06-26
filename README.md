@@ -3558,6 +3558,10 @@ Las tecnologías y frameworks elegidos para el desarrollo del front-end, como Vu
 
 La gestión de bases de datos fue eficaz, con un rendimiento adecuado en las consultas y una alta integridad de los datos. Se implementaron estrategias de indexación y optimización que contribuyeron a la eficiencia en el manejo de datos grandes.
 
+La primera recomendación que se da para un futuro es establecer un mecanismo formal de revisión y mejora continua del Lean UX Canvas. Esto implica programar revisiones periódicas del canvas con el equipo multidisciplinario para asegurar que refleje de manera precisa las necesidades del mercado y las expectativas de los usuarios. Implementar esta práctica ayudará a mantener el enfoque en los problemas clave que la aplicación debe resolver, permitiendo ajustes ágiles y bien fundamentados a lo largo del ciclo de desarrollo.
+
+Una recomendación adicional es considerar la implementación de pruebas de usabilidad periódicas con usuarios representativos incluso después de completar el desarrollo. Esto permitirá identificar oportunidades de mejora y asegurar que el producto final siga alineado con las expectativas y necesidades del mercado objetivo. Esto no solo optimiza la experiencia general del usuario, sino que también refuerza la confianza en las decisiones de diseño tomadas, garantizando ajustes efectivos a futuro.
+
 
 
 ## Video About The Team
