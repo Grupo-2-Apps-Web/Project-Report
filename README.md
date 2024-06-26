@@ -159,6 +159,10 @@ Commits en project report TB2:
 <img src="img/insights-tb2.png">
 <img src="img/commits-tb2.png">
 
+Commits en project report TF:
+<img src="img/insights-tf.png">
+<img src="img/commits-tf.png">
+
 # **Tabla de Contenido**
 
 [Registro de Versiones](#registro-de-versiones)
