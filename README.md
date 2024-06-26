@@ -114,6 +114,30 @@ Junio 2024
         </ul>
       </td>
   </tr>
+  <tr>
+  <td><strong>TF</strong></td>
+      <td>Domingo 23 de junio</td>
+      <td>
+        <ul>
+          <li>Delgado Corrales, Piero Gonzalo</li>
+          <li>Matos Fernandez, Christian Andre</li>
+          <li>Paredes Puente, Sebastián Roberto</li>
+          <li>Salinas Torres, Salvador Antonio</li>
+          <li>Valverde Mozo, Andre Gabriel</li>
+        </ul>
+      </td>
+      <td>
+        Se han incluído los siguientes cambios:
+        <ul>
+          <li>5.2.4. Sprint 4</li>
+          <li>Actualización del diseño de la base de datos con las tablas actualizadas</li>
+          <li>Mejora del video About-The-Product</li>
+          <li>Mejora del Backend con nuevos endpoints y IAM incluido</li>
+          <li>Actualización del Frontend para su correcto funcionamiento con el Backend</li>
+          <li>Versión final de Conclusiones</li>
+        </ul>
+      </td>
+  </tr>
   </tbody>
 </table>
 
@@ -137,9 +161,11 @@ Commits en project report TB2:
 
 # **Tabla de Contenido**
 
-- ## [Registro de Versiones](#registro-de-versiones)
-- ## [Student Outcome](#student-outcome-1)
-- ## [Capítulo I: Introducción](#Capítulo-I-Introducción-1)
+[Registro de Versiones](#registro-de-versiones)
+
+[Student Outcome](#student-outcome)
+
+[Capítulo I: Introducción](#Capítulo-I-Introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
@@ -151,7 +177,8 @@ Commits en project report TB2:
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- ## [Capítulo II: Requirements Elicitation & Analysis](#Capítulo-II-Requirements-Elicitation--Analysis-1)
+
+[Capítulo II: Requirements Elicitation & Analysis](#Capítulo-II-Requirements-Elicitation--Analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
@@ -166,12 +193,14 @@ Commits en project report TB2:
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- ## [Capítulo III: Requirements Specification](#Capítulo-III-Requirements-Specification-1)
+
+[Capítulo III: Requirements Specification](#Capítulo-III-Requirements-Specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
-- ## [Capítulo IV: Product Design](#Capítulo-IV-Product-Design-1)
+
+[Capítulo IV: Product Design](#Capítulo-IV-Product-Design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
@@ -199,7 +228,8 @@ Commits en project report TB2:
     - [4.7.2. Class Dictionary](#472-class-dictionary)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagram](#481-database-diagram)
-- ## [Capítulo V: Product Implementation, Validation & Deployment](#Capítulo-V-Product-Implementation-Validation--Deployment-1)
+
+[Capítulo V: Product Implementation, Validation & Deployment](#Capítulo-V-Product-Implementation-Validation--Deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
@@ -233,16 +263,28 @@ Commits en project report TB2:
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+      - [5.2.4.2. Sprint Backlog 4](#5242-sprint-backlog-4)
+      - [5.2.4.3. Development Evidence for Sprint Review](#5243-development-evidence-for-sprint-review)
+      - [5.2.4.4. Testing Suite Evidence for Sprint Review](#5244-testing-suite-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
-- ## [Conclusiones](#conclusiones-1)
+
+[Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
-- ## [Bibliografía](#bibliografía-1)
-- ## [Anexos](#anexos-1)
+
+[Bibliografía](#bibliografía)
+
+[Anexos](#anexos)
 
 
 # Student Outcome
@@ -252,10 +294,8 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 
 |Criterio específico|Acciones realizadas|Conclusiones|
 | :- | :- | :- |
-|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.|<p>**Delgado Corrales, Piero Gonzalo**</p><p>**TB1:** He ayudado a organizar las actividades del equipo de tal modo que hemos podido trabajar de manera simultánea para entregar resultados rápidamente.<br> **TP1:** He organizado las actividades del equipo como la división de exposiciones y tareas del sprint 2 para alcanzar los objetivos de este entregable.<br> **TB2:** He organizado las actividades para el sprint 3 y alcanzar los objetivos en el plazo por distintos medios de comunicación.</p><p></p><p>**Matos Fernandez, Christian Andre**</p><p>**TB1:** He contribuido en la coordinación de las tareas del equipo de manera que hemos sido capaces de realizar múltiples actividades de forma concurrente, lo que nos ha permitido alcanzar resultados de manera ágil y eficiente.<br> **TP1:** He planificado las actividades del equipo, incluyendo la asignación de presentaciones y tareas para la segunda fase del proyecto, con el fin de lograr los objetivos establecidos para este entregable. <br> **TB2:** He completado todas las tareas del sprint 3, asegurándome de que todos los objetivos se cumplieran dentro del plazo establecido.</p><p></p><p>**Paredes Puente, Sebastián Roberto**</p><p>**TB1:** He coordinado en las reuniones para establecer los trabajos que le tocaba hacer a cada uno para el informe. Adicionalmente, apoyé activamente en las actividades del equipo, asegurando que trabajemos de forma simultánea y eficiente para lograr una entrega rápida y bien hecha.<br> **TP1:** Para esta entrega parcial, la comunicación en el equipo ha sido fundamental. Me comuniqué con mis compañeros para coordinar y asignar tareas de manera ordenada. Gracias a esto, logramos crear las funcionalidades esenciales del frontend de la aplicación web.<br> **TB2:** Logré completar todas mis tareas asignadas para este Sprint 3, asegurándome de cumplir todos los objetivos dentro del plazo establecido. Durante esta tercera entrega, organizamos adecuadamente las actividades a través de distintos medios de comunicación para desarrollar tanto el Frontend como el Backend de la aplicación.</p><p></p><p>**Salinas Torres, Salvador Antonio**</p><p>**TB1:** Contribuí ágilmente durante el desarrollo de esta entrega, siempre estando pendiente del tiempo para llegar a la fecha límite habiendo terminado todos los puntos requeridos. Asimismo, me aseguré de utilizar el flujo de trabajo GitFlow con el cual ya estaba familiarizado anteriormente y pude enseñar al resto de mi equipo para que lo apliquen correctamente.<br> **TP1:** Para esta entrega, apoyé en la distribución de tareas y poder lograr el objetivo de este segundo sprint satisfactoriamente. Y logre trabajar en la parte de Frontend de nuestra aplicación, usando el framework Vue y creando una fake api para simulación de datos. <br> **TB2:** En esta tercera entrega, se desarrolló el Sprint 3 del proyecto, el cual se basó en el desarrollo del Frontend y Backend de la aplicación. Para ello, nos organizamos adecuadamente con las tareas y llegar a cumplir con todo en la fecha límite.</p><p></p><p>**Valverde Mozo, Andre Gabriel**</p><p>**TB1:** Participé en las reuniones grupales para establecer las responsabilidades de cada miembro en el informe. Además, contribuí de manera activa en las labores del equipo, asegurando que trabajaramos de forma coordinada y eficiente para alcanzar una entrega rápida y de calidad.<br> **TP1:** Durante esta fase intermedia de desarrollo, la comunicación dentro del equipo ha demostrado ser un pilar fundamental. Me he mantenido en constante contacto con mis colegas, estableciendo un flujo de comunicación efectivo para coordinar nuestras acciones y asignar tareas de manera organizada y eficiente. <br> **TB2:** En esta entrega nos enfocamos en el Sprint 3, centrándonos en el desarrollo del backend y su integración con el frontend. Implementamos funcionalidades clave para el procesamiento de datos y la gestión de usuarios, y mejoramos la interfaz de usuario para una experiencia más intuitiva. Esta sincronización entre backend y frontend garantiza una aplicación más robusta y eficiente, acercándonos a nuestros objetivos del proyecto.</p>|**TB1:** Para esta primera entrega, la comunicación efectiva ha sido esencial ya que la cantidad de contenidos a presentar ha sido grande. Del mismo modo, realizar reuniones de grupo nos sirvió para ser más eficientes a la hora de gestionar los avances para llegar a entregar lo pedido. <br> **TP1:** Para esta entrega parcial, la comunicación en el equipo ha sido importante para alcanzar a crear todas las funcionalidades esenciales del apartado del frontend de la aplicación web. <br> **TB2:** Para esta entrega, se han recopilado las opiniones de los segmentos en las entrevistas de validación para realizar mejoras en el diseño y funcionalidades de nuestra aplicación. |
-|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|<p>**Delgado Corrales, Piero Gonzalo**</p><p>**TB1:** Para esta primera entrega, he investigado sobre los principales competidores en el sector de aplicaciones para la gestión de transporte terrestre.<br> **TP1:** Para esta entrega del trabajo parcial, he utilizado los conocimientos que obtuve de la entrevista que realicé para crear la vista del frontend de forma más objetiva. <br> **TB2:** Para esta entrega, se ha aprendido más sobre la opinión de los dos segmentos objetivos mediante las entrevistas de validación. </p><p></p><p>**Matos Fernandez, Christian Andre**</p><p>**TB1:** Para esta entrega, me he dedicado a investigar acerca de los competidores principales dentro del sector de aplicaciones destinadas a la gestión del transporte terrestre.<br> **TP1:** En este trabajo parcial, apliquen los aprendizajes obtenidos de la entrevista que llevé a cabo para desarrollar la interfaz del frontend de manera más imparcial y precisa. <br> **TB2:** Durante este tercer sprint, llevé a cabo entrevistas de validación en las que expliqué el desarrollo realizado en la aplicación. Esto nos permitió obtener valiosas opiniones de nuestros segmentos objetivo para seguir mejorando. </p><p></p><p>**Paredes Puente, Sebastián Roberto**</p><p>**TB1:** Para este proyecto, realicé una investigación exhaustiva en el sector empresarial vinculado al transporte de carga. Durante este proceso, tuve la oportunidad de entrevistar a profesionales con amplia experiencia en el campo, lo que me permitió comprender mejor sus necesidades y obtener una perspectiva renovada para el desarrollo de nuestra aplicación. <br> **TP1:** Para esta entrega parcial del trabajo, he utilizado los conocimientos recopilados de artefactos como entrevistas para diseñar la solución de software del frontend.<br> **TB2:** Durante este tercer sprint, llevé a cabo entrevistas de validación en las que expliqué el desarrollo realizado en la aplicación. Esto nos permitió obtener valiosas opiniones de nuestros segmentos objetivo para seguir mejorando. En esta entrega, nos enfocamos en el desarrollo del backend y su integración con el frontend, implementando funcionalidades clave para el procesamiento de datos y la gestión de usuarios, y mejorando la interfaz de usuario para una experiencia más intuitiva. Esta sincronización entre backend y frontend garantiza una aplicación más eficiente, acercándonos a los objetivos del proyecto.</p><p></p><p>**Salinas Torres, Salvador Antonio**</p><p>**TB1:** Realicé una investigación sobre la necesidad para el seguimiento de transporte de forma segura y que tan importante puede llegar a ser para las empresas que requieren de un servicio de transporte para cargas grandes. De este modo, investigué en un área que yo no conocía muy bien, e igualmente logré obtener los datos necesarios para realizar un buen trabajo <br> **TP1:** Tomando en cuenta toda la investigación de mercado realizada en la entrega anterior, he apoyado en la realización de una interfaz en Frontend que sea de agrado para nuestros segmentos objetivo y lograr con los requisitos planteados. <br> **TB2:** En este tercer sprint, realicé entrevistas de validación, en el cual expliqué lo que se trabajó en la aplicación, y con esto pudimos obtener una buena retroalimentación de nuestros segmentos objetivo para seguir mejorando.</p><p></p><p>**Valverde Mozo, Andre Gabriel**</p><p>**TB1:** Para esta primera entrega, investigué el diseño de páginas de destino en aplicaciones de gestión de transporte terrestre. Analicé la presentación de productos, elementos visuales, y cómo se guía al usuario hacia la conversión, obteniendo una visión completa de las mejores prácticas en este ámbito.<br> **TP1:** Durante este proceso, he aplicado los conocimientos adquiridos de las entrevistas para desarrollar la interfaz del frontend con mayor imparcialidad y precisión. La información obtenida de las entrevistas ha sido fundamental para entender las necesidades y perspectivas de los usuarios, lo que ha influido directamente en el diseño de la interfaz. <br> **TB2:** En este avance, me comuniqué con mi grupo de trabajo para coordinar los cambios e implementaciones relacionados con el backend. Implemente los endpoints necesarios y realice la documentación correspondiente, mostrando evidencia de su funcionamiento. Además, integramos el frontend y el backend para proporcionar el máximo valor a nuestros usuarios.</p>|<p> **TB1:** Para esta entrega, se realizó una investigación a los principales competidores en el sector de aplicaciones para la gestión de transporte terrestre; y, a su vez, a personas que se encuentran involucradas en el rubro, obteniendo una perspectiva valiosa para el desarrollo del proyecto. <br> **TP1:** Para esta entrega del trabajo parcial, se han tenido que usar los conocimientos recopilados de los artefactos como entrevistas para diseñar la solución de software del apartado frontend. <br> **TB2:** Para esta entrega, se han recopilado las opiniones de los segmentos en las entrevistas de validación para realizar mejoras en el diseño y funcionalidades de nuestra aplicación. </p>|
-
-
+|Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.|<p>**Delgado Corrales, Piero Gonzalo**</p><p>**TB1:** He ayudado a organizar las actividades del equipo de tal modo que hemos podido trabajar de manera simultánea para entregar resultados rápidamente.<p/><p>**TP1:** He organizado las actividades del equipo como la división de exposiciones y tareas del sprint 2 para alcanzar los objetivos de este entregable.</p><p>**TB2:** He organizado las actividades para el sprint 3 y alcanzar los objetivos en el plazo por distintos medios de comunicación.</p><p>**TF:** Para el sprint 4, he organizado las actividades para mejorar el backend designando los endpoints faltantes a mis compañeros y añadiendo el IAM bounded context. Asimismo, se implementaron las actualizaciones en el frontend para que funcione con dichos cambios. Con el objetivo de presentar la versión final de los productos.</p><p>**Matos Fernandez, Christian Andre**</p><p>**TB1:** He contribuido en la coordinación de las tareas del equipo de manera que hemos sido capaces de realizar múltiples actividades de forma concurrente, lo que nos ha permitido alcanzar resultados de manera ágil y eficiente.</p><p>**TP1:** He planificado las actividades del equipo, incluyendo la asignación de presentaciones y tareas para la segunda fase del proyecto, con el fin de lograr los objetivos establecidos para este entregable.</p><p>**TB2:** He completado todas las tareas del sprint 3, asegurándome de que todos los objetivos se cumplieran dentro del plazo establecido.</p><p>**TF:** En este cuarto sprint, nos organizamos para implementar los últimos endpoints y la autenticación (IAM) en el backend, así como aplicar los cambios necesarios en el frontend para garantizar una integración coherente. Iniciamos con la planificación del sprint para definir la velocidad y la cantidad de puntos de historia a abordar. De esta manera, hemos avanzado en este proyecto utilizando la metodología ágil para el desarrollo de software, asegurando que todas las tareas asignadas por mi parte se integren de manera efectiva.</p><p></p><p>**Paredes Puente, Sebastián Roberto**</p><p>**TB1:** He coordinado en las reuniones para establecer los trabajos que le tocaba hacer a cada uno para el informe. Adicionalmente, apoyé activamente en las actividades del equipo, asegurando que trabajemos de forma simultánea y eficiente para lograr una entrega rápida y bien hecha.</p><p>**TP1:** Para esta entrega parcial, la comunicación en el equipo ha sido fundamental. Me comuniqué con mis compañeros para coordinar y asignar tareas de manera ordenada. Gracias a esto, logramos crear las funcionalidades esenciales del frontend de la aplicación web.</p><p>**TB2:** Logré completar todas mis tareas asignadas para este Sprint 3, asegurándome de cumplir todos los objetivos dentro del plazo establecido. Durante esta tercera entrega, organizamos adecuadamente las actividades a través de distintos medios de comunicación para desarrollar tanto el Frontend como el Backend de la aplicación.</p><p></p><p>**TF:** En este cuarto sprint, nuestro enfoque principal fue desarrollar y finalizar los endpoints, implementar la autenticación para el inicio de sesión (IAM) en ambos Frontend y Backend, y realizar una exhaustiva planificación del sprint para determinar nuestra velocidad de trabajo y los user stories a abordar. Este enfoque nos permitió seguir eficientemente la metodología ágil, asegurando una integración coherente y de cada parte del sistema. Además, nos aseguramos de realizar unit tests para garantizar una implementación sin problemas de nuevas funcionalidades y una mejora continua de la experiencia del usuario en la versión final del producto.</p><p></p><p>**Salinas Torres, Salvador Antonio**</p><p>**TB1:** Contribuí ágilmente durante el desarrollo de esta entrega, siempre estando pendiente del tiempo para llegar a la fecha límite habiendo terminado todos los puntos requeridos. Asimismo, me aseguré de utilizar el flujo de trabajo GitFlow con el cual ya estaba familiarizado anteriormente y pude enseñar al resto de mi equipo para que lo apliquen correctamente.</p><p>**TP1:** Para esta entrega, apoyé en la distribución de tareas y poder lograr el objetivo de este segundo sprint satisfactoriamente. Y logre trabajar en la parte de Frontend de nuestra aplicación, usando el framework Vue y creando una fake api para simulación de datos.</p><p>**TB2:** En esta tercera entrega, se desarrolló el Sprint 3 del proyecto, el cual se basó en el desarrollo del Frontend y Backend de la aplicación. Para ello, nos organizamos adecuadamente con las tareas y llegar a cumplir con todo en la fecha límite.</p><p>**TF:** Para este cuarto sprint, me concentré en ejecutar todas las tareas asignadas a mi cargo en el desarrollo del backend del proyecto. Esto implicó diseñar y desarrollar nuevas funcionalidades, así como mejorar y optimizar las existentes para garantizar un rendimiento óptimo del sistema. Mi trabajo no solo se centró en la implementación técnica, sino también en asegurar que cada funcionalidad cumplía con los estándares de calidad y contribuía de manera efectiva a los objetivos generales del equipo.</p><p></p><p>**Valverde Mozo, Andre Gabriel**</p><p>**TB1:** Participé en las reuniones grupales para establecer las responsabilidades de cada miembro en el informe. Además, contribuí de manera activa en las labores del equipo, asegurando que trabajaramos de forma coordinada y eficiente para alcanzar una entrega rápida y de calidad.</p><p>**TP1:** Durante esta fase intermedia de desarrollo, la comunicación dentro del equipo ha demostrado ser un pilar fundamental. Me he mantenido en constante contacto con mis colegas, estableciendo un flujo de comunicación efectivo para coordinar nuestras acciones y asignar tareas de manera organizada y eficiente.</p><p>**TB2:** En esta entrega nos enfocamos en el Sprint 3, centrándonos en el desarrollo del backend y su integración con el frontend. Implementamos funcionalidades clave para el procesamiento de datos y la gestión de usuarios, y mejoramos la interfaz de usuario para una experiencia más intuitiva. Esta sincronización entre backend y frontend garantiza una aplicación más robusta y eficiente, acercándonos a nuestros objetivos del proyecto.</p><p>**TF:** En este cuarto sprint, nos enfocamos principalmente en desarrollar y finalizar los endpoints, así como en implementar la autenticación para el inicio de sesión (IAM) en ambas partes: el Frontend y el Backend. Además, realizamos una planificación exhaustiva del Sprint para determinar nuestra velocidad de trabajo y la cantidad de puntos de historia a abordar. Este enfoque nos permitió seguir de manera eficiente la metodología ágil, asegurando que cada parte del sistema se integre de manera coherente y funcional. También nos aseguramos de realizar pruebas exhaustivas para garantizar que las nuevas funcionalidades se implementaran sin problemas y mejoraran la experiencia del usuario.</p>|<p>**TB1:** Para esta primera entrega, la comunicación efectiva ha sido esencial ya que la cantidad de contenidos a presentar ha sido grande. Del mismo modo, realizar reuniones de grupo nos sirvió para ser más eficientes a la hora de gestionar los avances para llegar a entregar lo pedido.</p><p></p><p> **TP1:** Para esta entrega parcial, la comunicación en el equipo ha sido importante para alcanzar a crear todas las funcionalidades esenciales del apartado del frontend de la aplicación web.</p><p></p><p> **TB2:** Para esta entrega, se han recopilado las opiniones de los segmentos en las entrevistas de validación para realizar mejoras en el diseño y funcionalidades de nuestra aplicación.</p><p></p><p>**TF:** Para la entrega final, nos hemos enfocado en mejorar los productos de software existentes mediante la división eficiente de tareas. Primero, actualizamos los enlaces de la landing page para que redireccionen correctamente al Frontend deployado. Luego, para el Frontend actualizamos la lógica interna para aprovechar los nuevos endpoints del Backend y que se utilize el Bearer Token correctamente al loguearse. Del mismo modo, para el Backend se implementó la lógica del IAM para la seguridad. Finalmente, se mejoraron otros artefactos como el video About-The-Product y el diseño de base de datos.</p> |
+|Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.|<p>**Delgado Corrales, Piero Gonzalo**</p><p>**TB1:** Para esta primera entrega, he investigado sobre los principales competidores en el sector de aplicaciones para la gestión de transporte terrestre.</p><p>**TP1:** Para esta entrega del trabajo parcial, he utilizado los conocimientos que obtuve de la entrevista que realicé para crear la vista del frontend de forma más objetiva.</p><p> **TB2:** Para esta entrega, se ha aprendido más sobre la opinión de los dos segmentos objetivos mediante las entrevistas de validación. </p><p>**TF:** Para esta entrega, he utilizado los conocimientos de las entrevistas de validación para mejorar los productos de software, especialmente en la Landing page donde se mejoró el diseño para que sea más llamativo, además de actualizar los botones Call-To-Action para que redireccionen correctamente al Frontend Web Applications. Asimismo, consideramos la importancia de la seguridad en el sector de transporte terrestre y por ello, añadimos el IAM al backend para que haya una verificacion previa antes de acceder a los datos.</p><p>**Matos Fernandez, Christian Andre**</p><p>**TB1:** Para esta entrega, me he dedicado a investigar acerca de los competidores principales dentro del sector de aplicaciones destinadas a la gestión del transporte terrestre.</p><p>**TP1:** En este trabajo parcial, apliquen los aprendizajes obtenidos de la entrevista que llevé a cabo para desarrollar la interfaz del frontend de manera más imparcial y precisa.</p><p>**TB2:** Durante este tercer sprint, llevé a cabo entrevistas de validación en las que expliqué el desarrollo realizado en la aplicación. Esto nos permitió obtener valiosas opiniones de nuestros segmentos objetivo para seguir mejorando. </p><p>**TF:** Para la entrega final, optimizamos los productos basándonos en las sugerencias de las entrevistas de validación. Mejoramos el diseño y las funcionalidades, especialmente en la Landing Page con botones de llamada a la acción mejorados, y en el Frontend Web con ajustes de diseño y actualización de servicios para una mejor integración con el Backend. En el Backend, añadimos nuevos endpoints y aplicamos IAM para reforzar la seguridad. También mejoramos el Video sobre el Producto para hacerlo más atractivo y motivar a nuestros usuarios objetivo a probar nuestros productos de software.</p><p></p><p>**Paredes Puente, Sebastián Roberto**</p><p>**TB1:** Para este proyecto, realicé una investigación exhaustiva en el sector empresarial vinculado al transporte de carga. Durante este proceso, tuve la oportunidad de entrevistar a profesionales con amplia experiencia en el campo, lo que me permitió comprender mejor sus necesidades y obtener una perspectiva renovada para el desarrollo de nuestra aplicación.</p><p>**TP1:** Para esta entrega parcial del trabajo, he utilizado los conocimientos recopilados de artefactos como entrevistas para diseñar la solución de software del frontend.</p><p>**TB2:** Durante este tercer sprint, llevé a cabo entrevistas de validación en las que expliqué el desarrollo realizado en la aplicación. Esto nos permitió obtener valiosas opiniones de nuestros segmentos objetivo para seguir mejorando. En esta entrega, nos enfocamos en el desarrollo del backend y su integración con el frontend, implementando funcionalidades clave para el procesamiento de datos y la gestión de usuarios, y mejorando la interfaz de usuario para una experiencia más intuitiva. Esta sincronización entre backend y frontend garantiza una aplicación más eficiente, acercándonos a los objetivos del proyecto.</p><p></p><p>**TF:** En esta última versión de nuestro Backend, hemos incorporado la autenticación utilizando IAM para gestionar el inicio y registro de sesión de usuarios, generando tokens para mantener sesiones activas y facilitar la interacción con el API desplegado. Además, priorizamos la integración continua para garantizar la calidad y estabilidad del código a lo largo del desarrollo del proyecto. Asimismo, gracias a las entrevistas realizadas a nuestro segmento objetivo se logro un producto final llamativo para nuestros clientes objetivos finales.</p><p></p><p>**Salinas Torres, Salvador Antonio**</p><p>**TB1:** Realicé una investigación sobre la necesidad para el seguimiento de transporte de forma segura y que tan importante puede llegar a ser para las empresas que requieren de un servicio de transporte para cargas grandes. De este modo, investigué en un área que yo no conocía muy bien, e igualmente logré obtener los datos necesarios para realizar un buen trabajo.</p><p>**TP1:** Tomando en cuenta toda la investigación de mercado realizada en la entrega anterior, he apoyado en la realización de una interfaz en Frontend que sea de agrado para nuestros segmentos objetivo y lograr con los requisitos planteados.</p><p>**TB2:** En este tercer sprint, realicé entrevistas de validación, en el cual expliqué lo que se trabajó en la aplicación, y con esto pudimos obtener una buena retroalimentación de nuestros segmentos objetivo para seguir mejorando.</p><p>**TF:** En esta última versión trabajada para el Backend, se implementó la autenticación con IAM, la cual sirve para que la API solo brinde respuesta a una solicitud HTTP con un token de autenticidad, el cual solo se brinda a los usuarios registrados que han iniciado sesión correctamente. Además, trabajamos con GitFlow durante todo el desarrollo del proyecto, con commits que son detallados para conocer lo que hizo cada miembro y tener un control de versiones apropiado.</p><p></p><p>**Valverde Mozo, Andre Gabriel**</p><p>**TB1:** Para esta primera entrega, investigué el diseño de páginas de destino en aplicaciones de gestión de transporte terrestre. Analicé la presentación de productos, elementos visuales, y cómo se guía al usuario hacia la conversión, obteniendo una visión completa de las mejores prácticas en este ámbito.</p><p>**TP1:** Durante este proceso, he aplicado los conocimientos adquiridos de las entrevistas para desarrollar la interfaz del frontend con mayor imparcialidad y precisión. La información obtenida de las entrevistas ha sido fundamental para entender las necesidades y perspectivas de los usuarios, lo que ha influido directamente en el diseño de la interfaz.</p><p> **TB2:** En este avance, me comuniqué con mi grupo de trabajo para coordinar los cambios e implementaciones relacionados con el backend. Implemente los endpoints necesarios y realice la documentación correspondiente, mostrando evidencia de su funcionamiento. Además, integramos el frontend y el backend para proporcionar el máximo valor a nuestros usuarios.</p><p>**TF:** En esta versión más reciente del Backend, hemos incorporado la autenticación mediante IAM. Básicamente el inicio y registro de sesión de los usuarios que se cree un token para mantener digamos una sesión iniciada y que a partir de este interactúe con el API desplegado de una manera mas adecuada. Gracias a commits detallados, cada miembro del equipo pudo registrar sus contribuciones específicas, facilitando así un seguimiento preciso de los cambios y mejoras realizadas. También aseguramos la integración continua y las pruebas automatizadas para garantizar la calidad y estabilidad del código a lo largo del desarrollo</p>|<p> **TB1:** Para esta entrega, se realizó una investigación a los principales competidores en el sector de aplicaciones para la gestión de transporte terrestre; y, a su vez, a personas que se encuentran involucradas en el rubro, obteniendo una perspectiva valiosa para el desarrollo del proyecto.</p><p></p><p> **TP1:** Para esta entrega del trabajo parcial, se han tenido que usar los conocimientos recopilados de los artefactos como entrevistas para diseñar la solución de software del apartado frontend.</p><p></p><p> **TB2:** Para esta entrega, se han recopilado las opiniones de los segmentos en las entrevistas de validación para realizar mejoras en el diseño y funcionalidades de nuestra aplicación.</p><p></p><p>**TF:** Para la entrega final, se han mejorado los productos desarrollados mediantes las opiniones recibidas en las entrevistas de validación para mejorar el diseño y funcionalidades. Nos enfocamos en la Landing Page con el diseño y botones Call-To-Action, Frontend Web Application con ligeras mejoras de diseño y actualización de los services para la compatibilidad con el Backend, y en el Backend con nuevos endpoints y el IAM para la seguridad. Finalmente, se mejoró el Video About-The-Product para que sea más llamativa e incentivo a nuestros segmentos objetivos a probar nuestros productos de software.</p>|
 
 # Capítulo I Introducción
 ## 1.1 Startup Profile
@@ -1043,8 +1083,9 @@ __Segmento Clientes que requieren servicios de transporte__
 <tr><td valign="top">US35</td><td valign="top">Visualización de datos de conductor</td></tr>
 <tr><td valign="top">US36</td><td valign="top">Visualización de datos de vehículo</td></tr>
 <tr><td valign="top">US37</td><td valign="top">Visualización de datos de cliente</td></tr>
-<tr><td rowspan="2" valign="top">E07</td><td rowspan="4" valign="top">Como desarrollador quiero desarrollar mi propia API para gestionar la base de datos de forma adecuada</td><td valign="top">US38</td><td valign="top">Uso de nuestra API para gestionar usuarios</td></tr>
+<tr><td rowspan="3" valign="top">E07</td><td rowspan="4" valign="top">Como desarrollador quiero desarrollar mi propia API para gestionar la base de datos de forma adecuada</td><td valign="top">US38</td><td valign="top">Uso de nuestra API para gestionar usuarios</td></tr>
 <tr><td valign="top">US39</td><td valign="top">Uso de nuestra API para gestionar los datos de viajes</td></tr>
+<tr><td valign="top">US40</td><td valign="top">Seguridad y autenticación en nuestra API</td></tr>
 </table>
 
 **HISTORIAS DE USUARIO**
@@ -1088,8 +1129,9 @@ __Segmento Clientes que requieren servicios de transporte__
 |US35|Visualización de datos de conductor|Como empresario de gestión logística, quiero ver los datos de los conductores para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de un conductor**</p><p>**Dado que** el empresario desea ver la información de los conductores que ha registrado</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Conductores</p><p>**Entonces** se mostrará el listado de los conductores registrados</p><p>**Y** podrá ver los detalles de cada uno</p>|E06|
 |US36|Visualización de datos de vehículo|Como empresario de gestión logística, quiero ver los datos de los vehículos para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de un vehículo**</p><p>**Dado que** el empresario desea ver la información de los vehículos que ha registrado</p><p>**Cuando** accede a la plataforma para revisar los servicios previamente realizados</p><p>**Y** selecciona la sección Vehículos</p><p>**Entonces** se mostrará el listado de los vehículos registrados</p><p>**Y** podrá ver los detalles de cada uno</p>|E06|
 |US37|Visualización de datos de cliente|Como empresario de gestión logística, quiero ver los datos de mis clientes para visualizar la información de cada uno de ellos de forma ordenada.|<p>**Escenario 1: Visualización de clientes**</p><p>**Dado que** el empresario desea ver la información de los clientes con los que ha registrado viajes</p><p>**Cuando** accede a la plataforma</p><p>**Y** selecciona la sección Clientes</p><p>**Entonces** se mostrará el listado de sus clientes registrados</p>|E06|
-|US38|Uso de nuestra API para gestionar usuarios|Como desarrollador quiero integrar un API para gestionar la información de los usuarios en la base de datos.|<p>**Escenario 1: Agregar datos del usuario en la base de datos**</p><p>**Dado que** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud POST con los datos del usuario a la API</p><p>**Entonces** la API responde con un código de estado 200 y el usuario se agrega correctamente a la base de datos</p><p>**Escenario 2: Obtener la información de un usuario**</p><p>**Dado** que el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud GET a la API para obtener la información de un usuario específico</p><p>**Entonces** la API responde con un código de estado 200 y devuelve los datos del usuario solicitado</p>|E07|
+|US38|Uso de nuestra API para gestionar usuarios|Como desarrollador quiero integrar un API para gestionar la información de los usuarios en la base de datos.|<p>**Escenario 1: Agregar datos del cliente / empresario en la base de datos**</p><p>**Dado que** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud POST con los datos del cliente/ empresario a la API</p><p>**Entonces** la API responde con un código de estado 200 y el usuario se agrega correctamente a la base de datos</p><p>**Escenario 2: Obtener la información de un cliente / empresario**</p><p>**Dado** que el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud GET a la API para obtener la información de un cliente / empresario específico</p><p>**Entonces** la API responde con un código de estado 200 y devuelve los datos del usuario solicitado</p>|E07|
 |US39|Uso de nuestra API para gestionar los datos de viajes|Como desarrollador quiero integrar un API para gestionar la información de los viajes, gastos, conductores y vehículos en la base de datos|<p>**Escenario 1: Agregar datos referente a un viaje en la base de datos**</p><p>**Dado que** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud POST con los datos de un viaje, gasto, conductor o vehículo de una empresa a la API</p><p>**Entonces** la API responde con un código de estado 200 y el elemento se agrega correctamente a la base de datos</p><p>**Escenario 2: Obtener la información de elementos referente a un viaje**</p><p>**Dado que** el desarrollador tiene acceso a la documentación de la API y las credenciales necesarias para realizar la integración</p><p>**Cuando** el desarrollador envía una solicitud GET a la API para obtener la información de los viajes, gastos, conductores o vehículos de un usuario específico</p><p>**Entonces** la API responde con un código de estado 200 y devuelve todos los elementos del usuario solicitado</p>|E07|
+|US40|Seguridad y autenticación en nuestra API|Como usuario quiero que la aplicación cumpla con los estándares de seguridad para proteger mi información registrada.|<p>**Escenario 1: Registro de un nuevo usuario con verificación de seguridad (sign-up)**</p><p>**Dado que** el usuario desea que sus datos sean protegidos</p><p>**Cuando** el sistema recibe una solicitud POST con los datos del nuevo usuario a la API</p><p>**Entonces** se verificará el Token de autenticidad</p><p>**Y** una vez verificado brindará respuesta a la petición realizada</p><p>**Escenario 2: Inicio de sesión del usuario con verificación de seguridad (sign-in)**</p><p>**Dado** que el usuario desea que sus datos sean protegidos</p><p>**Cuando** el sistema recibe una solicitud POST con las credenciales de inicio de sesión del usuario (como correo electrónico y contraseña) a la API</p><p>**Entonces** se verificará el token de autenticidad</p><p>**Y** una vez verificado, la API responde con un código de estado 200 y un token de autenticación válido si las credenciales son correctas</p>|E07|
 
 ## 3.3. Impact Mapping
 
@@ -1144,6 +1186,7 @@ El Product Backlog se gestiona a través de la herramienta Pivotal Tracker, el c
 |37|US18|Gestión de método de pago|Como cliente quiero gestionar mi método de pago para asegurarme de que la facturación se realice de manera correcta y segura en mi cuenta.|5|
 |38|US38|Uso de nuestra API para gestionar usuarios|Como desarrollador quiero integrar un API para gestionar la información de los usuarios en la base de datos.|5|
 |39|US39|Uso de nuestra API para gestionar los datos de viajes|Como desarrollador quiero integrar un API para gestionar la información de los viajes, gastos, conductores y vehículos en la base de datos.|5|
+|40|US40|Seguridad y autenticación en nuestra API|Como usuario quiero que la aplicación cumpla con los estándares de seguridad para proteger mi información registrada.|5|
 
 # Capítulo IV Product Design
 ## 4.1. Style Guidelines
@@ -1609,75 +1652,29 @@ A continuación, se especificara más a detalle sobre cada una de las clases.
 #### User Bounded Context
 
 **User (Aggregate)**
-La clase User contiene toda la información de un usuario registrado dentro de la aplicación, así como su información empresarial, información de autenticación y plan de suscripción.
+La clase User contiene los datos de autenticación del usuario.
 
 **Atributos:**
 - id: int - Identificador único del usuario
-- userData: UserData - Información sobre datos del usuario
-- userAuthentication: UserAuthentication - Información sobre autenticación del usuario
-- subscriptionPlan: SubscriptionPlan - Información sobre el plan de suscripción
+- username: string - Correo electrónico del usuario
+- password: string - Contraseña del usuario
 
 
 **Métodos:**
 - getUser(): Devuelve los detalles del usuario.
-- updateUser(): Actualiza los detalles del usuario.
 
 -----
 
-**UserData (Value Object)**
-La clase UserData contiene información de los datos empresariales del usuario.
-
-**Atributos:**
-- name: string - Nombre del usuario
-- phone: string - Teléfono del usuario
-- ruc: string - Identificador RUC del usuario
-- address: string - Dirección del usuario
-
-
-**Métodos:**
-- getName(): Devuelve el nombre del usuario
-- setName(): Establece el nombre del usuario
-- getPhone(): Devuelve el teléfono del usuario
-- setPhone(): Establece el teléfono del usuario
-- getRuc(): Devuelve el RUC del usuario
-- setRuc(): Establece el RUC del usuario
-- getAddress(): Devuelve la dirección del usuario
-- setAddress(): Establece la dirección del usuario
-
------
-
-**UserAuthentication (Value Object)**
-La clase UserAuthentication contiene información de los datos de autenticación del usuario
-
-**Atributos:**
-- email: string - Correo electrónico del usuario
-- password: string - Contraseña del usuario
-
-**Métodos:**
-- getEmail(): Devuelve el correo electrónico del usuario
-- setEmail(): Establece el correo electrónico del usuario
-- getPassword(): Devuelve la contraseña del usuario
-- setPassword(): Establece la contraseña del usuario
-
------
-
-**SubscriptionPlan (Value Object)**
-La clase SubscriptionPlan contiene información del plan de suscripción del usuario.
-
-**Atributos:**
-- subscription: string - Suscripción elegida por el usuario
-
-**Métodos:**
-- getSubscription(): Devuelve la suscripción del usuario
-- setSubscription(): Establece la suscripción del usuario
-
------
-
-**Client (Entity)**
+**Client (Aggregate)**
 La clase Client representa a un usuario que es de tipo cliente.
 
 **Atributos:**
 - id: int - Identificador único del cliente
+- name: string - Nombre del cliente
+- phone: string - Teléfono del cliente
+- ruc: string - Identificador RUC del cliente
+- address: string - Dirección del cliente
+- subscription: string - Suscripción elegida por el cliente
 - userId: int - Identificador del usuario con el que se relaciona
 
 
@@ -1686,12 +1683,17 @@ La clase Client representa a un usuario que es de tipo cliente.
 
 -----
 
-**Entrepreneur (Entity)**
+**Entrepreneur (Aggregate)**
 La clase Entrepreneur representa a un usuario que es de tipo empresario.
 
 **Atributos:**
 - id: int - Identificador único del empresario
+- name: string - Nombre del empresario
+- phone: string - Teléfono del empresario
+- ruc: string - Identificador RUC del empresario
+- address: string - Dirección del empresario
 - logoImage: string - Imagen del logo de la empresa
+- subscription: string - Suscripción elegida por el empresario
 - userId: int - Identificador del usuario con el que se relaciona
 
 **Métodos:**
@@ -2945,6 +2947,315 @@ Para la elaboración del Frontend y Backend, nos repartimos las tareas entre cad
 
 <img src="img/network-graph-sprint-3.png" width="100%">
 
+### 5.2.4. Sprint 4.
+
+#### 5.2.4.1. Sprint Planning 4.
+
+El cuarto sprint se planeó a través de una reunión presencial en la universidad. Para ello, se hizo la siguiente tabla para registrar la información que se discutió.
+
+|**Sprint #**|Sprint 4|
+| :- | :- |
+|**Sprint Planning Background**||
+|Date|2024-06-10|
+|Time|07:00 PM|
+|Location|Presencial (En la universidad)|
+|Prepared by|Delgado Corrales, Piero Gonzalo|
+|Attendees (to planning meeting)|<p>Delgado Corrales, Piero Gonzalo</p><p>Matos Fernandez, Christian Andre</p><p>Paredes Puente, Sebastián Roberto</p><p>Salinas Torres, Salvador Antonio</p><p>Valverde Mozo, Andre Gabriel</p>|
+|Sprint 3 Review Summary|En el sprint 3, se realizó el deployment del Frontend y Backend de la aplicación web.|
+|Sprint 3 Retrospective Summary|Este tercer sprint consistió principalmente en terminar la parte de Frontend y empezar con una parte del Backend. Igualmente, faltaron implementar algunas funcionalidades más a partir de los endpoints trabajados.|
+|**Sprint Goal & User Stories**||
+|Sprint 4 Goal|Desarrollar la parte faltante de Backend de la aplicación web.|
+|Sprint 4 Velocity|15|
+|Sum of Story Points|15|
+
+#### 5.2.4.2. Sprint Backlog 4.
+
+El objetivo de este cuarto sprint es la finalización del Backend de la aplicación web, e igualmente implementar los cambios necesarios en Frontend. Al igual que anteriores sprints, trabajamos las tareas en una tabla en Trello: <https://trello.com/b/XZQhgLnk/cargowatch-sprint-backlog-4>
+
+<img src="img/sprint-backlog-4.png" width="100%">
+
+<table><tr><th valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 4</th></tr>
+<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
+<tr><td valign="top">Id</td><td valign="top">Title</td><td valign="top">Id</td><td valign="top">Title</td><td valign="top">Description</td><td valign="top">Estimation (Hours)</td><td valign="top">Assigned To</td><td valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
+<tr><td rowspan="3" valign="top">US38</td><td rowspan="3" valign="top">Uso de nuestra API para gestionar usuarios</td><td valign="top">TS01</td><td valign="top">Implementación de consulta de Cliente y Empresario por Id de usuario</td><td valign="top">Implementar consulta (query) para obtener el cliente o usuario a partir del id del usuario.</td><td valign="top">1</td><td valign="top">Salvador Salinas</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS02</td><td valign="top">Implementación de consulta de Configuración por Id de usuario</td><td valign="top">Implementar consulta (query) para obtener la configuración de un usuario a partir de su id.</td><td valign="top">1</td><td valign="top">Salvador Salinas</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS03</td><td valign="top">Implementación de consulta de viajes por Id de cliente o usuario</td><td valign="top">Implementar consulta (query) para obtener los viajes de un cliente o empresario a partir de su id.</td><td valign="top">1</td><td valign="top">Christian Matos</td><td valign="top">Done</td></tr>
+<tr><td rowspan="5" valign="top">US39</td><td rowspan="5" valign="top">Uso de nuestra API para gestionar los datos de viajes	</td><td valign="top">TS04</td><td valign="top">Implementación de consulta de evidencias y alertas por Id de viaje</td><td valign="top">Implementar consulta (query) para obtener el arreglo de evidencias o alertas a partir del id del viaje.</td><td valign="top">1</td><td valign="top">Sebastián Paredes</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS05</td><td valign="top">Implementación de consulta de viajes en progreso por Id de viaje</td><td valign="top">Implementar consulta (query) para obtener la información del viaje en progreso a partir del id del viaje.</td><td valign="top">1</td><td valign="top">Sebastián Paredes</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS06</td><td valign="top">Implementación de consulta de gastos por Id de viaje</td><td valign="top">Implementar consulta (query) para obtener la información de gastos a partir del id del viaje.</td><td valign="top">1</td><td valign="top">Christian Matos</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS07</td><td valign="top">Implementación de consulta de conductores por Id de empresario</td><td valign="top">Implementar consulta (query) para obtener el arreglo de conductores registrados a partir del id del empresario.</td><td valign="top">1</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS08</td><td valign="top">Implementación de consulta de vehículos por Id de empresario</td><td valign="top">Implementar consulta (query) para obtener el arreglo de vehículos registrados a partir del id del empresario.</td><td valign="top">1</td><td valign="top">Andre Valverde</td><td valign="top">Done</td></tr>
+<tr><td rowspan="3" valign="top">US40</td><td rowspan="3" valign="top">Seguridad y autenticación en nuestra API</td><td valign="top">TS09</td><td valign="top">Implementación de IAM en Backend</td><td valign="top">Implementar la autenticación con Token de seguridad para tener acceso a las peticiones HTTP.</td><td valign="top">2</td><td valign="top">Piero Delgado</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS10</td><td valign="top">Implementación de IAM en Frontend</td><td valign="top">Actualizar método de inicio de sesión y registro en Frontend para que funcione con IAM.</td><td valign="top">1</td><td valign="top">Salvador Salinas</td><td valign="top">Done</td></tr>
+<tr><td valign="top">TS11</td><td valign="top">Modificación de modelos y servicios en Frontend </td><td valign="top">Modificar los modelos y servicios necesarios con la nueva forma de autenticación (IAM).</td><td valign="top">1</td><td valign="top">Salvador Salinas, Christian Matos</td><td valign="top">Done</td></tr>
+</table>
+
+
+#### 5.2.4.3. Development Evidence for Sprint Review.
+
+A continuación, se muestran los commits realizados en los repositorios, acorde a lo trabajado en el Sprint Backlog 4.
+
+Repositorio Frontend: <https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications>
+
+Repositorio Backend: <https://github.com/Grupo-2-Apps-Web/Web-Services>
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- |
+|Grupo-2-Apps-Web/Web-Services|feature/us38|1218692|feat: add ClientByUserId Query|12/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|0643bf1|feat: add EntrepreneurByUserId Query|12/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|88aedf3|feat: add client query in queryService Interface|12/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|be1e3db|feat: add entrepreneurByUserIdQuery in QueryService|12/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|b1abd23|feat: add ConfigurationByUserIdQuery|12/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|7f3eecb|feat: implement queries in Users Controller|12/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us40|c73be28|feat: added IAM Bounded Context|18/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|d2e3a13|feat: added getters api/v1/trips/{tripId}/alerts and api/v1/trips/{tripId}/evidences|18/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|ab0df7e|feat: /api/v1/trips/{tripId}/ongoingtrips added|18/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us40|d92184f|feat: updated user bc|18/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us38|f526e0f|feat: added put http method to client & entrepreneur|18/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications|feature/us40|0d391a0|feat(IAM): update login and register with IAM|19/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us40|c6d6ee1|feat: fixed CORS error|19/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|d5893cf|feat: TripsByClientId, TripsByEntrepreneurId queries|20/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|cb60439|feat: add validation for users subscription|20/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us39|0cb90dc |feat: /api/v1/trips/{tripId}/expenses added|20/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us35|eb8658a |update gitignore|20/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us35|c624b87 |feat: Added GetDriversByEntrepreneurId|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|feature/us35|2e2875a |feat: Added GetVehiclesByEntrepreneurId|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|9d93653 |Merge pull request[ #17](https://github.com/Grupo-2-Apps-Web/Web-Services/pull/17) from Grupo-2-Apps-Web/feature/us35|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|f1e31b6 |Merge pull request #19 from Grupo-2-Apps-Web/feature/us39|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|develop|cdb0c34 |fix: solved merge errors|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|release|73ca48e |Merge branch 'develop' into release|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|release|ff0cd13 |feat: updated connection string|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|release|f881208 |fix: solved relation problems in bd|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|release|d9b16e3 |feat: added missing endpoint for entrepreneur|21/06/2024|
+|Grupo-2-Apps-Web/Web-Services|main|4ea8dff |release v1.1.0|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|6841ef7 |Merge pull request[ #42](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/42) from Grupo-2-Apps-Web/feature/db-json|20/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|0d391a0 |feat(IAM): update login and register with IAM|20/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|2248660 |fix(IAM): fixed error with authorization headers|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|bf015cb |fix(IAM): fixed error when logging as entrepreneur|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|d6bc609 |feat(registration): update services with new endpoints|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|55b82ef |fix(visualization): fixed bugs in services and components|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|162c97e |fix: solved problems from connection to backend|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|c824883 |fix: solved problems with client list|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |develop|7195a80 |Merge pull request[ #44](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/44) from Grupo-2-Apps-Web/feature/us40|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |release|260bdc3 |Merge pull request[ #45](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/45) from Grupo-2-Apps-Web/develop|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |release|cba097b |feat: added deployment files|21/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|9c2141d |refactor(IAM): login and register files in iam bc|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |feature/us40|d714d8f |feat(registration): update register trip component|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |develop|7195a80|Merge pull request[ #46](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/46) from Grupo-2-Apps-Web/feature/us40|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |release|add7076 |Deleted branch<|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |release|add7076 |Merge pull request[ #46](https://github.com/Grupo-2-Apps-Web/Frontend-Web-Applications/pull/46) from Grupo-2-Apps-Web/feature/us40|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |release|7be0bfc |feat: added netlify deploy files|22/06/2024|
+|Grupo-2-Apps-Web/Frontend-Web-Applications |main|8df7a43 |release v2.1.0|22/06/2024|
+
+#### 5.2.4.4. Testing Suite Evidence for Sprint Review.
+
+Se realizaron los acceptance tests para las historias de usuario trabajadas y se registraron en el repositorio de la siguiente forma.
+
+Repositorio Acceptance Tests: https://github.com/Grupo-2-Apps-Web/Acceptance-Tests
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- |
+|Grupo-2-Apps-Web/Web-Services|develop|c73be28|feat: updated user bc|19/06/2024|
+|Grupo-2-Apps-Web/Acceptance-Tests|main|cecebad|feat: updated US38 & added US40|22/06/2024|
+
+Se actualizaron los Unit Tests realizados anteriormente, pero solamente los relacionados con el Bounded Context de User, ya que hubo cambios luego de la implementación del IAM.
+
+<img src="img/unit-test-success.png" alt="Unit Test for Backend" width="100%">
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+Se implementaron todas las historias de usuario en el sprint backlog 3. Al finalizar todas las historias de usuario previstas para este sprint, se demostró un compromiso extraordinario con el éxito del proyecto y la entrega de valor al cliente. Para mostrar la ejecución, se grabó el siguiente video que presenta todos los procesos logrados:
+
+URL de video: [Video de ejecución del Web Services y Front End](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218899_upc_edu_pe/ET3haTtEaWFGpMg7A13lCs8B_mR-4BiYejGxFRE5p-sNuw?e=m3ZM1F&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<img src="img/execution-evidence-sprint4.png" width="100%">
+
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+Para este sprint, hemos implementado la segunda versión de la API para nuestro proyecto con la totalidad de endpoints para el correcto funcionamiento de nuestra aplicación.
+
+Enlace al repositorio de Web Services: https://github.com/Grupo-2-Apps-Web/Web-Services
+
+|Método|Endpoint (https://cargoappwebservice.azurewebsites.net)|Descripción|
+|--|--|--|
+|POST|/api/v1/alerts|Se publica una nueva alerta|
+|GET|/api/v1/alerts|Se obtiene toda la lista de las alertas|
+|GET|/api/v1/alerts/{alertId}|Se obtiene una alerta por ID|
+|POST|/api/v1/authentication/sign-in|Se inicia sesión con un usuario y contraseña|
+|POST|/api/v1/authentication/sign-up|Se crea una cuenta con un usuario y contraseña|
+|POST|/api/v1/clients|Se publica un nuevo cliente|
+|GET|/api/v1/clients|Se obtiene toda la lista de clientes|
+|GET|/api/v1/clients/{clientId}|Se obtiene un cliente por ID|
+|PUT|/api/v1/clients/{clientId}|Se actualiza un cliente por ID|
+|GET|/api/v1/clients/{clientId}/trips|Se obtienen los viajes del cliente por su ID|
+|POST|/api/v1/configurations|Se publica una nueva configuración de un usuario|
+|GET|/api/v1/configurations|Se obtiene toda la lista de las configuraciones de los usuarios|
+|PUT|/api/v1/configurations/{configurationId}|Se actualiza la información de una configuración de un usuario por ID|
+|GET|/api/v1/configurations/{configurationId}|Se obtiene una configuración de usuario por ID|
+|POST|/api/v1/drivers|Se publica un nuevo conductor|
+|GET|/api/v1/drivers|Se obtiene toda la lista de conductores|
+|PUT|/api/v1/drivers/{driverId}|Se actualiza la información de un conductor por ID|
+|GET|/api/v1/drivers/{driverId}|Se obtiene un conductor por ID|
+|POST|/api/v1/entrepreneurs|Se publica un nuevo empresario|
+|GET|/api/v1/entrepreneurs|Se obtiene toda la lista de empresarios|
+|GET|/api/v1/entrepreneurs/{entrepreneurId}|Se obtiene un empresario por ID|
+|PUT|/api/v1/entrepreneurs/{entrepreneurId}|Se actualiza un cliente por ID|
+|GET|/api/v1/entrepreneurs/{entrepreneurId}/drivers|Se obtienen los conductores designados del empresario por su ID|
+|GET|/api/v1/entrepreneurs/{entrepreneurId}/vehicles|Se obtienen los vehiculos designados del empresario por su ID|
+|GET|/api/v1/entrepreneurs/{entrepreneurId}/trips|Se obtienen los viajes del empresario por su ID|
+|GET|/api/v1/entrepreneurs/{entrepreneurId}/clients|Se obtienen los clientes del empresario por su ID|
+|POST|/api/v1/evidences|Se publica una nueva evidencia|
+|GET|/api/v1/evidences|Se obtiene toda la lista de evidencias|
+|PUT|/api/v1/evidences/{evidenceId}|Se actualiza la información de una evidencia por ID|
+|GET|/api/v1/evidences/{evidenceId}|Se obtiene una evidencia por ID|
+|POST|/api/v1/expenses|Se publica un nuevo gasto|
+|GET|/api/v1/expenses|Se obtiene toda la lista de gastos|
+|PUT|/api/v1/expenses/{expenseId}|Se actualiza la información de un gasto por ID|
+|GET|/api/v1/expenses/{expenseId}|Se obtiene un gasto por ID|
+|POST|/api/v1/ongoing-trips|Se publica un nuevo viaje en progreso|
+|GET|/api/v1/ongoing-trips|Se obtiene toda la lista de viajes en progreso|
+|PUT|/api/v1/ongoing-trips/{ongoingTripId}|Se actualiza la información de un viaje en progreso por ID|
+|GET|/api/v1/ongoing-trips/{ongoingTripId}|Se obtiene un viaje en progreso por ID|
+|POST|/api/v1/trips|Se publica un nuevo viaje|
+|GET|/api/v1/trips|Se obtiene toda la lista de viajes|
+|PUT|/api/v1/trips/{tripId}|Se actualiza la información de un viaje por ID|
+|GET|/api/v1/trips/{tripId}|Se obtiene un viaje por ID|
+|GET|/api/v1/trips/{tripId}/alerts|Se obtiene las alertas de un viaje por ID del viaje|
+|GET|/api/v1/trips/{tripId}/ongoingtrips|Se obtiene la información de un viaje en progreso por su ID del viaje|
+|GET|/api/v1/trips/{tripId}/evidences|Se obtiene la evidencia fotográfica de un viaje por ID del viaje|
+|GET|/api/v1/trips/{tripId}/expenses|Se obtiene la información relacionada a gastos de un viaje por ID del viaje|
+|GET|/api/v1/users/{userId}|Se obtiene un usuario por ID|
+|GET|/api/v1/users|Se obtiene toda la lista de usuarios|
+|GET|/api/v1/users/{userId}/clients|Se obtiene la información de cliente de un usuario por ID|
+|GET|/api/v1/users/{userId}/entrepreneurs|Se obtiene la información de entrepreneur de un usuario por ID|
+|POST|/api/v1/vehicles|Se publica un nuevo vehículo|
+|GET|/api/v1/vehicles|Se obtiene toda la lista de vehículos|
+|PUT|/api/v1/vehicles/{userId}|Se actualiza la información de un vehículo por ID|
+|GET|/api/v1/vehicles/{userId}|Se obtiene un vehículo por ID|
+
+**EVIDENCIAS**
+
+
+Registration BC Endpoints
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/trips/{tripId}/alerts**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Users](img/service-documentation-get-alerts-by-tripId.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/trips/{tripId}/ongoing-trips**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Users](img/service-documentation-get-ongoing-trips-by-tripId.png)|
+
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/trips/{tripId}/evidences**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Users](img/service-documentation-get-evidences-by-tripId.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/trips/{tripId}/expenses**
+
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Users](img/service-documentation-get-expenses-by-tripId.png)|
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/entrepreneurs/{entrepeneurId}/drivers**
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Drivers by Entrepreneur Id](img/service-documentation-get-drivers-by-entreprenur-id.jpg)|
+
+
+**Endpoint: https://cargoappwebservice.azurewebsites.net/api/v1/entrepreneurs/{entrepeneurId}/vehicles**
+|Método|GET|
+|--|--|
+|Parámetros|Ninguno|
+|Resultado|![Service Documentation Get Vehicles by Entrepreneur Id](img/service-documentation-get-vehicles-by-entrepreneur-id.jpg)|
+
+
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+Para el despliegue de la nueva versión del API se seleccionó el proyecto y se seleccionó la opcion Publish y la opción Azure. Para hacer el despliegue del API desde el Web Service previamente creado en Azure.
+
+![Imagen Deployment Backend](img/backend_sprint4_deployment1.png)
+
+Luego, se seleccionó 'Use Existing Web App' y nuestra aplicación que creamos para el despliegue de la anterior entrega.
+
+![Imagen Deployment Backend](img/backend_sprint4_deployment2.png)
+
+Al seleccionar Run, se volvió a crear el API con los archivos actualizados.
+
+![Imagen Deployment Backend](img/backend_sprint4_deployment3.png)
+
+Luego, se comprobó la correcta actualización del API, accediendo a Swagger desde https://cargoappwebservice.azurewebsites.net/swagger/index.html
+
+![Imagen Deployment Backend](img/backend_sprint4_deployment4.png)
+
+De esta manera, se verificó que los archivos están actualizados al estar el nuevo endpoint Authentication y las funcionaidades del IAM.
+
+Por otro lado, también se desplegó el Frontend Web Applications con la conexión al API y las mejoras realizadas en este Sprint. Para ello, primero se volvió a ejecutar el comando npm run build.
+
+![Imagen Deployment Frontend](img/frontend_sprint4_deployment1.png)
+
+Para este Sprint, se utilizó Netlify para el deployment del Frontend. Por lo que se instalarón los paquetes necesario con npm install.
+
+![Imagen Deployment Frontend](img/frontend_sprint4_deployment2.png)
+
+Se comprueba que se esté logueado en firebase para el despliegue.
+
+![Imagen Deployment Frontend](img/frontend_sprint4_deployment3.png)
+
+Luego, se realiza el despliegue utilizando el comando netlify init.
+
+![Imagen Deployment Frontend](img/frontend_sprint4_deployment4.png)
+
+![Imagen Deployment Frontend](img/frontend_sprint4_deployment5.png)
+
+Finalmente, se comprueba que el proyecto se haya desplegado correctamente entrando al URL: https://webcargoapp.netlify.app
+
+![Imagen Deployment Frontend](img/frontend-deployment-6.png)
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+Para la elaboración del Frontend y Backend, nos repartimos las tareas entre cada miembro así como se especifica en el Sprint Backlog 4, y cada uno trabajó en las ramas feature correspondientes, para luego ir realizando los merge con la rama develop. Asimismo, nos reunimos de forma virtual a través de Google Meet para revisar juntos los avances y los merges realizados para verificar que todo funciona acorde a lo esperado.
+
+**Commits trabajados en Frontend**
+
+<img src="img/commits-frontend-sprint-4-1.png" width="100%">
+
+<img src="img/commits-frontend-sprint-4-2.png" width="100%">
+
+<img src="img/commits-frontend-sprint-4-3.png" width="100%">
+
+<img src="img/commits-frontend-sprint-4-4.png" width="100%">
+
+
+**Commits trabajados en Backend**
+
+<img src="img/commits-backend-sprint-4-1.png" width="100%">
+
+<img src="img/commits-backend-sprint-4-2.png" width="100%">
+
+<img src="img/commits-backend-sprint-4-3.png" width="100%">
+
+
+**Gráfico de estadísticas de commits**
+
+<img src="img/commit-statistics-sprint-4.png" width="100%">
+
+**Gráfico de red**
+
+<img src="img/network-graph-sprint-4.png" width="100%">
+
 
 ## 5.3. Validation Interviews.
 
@@ -3219,17 +3530,17 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 
 ## 5.4. Video About-the-Product.
-En el vídeo se proporciona información sobre el producto CargoApp. Se mencionan las diferentes funcionalidades de la aplicación como son la visualización de envíos en tiempo real, alertas, estadísticas, etc.
+En el vídeo se proporciona información sobre el producto CargoApp. Se mencionan las diferentes funcionalidades de la aplicación como son la visualización de envíos en tiempo real, alertas, estadísticas, etc. Y se incluye un testimonio de un usuario.
 
 Screenshot del video: 
 
-![Imagen de Video About-The-Product](img/VideoAbout-The-Product.png)
+![Imagen de Video About-The-Product](img/VideoAbout-The-Product1.png)
 
-**Enlace al vídeo de YouTube:** [Video About-the-Product Youtube](https://youtu.be/xmUHIVYzkBY)
+**Enlace al vídeo de YouTube:** [Video About-the-Product Youtube](https://youtu.be/3oevwW9zGbY)
 
-**Enlace al vídeo de Microsoft Stream:** [Video About-The-Product Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/ESgFUp5LxYdOufQGHAU0VgoBJhXBsounIy90LCYn8rD-NQ)
+**Enlace al vídeo de Microsoft Stream:** [Video About-The-Product Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/ERapd_JSGfxJrV7Nyi95EHQBWr29uI6PTjZ4hZl5NRnrkQ?e=y513xW)
 
-**Duración del vídeo:** 2:42
+**Duración del vídeo:** 0:58
 
 # Conclusiones
 
@@ -3242,6 +3553,17 @@ Asimismo, realizamos una investigación de mercado, incluyendo entrevistas para 
 Entre otras actividades realizadas, incluimos los User Persona, Empathy Map, As-Is y To-Be Scenario para ponernos en perspectiva de nuestros usuarios principales. Y gracias a esto, pudimos formular las historias de usuario y formar el Product Backlog, el cual es el corazón de nuestro proyecto.
 
 Luego establecimos los estilos a utilizar para nuestro producto, incluyendo la tipografía, paleta de colores, íconos, sistemas de organización, entre otros. Con ello, pudimos hacer un prototipo funcional de nuestra aplicación y tener un modelo de diseño del cual guiarnos durante el desarrollo.
+
+Las tecnologías y frameworks elegidos para el desarrollo del front-end, como Vue, demostraron ser efectivos para la creación de interfaces de usuario modernas y responsivas. Estas herramientas facilitaron la implementación de componentes reutilizables y un mantenimiento más eficiente del código.
+
+La gestión de bases de datos fue eficaz, con un rendimiento adecuado en las consultas y una alta integridad de los datos. Se implementaron estrategias de indexación y optimización que contribuyeron a la eficiencia en el manejo de datos grandes.
+
+En resumen, durante el desarrollo del trabajo hemos seguido un proceso integral para la creación de un producto de software para una aplicación de gestión de viajes mediante transporte terrestre. Este proceso incluyó la identificación de segmentos objetivos, la investigación de mercado, la creación de User Personas, mapas de empatía y escenarios, así como la definición de estilos de diseño y la elección de tecnologías eficientes como Vue para el front-end y .NET para el backend.
+
+Por parte de las recomendaciones, para continuar con el Roadmap de los productos digitales proponemos realizar mejoras en la experiencia de usuario especialmente al registrar viajes facilitando la selección de vehículos, conductores y clientes. Asimismo, recomendamos hacer pruebas de carga para comprobar la eficiencia de la aplicación con un número mayor de usuarios.
+
+Una recomendación adicional es considerar la implementación de pruebas de usabilidad periódicas con usuarios representativos incluso después de completar el desarrollo. Esto permitirá identificar oportunidades de mejora y asegurar que el producto final siga alineado con las expectativas y necesidades del mercado objetivo. Esto no solo optimiza la experiencia general del usuario, sino que también refuerza la confianza en las decisiones de diseño tomadas, garantizando ajustes efectivos a futuro.
+
 
 ## Video About The Team
 
@@ -3278,3 +3600,5 @@ Exposición TB1: [upc-pre-202401-si730-sw53-cargowatch-tb1](https://upcedupe-my.
 Exposición TP1: [upc-pre-202401-si730-sw53-cargowatch-tp1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/EbxZLzpnOJVAiGzxtUBHOB8B3hI80bMJ8q-0UCbmkMhqaw?e=TvhZJc)
 
 Exposición TB2: [upc-pre-202401-si730-sw53-cargowatch-tb2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/ES2vJozwtD5EtN3f4s8zGz8BSFFibXU3HNc0gUXep5dFMQ?e=zHULkU)
+
+Exposición TF: [upc-pre-202401-si730-sw53-cargowatch-tf](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/EfSUh5rkyuJCp-5C9BqTSkoB71LAUkn0XRAFz84fyDL87g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=djfRYQ)
