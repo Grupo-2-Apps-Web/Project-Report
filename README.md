@@ -3558,10 +3558,11 @@ Las tecnologías y frameworks elegidos para el desarrollo del front-end, como Vu
 
 La gestión de bases de datos fue eficaz, con un rendimiento adecuado en las consultas y una alta integridad de los datos. Se implementaron estrategias de indexación y optimización que contribuyeron a la eficiencia en el manejo de datos grandes.
 
-La primera recomendación que se da para un futuro es establecer un mecanismo formal de revisión y mejora continua del Lean UX Canvas. Esto implica programar revisiones periódicas del canvas con el equipo multidisciplinario para asegurar que refleje de manera precisa las necesidades del mercado y las expectativas de los usuarios. Implementar esta práctica ayudará a mantener el enfoque en los problemas clave que la aplicación debe resolver, permitiendo ajustes ágiles y bien fundamentados a lo largo del ciclo de desarrollo.
+En resumen, durante el desarrollo del trabajo hemos seguido un proceso integral para la creación de un producto de software para una aplicación de gestión de viajes mediante transporte terrestre. Este proceso incluyó la identificación de segmentos objetivos, la investigación de mercado, la creación de User Personas, mapas de empatía y escenarios, así como la definición de estilos de diseño y la elección de tecnologías eficientes como Vue para el front-end y .NET para el backend.
+
+Por parte de las recomendaciones, para continuar con el Roadmap de los productos digitales proponemos realizar mejoras en la experiencia de usuario especialmente al registrar viajes facilitando la selección de vehículos, conductores y clientes. Asimismo, recomendamos hacer pruebas de carga para comprobar la eficiencia de la aplicación con un número mayor de usuarios.
 
 Una recomendación adicional es considerar la implementación de pruebas de usabilidad periódicas con usuarios representativos incluso después de completar el desarrollo. Esto permitirá identificar oportunidades de mejora y asegurar que el producto final siga alineado con las expectativas y necesidades del mercado objetivo. Esto no solo optimiza la experiencia general del usuario, sino que también refuerza la confianza en las decisiones de diseño tomadas, garantizando ajustes efectivos a futuro.
-
 
 
 ## Video About The Team
@@ -3599,3 +3600,5 @@ Exposición TB1: [upc-pre-202401-si730-sw53-cargowatch-tb1](https://upcedupe-my.
 Exposición TP1: [upc-pre-202401-si730-sw53-cargowatch-tp1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/EbxZLzpnOJVAiGzxtUBHOB8B3hI80bMJ8q-0UCbmkMhqaw?e=TvhZJc)
 
 Exposición TB2: [upc-pre-202401-si730-sw53-cargowatch-tb2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/ES2vJozwtD5EtN3f4s8zGz8BSFFibXU3HNc0gUXep5dFMQ?e=zHULkU)
+
+Exposición TF: [upc-pre-202401-si730-sw53-cargowatch-tf](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/EfSUh5rkyuJCp-5C9BqTSkoB71LAUkn0XRAFz84fyDL87g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=djfRYQ)
